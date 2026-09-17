@@ -1,5 +1,5 @@
 {
-"updated": "2026-09-17T03:01:18+00:00",
+"updated": "2026-09-17T04:58:36+00:00",
 "jobs": [
 {
 "id": "rfoperationsengineer1careerfaironly|markimicrowavellc|sfbayarea",
@@ -181,6 +181,72 @@
 "last_seen": "2026-09-17"
 },
 {
+"id": "radiofrequencyengineeringmgrl5withsecurityclearance|lockheedmartin|boston",
+"title": "Radio Frequency Engineering Mgr - L5 with Security Clearance",
+"company": "Lockheed Martin",
+"location": "Chelmsford, Middlesex County, Massachusetts",
+"metro": "Boston",
+"url": "https://www.adzuna.com/land/ad/5885613890?se=hDMAWFSy8RGezJEXxpo3fA&utm_medium=api&utm_source=d677d981&v=02AA69361A0D89BFCA2E287F5647243466C3B49C",
+"posted": "2026-09-16",
+"sources": [
+"Adzuna"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17"
+},
+{
+"id": "spaceflightsafetyrfengineeringanalyst|peratoncorporation|washingtondc",
+"title": "Spaceflight Safety -RF Engineering Analyst",
+"company": "Peraton Corporation",
+"location": "Fort Belvoir, Fairfax County, Virginia",
+"metro": "Washington DC",
+"url": "https://www.adzuna.com/details/5886447511?utm_medium=api&utm_source=d677d981",
+"posted": "2026-09-16",
+"sources": [
+"Adzuna"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17"
+},
+{
+"id": "radiofrequencyrfelectricalengineer04532|synerentechnologies|washingtondc",
+"title": "Radio Frequency (RF) Electrical Engineer-04532",
+"company": "Syneren Technologies",
+"location": "Vienna, Fairfax County, Virginia",
+"metro": "Washington DC",
+"url": "https://www.adzuna.com/land/ad/5886628518?se=2uJAYlSy8RGPhZDySvILTw&utm_medium=api&utm_source=d677d981&v=FF2572C23401BD6769E2C0366EBEEF7C2D0D17B3",
+"posted": "2026-09-16",
+"sources": [
+"Adzuna"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17"
+},
+{
+"id": "seniorrfanalyst|theaerospacecorporation|washingtondc",
+"title": "Senior RF Analyst",
+"company": "The Aerospace Corporation",
+"location": "Chantilly, Fairfax County, Virginia",
+"metro": "Washington DC",
+"url": "https://www.adzuna.com/details/5886155286?utm_medium=api&utm_source=d677d981",
+"posted": "2026-09-16",
+"sources": [
+"Adzuna"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17"
+},
+{
 "id": "srmanufacturingrfdfxengineer|blueorigin|sfbayarea",
 "title": "Sr. Manufacturing RF DFX Engineer",
 "company": "Blue Origin",
@@ -203,6 +269,24 @@
 "location": "Nashua, Hillsborough County, New Hampshire",
 "metro": "Boston",
 "url": "https://www.adzuna.com/land/ad/5884384597?se=oLoM10Oy8RGW7Jd0wGJW9Q&utm_medium=api&utm_source=d677d981&v=6CB7916909DE6FDF649F18B543E8591ED848139E",
+"posted": "2026-09-15",
+"sources": [
+"Adzuna"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17"
+},
+{
+"id": "seniorrfanalystwithsecurityclearance|aerospacecorporation|washingtondc",
+"title": "Senior RF Analyst with Security Clearance",
+"company": "Aerospace Corporation",
+"location": "Chantilly, Fairfax County, Virginia",
+"metro": "Washington DC",
+"url": "https://www.adzuna.com/land/ad/5884382291?se=2uJAYlSy8RGPhZDySvILTw&utm_medium=api&utm_source=d677d981&v=B95432201B5386309AF6D05976F59FF3FC1A5120",
 "posted": "2026-09-15",
 "sources": [
 "Adzuna"

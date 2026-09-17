@@ -839,7 +839,41 @@
   "회사:SpaceX:8627692002": "2026-09-17",
   "seniorsignalintegrityengineerserdessatellitesstarlink|spacex|sfbayarea": "2026-09-17",
   "회사:SpaceX:8546682002": "2026-09-17",
-  "seniorwirelessfirmwareengineerstarlinkmobile|spacex|sfbayarea": "2026-09-17"
+  "seniorwirelessfirmwareengineerstarlinkmobile|spacex|sfbayarea": "2026-09-17",
+  "technicaltrainingspecialistsigintrfcommunications|everwatch|washingtondc": "2026-09-17",
+  "Adzuna:5887261287": "2026-09-17",
+  "aimlengineersystemrfdataecosystem|apple|sfbayarea": "2026-09-17",
+  "Adzuna:5878486295": "2026-09-17",
+  "회사:Booz Allen Hamilton:/job/Fort-Belvoir-VA/Space-Electronic-Warfare-and-Counterspace-Specialist_R0245348": "2026-09-17",
+  "spaceelectronicwarfareandcounterspacespecialist|boozallenham|washingtondc": "2026-09-17",
+  "wirelessengineer|boozallenham|washingtondc": "2026-09-17",
+  "회사:Booz Allen Hamilton:/job/California-MD/Wireless-Engineer_R0247108": "2026-09-17",
+  "회사:Parsons:/job/US---MD-Aberdeen/RF-Signal-Processing-Engineer_R185559-1": "2026-09-17",
+  "rfsignalprocessingengineer|parsons|washingtondc": "2026-09-17",
+  "회사:Parsons:/job/US---MD-Aberdeen/Radar-Systems-Engineer_R184974": "2026-09-17",
+  "radarsystemsengineer|parsons|washingtondc": "2026-09-17",
+  "회사:Parsons:/job/US---MD-Aberdeen/Radar-Systems-Engineer---Technical-Lead_R185548": "2026-09-17",
+  "radarsystemsengineertechnicallead|parsons|washingtondc": "2026-09-17",
+  "회사:Parsons:/job/US---MD-Aberdeen/Radar-Systems-Engineer---Modeling---Processing-Specialist_R183222": "2026-09-17",
+  "radarsystemsengineermodelingprocessingspecialist|parsons|washingtondc": "2026-09-17",
+  "회사:Parsons:/job/US---MD-Aberdeen/Senior-Radar-SME--Hybrid-_R171335-1": "2026-09-17",
+  "seniorradarsmehybrid|parsons|washingtondc": "2026-09-17",
+  "회사:Parsons:/job/US---VA-Herndon/Senior-Radar-Subject-Matter-Expert--SME-_R183402": "2026-09-17",
+  "seniorradarsubjectmatterexpertsme|parsons|washingtondc": "2026-09-17",
+  "회사:Parsons:/job/US---MD-Aberdeen/Radar-Data-Analyst_R185824-1": "2026-09-17",
+  "radardataanalyst|parsons|washingtondc": "2026-09-17",
+  "회사:Parsons:/job/US---MD-Aberdeen/Chief-Engineer---Radar-Division_R184144": "2026-09-17",
+  "chiefengineerradardivision|parsons|washingtondc": "2026-09-17",
+  "회사:Parsons:/job/US---VA-Dahlgren/Operations-Systems-Analyst---Electronic-Warfare_R184661-1": "2026-09-17",
+  "operationssystemsanalystelectronicwarfare|parsons|washingtondc": "2026-09-17",
+  "externaljobpostingtitleradioastronomyradargrouprargengineer|peraton|washingtondc": "2026-09-17",
+  "회사:Peraton:168831": "2026-09-17",
+  "회사:Peraton:167151": "2026-09-17",
+  "externaljobpostingtitlesatcomsoftwareengineersenioradvisor|peraton|washingtondc": "2026-09-17",
+  "회사:Draper:/job/Cambridge-MA/Senior-RF-Integration---Test-Engineer_JR002932": "2026-09-17",
+  "seniorrfintegrationtestengineer|draper|boston": "2026-09-17",
+  "ewsystemsarchitect|mitre|boston": "2026-09-17",
+  "회사:MITRE:R117275": "2026-09-17"
  },
  "jobs": {
   "seniorrfengineer|freshconsult|sfbayarea": {
@@ -4274,7 +4308,7 @@
    "id": "groundbasedradardigitizationgbrdprogramearnedvaluelead|rtxraytheon|boston",
    "title": "Ground Based Radar Digitization (GBRD) Program Earned Value Lead",
    "company": "RTX / Raytheon",
-   "location": "Woburn, MA / Tucson, AZ / Marlborough, MA / Portsmouth, RI / US-TX-MCKINNEY-513PW / Tewksbury, MA / Andover, MA",
+   "location": "Woburn, MA / Tucson, AZ / Marlborough, MA / Portsmouth, RI / Mckinney, TX / Tewksbury, MA / Andover, MA",
    "metro": "Boston",
    "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-WOBURN-WB2--225-Presidential-Way--GODDARD-BLDG/Ground-Based-Radar-Digitization--GBRD--Program-Earned-Value-Lead_01861595",
    "posted": "2026-08-18",
@@ -6013,7 +6047,7 @@
    "company": "Apple",
    "location": "San Francisco Bay Area",
    "metro": "SF Bay Area",
-   "url": "https://jobs.apple.com/en-us/details/200660612/sipi-rf-integrity-engineer",
+   "url": "https://jobs.apple.com/en-us/details/200640903/sipi-rf-integrity-engineer",
    "posted": "2026-01-12",
    "sources": [
     "회사/apple"
@@ -6996,6 +7030,314 @@
    "last_seen": "2026-09-17",
    "group": "연구소",
    "company_key": "Riverside Research"
+  },
+  "technicaltrainingspecialistsigintrfcommunications|everwatch|washingtondc": {
+   "id": "technicaltrainingspecialistsigintrfcommunications|everwatch|washingtondc",
+   "title": "Technical Training Specialist – SIGINT & RF Communications with Security Clearance",
+   "company": "EverWatch",
+   "location": "Savage, Anne Arundel County, Maryland",
+   "metro": "Washington DC",
+   "url": "https://www.adzuna.com/land/ad/5887261287?se=TiPtLaqy8RGeX64IzcI5Jg&utm_medium=api&utm_source=d677d981&v=D431448B0DE10EE3657876144CF407516BE2002E",
+   "posted": "2026-09-17",
+   "sources": [
+    "Adzuna"
+   ],
+   "flags": [
+    "⚠️ 클리어런스/시민권"
+   ],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17",
+   "group": "",
+   "company_key": null
+  },
+  "aimlengineersystemrfdataecosystem|apple|sfbayarea": {
+   "id": "aimlengineersystemrfdataecosystem|apple|sfbayarea",
+   "title": "AI/ML Engineer: System RF Data Ecosystem",
+   "company": "Apple",
+   "location": "Monte Vista, Santa Clara County, California",
+   "metro": "SF Bay Area",
+   "url": "https://www.adzuna.com/details/5878486295?utm_medium=api&utm_source=d677d981",
+   "posted": "2026-09-10",
+   "sources": [
+    "Adzuna"
+   ],
+   "flags": [],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17",
+   "group": "RF·통신",
+   "company_key": "Apple"
+  },
+  "spaceelectronicwarfareandcounterspacespecialist|boozallenham|washingtondc": {
+   "id": "spaceelectronicwarfareandcounterspacespecialist|boozallenham|washingtondc",
+   "title": "Space Electronic Warfare and Counterspace Specialist",
+   "company": "Booz Allen Hamilton",
+   "location": "Fort Belvoir, VA",
+   "metro": "Washington DC",
+   "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Fort-Belvoir-VA/Space-Electronic-Warfare-and-Counterspace-Specialist_R0245348",
+   "posted": "2026-08-21",
+   "sources": [
+    "회사/workday"
+   ],
+   "flags": [],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17",
+   "group": "방산",
+   "company_key": "Booz Allen Hamilton"
+  },
+  "wirelessengineer|boozallenham|washingtondc": {
+   "id": "wirelessengineer|boozallenham|washingtondc",
+   "title": "Wireless Engineer",
+   "company": "Booz Allen Hamilton",
+   "location": "California, MD",
+   "metro": "Washington DC",
+   "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/California-MD/Wireless-Engineer_R0247108",
+   "posted": "2026-08-18",
+   "sources": [
+    "회사/workday"
+   ],
+   "flags": [],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17",
+   "group": "방산",
+   "company_key": "Booz Allen Hamilton"
+  },
+  "rfsignalprocessingengineer|parsons|washingtondc": {
+   "id": "rfsignalprocessingengineer|parsons|washingtondc",
+   "title": "RF Signal Processing Engineer",
+   "company": "Parsons",
+   "location": "US - MD, Aberdeen",
+   "metro": "Washington DC",
+   "url": "https://parsons.wd5.myworkdayjobs.com/en-US/Search/job/US---MD-Aberdeen/RF-Signal-Processing-Engineer_R185559-1",
+   "posted": "",
+   "sources": [
+    "회사/workday"
+   ],
+   "flags": [],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17",
+   "group": "방산",
+   "company_key": "Parsons"
+  },
+  "radarsystemsengineer|parsons|washingtondc": {
+   "id": "radarsystemsengineer|parsons|washingtondc",
+   "title": "Radar Systems Engineer",
+   "company": "Parsons",
+   "location": "US - MD, Aberdeen",
+   "metro": "Washington DC",
+   "url": "https://parsons.wd5.myworkdayjobs.com/en-US/Search/job/US---MD-Aberdeen/Radar-Systems-Engineer_R184974",
+   "posted": "",
+   "sources": [
+    "회사/workday"
+   ],
+   "flags": [],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17",
+   "group": "방산",
+   "company_key": "Parsons"
+  },
+  "radarsystemsengineertechnicallead|parsons|washingtondc": {
+   "id": "radarsystemsengineertechnicallead|parsons|washingtondc",
+   "title": "Radar Systems Engineer - Technical Lead",
+   "company": "Parsons",
+   "location": "US - MD, Aberdeen",
+   "metro": "Washington DC",
+   "url": "https://parsons.wd5.myworkdayjobs.com/en-US/Search/job/US---MD-Aberdeen/Radar-Systems-Engineer---Technical-Lead_R185548",
+   "posted": "",
+   "sources": [
+    "회사/workday"
+   ],
+   "flags": [],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17",
+   "group": "방산",
+   "company_key": "Parsons"
+  },
+  "radarsystemsengineermodelingprocessingspecialist|parsons|washingtondc": {
+   "id": "radarsystemsengineermodelingprocessingspecialist|parsons|washingtondc",
+   "title": "Radar Systems Engineer – Modeling / Processing Specialist",
+   "company": "Parsons",
+   "location": "US - MD, Aberdeen",
+   "metro": "Washington DC",
+   "url": "https://parsons.wd5.myworkdayjobs.com/en-US/Search/job/US---MD-Aberdeen/Radar-Systems-Engineer---Modeling---Processing-Specialist_R183222",
+   "posted": "",
+   "sources": [
+    "회사/workday"
+   ],
+   "flags": [],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17",
+   "group": "방산",
+   "company_key": "Parsons"
+  },
+  "seniorradarsmehybrid|parsons|washingtondc": {
+   "id": "seniorradarsmehybrid|parsons|washingtondc",
+   "title": "Senior Radar SME (Hybrid)",
+   "company": "Parsons",
+   "location": "US - MD, Aberdeen / US - Remote (Any Location)",
+   "metro": "Washington DC",
+   "url": "https://parsons.wd5.myworkdayjobs.com/en-US/Search/job/US---MD-Aberdeen/Senior-Radar-SME--Hybrid-_R171335-1",
+   "posted": "",
+   "sources": [
+    "회사/workday"
+   ],
+   "flags": [],
+   "remote": true,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17",
+   "group": "방산",
+   "company_key": "Parsons"
+  },
+  "seniorradarsubjectmatterexpertsme|parsons|washingtondc": {
+   "id": "seniorradarsubjectmatterexpertsme|parsons|washingtondc",
+   "title": "Senior Radar Subject Matter Expert (SME)",
+   "company": "Parsons",
+   "location": "US - VA, Herndon",
+   "metro": "Washington DC",
+   "url": "https://parsons.wd5.myworkdayjobs.com/en-US/Search/job/US---VA-Herndon/Senior-Radar-Subject-Matter-Expert--SME-_R183402",
+   "posted": "",
+   "sources": [
+    "회사/workday"
+   ],
+   "flags": [],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17",
+   "group": "방산",
+   "company_key": "Parsons"
+  },
+  "radardataanalyst|parsons|washingtondc": {
+   "id": "radardataanalyst|parsons|washingtondc",
+   "title": "Radar Data Analyst",
+   "company": "Parsons",
+   "location": "US - MD, Aberdeen",
+   "metro": "Washington DC",
+   "url": "https://parsons.wd5.myworkdayjobs.com/en-US/Search/job/US---MD-Aberdeen/Radar-Data-Analyst_R185824-1",
+   "posted": "",
+   "sources": [
+    "회사/workday"
+   ],
+   "flags": [],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17",
+   "group": "방산",
+   "company_key": "Parsons"
+  },
+  "chiefengineerradardivision|parsons|washingtondc": {
+   "id": "chiefengineerradardivision|parsons|washingtondc",
+   "title": "Chief Engineer — Radar Division",
+   "company": "Parsons",
+   "location": "US - MD, Aberdeen",
+   "metro": "Washington DC",
+   "url": "https://parsons.wd5.myworkdayjobs.com/en-US/Search/job/US---MD-Aberdeen/Chief-Engineer---Radar-Division_R184144",
+   "posted": "",
+   "sources": [
+    "회사/workday"
+   ],
+   "flags": [],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17",
+   "group": "방산",
+   "company_key": "Parsons"
+  },
+  "operationssystemsanalystelectronicwarfare|parsons|washingtondc": {
+   "id": "operationssystemsanalystelectronicwarfare|parsons|washingtondc",
+   "title": "Operations Systems Analyst – Electronic Warfare",
+   "company": "Parsons",
+   "location": "US - VA, Dahlgren",
+   "metro": "Washington DC",
+   "url": "https://parsons.wd5.myworkdayjobs.com/en-US/Search/job/US---VA-Dahlgren/Operations-Systems-Analyst---Electronic-Warfare_R184661-1",
+   "posted": "",
+   "sources": [
+    "회사/workday"
+   ],
+   "flags": [],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17",
+   "group": "방산",
+   "company_key": "Parsons"
+  },
+  "externaljobpostingtitleradioastronomyradargrouprargengineer|peraton|washingtondc": {
+   "id": "externaljobpostingtitleradioastronomyradargrouprargengineer|peraton|washingtondc",
+   "title": "External Job Posting Title Radio Astronomy Radar Group (RARG) Engineer",
+   "company": "Peraton",
+   "location": "Fort Belvoir, VA",
+   "metro": "Washington DC",
+   "url": "https://careers-peraton.icims.com/jobs/168831/radio-astronomy-radar-group-%28rarg%29-engineer/job",
+   "posted": "",
+   "sources": [
+    "회사/icims"
+   ],
+   "flags": [],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17",
+   "group": "방산",
+   "company_key": "Peraton"
+  },
+  "externaljobpostingtitlesatcomsoftwareengineersenioradvisor|peraton|washingtondc": {
+   "id": "externaljobpostingtitlesatcomsoftwareengineersenioradvisor|peraton|washingtondc",
+   "title": "External Job Posting Title SATCOM Software Engineer, Senior Advisor",
+   "company": "Peraton",
+   "location": "Fort Belvoir, VA",
+   "metro": "Washington DC",
+   "url": "https://careers-peraton.icims.com/jobs/167151/satcom-software-engineer%2c-senior-advisor/job",
+   "posted": "",
+   "sources": [
+    "회사/icims"
+   ],
+   "flags": [],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17",
+   "group": "방산",
+   "company_key": "Peraton"
+  },
+  "seniorrfintegrationtestengineer|draper|boston": {
+   "id": "seniorrfintegrationtestengineer|draper|boston",
+   "title": "Senior RF Integration & Test Engineer",
+   "company": "Draper",
+   "location": "Cambridge, MA",
+   "metro": "Boston",
+   "url": "https://draper.wd5.myworkdayjobs.com/en-US/Draper_Careers/job/Cambridge-MA/Senior-RF-Integration---Test-Engineer_JR002932",
+   "posted": "2026-09-17",
+   "sources": [
+    "회사/workday"
+   ],
+   "flags": [],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17",
+   "group": "연구소",
+   "company_key": "Draper"
+  },
+  "ewsystemsarchitect|mitre|boston": {
+   "id": "ewsystemsarchitect|mitre|boston",
+   "title": "EW Systems Architect",
+   "company": "MITRE",
+   "location": "Hanscom Air Force Base, Massachusetts",
+   "metro": "Boston",
+   "url": "https://mitre.wd5.myworkdayjobs.com/MITRE/job/Hanscom-AFB-MA/EW-Systems-Architect_R117275-1/apply",
+   "posted": "2026-09-02",
+   "sources": [
+    "회사/phenom"
+   ],
+   "flags": [],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17",
+   "group": "연구소",
+   "company_key": "MITRE"
   }
  },
  "backfilled": "2026-09-17",
@@ -7123,32 +7465,14 @@
   "AeroVironment / BlueHalo": {
    "workday": "https://avav.wd1.myworkdayjobs.com/AVAV"
   },
-  "Lockheed Martin": {
-   "eightfold": {
-    "host": "lockheedmartin.eightfold.ai",
-    "domain": "lockheedmartin.com"
-   }
-  },
   "Leonardo DRS": {
    "successfactors": "https://careers.leonardodrs.com"
-  },
-  "CACI": {
-   "eightfold": {
-    "host": "caci.eightfold.ai",
-    "domain": "caci.com"
-   }
   },
   "Parsons": {
    "workday": "https://parsons.wd5.myworkdayjobs.com/Search"
   },
   "The Aerospace Corporation": {
    "workday": "https://aero.wd5.myworkdayjobs.com/External"
-  },
-  "Qualcomm": {
-   "eightfold": {
-    "host": "careers.qualcomm.com",
-    "domain": "qualcomm.com"
-   }
   },
   "MITRE": {
    "phenom": "https://careers.mitre.org/us/en"
@@ -7164,18 +7488,14 @@
   {
    "name": "Lockheed Martin",
    "group": "방산",
-   "status": "ok",
-   "via": "eightfold",
-   "source": "{\"host\": \"lockheedmartin.eightfold.ai\", \"domain\": \"lockheedmartin.com\"}",
-   "count": 63,
-   "seconds": 59,
-   "in_metro": 12,
-   "other_locations": [
-    "Moorestown, NJ",
-    "Didcot, GBR / Manchester, GBR",
-    "Littleton, CO",
-    "Palmdale, CA"
-   ]
+   "status": "fail",
+   "via": "",
+   "source": "",
+   "count": 0,
+   "error": "eightfold: Eightfold pcsx lockheedmartin.eightfold.ai: robots.txt에서 자동 수집을 막아둠, v2 lockheed",
+   "seconds": 0,
+   "in_metro": 0,
+   "other_locations": []
   },
   {
    "name": "RTX / Raytheon",
@@ -7184,13 +7504,13 @@
    "via": "workday",
    "source": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway",
    "count": 181,
-   "seconds": 67,
+   "seconds": 61,
    "in_metro": 48,
    "other_locations": [
-    "US-TX-MCKINNEY-513WC",
-    "US-TX-MCKINNEY-513WD",
+    "Mckinney, TX",
     "Goleta, CA",
-    "Aurora, CO"
+    "Aurora, CO",
+    "TW-HSQ-WUFONG-MILITARY-CUST"
    ]
   },
   {
@@ -7200,7 +7520,7 @@
    "via": "workday",
    "source": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site",
    "count": 78,
-   "seconds": 54,
+   "seconds": 72,
    "in_metro": 41,
    "other_locations": [
     "Gilbert, Arizona",
@@ -7216,7 +7536,7 @@
    "via": "icims",
    "source": "https://careers-gdms.icims.com",
    "count": 7,
-   "seconds": 13,
+   "seconds": 19,
    "in_metro": 0,
    "other_locations": [
     "Scottsdale, AZ",
@@ -7247,7 +7567,7 @@
    "via": "phenom",
    "source": "https://jobs.baesystems.com/global/en",
    "count": 5,
-   "seconds": 290,
+   "seconds": 276,
    "in_metro": 2,
    "other_locations": [
     "Huntsville, Alabama",
@@ -7257,18 +7577,14 @@
   {
    "name": "L3Harris",
    "group": "방산",
-   "status": "ok",
-   "via": "radancy",
-   "source": "https://careers.l3harris.com",
-   "count": 25,
-   "seconds": 2,
+   "status": "blocked",
+   "via": "",
+   "source": "",
+   "count": 0,
+   "error": "radancy: careers.l3harris.com: robots.txt에서 자동 수집을 막아둠",
+   "seconds": 0,
    "in_metro": 0,
-   "other_locations": [
-    "San Diego, CA",
-    "Rochester, NY",
-    "Greenville, TX",
-    "Yorba Linda, CA"
-   ]
+   "other_locations": []
   },
   {
    "name": "Boeing",
@@ -7277,7 +7593,7 @@
    "via": "workday",
    "source": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS",
    "count": 14,
-   "seconds": 26,
+   "seconds": 35,
    "in_metro": 0,
    "other_locations": [
     "USA - El Segundo, CA",
@@ -7293,7 +7609,7 @@
    "via": "successfactors",
    "source": "https://jobs.hii-tsd.com",
    "count": 17,
-   "seconds": 20,
+   "seconds": 33,
    "in_metro": 3,
    "other_locations": [
     "Hurlburt Field, FL, Florida",
@@ -7310,7 +7626,7 @@
    "source": "",
    "count": 0,
    "error": "채용 시스템을 찾지 못함",
-   "seconds": 1,
+   "seconds": 3,
    "in_metro": 0,
    "other_locations": []
   },
@@ -7321,7 +7637,7 @@
    "via": "successfactors",
    "source": "https://careers.leonardodrs.com",
    "count": 3,
-   "seconds": 7,
+   "seconds": 13,
    "in_metro": 3,
    "other_locations": []
   },
@@ -7332,7 +7648,7 @@
    "via": "workday",
    "source": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site",
    "count": 2,
-   "seconds": 6,
+   "seconds": 9,
    "in_metro": 0,
    "other_locations": [
     "Lone Tree, CO",
@@ -7347,7 +7663,7 @@
    "source": "",
    "count": 0,
    "error": "채용 시스템을 찾지 못함",
-   "seconds": 0,
+   "seconds": 1,
    "in_metro": 0,
    "other_locations": []
   },
@@ -7358,7 +7674,7 @@
    "via": "workday",
    "source": "https://leidos.wd5.myworkdayjobs.com/External",
    "count": 52,
-   "seconds": 74,
+   "seconds": 73,
    "in_metro": 9,
    "other_locations": [
     "Huntsville, AL",
@@ -7375,25 +7691,21 @@
    "source": "",
    "count": 0,
    "error": "채용 시스템을 찾지 못함",
-   "seconds": 0,
+   "seconds": 1,
    "in_metro": 0,
    "other_locations": []
   },
   {
    "name": "CACI",
    "group": "방산",
-   "status": "ok",
-   "via": "eightfold",
-   "source": "{\"host\": \"caci.eightfold.ai\", \"domain\": \"caci.com\"}",
-   "count": 28,
-   "seconds": 46,
-   "in_metro": 17,
-   "other_locations": [
-    "Panama City, FL",
-    "Albuquerque, NM",
-    "Portsmouth, VA",
-    "Rochester, NY"
-   ]
+   "status": "fail",
+   "via": "",
+   "source": "",
+   "count": 0,
+   "error": "eightfold: Eightfold pcsx caci.eightfold.ai: robots.txt에서 자동 수집을 막아둠, v2 caci.eightfold.ai:",
+   "seconds": 0,
+   "in_metro": 0,
+   "other_locations": []
   },
   {
    "name": "Booz Allen Hamilton",
@@ -7402,13 +7714,13 @@
    "via": "workday",
    "source": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs",
    "count": 23,
-   "seconds": 29,
-   "in_metro": 10,
+   "seconds": 34,
+   "in_metro": 12,
    "other_locations": [
     "Australia",
     "San Diego, CA",
-    "Fort Belvoir, VA",
-    "California, MD"
+    "Beavercreek, OH",
+    "Beavercreek, OH / Wright Patterson AFB, OH"
    ]
   },
   {
@@ -7418,10 +7730,11 @@
    "via": "workday",
    "source": "https://parsons.wd5.myworkdayjobs.com/Search",
    "count": 16,
-   "seconds": 52,
-   "in_metro": 0,
+   "seconds": 78,
+   "in_metro": 9,
    "other_locations": [
-    "(위치 없음)"
+    "US - AL, Huntsville",
+    "SA - Al Kharj"
    ]
   },
   {
@@ -7431,13 +7744,13 @@
    "via": "icims",
    "source": "https://careers-peraton.icims.com",
    "count": 18,
-   "seconds": 4,
-   "in_metro": 10,
+   "seconds": 8,
+   "in_metro": 12,
    "other_locations": [
     "Red Bank, NJ",
     "US",
     "Fort Irwin, CA",
-    "Fort Belvoir, VA"
+    "(위치 없음)"
    ]
   },
   {
@@ -7448,7 +7761,7 @@
    "source": "",
    "count": 0,
    "error": "workday: Workday 결과 0건 (사이트 이름 확인 필요)",
-   "seconds": 5,
+   "seconds": 8,
    "in_metro": 0,
    "other_locations": []
   },
@@ -7459,7 +7772,7 @@
    "via": "workday",
    "source": "https://pae.wd1.myworkdayjobs.com/Amentum_Careers",
    "count": 24,
-   "seconds": 19,
+   "seconds": 26,
    "in_metro": 5,
    "other_locations": [
     "Huntsville, AL",
@@ -7471,12 +7784,12 @@
   {
    "name": "V2X",
    "group": "방산",
-   "status": "fail",
+   "status": "blocked",
    "via": "",
    "source": "",
    "count": 0,
-   "error": "icims: iCIMS 결과 0건 (형식 확인 필요)",
-   "seconds": 4,
+   "error": "icims: careers-gov2x.icims.com: robots.txt에서 자동 수집을 막아둠",
+   "seconds": 1,
    "in_metro": 0,
    "other_locations": []
   },
@@ -7486,10 +7799,12 @@
    "status": "ok",
    "via": "phenom",
    "source": "https://careers.kbr.com/us/en",
-   "count": 9,
-   "seconds": 302,
-   "in_metro": 9,
-   "other_locations": []
+   "count": 3,
+   "seconds": 279,
+   "in_metro": 0,
+   "other_locations": [
+    "San Diego, California / Newport, Rhode Island"
+   ]
   },
   {
    "name": "Jacobs",
@@ -7541,12 +7856,12 @@
   {
    "name": "Viasat",
    "group": "방산",
-   "status": "fail",
+   "status": "blocked",
    "via": "",
    "source": "",
    "count": 0,
-   "error": "icims: iCIMS 결과 0건 (형식 확인 필요); icims: iCIMS 결과 0건 (형식 확인 필요); icims: iCIMS 결과 0건 (형식 확인 필요)",
-   "seconds": 14,
+   "error": "icims: careers-viasat.icims.com: robots.txt에서 자동 수집을 막아둠; icims: employees-viasat.icims.com: robots.txt에서 자동 수집을 막아둠; icims: globalcareers-viasat.icims.com: robots.txt에서 자동 수집을 막아둠",
+   "seconds": 3,
    "in_metro": 0,
    "other_locations": []
   },
@@ -7558,7 +7873,7 @@
    "source": "",
    "count": 0,
    "error": "채용 시스템을 찾지 못함",
-   "seconds": 1,
+   "seconds": 2,
    "in_metro": 0,
    "other_locations": []
   },
@@ -7597,7 +7912,7 @@
    "via": "lever",
    "source": "shieldai",
    "count": 0,
-   "seconds": 2,
+   "seconds": 1,
    "in_metro": 0,
    "other_locations": []
   },
@@ -7634,7 +7949,7 @@
    "via": "workday",
    "source": "https://avav.wd1.myworkdayjobs.com/AVAV",
    "count": 7,
-   "seconds": 13,
+   "seconds": 19,
    "in_metro": 3,
    "other_locations": [
     "Albuquerque, NM",
@@ -7648,7 +7963,7 @@
    "via": "lever",
    "source": "palantir",
    "count": 0,
-   "seconds": 2,
+   "seconds": 1,
    "in_metro": 0,
    "other_locations": []
   },
@@ -7694,7 +8009,7 @@
    "source": "",
    "count": 0,
    "error": "greenhouse: Greenhouse HTTP 404; ashby: Ashby HTTP 404; lever: Lever HTTP 404",
-   "seconds": 2,
+   "seconds": 1,
    "in_metro": 0,
    "other_locations": []
   },
@@ -7728,7 +8043,7 @@
    "via": "successfactors",
    "source": "https://careers.ll.mit.edu",
    "count": 12,
-   "seconds": 7,
+   "seconds": 11,
    "in_metro": 12,
    "other_locations": []
   },
@@ -7750,7 +8065,7 @@
    "via": "jobsyn",
    "source": "sandia.jobs",
    "count": 7,
-   "seconds": 5,
+   "seconds": 11,
    "in_metro": 0,
    "other_locations": [
     "Albuquerque, NM"
@@ -7762,9 +8077,9 @@
    "status": "ok",
    "via": "workday",
    "source": "https://draper.wd5.myworkdayjobs.com/Draper_Careers",
-   "count": 3,
-   "seconds": 6,
-   "in_metro": 3,
+   "count": 4,
+   "seconds": 5,
+   "in_metro": 4,
    "other_locations": []
   },
   {
@@ -7774,23 +8089,22 @@
    "via": "phenom",
    "source": "https://careers.mitre.org/us/en",
    "count": 15,
-   "seconds": 286,
-   "in_metro": 12,
+   "seconds": 277,
+   "in_metro": 13,
    "other_locations": [
     "Boulder, Colorado",
-    "El Segundo, California",
-    "Hanscom Air Force Base, Massachusetts"
+    "El Segundo, California"
    ]
   },
   {
    "name": "Johns Hopkins APL",
    "group": "연구소",
-   "status": "fail",
+   "status": "blocked",
    "via": "",
    "source": "",
    "count": 0,
-   "error": "icims: iCIMS 결과 0건 (형식 확인 필요); icims: iCIMS HTTP 404; icims: iCIMS 결과 0건 (형식 확인 필요); radancy: Radancy HTTP 404",
-   "seconds": 11,
+   "error": "icims: careers-jhuapl.icims.com: robots.txt에서 자동 수집을 막아둠; icims: iCIMS HTTP 404; icims: jhuapl.icims.com: robots.txt에서 자동 수집을 막아둠; radancy: www.jhuapl.edu: robots.txt에서 자동 수집을 막아둠",
+   "seconds": 2,
    "in_metro": 0,
    "other_locations": []
   },
@@ -7801,7 +8115,7 @@
    "via": "workday",
    "source": "https://aero.wd5.myworkdayjobs.com/External",
    "count": 25,
-   "seconds": 29,
+   "seconds": 25,
    "in_metro": 9,
    "other_locations": [
     "El Segundo, CA",
@@ -7817,7 +8131,7 @@
    "via": "icims",
    "source": "https://careers-sri.icims.com",
    "count": 4,
-   "seconds": 1,
+   "seconds": 4,
    "in_metro": 0,
    "other_locations": [
     "Boulder, CO",
@@ -7832,7 +8146,7 @@
    "source": "",
    "count": 0,
    "error": "채용 시스템을 찾지 못함",
-   "seconds": 0,
+   "seconds": 1,
    "in_metro": 0,
    "other_locations": []
   },
@@ -7843,7 +8157,7 @@
    "via": "icims",
    "source": "https://careers-riversideresearch.icims.com",
    "count": 4,
-   "seconds": 2,
+   "seconds": 4,
    "in_metro": 1,
    "other_locations": [
     "Dayton, OH",
@@ -7859,7 +8173,7 @@
    "source": "",
    "count": 0,
    "error": "채용 시스템을 찾지 못함",
-   "seconds": 0,
+   "seconds": 1,
    "in_metro": 0,
    "other_locations": []
   },
@@ -7871,7 +8185,7 @@
    "source": "",
    "count": 0,
    "error": "greenhouse: Greenhouse HTTP 404; lever: Lever HTTP 404",
-   "seconds": 1,
+   "seconds": 2,
    "in_metro": 0,
    "other_locations": []
   },
@@ -7881,31 +8195,27 @@
    "status": "ok",
    "via": "apple",
    "source": "true",
-   "count": 80,
-   "seconds": 44,
+   "count": 81,
+   "seconds": 73,
    "in_metro": 7,
    "other_locations": [
     "Sunnyvale",
-    "San Diego",
     "Los Angeles Metro Area",
+    "San Diego",
     "Austin"
    ]
   },
   {
    "name": "Qualcomm",
    "group": "RF·통신",
-   "status": "ok",
-   "via": "eightfold",
-   "source": "{\"host\": \"careers.qualcomm.com\", \"domain\": \"qualcomm.com\"}",
-   "count": 42,
-   "seconds": 27,
-   "in_metro": 6,
-   "other_locations": [
-    "San Diego, California",
-    "Tijuana, Baja California, Mexico",
-    "Hyderabad, Telangāna, India",
-    "Bangalore, India"
-   ]
+   "status": "fail",
+   "via": "",
+   "source": "",
+   "count": 0,
+   "error": "eightfold: Eightfold pcsx careers.qualcomm.com: robots.txt에서 자동 수집을 막아둠, v2 careers.qualcom; eightfold: Eightfold pcsx qualcomm.eightfold.ai: robots.txt에서 자동 수집을 막아둠, v2 qualcomm.eight",
+   "seconds": 0,
+   "in_metro": 0,
+   "other_locations": []
   },
   {
    "name": "SpaceX",
@@ -7917,8 +8227,8 @@
    "seconds": 0,
    "in_metro": 13,
    "other_locations": [
-    "Redmond, WA",
     "Irvine, CA",
+    "Redmond, WA",
     "Bastrop, TX",
     "Hawthorne, CA"
    ]

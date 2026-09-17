@@ -1,5 +1,5 @@
 {
-"updated": "2026-09-17T14:29:44+00:00",
+"updated": "2026-09-17T15:24:35+00:00",
 "jobs": [
 {
 "id": "rfengineer30280|hiimissionte|washingtondc",
@@ -201,6 +201,44 @@
 "last_seen": "2026-09-17",
 "group": "방산",
 "company_key": "HawkEye 360"
+},
+{
+"id": "technicaltrainingspecialistsigintrfcommunications|everwatch|washingtondc",
+"title": "Technical Training Specialist – SIGINT & RF Communications with Security Clearance",
+"company": "EverWatch",
+"location": "Savage, Anne Arundel County, Maryland",
+"metro": "Washington DC",
+"url": "https://www.adzuna.com/land/ad/5887261287?se=TiPtLaqy8RGeX64IzcI5Jg&utm_medium=api&utm_source=d677d981&v=D431448B0DE10EE3657876144CF407516BE2002E",
+"posted": "2026-09-17",
+"sources": [
+"Adzuna"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "",
+"company_key": null
+},
+{
+"id": "seniorrfintegrationtestengineer|draper|boston",
+"title": "Senior RF Integration & Test Engineer",
+"company": "Draper",
+"location": "Cambridge, MA",
+"metro": "Boston",
+"url": "https://draper.wd5.myworkdayjobs.com/en-US/Draper_Careers/job/Cambridge-MA/Senior-RF-Integration---Test-Engineer_JR002932",
+"posted": "2026-09-17",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "Draper"
 },
 {
 "id": "rfoperationsengineer1careerfaironly|markimicrowa|sfbayarea",
@@ -1605,6 +1643,24 @@
 "company_key": "GDIT"
 },
 {
+"id": "aimlengineersystemrfdataecosystem|apple|sfbayarea",
+"title": "AI/ML Engineer: System RF Data Ecosystem",
+"company": "Apple",
+"location": "Monte Vista, Santa Clara County, California",
+"metro": "SF Bay Area",
+"url": "https://www.adzuna.com/details/5878486295?utm_medium=api&utm_source=d677d981",
+"posted": "2026-09-10",
+"sources": [
+"Adzuna"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "RF·통신",
+"company_key": "Apple"
+},
+{
 "id": "seniorrfengineer|freshconsult|sfbayarea",
 "title": "Senior RF Engineer",
 "company": "Fresh Consulting",
@@ -2788,6 +2844,24 @@
 "last_seen": "2026-09-17",
 "group": "방산",
 "company_key": "CACI"
+},
+{
+"id": "ewsystemsarchitect|mitre|boston",
+"title": "EW Systems Architect",
+"company": "MITRE",
+"location": "Hanscom Air Force Base, Massachusetts",
+"metro": "Boston",
+"url": "https://mitre.wd5.myworkdayjobs.com/MITRE/job/Hanscom-AFB-MA/EW-Systems-Architect_R117275-1/apply",
+"posted": "2026-09-02",
+"sources": [
+"회사/phenom"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "MITRE"
 },
 {
 "id": "radiofrequencyengineer|trimble|sfbayarea",
@@ -4156,6 +4230,24 @@
 "company_key": "Northrop Grumman"
 },
 {
+"id": "spaceelectronicwarfareandcounterspacespecialist|boozallenham|washingtondc",
+"title": "Space Electronic Warfare and Counterspace Specialist",
+"company": "Booz Allen Hamilton",
+"location": "Fort Belvoir, VA",
+"metro": "Washington DC",
+"url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Fort-Belvoir-VA/Space-Electronic-Warfare-and-Counterspace-Specialist_R0245348",
+"posted": "2026-08-21",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Booz Allen Hamilton"
+},
+{
 "id": "seniorantennadesignengineer|espace|sfbayarea",
 "title": "Senior Antenna Design Engineer",
 "company": "E-Space",
@@ -4720,7 +4812,7 @@
 "id": "groundbasedradardigitizationgbrdprogramearnedvaluelead|rtxraytheon|boston",
 "title": "Ground Based Radar Digitization (GBRD) Program Earned Value Lead",
 "company": "RTX / Raytheon",
-"location": "Woburn, MA / Tucson, AZ / Marlborough, MA / Portsmouth, RI / US-TX-MCKINNEY-513PW / Tewksbury, MA / Andover, MA",
+"location": "Woburn, MA / Tucson, AZ / Marlborough, MA / Portsmouth, RI / Mckinney, TX / Tewksbury, MA / Andover, MA",
 "metro": "Boston",
 "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-WOBURN-WB2--225-Presidential-Way--GODDARD-BLDG/Ground-Based-Radar-Digitization--GBRD--Program-Earned-Value-Lead_01861595",
 "posted": "2026-08-18",
@@ -5329,6 +5421,24 @@
 "company_key": "The Aerospace Corporation"
 },
 {
+"id": "wirelessengineer|boozallenham|washingtondc",
+"title": "Wireless Engineer",
+"company": "Booz Allen Hamilton",
+"location": "California, MD",
+"metro": "Washington DC",
+"url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/California-MD/Wireless-Engineer_R0247108",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Booz Allen Hamilton"
+},
+{
 "id": "radiofrequencyengineerseniorstaff|lockheedmart|washingtondc",
 "title": "Radio Frequency Engineer Senior Staff",
 "company": "Lockheed Martin",
@@ -5730,7 +5840,7 @@
 "company": "Apple",
 "location": "San Francisco Bay Area",
 "metro": "SF Bay Area",
-"url": "https://jobs.apple.com/en-us/details/200660612/sipi-rf-integrity-engineer",
+"url": "https://jobs.apple.com/en-us/details/200640903/sipi-rf-integrity-engineer",
 "posted": "2026-01-12",
 "sources": [
 "회사/apple"
@@ -6155,6 +6265,204 @@
 "last_seen": "2026-09-17",
 "group": "연구소",
 "company_key": "Riverside Research"
+},
+{
+"id": "rfsignalprocessingengineer|parsons|washingtondc",
+"title": "RF Signal Processing Engineer",
+"company": "Parsons",
+"location": "US - MD, Aberdeen",
+"metro": "Washington DC",
+"url": "https://parsons.wd5.myworkdayjobs.com/en-US/Search/job/US---MD-Aberdeen/RF-Signal-Processing-Engineer_R185559-1",
+"posted": "",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Parsons"
+},
+{
+"id": "radarsystemsengineer|parsons|washingtondc",
+"title": "Radar Systems Engineer",
+"company": "Parsons",
+"location": "US - MD, Aberdeen",
+"metro": "Washington DC",
+"url": "https://parsons.wd5.myworkdayjobs.com/en-US/Search/job/US---MD-Aberdeen/Radar-Systems-Engineer_R184974",
+"posted": "",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Parsons"
+},
+{
+"id": "radarsystemsengineertechnicallead|parsons|washingtondc",
+"title": "Radar Systems Engineer - Technical Lead",
+"company": "Parsons",
+"location": "US - MD, Aberdeen",
+"metro": "Washington DC",
+"url": "https://parsons.wd5.myworkdayjobs.com/en-US/Search/job/US---MD-Aberdeen/Radar-Systems-Engineer---Technical-Lead_R185548",
+"posted": "",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Parsons"
+},
+{
+"id": "radarsystemsengineermodelingprocessingspecialist|parsons|washingtondc",
+"title": "Radar Systems Engineer – Modeling / Processing Specialist",
+"company": "Parsons",
+"location": "US - MD, Aberdeen",
+"metro": "Washington DC",
+"url": "https://parsons.wd5.myworkdayjobs.com/en-US/Search/job/US---MD-Aberdeen/Radar-Systems-Engineer---Modeling---Processing-Specialist_R183222",
+"posted": "",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Parsons"
+},
+{
+"id": "seniorradarsmehybrid|parsons|washingtondc",
+"title": "Senior Radar SME (Hybrid)",
+"company": "Parsons",
+"location": "US - MD, Aberdeen / US - Remote (Any Location)",
+"metro": "Washington DC",
+"url": "https://parsons.wd5.myworkdayjobs.com/en-US/Search/job/US---MD-Aberdeen/Senior-Radar-SME--Hybrid-_R171335-1",
+"posted": "",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": true,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Parsons"
+},
+{
+"id": "seniorradarsubjectmatterexpertsme|parsons|washingtondc",
+"title": "Senior Radar Subject Matter Expert (SME)",
+"company": "Parsons",
+"location": "US - VA, Herndon",
+"metro": "Washington DC",
+"url": "https://parsons.wd5.myworkdayjobs.com/en-US/Search/job/US---VA-Herndon/Senior-Radar-Subject-Matter-Expert--SME-_R183402",
+"posted": "",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Parsons"
+},
+{
+"id": "radardataanalyst|parsons|washingtondc",
+"title": "Radar Data Analyst",
+"company": "Parsons",
+"location": "US - MD, Aberdeen",
+"metro": "Washington DC",
+"url": "https://parsons.wd5.myworkdayjobs.com/en-US/Search/job/US---MD-Aberdeen/Radar-Data-Analyst_R185824-1",
+"posted": "",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Parsons"
+},
+{
+"id": "chiefengineerradardivision|parsons|washingtondc",
+"title": "Chief Engineer — Radar Division",
+"company": "Parsons",
+"location": "US - MD, Aberdeen",
+"metro": "Washington DC",
+"url": "https://parsons.wd5.myworkdayjobs.com/en-US/Search/job/US---MD-Aberdeen/Chief-Engineer---Radar-Division_R184144",
+"posted": "",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Parsons"
+},
+{
+"id": "operationssystemsanalystelectronicwarfare|parsons|washingtondc",
+"title": "Operations Systems Analyst – Electronic Warfare",
+"company": "Parsons",
+"location": "US - VA, Dahlgren",
+"metro": "Washington DC",
+"url": "https://parsons.wd5.myworkdayjobs.com/en-US/Search/job/US---VA-Dahlgren/Operations-Systems-Analyst---Electronic-Warfare_R184661-1",
+"posted": "",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Parsons"
+},
+{
+"id": "externaljobpostingtitleradioastronomyradargrouprargengineer|peraton|washingtondc",
+"title": "External Job Posting Title Radio Astronomy Radar Group (RARG) Engineer",
+"company": "Peraton",
+"location": "Fort Belvoir, VA",
+"metro": "Washington DC",
+"url": "https://careers-peraton.icims.com/jobs/168831/radio-astronomy-radar-group-%28rarg%29-engineer/job",
+"posted": "",
+"sources": [
+"회사/icims"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Peraton"
+},
+{
+"id": "externaljobpostingtitlesatcomsoftwareengineersenioradvisor|peraton|washingtondc",
+"title": "External Job Posting Title SATCOM Software Engineer, Senior Advisor",
+"company": "Peraton",
+"location": "Fort Belvoir, VA",
+"metro": "Washington DC",
+"url": "https://careers-peraton.icims.com/jobs/167151/satcom-software-engineer%2c-senior-advisor/job",
+"posted": "",
+"sources": [
+"회사/icims"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Peraton"
 }
 ]
 }

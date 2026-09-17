@@ -1,21 +1,17 @@
 {
-"updated": "2026-09-17T14:29:44+00:00",
+"updated": "2026-09-17T15:24:35+00:00",
 "companies": [
 {
 "name": "Lockheed Martin",
 "group": "방산",
-"status": "ok",
-"via": "eightfold",
-"source": "{\"host\": \"lockheedmartin.eightfold.ai\", \"domain\": \"lockheedmartin.com\"}",
-"count": 63,
-"seconds": 59,
-"in_metro": 12,
-"other_locations": [
-"Moorestown, NJ",
-"Didcot, GBR / Manchester, GBR",
-"Littleton, CO",
-"Palmdale, CA"
-],
+"status": "fail",
+"via": "",
+"source": "",
+"count": 0,
+"error": "eightfold: Eightfold pcsx lockheedmartin.eightfold.ai: robots.txt에서 자동 수집을 막아둠, v2 lockheed",
+"seconds": 0,
+"in_metro": 0,
+"other_locations": [],
 "listed": 12
 },
 {
@@ -25,13 +21,13 @@
 "via": "workday",
 "source": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway",
 "count": 181,
-"seconds": 67,
+"seconds": 61,
 "in_metro": 48,
 "other_locations": [
-"US-TX-MCKINNEY-513WC",
-"US-TX-MCKINNEY-513WD",
+"Mckinney, TX",
 "Goleta, CA",
-"Aurora, CO"
+"Aurora, CO",
+"TW-HSQ-WUFONG-MILITARY-CUST"
 ],
 "listed": 48
 },
@@ -42,7 +38,7 @@
 "via": "workday",
 "source": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site",
 "count": 78,
-"seconds": 54,
+"seconds": 72,
 "in_metro": 41,
 "other_locations": [
 "Gilbert, Arizona",
@@ -59,7 +55,7 @@
 "via": "icims",
 "source": "https://careers-gdms.icims.com",
 "count": 7,
-"seconds": 13,
+"seconds": 19,
 "in_metro": 0,
 "other_locations": [
 "Scottsdale, AZ",
@@ -92,7 +88,7 @@
 "via": "phenom",
 "source": "https://jobs.baesystems.com/global/en",
 "count": 5,
-"seconds": 290,
+"seconds": 276,
 "in_metro": 2,
 "other_locations": [
 "Huntsville, Alabama",
@@ -103,18 +99,14 @@
 {
 "name": "L3Harris",
 "group": "방산",
-"status": "ok",
-"via": "radancy",
-"source": "https://careers.l3harris.com",
-"count": 25,
-"seconds": 2,
+"status": "blocked",
+"via": "",
+"source": "",
+"count": 0,
+"error": "radancy: careers.l3harris.com: robots.txt에서 자동 수집을 막아둠",
+"seconds": 0,
 "in_metro": 0,
-"other_locations": [
-"San Diego, CA",
-"Rochester, NY",
-"Greenville, TX",
-"Yorba Linda, CA"
-],
+"other_locations": [],
 "listed": 0
 },
 {
@@ -124,7 +116,7 @@
 "via": "workday",
 "source": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS",
 "count": 14,
-"seconds": 26,
+"seconds": 35,
 "in_metro": 0,
 "other_locations": [
 "USA - El Segundo, CA",
@@ -141,7 +133,7 @@
 "via": "successfactors",
 "source": "https://jobs.hii-tsd.com",
 "count": 17,
-"seconds": 20,
+"seconds": 33,
 "in_metro": 3,
 "other_locations": [
 "Hurlburt Field, FL, Florida",
@@ -159,7 +151,7 @@
 "source": "",
 "count": 0,
 "error": "채용 시스템을 찾지 못함",
-"seconds": 1,
+"seconds": 3,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0
@@ -171,7 +163,7 @@
 "via": "successfactors",
 "source": "https://careers.leonardodrs.com",
 "count": 3,
-"seconds": 7,
+"seconds": 13,
 "in_metro": 3,
 "other_locations": [],
 "listed": 3
@@ -183,7 +175,7 @@
 "via": "workday",
 "source": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site",
 "count": 2,
-"seconds": 6,
+"seconds": 9,
 "in_metro": 0,
 "other_locations": [
 "Lone Tree, CO",
@@ -199,7 +191,7 @@
 "source": "",
 "count": 0,
 "error": "채용 시스템을 찾지 못함",
-"seconds": 0,
+"seconds": 1,
 "in_metro": 0,
 "other_locations": [],
 "listed": 1
@@ -211,7 +203,7 @@
 "via": "workday",
 "source": "https://leidos.wd5.myworkdayjobs.com/External",
 "count": 52,
-"seconds": 74,
+"seconds": 73,
 "in_metro": 9,
 "other_locations": [
 "Huntsville, AL",
@@ -229,7 +221,7 @@
 "source": "",
 "count": 0,
 "error": "채용 시스템을 찾지 못함",
-"seconds": 0,
+"seconds": 1,
 "in_metro": 0,
 "other_locations": [],
 "listed": 2
@@ -237,18 +229,14 @@
 {
 "name": "CACI",
 "group": "방산",
-"status": "ok",
-"via": "eightfold",
-"source": "{\"host\": \"caci.eightfold.ai\", \"domain\": \"caci.com\"}",
-"count": 28,
-"seconds": 46,
-"in_metro": 17,
-"other_locations": [
-"Panama City, FL",
-"Albuquerque, NM",
-"Portsmouth, VA",
-"Rochester, NY"
-],
+"status": "fail",
+"via": "",
+"source": "",
+"count": 0,
+"error": "eightfold: Eightfold pcsx caci.eightfold.ai: robots.txt에서 자동 수집을 막아둠, v2 caci.eightfold.ai:",
+"seconds": 0,
+"in_metro": 0,
+"other_locations": [],
 "listed": 16
 },
 {
@@ -258,15 +246,15 @@
 "via": "workday",
 "source": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs",
 "count": 23,
-"seconds": 29,
-"in_metro": 10,
+"seconds": 34,
+"in_metro": 12,
 "other_locations": [
 "Australia",
 "San Diego, CA",
-"Fort Belvoir, VA",
-"California, MD"
+"Beavercreek, OH",
+"Beavercreek, OH / Wright Patterson AFB, OH"
 ],
-"listed": 9
+"listed": 11
 },
 {
 "name": "Parsons",
@@ -275,12 +263,13 @@
 "via": "workday",
 "source": "https://parsons.wd5.myworkdayjobs.com/Search",
 "count": 16,
-"seconds": 52,
-"in_metro": 0,
+"seconds": 78,
+"in_metro": 9,
 "other_locations": [
-"(위치 없음)"
+"US - AL, Huntsville",
+"SA - Al Kharj"
 ],
-"listed": 0
+"listed": 9
 },
 {
 "name": "Peraton",
@@ -289,15 +278,15 @@
 "via": "icims",
 "source": "https://careers-peraton.icims.com",
 "count": 18,
-"seconds": 4,
-"in_metro": 10,
+"seconds": 8,
+"in_metro": 12,
 "other_locations": [
 "Red Bank, NJ",
 "US",
 "Fort Irwin, CA",
-"Fort Belvoir, VA"
+"(위치 없음)"
 ],
-"listed": 12
+"listed": 14
 },
 {
 "name": "ManTech",
@@ -307,7 +296,7 @@
 "source": "",
 "count": 0,
 "error": "workday: Workday 결과 0건 (사이트 이름 확인 필요)",
-"seconds": 5,
+"seconds": 8,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0
@@ -319,7 +308,7 @@
 "via": "workday",
 "source": "https://pae.wd1.myworkdayjobs.com/Amentum_Careers",
 "count": 24,
-"seconds": 19,
+"seconds": 26,
 "in_metro": 5,
 "other_locations": [
 "Huntsville, AL",
@@ -332,12 +321,12 @@
 {
 "name": "V2X",
 "group": "방산",
-"status": "fail",
+"status": "blocked",
 "via": "",
 "source": "",
 "count": 0,
-"error": "icims: iCIMS 결과 0건 (형식 확인 필요)",
-"seconds": 4,
+"error": "icims: careers-gov2x.icims.com: robots.txt에서 자동 수집을 막아둠",
+"seconds": 1,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0
@@ -348,10 +337,12 @@
 "status": "ok",
 "via": "phenom",
 "source": "https://careers.kbr.com/us/en",
-"count": 9,
-"seconds": 302,
-"in_metro": 9,
-"other_locations": [],
+"count": 3,
+"seconds": 279,
+"in_metro": 0,
+"other_locations": [
+"San Diego, California / Newport, Rhode Island"
+],
 "listed": 9
 },
 {
@@ -408,12 +399,12 @@
 {
 "name": "Viasat",
 "group": "방산",
-"status": "fail",
+"status": "blocked",
 "via": "",
 "source": "",
 "count": 0,
-"error": "icims: iCIMS 결과 0건 (형식 확인 필요); icims: iCIMS 결과 0건 (형식 확인 필요); icims: iCIMS 결과 0건 (형식 확인 필요)",
-"seconds": 14,
+"error": "icims: careers-viasat.icims.com: robots.txt에서 자동 수집을 막아둠; icims: employees-viasat.icims.com: robots.txt에서 자동 수집을 막아둠; icims: globalcareers-viasat.icims.com: robots.txt에서 자동 수집을 막아둠",
+"seconds": 3,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0
@@ -426,7 +417,7 @@
 "source": "",
 "count": 0,
 "error": "채용 시스템을 찾지 못함",
-"seconds": 1,
+"seconds": 2,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0
@@ -468,7 +459,7 @@
 "via": "lever",
 "source": "shieldai",
 "count": 0,
-"seconds": 2,
+"seconds": 1,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0
@@ -508,7 +499,7 @@
 "via": "workday",
 "source": "https://avav.wd1.myworkdayjobs.com/AVAV",
 "count": 7,
-"seconds": 13,
+"seconds": 19,
 "in_metro": 3,
 "other_locations": [
 "Albuquerque, NM",
@@ -523,7 +514,7 @@
 "via": "lever",
 "source": "palantir",
 "count": 0,
-"seconds": 2,
+"seconds": 1,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0
@@ -573,7 +564,7 @@
 "source": "",
 "count": 0,
 "error": "greenhouse: Greenhouse HTTP 404; ashby: Ashby HTTP 404; lever: Lever HTTP 404",
-"seconds": 2,
+"seconds": 1,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0
@@ -610,7 +601,7 @@
 "via": "successfactors",
 "source": "https://careers.ll.mit.edu",
 "count": 12,
-"seconds": 7,
+"seconds": 11,
 "in_metro": 12,
 "other_locations": [],
 "listed": 12
@@ -634,7 +625,7 @@
 "via": "jobsyn",
 "source": "sandia.jobs",
 "count": 7,
-"seconds": 5,
+"seconds": 11,
 "in_metro": 0,
 "other_locations": [
 "Albuquerque, NM"
@@ -647,11 +638,11 @@
 "status": "ok",
 "via": "workday",
 "source": "https://draper.wd5.myworkdayjobs.com/Draper_Careers",
-"count": 3,
-"seconds": 6,
-"in_metro": 3,
+"count": 4,
+"seconds": 5,
+"in_metro": 4,
 "other_locations": [],
-"listed": 3
+"listed": 4
 },
 {
 "name": "MITRE",
@@ -660,24 +651,23 @@
 "via": "phenom",
 "source": "https://careers.mitre.org/us/en",
 "count": 15,
-"seconds": 286,
-"in_metro": 12,
+"seconds": 277,
+"in_metro": 13,
 "other_locations": [
 "Boulder, Colorado",
-"El Segundo, California",
-"Hanscom Air Force Base, Massachusetts"
+"El Segundo, California"
 ],
-"listed": 12
+"listed": 13
 },
 {
 "name": "Johns Hopkins APL",
 "group": "연구소",
-"status": "fail",
+"status": "blocked",
 "via": "",
 "source": "",
 "count": 0,
-"error": "icims: iCIMS 결과 0건 (형식 확인 필요); icims: iCIMS HTTP 404; icims: iCIMS 결과 0건 (형식 확인 필요); radancy: Radancy HTTP 404",
-"seconds": 11,
+"error": "icims: careers-jhuapl.icims.com: robots.txt에서 자동 수집을 막아둠; icims: iCIMS HTTP 404; icims: jhuapl.icims.com: robots.txt에서 자동 수집을 막아둠; radancy: www.jhuapl.edu: robots.txt에서 자동 수집을 막아둠",
+"seconds": 2,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0
@@ -689,7 +679,7 @@
 "via": "workday",
 "source": "https://aero.wd5.myworkdayjobs.com/External",
 "count": 25,
-"seconds": 29,
+"seconds": 25,
 "in_metro": 9,
 "other_locations": [
 "El Segundo, CA",
@@ -706,7 +696,7 @@
 "via": "icims",
 "source": "https://careers-sri.icims.com",
 "count": 4,
-"seconds": 1,
+"seconds": 4,
 "in_metro": 0,
 "other_locations": [
 "Boulder, CO",
@@ -722,7 +712,7 @@
 "source": "",
 "count": 0,
 "error": "채용 시스템을 찾지 못함",
-"seconds": 0,
+"seconds": 1,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0
@@ -734,7 +724,7 @@
 "via": "icims",
 "source": "https://careers-riversideresearch.icims.com",
 "count": 4,
-"seconds": 2,
+"seconds": 4,
 "in_metro": 1,
 "other_locations": [
 "Dayton, OH",
@@ -751,7 +741,7 @@
 "source": "",
 "count": 0,
 "error": "채용 시스템을 찾지 못함",
-"seconds": 0,
+"seconds": 1,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0
@@ -764,7 +754,7 @@
 "source": "",
 "count": 0,
 "error": "greenhouse: Greenhouse HTTP 404; lever: Lever HTTP 404",
-"seconds": 1,
+"seconds": 2,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0
@@ -775,32 +765,28 @@
 "status": "ok",
 "via": "apple",
 "source": "true",
-"count": 80,
-"seconds": 44,
+"count": 81,
+"seconds": 73,
 "in_metro": 7,
 "other_locations": [
 "Sunnyvale",
-"San Diego",
 "Los Angeles Metro Area",
+"San Diego",
 "Austin"
 ],
-"listed": 15
+"listed": 16
 },
 {
 "name": "Qualcomm",
 "group": "RF·통신",
-"status": "ok",
-"via": "eightfold",
-"source": "{\"host\": \"careers.qualcomm.com\", \"domain\": \"qualcomm.com\"}",
-"count": 42,
-"seconds": 27,
-"in_metro": 6,
-"other_locations": [
-"San Diego, California",
-"Tijuana, Baja California, Mexico",
-"Hyderabad, Telangāna, India",
-"Bangalore, India"
-],
+"status": "fail",
+"via": "",
+"source": "",
+"count": 0,
+"error": "eightfold: Eightfold pcsx careers.qualcomm.com: robots.txt에서 자동 수집을 막아둠, v2 careers.qualcom; eightfold: Eightfold pcsx qualcomm.eightfold.ai: robots.txt에서 자동 수집을 막아둠, v2 qualcomm.eight",
+"seconds": 0,
+"in_metro": 0,
+"other_locations": [],
 "listed": 7
 },
 {
@@ -813,8 +799,8 @@
 "seconds": 0,
 "in_metro": 13,
 "other_locations": [
-"Redmond, WA",
 "Irvine, CA",
+"Redmond, WA",
 "Bastrop, TX",
 "Hawthorne, CA"
 ],

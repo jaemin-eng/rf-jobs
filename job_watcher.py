@@ -144,14 +144,14 @@ def fetch_jsearch(cfg, state):
     last = state.get("jsearch_last_run")
     if last and not os.getenv("FORCE_ALL"):
         elapsed = datetime.now(timezone.utc) - datetime.fromisoformat(last)
-        if elapsed < timedelta(days=src.get("run_every_days", 1), hours=-2):
+        if elapsed < timedelta(days=src.get("run_every_days", 1), hours=-6):
             log(f"JSearch: 건너뜀 (마지막 실행 {elapsed.days}일 전, 호출량 절약)")
             return []
     # JSearch를 처음 쓰는 실행이면 한 달치, 이후엔 평소 범위
     if last:
         days, pages = cfg["max_days_old"], 1
     else:
-        days, pages = cfg.get("backfill_days", 30), 2
+        days, pages = cfg.get("backfill_days", 30), 1
         log("JSearch: 첫 실행이라 최근 한 달치를 가져옵니다")
     date_posted = "today" if days <= 1 else "3days" if days <= 3 else "week" if days <= 7 else "month"
     headers = {"X-RapidAPI-Key": key, "X-RapidAPI-Host": "jsearch.p.rapidapi.com"}

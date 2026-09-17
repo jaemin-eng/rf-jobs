@@ -95,10 +95,10 @@ metros:
 # ------------------------------------------------------------
 sources:
   # JSearch: LinkedIn / Indeed / Glassdoor / ZipRecruiter 등 (Google for Jobs 기반)
-  # 무료 요금제 월 호출 수가 적으므로(약 200회) 며칠에 한 번만 실행
+  # 무료 요금제 월 200회: 하루 1회 x 검색어 2개 x 지역 3곳 = 하루 6회 (월 최대 186회)
   jsearch:
     enabled: true
-    run_every_days: 2
+    run_every_days: 1
     # 호출 수 절약: 검색어를 OR로 묶어 지역당 1~2회만 호출
     combined_queries:
       - "RF engineer OR antenna engineer OR microwave engineer"

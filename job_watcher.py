@@ -213,6 +213,44 @@ def _adzuna_location(loc):
     return name
 
 
+def fetch_adzuna(cfg, state):
+    app_id, app_key = os.getenv("ADZUNA_APP_ID"), os.getenv("ADZUNA_APP_KEY")
+    if not cfg["sources"]["adzuna"].get("enabled") or not (app_id and app_key):
+        log("Adzuna: 건너뜀 (비활성 또는 키 없음)")
+        return []
+    days, pages = window(cfg, state)
+    jobs, calls = [], 0
+    for metro, m in cfg["metros"].items():
+        for q in cfg["search_queries"]:
+            for page in range(1, pages + 1):
+                data = get_json(
+                    f"https://api.adzuna.com/v1/api/jobs/us/search/{page}",
+                    params={"app_id": app_id, "app_key": app_key, "what_phrase": q,
+                            "where": m["adzuna_where"],
+                            "distance": int(m["radius_miles"] * 1.609),
+                            "max_days_old": days,
+                            "results_per_page": 50, "content-type": "application/json"},
+                )
+                calls += 1
+                results = (data or {}).get("results", []) or []
+                for d in results:
+                    jobs.append(Job(
+                        source="Adzuna",
+                        source_id=str(d.get("id")),
+                        title=re.sub(r"<[^>]+>", "", d.get("title") or ""),
+                        company=(d.get("company") or {}).get("display_name", ""),
+                        location=_adzuna_location(d.get("location") or {}),
+                        url=d.get("redirect_url") or "",
+                        posted=(d.get("created") or "")[:10],
+                        description=d.get("description") or "",
+                    ))
+                time.sleep(2.6)  # 무료 한도: 분당 25회
+                if len(results) < 50:
+                    break
+    log(f"Adzuna: 최근 {days}일, 호출 {calls}회, {len(jobs)}건")
+    return jobs
+
+
 def fetch_usajobs(cfg, state):
     src = cfg["sources"]["usajobs"]
     key, email = os.getenv("USAJOBS_API_KEY"), os.getenv("USAJOBS_EMAIL")

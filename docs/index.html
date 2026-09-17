@@ -149,7 +149,7 @@ footer button{font:inherit;background:none;border:0;color:var(--trace);cursor:po
   <details class="coverage" id="coverage">
     <summary>회사 직접 연결 현황<span class="sub" id="covSub"></span></summary>
     <div class="cov-wrap"><table class="cov"><thead><tr>
-      <th>회사</th><th>그룹</th><th>상태</th><th>방식</th><th style="text-align:right">대시보드 공고</th><th>참고</th>
+      <th>회사</th><th>그룹</th><th>상태</th><th>방식</th><th style="text-align:right">대시보드 공고</th><th>채용 페이지</th><th>참고</th>
     </tr></thead><tbody id="covBody"></tbody></table></div>
   </details>
 
@@ -274,7 +274,7 @@ function renderCoverage(){
   if (!companies.length) { $("#coverage").hidden = true; return; }
   $("#coverage").hidden = false;
   const ok = companies.filter(c => c.status === "ok").length;
-  $("#covSub").textContent = `${companies.length}곳 중 ${ok}곳 연결됨`;
+  $("#covSub").textContent = `${companies.length}곳 중 ${ok}곳 자동 수집 · 나머지는 채용 페이지를 직접 열어보세요`;
   const order = {fail:0, blocked:1, ok:2};
   const rows = [...companies].sort((a,b) => (order[a.status]-order[b.status]) || GROUPS.indexOf(a.group)-GROUPS.indexOf(b.group) || a.name.localeCompare(b.name));
   $("#covBody").innerHTML = rows.map(c => `<tr>
@@ -283,6 +283,7 @@ function renderCoverage(){
     <td>${c.status==="ok" ? '<span class="okm">연결됨</span>' : c.status==="blocked" ? '<span class="bad">수집 금지</span>' : '<span class="bad">실패</span>'}</td>
     <td>${esc(c.via||"")}</td>
     <td class="num">${c.listed ?? 0}</td>
+    <td>${c.link ? `<a href="${esc(c.link)}" target="_blank" rel="noopener">열기 ↗</a>` : ""}</td>
     <td class="err">${c.status==="ok"
       ? `RF 관련 ${c.count}건 중 대상 지역 ${c.in_metro ?? "?"}건` + ((c.other_locations||[]).length ? ` · 그 외 위치 예: ${esc(c.other_locations.join(", "))}` : "")
       : esc(c.error||"")+" · Adzuna/JSearch 회사명 검색으로 보완 중"}</td>

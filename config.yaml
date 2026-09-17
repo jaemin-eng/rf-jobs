@@ -58,6 +58,7 @@ include_remote: false
 metros:
   "SF Bay Area":
     search_location: "San Francisco Bay Area, CA"
+    jsearch_location: "San Francisco Bay Area, CA"
     adzuna_where: "San Francisco"
     radius_miles: 60
     states: ["CA"]
@@ -66,9 +67,13 @@ metros:
              Redwood City, San Mateo, Foster City, Burlingame, San Carlos, Belmont,
              San Bruno, Fremont, Newark, Union City, Hayward, Milpitas, Pleasanton,
              Livermore, Dublin, San Ramon, Walnut Creek, Concord, Alameda, Richmond,
-             Los Gatos, Campbell, Saratoga, Morgan Hill, Los Altos, Scotts Valley, Bay Area]
+             Los Gatos, Campbell, Saratoga, Morgan Hill, Los Altos, Scotts Valley, Gilroy,
+             Moffett Field, Millbrae, Daly City, Brisbane, Atherton, Woodside, Portola Valley,
+             San Leandro, Castro Valley, El Cerrito, Albany, Danville, Pleasant Hill,
+             Martinez, Vallejo, Benicia, San Rafael, Novato, Petaluma, Mill Valley, Sausalito, Bay Area]
   "Boston":
     search_location: "Boston, MA"
+    jsearch_location: "Boston, MA"
     adzuna_where: "Boston"
     radius_miles: 45
     states: ["MA", "NH"]
@@ -77,9 +82,14 @@ metros:
              Lexington, Woburn, Wilmington, Tewksbury, Andover, North Andover, Billerica,
              Chelmsford, Lowell, Westford, Littleton, Acton, Maynard, Concord, Medford,
              Malden, Quincy, Braintree, Canton, Norwood, Westwood, Beverly, Danvers,
-             Peabody, Salem, Lynnfield, Marlboro, Boxborough, Nashua, Salem NH, Hampton]
+             Peabody, Salem, Lynnfield, Marlboro, Boxborough, Nashua, Salem NH, Hampton,
+             Tyngsborough, Dracut, Methuen, Lawrence, Haverhill, Stoneham, Reading,
+             North Reading, Wakefield, Lynn, Saugus, Dedham, Sudbury, Wayland, Southborough,
+             Northborough, Westborough, Devens, Ayer, Stow, Carlisle, Sharon, Foxborough,
+             Mansfield, Arlington, Belmont, Winchester, Merrimack, Hudson NH, Manchester]
   "Washington DC":
     search_location: "Washington, DC"
+    jsearch_location: "Washington, DC"
     adzuna_where: "Washington, DC"
     radius_miles: 45
     states: ["DC", "VA", "MD"]
@@ -88,7 +98,11 @@ metros:
              Leesburg, Manassas, Springfield, Lorton, Woodbridge, Bethesda, Rockville,
              Gaithersburg, Germantown, Silver Spring, College Park, Greenbelt, Lanham,
              Laurel, Columbia, Annapolis Junction, Fort Meade, Hanover, Linthicum,
-             Elkridge, Frederick, Beltsville, Adelphi, Suitland, Largo, Bowie]
+             Elkridge, Frederick, Beltsville, Adelphi, Suitland, Largo, Bowie,
+             Baltimore, Towson, Annapolis, Odenton, Millersville, Glen Burnie, Severn,
+             Hunt Valley, Owings Mills, Aberdeen, Patuxent River, Lexington Park,
+             Dahlgren, King George, Stafford, Quantico, Fredericksburg, Gainesville,
+             Haymarket, Centreville, Clifton, Warrenton]
 
 # ------------------------------------------------------------
 # 데이터 소스
@@ -99,10 +113,15 @@ sources:
   jsearch:
     enabled: true
     run_every_days: 1
-    # 호출 수 절약: 검색어를 OR로 묶어 지역당 1~2회만 호출
-    combined_queries:
-      - "RF engineer OR antenna engineer OR microwave engineer"
-      - "EMC engineer OR EMI engineer OR RF design engineer"
+    # 하루에 지역마다 아래 검색어 중 2개씩 돌아가며 사용 (3일이면 한 바퀴)
+    queries_per_day: 2
+    rotating_queries:
+      - "RF engineer"
+      - "antenna engineer"
+      - "EMC engineer"
+      - "RF design engineer"
+      - "microwave engineer"
+      - "EMI compliance engineer"
 
   # Adzuna: 무료 API, 여러 채용 사이트를 모아줌
   adzuna:
@@ -118,7 +137,7 @@ sources:
   # 그 <slug>를 추가하세요. 없는 slug는 자동으로 건너뜁니다.
   greenhouse:
     enabled: true
-    companies: [andurilindustries, spacex, astranis, samsara, verkada, apexspace]
+    companies: [andurilindustries, spacex, astranis, samsara, verkada]
   lever:
     enabled: true
-    companies: [shieldai, epirus, palantir]
+    companies: [shieldai, palantir]

@@ -142,83 +142,64 @@ def fetch_jsearch(cfg, state):
         log("JSearch: 건너뜀 (비활성 또는 RAPIDAPI_KEY 없음)")
         return []
     last = state.get("jsearch_last_run")
-    if last and not os.getenv("FORCE_ALL"):
+    # 아직 결과를 한 번도 못 받았으면(설정 확인 중) 하루 제한 없이 다시 시도
+    if last and state.get("jsearch_backfilled") and not os.getenv("FORCE_ALL"):
         elapsed = datetime.now(timezone.utc) - datetime.fromisoformat(last)
         if elapsed < timedelta(days=src.get("run_every_days", 1), hours=-6):
-            log(f"JSearch: 건너뜀 (마지막 실행 {elapsed.days}일 전, 호출량 절약)")
+            log(f"JSearch: 건너뜀 (오늘 이미 실행, 월 호출량 절약)")
             return []
-    # JSearch를 처음 쓰는 실행이면 한 달치, 이후엔 평소 범위
-    if last:
-        days, pages = cfg["max_days_old"], 1
+
+    queries = src["rotating_queries"]
+    per_day = src.get("queries_per_day", 2)
+    turn = state.get("jsearch_turn", 0)
+    todays = [queries[(turn + i) % len(queries)] for i in range(per_day)]
+    # 아직 한 번도 결과를 받은 적이 없으면 한 달치, 이후엔 검색어 한 바퀴(일수)만큼
+    if not state.get("jsearch_backfilled"):
+        date_posted = "month"
     else:
-        days, pages = cfg.get("backfill_days", 30), 1
-        log("JSearch: 첫 실행이라 최근 한 달치를 가져옵니다")
-    date_posted = "today" if days <= 1 else "3days" if days <= 3 else "week" if days <= 7 else "month"
+        cycle = -(-len(queries) // per_day)
+        date_posted = "3days" if cycle <= 3 else "week"
+    log(f"JSearch: 오늘 검색어 {todays}, 기간 {date_posted}")
+
     headers = {"X-RapidAPI-Key": key, "X-RapidAPI-Host": "jsearch.p.rapidapi.com"}
-    jobs = []
+    jobs, calls, problems = [], 0, []
     for metro, m in cfg["metros"].items():
-        for q in src["combined_queries"]:
-            data = get_json(
-                "https://jsearch.p.rapidapi.com/search",
-                headers=headers,
-                params={"query": f"{q} in {m['search_location']}", "page": 1,
-                        "num_pages": pages, "date_posted": date_posted, "country": "us"},
-            )
-            for d in (data or {}).get("data", []) or []:
+        for q in todays:
+            query = f"{q} in {m['jsearch_location']}"
+            try:
+                r = requests.get("https://jsearch.p.rapidapi.com/search", headers=headers, timeout=TIMEOUT,
+                                 params={"query": query, "page": 1, "num_pages": 1,
+                                         "date_posted": date_posted, "country": "us"})
+                calls += 1
+                body = r.json() if r.headers.get("content-type", "").startswith("application/json") else {}
+            except (requests.RequestException, ValueError) as e:
+                problems.append(f"{query}: {e}")
+                continue
+            data = body.get("data") or []
+            if r.status_code != 200 or not data:
+                msg = body.get("message") or body.get("error") or body.get("status") or r.text[:120]
+                problems.append(f"{query} -> HTTP {r.status_code}, {len(data)}건, {msg}")
+            for d in data:
                 loc = ", ".join(x for x in [d.get("job_city"), d.get("job_state")] if x)
                 jobs.append(Job(
                     source=f"JSearch/{d.get('job_publisher') or '?'}",
                     source_id=str(d.get("job_id")),
                     title=d.get("job_title") or "",
                     company=d.get("employer_name") or "",
-                    location=loc or ("Remote" if d.get("job_is_remote") else ""),
+                    location=loc or d.get("job_location") or ("Remote" if d.get("job_is_remote") else ""),
                     url=d.get("job_apply_link") or "",
                     posted=(d.get("job_posted_at_datetime_utc") or "")[:10],
                     description=d.get("job_description") or "",
                     remote=bool(d.get("job_is_remote")),
                 ))
             time.sleep(1)
+    for pr in problems[:6]:
+        log(f"  JSearch 참고: {pr}")
     state["jsearch_last_run"] = datetime.now(timezone.utc).isoformat()
-    log(f"JSearch: {len(jobs)}건")
-    return jobs
-
-
-def fetch_adzuna(cfg, state):
-    app_id, app_key = os.getenv("ADZUNA_APP_ID"), os.getenv("ADZUNA_APP_KEY")
-    if not cfg["sources"]["adzuna"].get("enabled") or not (app_id and app_key):
-        log("Adzuna: 건너뜀 (비활성 또는 키 없음)")
-        return []
-    days, pages = window(cfg, state)
-    jobs, calls = [], 0
-    for metro, m in cfg["metros"].items():
-        for q in cfg["search_queries"]:
-            for page in range(1, pages + 1):
-                data = get_json(
-                    f"https://api.adzuna.com/v1/api/jobs/us/search/{page}",
-                    params={"app_id": app_id, "app_key": app_key, "what_phrase": q,
-                            "where": m["adzuna_where"],
-                            "distance": int(m["radius_miles"] * 1.609),
-                            "max_days_old": days,
-                            "results_per_page": 50, "content-type": "application/json"},
-                )
-                calls += 1
-                results = (data or {}).get("results", []) or []
-                for d in results:
-                    jobs.append(Job(
-                        source="Adzuna",
-                        source_id=str(d.get("id")),
-                        title=re.sub(r"<[^>]+>", "", d.get("title") or ""),
-                        company=(d.get("company") or {}).get("display_name", ""),
-                        location=_adzuna_location(d.get("location") or {}),
-                        url=d.get("redirect_url") or "",
-                        posted=(d.get("created") or "")[:10],
-                        description=d.get("description") or "",
-                    ))
-                time.sleep(2.6)  # 무료 한도: 분당 25회
-                if len(results) < 50:
-                    break
-    log(f"Adzuna: 최근 {days}일, 호출 {calls}회")
-    log(f"Adzuna: {len(jobs)}건")
+    state["jsearch_turn"] = (turn + per_day) % len(queries)
+    if jobs:
+        state["jsearch_backfilled"] = True
+    log(f"JSearch: 호출 {calls}회, {len(jobs)}건")
     return jobs
 
 

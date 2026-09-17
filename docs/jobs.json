@@ -1,5 +1,5 @@
 {
-"updated": "2026-09-17T22:21:47+00:00",
+"updated": "2026-09-17T22:57:46+00:00",
 "jobs": [
 {
 "id": "rfengineer30280|hiimissionte|washingtondc",
@@ -335,6 +335,24 @@
 "last_seen": "2026-09-17",
 "group": "연구소",
 "company_key": "Lawrence Livermore National Laboratory"
+},
+{
+"id": "rfsystemsengineer|murataameric|boston",
+"title": "RF Systems Engineer",
+"company": "Murata America",
+"location": "Waltham, Middlesex County, Massachusetts",
+"metro": "Boston",
+"url": "https://www.adzuna.com/details/5888246912?utm_medium=api&utm_source=d677d981",
+"posted": "2026-09-17",
+"sources": [
+"Adzuna"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "",
+"company_key": null
 },
 {
 "id": "rfoperationsengineer1careerfaironly|markimicrowa|sfbayarea",
@@ -1238,6 +1256,60 @@
 "company_key": "CACI"
 },
 {
+"id": "leadsystemsandrfsystemengineer|str|boston",
+"title": "Lead Systems and RF System Engineer",
+"company": "STR",
+"location": "Woburn, MA",
+"metro": "Boston",
+"url": "https://job-boards.greenhouse.io/systemstechnologyresearch/jobs/4696145006",
+"posted": "2026-09-15",
+"sources": [
+"회사/greenhouse"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "STR"
+},
+{
+"id": "principalradarsystemsengineer|str|boston",
+"title": "Principal Radar Systems Engineer",
+"company": "STR",
+"location": "Woburn, MA",
+"metro": "Boston",
+"url": "https://job-boards.greenhouse.io/systemstechnologyresearch/jobs/4712466006",
+"posted": "2026-09-15",
+"sources": [
+"회사/greenhouse"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "STR"
+},
+{
+"id": "seniorcyberrfhardwareengineer|str|boston",
+"title": "Senior Cyber RF Hardware Engineer",
+"company": "STR",
+"location": "Woburn, MA",
+"metro": "Boston",
+"url": "https://job-boards.greenhouse.io/systemstechnologyresearch/jobs/4612572006",
+"posted": "2026-09-15",
+"sources": [
+"회사/greenhouse"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "STR"
+},
+{
 "id": "rfengineerlevelivtssciclearance|lockheedmart|sfbayarea",
 "title": "RF Engineer (Level IV) - TS/SCI clearance with Security Clearance",
 "company": "Lockheed Martin",
@@ -2071,12 +2143,13 @@
 "id": "seniorrfengineer|str|boston",
 "title": "Senior RF Engineer with Security Clearance",
 "company": "STR",
-"location": "Woburn, Middlesex County, Massachusetts",
+"location": "Woburn, MA",
 "metro": "Boston",
-"url": "https://www.adzuna.com/land/ad/5873936312?se=oLoM10Oy8RGW7Jd0wGJW9Q&utm_medium=api&utm_source=d677d981&v=7CB23291F7B8B907B9125262B845528D9ECC239B",
+"url": "https://job-boards.greenhouse.io/systemstechnologyresearch/jobs/4702801006",
 "posted": "2026-09-07",
 "sources": [
-"Adzuna"
+"Adzuna",
+"회사/greenhouse"
 ],
 "flags": [
 "⚠️ 클리어런스/시민권"
@@ -6588,6 +6661,60 @@
 "location": "Lexington, MA",
 "metro": "Boston",
 "url": "https://careers.ll.mit.edu/job/Lexington-Technical-Staff-Radar-Systems-Engineer-MA-02420/1431189100/",
+"posted": "",
+"sources": [
+"회사/successfactors"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "MIT Lincoln Laboratory"
+},
+{
+"id": "associatestaffrfsystemdesignandelectromagneticspectrumoperations|mitlincolnla|boston",
+"title": "Associate Staff - RF System Design and Electromagnetic Spectrum Operations",
+"company": "MIT Lincoln Laboratory",
+"location": "Lexington, MA",
+"metro": "Boston",
+"url": "https://careers.ll.mit.edu/job/Lexington-Associate-Staff-RF-System-Design-and-Electromagnetic-Spectrum-Operations-MA-02420/1431322000/",
+"posted": "",
+"sources": [
+"회사/successfactors"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "MIT Lincoln Laboratory"
+},
+{
+"id": "assistantstaffrfsystemsandelectromagneticspectrumoperations|mitlincolnla|boston",
+"title": "Assistant Staff - RF Systems and Electromagnetic Spectrum Operations",
+"company": "MIT Lincoln Laboratory",
+"location": "Lexington, MA",
+"metro": "Boston",
+"url": "https://careers.ll.mit.edu/job/Lexington-Assistant-Staff-RF-Systems-and-Electromagnetic-Spectrum-Operations-MA-02420/1431322600/",
+"posted": "",
+"sources": [
+"회사/successfactors"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "MIT Lincoln Laboratory"
+},
+{
+"id": "technicalstaffrfsystemdesignandelectromagneticspectrumoperations|mitlincolnla|boston",
+"title": "Technical Staff - RF System Design and Electromagnetic Spectrum Operations",
+"company": "MIT Lincoln Laboratory",
+"location": "Lexington, MA",
+"metro": "Boston",
+"url": "https://careers.ll.mit.edu/job/Lexington-Technical-Staff-RF-System-Design-and-Electromagnetic-Spectrum-Operations-MA-02420/1431321800/",
 "posted": "",
 "sources": [
 "회사/successfactors"

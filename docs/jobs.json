@@ -1,5 +1,5 @@
 {
-"updated": "2026-09-17T09:01:00+00:00",
+"updated": "2026-09-17T09:33:09+00:00",
 "jobs": [
 {
 "id": "rfengineer30280withsecurityclearance|hiimissiontechnologies|washingtondc",
@@ -18,6 +18,62 @@
 "remote": false,
 "first_seen": "2026-09-17",
 "last_seen": "2026-09-17"
+},
+{
+"id": "rfengineer30280withsecurityclearance|hiimissionte|washingtondc",
+"title": "RF Engineer - 30280 with Security Clearance",
+"company": "HII (Mission Technologies)",
+"location": "Annapolis, Anne Arundel County, Maryland",
+"metro": "Washington DC",
+"url": "https://www.adzuna.com/land/ad/5887131176?se=jlS6V3my8RGW7Jd0wGJW9Q&utm_medium=api&utm_source=d677d981&v=697DA27EA32C7BEECD1DACFB11D4388C01F4E888",
+"posted": "2026-09-17",
+"sources": [
+"Adzuna"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "HII (Mission Technologies)"
+},
+{
+"id": "rfsystemsengineer|baesystems|boston",
+"title": "RF Systems Engineer",
+"company": "BAE Systems",
+"location": "Hudson, New Hampshire, United States / Hudson, New Hampshire, United States",
+"metro": "Boston",
+"url": "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25771&siteid=5403&jobid=300266",
+"posted": "2026-09-17",
+"sources": [
+"회사/phenom"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "BAE Systems"
+},
+{
+"id": "electronicattackewsystemsengineer|baesystems|boston",
+"title": "Electronic Attack EW Systems Engineer",
+"company": "BAE Systems",
+"location": "Nashua, New Hampshire, United States / Nashua, New Hampshire, United States",
+"metro": "Boston",
+"url": "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25771&siteid=5403&jobid=298827",
+"posted": "2026-09-17",
+"sources": [
+"회사/phenom"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "BAE Systems"
 },
 {
 "id": "rfoperationsengineer1careerfaironly|markimicrowavellc|sfbayarea",
@@ -41,16 +97,19 @@
 "company": "SpaceX",
 "location": "Palo Alto, Santa Clara County, California",
 "metro": "SF Bay Area",
-"url": "https://www.adzuna.com/details/5886469666?utm_medium=api&utm_source=d677d981",
+"url": "https://boards.greenhouse.io/spacex/jobs/8698740002?gh_jid=8698740002",
 "posted": "2026-09-16",
 "sources": [
 "Adzuna",
-"Greenhouse/spacex"
+"Greenhouse/spacex",
+"회사/greenhouse"
 ],
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-09-17"
+"last_seen": "2026-09-17",
+"group": "RF·통신",
+"company_key": "SpaceX"
 },
 {
 "id": "srhwregulatorycomplianceengineerhardware|amazon|sfbayarea",
@@ -66,7 +125,9 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-09-17"
+"last_seen": "2026-09-17",
+"group": "RF·통신",
+"company_key": "Amazon"
 },
 {
 "id": "seniorsignalintegrityandemcengineer|zoox|sfbayarea",
@@ -82,7 +143,9 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-09-17"
+"last_seen": "2026-09-17",
+"group": "RF·통신",
+"company_key": "Zoox"
 },
 {
 "id": "electromagneticinterferenceengineer|themicegroupsinc|sfbayarea",
@@ -114,7 +177,9 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-09-17"
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "BAE Systems"
 },
 {
 "id": "rfengineerprincipal|mercurysystems|boston",
@@ -146,7 +211,9 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-09-17"
+"last_seen": "2026-09-17",
+"group": "",
+"company_key": null
 },
 {
 "id": "engsrpriniirf|baesystems|boston",
@@ -196,7 +263,9 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-09-17"
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "CACI"
 },
 {
 "id": "radiofrequencyengineeringmgrl5withsecurityclearance|lockheedmartin|boston",
@@ -315,6 +384,404 @@
 "last_seen": "2026-09-17"
 },
 {
+"id": "rfoperationsengineer1careerfaironly|markimicrowa|sfbayarea",
+"title": "RF Operations Engineer 1 (Career Fair Only)",
+"company": "MARKI MICROWAVE LLC",
+"location": "Morgan Hill, Santa Clara County, California",
+"metro": "SF Bay Area",
+"url": "https://www.adzuna.com/land/ad/5886896283?se=rog5Q3my8RGG_Ptdkojnvw&utm_medium=api&utm_source=d677d981&v=3C15C518CBD505D2F42E8787B69650326619541C",
+"posted": "2026-09-16",
+"sources": [
+"Adzuna"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "",
+"company_key": null
+},
+{
+"id": "electromagneticinterferenceengineer|themicegroup|sfbayarea",
+"title": "Electromagnetic Interference Engineer",
+"company": "The Mice Groups, Inc.",
+"location": "Campbell, Santa Clara County, California",
+"metro": "SF Bay Area",
+"url": "https://www.adzuna.com/land/ad/5885656704?se=vrRXSHmy8RGW7Jd0wGJW9Q&utm_medium=api&utm_source=d677d981&v=FDB53E360B010AD250E99F925B2B88102357DF00",
+"posted": "2026-09-16",
+"sources": [
+"Adzuna"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "",
+"company_key": null
+},
+{
+"id": "rfengineerprincipal|mercurysyste|boston",
+"title": "RF Engineer Principal",
+"company": "Mercury Systems",
+"location": "Nashua, Hillsborough County, New Hampshire",
+"metro": "Boston",
+"url": "https://www.adzuna.com/details/5886447520?utm_medium=api&utm_source=d677d981",
+"posted": "2026-09-16",
+"sources": [
+"Adzuna"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Mercury Systems"
+},
+{
+"id": "radiofrequencyengineeringmgrl5withsecurityclearance|lockheedmart|boston",
+"title": "Radio Frequency Engineering Mgr - L5 with Security Clearance",
+"company": "Lockheed Martin",
+"location": "Chelmsford, Middlesex County, Massachusetts",
+"metro": "Boston",
+"url": "https://www.adzuna.com/land/ad/5885613890?se=rKN6TXmy8RGpav-j42JvOw&utm_medium=api&utm_source=d677d981&v=02AA69361A0D89BFCA2E287F5647243466C3B49C",
+"posted": "2026-09-16",
+"sources": [
+"Adzuna"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Lockheed Martin"
+},
+{
+"id": "srprincipalantennamicrowaveengineer|rtxraytheon|boston",
+"title": "Sr Principal Antenna Microwave Engineer",
+"company": "RTX (Raytheon)",
+"location": "Tewksbury, Middlesex County, Massachusetts",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-TEWKSBURY-TB1--50-Apple-Hill-Dr--ASSABET-BLDG/Sr-Principal-Antenna-Microwave-Engineer_01862647",
+"posted": "2026-09-16",
+"sources": [
+"Adzuna",
+"회사/workday"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "spaceflightsafetyrfengineeringanalyst|peraton|washingtondc",
+"title": "Spaceflight Safety -RF Engineering Analyst",
+"company": "Peraton",
+"location": "Fort Belvoir, Fairfax County, Virginia",
+"metro": "Washington DC",
+"url": "https://www.adzuna.com/details/5886447511?utm_medium=api&utm_source=d677d981",
+"posted": "2026-09-16",
+"sources": [
+"Adzuna"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Peraton"
+},
+{
+"id": "radiofrequencyrfelectricalengineer04532|synerentechn|washingtondc",
+"title": "Radio Frequency (RF) Electrical Engineer-04532",
+"company": "Syneren Technologies",
+"location": "Vienna, Fairfax County, Virginia",
+"metro": "Washington DC",
+"url": "https://www.adzuna.com/land/ad/5886628518?se=jlS6V3my8RGW7Jd0wGJW9Q&utm_medium=api&utm_source=d677d981&v=FF2572C23401BD6769E2C0366EBEEF7C2D0D17B3",
+"posted": "2026-09-16",
+"sources": [
+"Adzuna"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "",
+"company_key": null
+},
+{
+"id": "seniorrfanalyst|theaerospace|washingtondc",
+"title": "Senior RF Analyst",
+"company": "The Aerospace Corporation",
+"location": "Chantilly, Fairfax County, Virginia",
+"metro": "Washington DC",
+"url": "https://www.adzuna.com/details/5886155286?utm_medium=api&utm_source=d677d981",
+"posted": "2026-09-16",
+"sources": [
+"Adzuna"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "The Aerospace Corporation"
+},
+{
+"id": "principalrfmoduledesigndevelopmentengineer|rtxraytheon|boston",
+"title": "Principal RF Module Design/Development Engineer",
+"company": "RTX (Raytheon)",
+"location": "Andover, Essex County, Massachusetts",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-ANDOVER-AR1--358-Lowell-St--AR1-DUKES-BLDG/Principal-RF-Module--Design-Development-Engineer_01875494-1",
+"posted": "2026-09-16",
+"sources": [
+"Adzuna",
+"회사/workday"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "seniorrfmoduledesigndevelopmentengineer|rtxraytheon|boston",
+"title": "Senior RF Module Design/Development Engineer",
+"company": "RTX (Raytheon)",
+"location": "Andover, Essex County, Massachusetts",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-ANDOVER-AR1--358-Lowell-St--AR1-DUKES-BLDG/Senior-RF-Module-Design-Development-Engineer_01875491",
+"posted": "2026-09-16",
+"sources": [
+"Adzuna",
+"회사/workday"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "seniorrfmoduledesigndevelopmentengineerwithsecurityclearance|rtxraytheon|boston",
+"title": "Senior RF Module Design/Development Engineer with Security Clearance",
+"company": "RTX (Raytheon)",
+"location": "Andover, Essex County, Massachusetts",
+"metro": "Boston",
+"url": "https://www.adzuna.com/land/ad/5886628113?se=EvpgZHmy8RGG_Ptdkojnvw&utm_medium=api&utm_source=d677d981&v=66934C82C20466E6E39929D46BD00AC2677566A2",
+"posted": "2026-09-16",
+"sources": [
+"Adzuna"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "principalrfmoduledesigndevelopmentengineerwithsecurityclearance|rtxraytheon|boston",
+"title": "Principal RF Module Design/Development Engineer with Security Clearance",
+"company": "RTX (Raytheon)",
+"location": "Andover, Essex County, Massachusetts",
+"metro": "Boston",
+"url": "https://www.adzuna.com/land/ad/5886631381?se=EvpgZHmy8RGG_Ptdkojnvw&utm_medium=api&utm_source=d677d981&v=7898B1BB311E1F273FEABEC6F306D838156C488D",
+"posted": "2026-09-16",
+"sources": [
+"Adzuna"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "seniorprincipalradarreceiverexciterhardwarelead|rtxraytheon|boston",
+"title": "Senior Principal Radar Receiver Exciter Hardware Lead",
+"company": "RTX (Raytheon)",
+"location": "Tewksbury, Middlesex County, Massachusetts",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-TEWKSBURY-TB1--50-Apple-Hill-Dr--ASSABET-BLDG/Senior-Principal-Radar-Receiver-Exciter-Hardware-Lead_01872702",
+"posted": "2026-09-16",
+"sources": [
+"Adzuna",
+"회사/workday"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "electromagneticspectrumanalyst|boozallenham|washingtondc",
+"title": "Electromagnetic Spectrum Analyst",
+"company": "Booz Allen Hamilton",
+"location": "Arlington, Arlington County, Virginia",
+"metro": "Washington DC",
+"url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Arlington-VA/Electromagnetic-Spectrum-Analyst_R0246756",
+"posted": "2026-09-16",
+"sources": [
+"Adzuna",
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Booz Allen Hamilton"
+},
+{
+"id": "wirelessnetworkengineer|boozallenham|washingtondc",
+"title": "Wireless Network Engineer",
+"company": "Booz Allen Hamilton",
+"location": "Aberdeen, Harford County, Maryland",
+"metro": "Washington DC",
+"url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Aberdeen-MD/Wireless-Network-Engineer_R0243060",
+"posted": "2026-09-16",
+"sources": [
+"Adzuna",
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Booz Allen Hamilton"
+},
+{
+"id": "juniorrfanalyst|kbr|washingtondc",
+"title": "Junior RF Analyst",
+"company": "KBR",
+"location": "Springfield, Fairfax County, Virginia",
+"metro": "Washington DC",
+"url": "https://www.adzuna.com/details/5886447328?utm_medium=api&utm_source=d677d981",
+"posted": "2026-09-16",
+"sources": [
+"Adzuna"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "KBR"
+},
+{
+"id": "signalintegrityarchitect|qualcomm|sfbayarea",
+"title": "Signal Integrity Architect",
+"company": "Qualcomm",
+"location": "Santa Clara, Santa Clara County, California",
+"metro": "SF Bay Area",
+"url": "https://www.adzuna.com/details/5886449185?utm_medium=api&utm_source=d677d981",
+"posted": "2026-09-16",
+"sources": [
+"Adzuna"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "RF·통신",
+"company_key": "Qualcomm"
+},
+{
+"id": "electricalengineeriidigitalradardesign|rtxraytheon|boston",
+"title": "Electrical Engineer II - Digital Radar Design",
+"company": "RTX (Raytheon)",
+"location": "US-MA-TEWKSBURY-TB1 ~ 50 Apple Hill Dr ~ ASSABET BLDG",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-TEWKSBURY-TB1--50-Apple-Hill-Dr--ASSABET-BLDG/Electrical-Engineer-II---Digital-Radar-Design_01854130",
+"posted": "2026-09-16",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "engineerprincipalengineerrfmicrowavedesign|northropgrum|washingtondc",
+"title": "Engineer/Principal Engineer RF Microwave Design",
+"company": "Northrop Grumman",
+"location": "United States-Maryland-Baltimore",
+"metro": "Washington DC",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Engineer-Principal-Engineer-RF-Microwave-Design_R10242938",
+"posted": "2026-09-16",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
+"id": "rfengineer30280|hiimissionte|washingtondc",
+"title": "RF Engineer - 30280",
+"company": "HII (Mission Technologies)",
+"location": "Annapolis Junction, MD, Maryland, United States",
+"metro": "Washington DC",
+"url": "https://jobs.hii-tsd.com/job/Annapolis-Junction%2C-MD-RF-Engineer-30280-Mary/1430866800/",
+"posted": "2026-09-16",
+"sources": [
+"회사/successfactors"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "HII (Mission Technologies)"
+},
+{
+"id": "wirelesssocrfintegrationandvalidationengineer|apple|sfbayarea",
+"title": "Wireless SoC RF Integration and Validation Engineer",
+"company": "Apple",
+"location": "San Francisco Bay Area",
+"metro": "SF Bay Area",
+"url": "https://jobs.apple.com/en-us/details/200630172/wireless-soc-rf-integration-and-validation-engineer",
+"posted": "2026-09-16",
+"sources": [
+"회사/apple"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "RF·통신",
+"company_key": "Apple"
+},
+{
 "id": "srmanufacturingrfdfxengineer|blueorigin|sfbayarea",
 "title": "Sr. Manufacturing RF DFX Engineer",
 "company": "Blue Origin",
@@ -328,7 +795,9 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-09-17"
+"last_seen": "2026-09-17",
+"group": "",
+"company_key": null
 },
 {
 "id": "seniorprincipalrfengineerwithsecurityclearance|baesystems|boston",
@@ -346,7 +815,9 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-09-17"
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "BAE Systems"
 },
 {
 "id": "seniorrfanalystwithsecurityclearance|aerospacecorporation|washingtondc",
@@ -382,7 +853,9 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-09-17"
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Amentum"
 },
 {
 "id": "seniorelectromagneticpulseemporrfengineersignonbonuswithsecurityclearance|amentum|washingtondc",
@@ -400,7 +873,9 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-09-17"
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Amentum"
 },
 {
 "id": "engineerrfmicrowavedesign1|judgegroupinc|washingtondc",
@@ -434,7 +909,9 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-09-17"
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Amentum"
 },
 {
 "id": "rfmicrowavedesignengineer1withsecurityclearance|asdinc|washingtondc",
@@ -470,7 +947,9 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-09-17"
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Amentum"
 },
 {
 "id": "principalradiofrequencyengineer|lumextalent|sfbayarea",
@@ -509,6 +988,244 @@
 "last_seen": "2026-09-17"
 },
 {
+"id": "engineerrfmicrowavedesign1|judgegroup|washingtondc",
+"title": "Engineer RF Microwave Design 1",
+"company": "Judge Group, Inc.",
+"location": "East Case, Baltimore, Maryland",
+"metro": "Washington DC",
+"url": "https://www.adzuna.com/land/ad/5885464012?se=jlS6V3my8RGW7Jd0wGJW9Q&utm_medium=api&utm_source=d677d981&v=7637B07B6CA4CF8D421C516594D94C3C3C88A2FB",
+"posted": "2026-09-15",
+"sources": [
+"Adzuna"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "",
+"company_key": null
+},
+{
+"id": "rfmicrowavedesignengineer1withsecurityclearance|asd|washingtondc",
+"title": "RF MICROWAVE DESIGN ENGINEER 1 with Security Clearance",
+"company": "ASD, Inc.",
+"location": "Baltimore, Baltimore County, Maryland",
+"metro": "Washington DC",
+"url": "https://www.adzuna.com/land/ad/5885463415?se=jlS6V3my8RGW7Jd0wGJW9Q&utm_medium=api&utm_source=d677d981&v=E089765424EF27B20EA0E667E900EFD42ADA1A98",
+"posted": "2026-09-15",
+"sources": [
+"Adzuna"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "",
+"company_key": null
+},
+{
+"id": "seniorrfanalystwithsecurityclearance|theaerospace|washingtondc",
+"title": "Senior RF Analyst with Security Clearance",
+"company": "The Aerospace Corporation",
+"location": "Chantilly, Fairfax County, Virginia",
+"metro": "Washington DC",
+"url": "https://www.adzuna.com/land/ad/5884382291?se=jlS6V3my8RGW7Jd0wGJW9Q&utm_medium=api&utm_source=d677d981&v=B95432201B5386309AF6D05976F59FF3FC1A5120",
+"posted": "2026-09-15",
+"sources": [
+"Adzuna"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "The Aerospace Corporation"
+},
+{
+"id": "radarmaintainertaiwan|rtxraytheon|boston",
+"title": "Radar Maintainer- Taiwan",
+"company": "RTX (Raytheon)",
+"location": "Woburn, Middlesex County, Massachusetts",
+"metro": "Boston",
+"url": "https://www.adzuna.com/land/ad/5884925459?se=EvpgZHmy8RGG_Ptdkojnvw&utm_medium=api&utm_source=d677d981&v=FB453EC8C78944D9020054C71BF5D9858F99109E",
+"posted": "2026-09-15",
+"sources": [
+"Adzuna"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "radarsystemsengineeri|rtxraytheon|boston",
+"title": "Radar Systems Engineer I",
+"company": "RTX (Raytheon)",
+"location": "Marlborough, Middlesex County, Massachusetts",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-MARLBOROUGH-MA2--1001-Boston-Post-Rd--BLDG-2/Radar-Systems-Engineer-I_01874482",
+"posted": "2026-09-15",
+"sources": [
+"Adzuna",
+"회사/workday"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "radarsystemsengineerionsite|rtxraytheon|boston",
+"title": "Radar Systems Engineer I- Onsite",
+"company": "RTX (Raytheon)",
+"location": "Tewksbury, Middlesex County, Massachusetts",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-TEWKSBURY-TB1--50-Apple-Hill-Dr--ASSABET-BLDG/Radar-Systems-Engineer-I--Onsite_01874483",
+"posted": "2026-09-15",
+"sources": [
+"Adzuna",
+"회사/workday"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "radarsystemsengineeriionsite|rtxraytheon|boston",
+"title": "Radar Systems Engineer II- Onsite",
+"company": "RTX (Raytheon)",
+"location": "Marlborough, Middlesex County, Massachusetts",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-MARLBOROUGH-MA2--1001-Boston-Post-Rd--BLDG-2/Radar-Systems-Engineer-II--Onsite_01874476",
+"posted": "2026-09-15",
+"sources": [
+"Adzuna",
+"회사/workday"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "radarsystemengineeriionsite|rtxraytheon|boston",
+"title": "Radar System Engineer II- Onsite",
+"company": "RTX (Raytheon)",
+"location": "Tewksbury, Middlesex County, Massachusetts",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-TEWKSBURY-TB1--50-Apple-Hill-Dr--ASSABET-BLDG/Radar-System-Engineer-II--Onsite_01874479",
+"posted": "2026-09-15",
+"sources": [
+"Adzuna",
+"회사/workday"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "antennatestengineer2ndshift|northropgrum|washingtondc",
+"title": "Antenna Test Engineer 2nd Shift",
+"company": "Northrop Grumman",
+"location": "Druid, Baltimore, Maryland",
+"metro": "Washington DC",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Antenna-Test-Engineer_R10232101-1",
+"posted": "2026-09-15",
+"sources": [
+"Adzuna",
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
+"id": "spectrumradiofrequencyengineer|leidos|washingtondc",
+"title": "Spectrum Radio Frequency Engineer",
+"company": "Leidos",
+"location": "Washington, Washington, D.C.",
+"metro": "Washington DC",
+"url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Washington-DC/Spectrum-Radio-Frequency-Engineer_R-00192193",
+"posted": "2026-09-15",
+"sources": [
+"Adzuna",
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Leidos"
+},
+{
+"id": "seniorelectromagneticpulseempengineersignonbonuseligwithsecurityclearance|amentum|washingtondc",
+"title": "Senior Electromagnetic Pulse (EMP) Engineer - Sign-on Bonus Elig with Security Clearance",
+"company": "Amentum",
+"location": "Dahlgren, King George County, Virginia",
+"metro": "Washington DC",
+"url": "https://www.adzuna.com/land/ad/5884997938?se=Dv1pnXmy8RGRr_JonSYGrg&utm_medium=api&utm_source=d677d981&v=D4DF2942AE263EDF309B91C68BA0F9CCC89E9DB0",
+"posted": "2026-09-15",
+"sources": [
+"Adzuna"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Amentum"
+},
+{
+"id": "radardigitalproductlinerdplsoftwareproductowner|rtxraytheon|boston",
+"title": "Radar Digital Product Line (RDPL) Software Product Owner",
+"company": "RTX (Raytheon)",
+"location": "US-MA-WOBURN-WB1 ~ 235 Presidential Way ~ SPENCER BLDG",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-WOBURN-WB1--235-Presidential-Way--SPENCER-BLDG/Radar-Digital-Product-Line--RDPL--Software-Product-Owner_01874782",
+"posted": "2026-09-15",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
 "id": "rfengineerlevelivtssciclearancewithsecurityclearance|lockheedmartin|sfbayarea",
 "title": "RF Engineer (Level IV) - TS/SCI clearance with Security Clearance",
 "company": "Lockheed Martin",
@@ -540,7 +1257,9 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-09-17"
+"last_seen": "2026-09-17",
+"group": "",
+"company_key": null
 },
 {
 "id": "seniorrfelectricalengineer|axcelistechnologies|boston",
@@ -577,6 +1296,84 @@
 "last_seen": "2026-09-17"
 },
 {
+"id": "rfengineerlevelivtssciclearancewithsecurityclearance|lockheedmart|sfbayarea",
+"title": "RF Engineer (Level IV) - TS/SCI clearance with Security Clearance",
+"company": "Lockheed Martin",
+"location": "Sunnyvale, Santa Clara County, California",
+"metro": "SF Bay Area",
+"url": "https://www.adzuna.com/land/ad/5884282420?se=rog5Q3my8RGG_Ptdkojnvw&utm_medium=api&utm_source=d677d981&v=7144EE0D40F92807150B39D6D5D8562B22DCFA76",
+"posted": "2026-09-14",
+"sources": [
+"Adzuna"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Lockheed Martin"
+},
+{
+"id": "radaroptimizationengineerwithsecurityclearance|leidos|washingtondc",
+"title": "Radar Optimization Engineer with Security Clearance",
+"company": "Leidos",
+"location": "Herndon, Fairfax County, Virginia",
+"metro": "Washington DC",
+"url": "https://www.adzuna.com/land/ad/5884282376?se=COxSinmy8RGDf8oZs_LVjg&utm_medium=api&utm_source=d677d981&v=5E96B0F84776366F63F38E3DB5BA6ED4BD51F751",
+"posted": "2026-09-14",
+"sources": [
+"Adzuna"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Leidos"
+},
+{
+"id": "spectrumradiofrequencyengineerwithsecurityclearance|leidos|washingtondc",
+"title": "Spectrum Radio Frequency Engineer with Security Clearance",
+"company": "Leidos",
+"location": "Crystal, Arlington County, Virginia",
+"metro": "Washington DC",
+"url": "https://www.adzuna.com/land/ad/5884290402?se=COxSinmy8RGDf8oZs_LVjg&utm_medium=api&utm_source=d677d981&v=AACE3F8E00F8AFCA6BBAB078CFF0102CA5D2E4F2",
+"posted": "2026-09-14",
+"sources": [
+"Adzuna"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Leidos"
+},
+{
+"id": "senioraircraftsurvivabilityelectronicwarfaresystemsengineer|leidos|washingtondc",
+"title": "Senior Aircraft Survivability / Electronic Warfare Systems Engineer",
+"company": "Leidos",
+"location": "Chantilly, VA",
+"metro": "Washington DC",
+"url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Chantilly-VA/Expert-Aircraft-Survivability-SETA_R-00191110-1",
+"posted": "2026-09-14",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Leidos"
+},
+{
 "id": "staffengineeremc|intertek|boston",
 "title": "Staff Engineer - EMC",
 "company": "Intertek",
@@ -593,6 +1390,82 @@
 "last_seen": "2026-09-17"
 },
 {
+"id": "antennatestengineer2ndshiftwithsecurityclearance|northropgrum|washingtondc",
+"title": "Antenna Test Engineer 2nd Shift with Security Clearance",
+"company": "Northrop Grumman",
+"location": "Baltimore, Baltimore County, Maryland",
+"metro": "Washington DC",
+"url": "https://www.adzuna.com/land/ad/5882882493?se=GjKmZnmy8RGRr_JonSYGrg&utm_medium=api&utm_source=d677d981&v=EDEE156D4F86996638E157FE8BBF2FE488951FC6",
+"posted": "2026-09-13",
+"sources": [
+"Adzuna"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
+"id": "radarresearchengineerwithsecurityclearance|kbr|washingtondc",
+"title": "Radar Research Engineer with Security Clearance",
+"company": "KBR",
+"location": "Chantilly, Fairfax County, Virginia",
+"metro": "Washington DC",
+"url": "https://www.adzuna.com/land/ad/5882904897?se=sJrYo3my8RGYM8Jm6MC_gA&utm_medium=api&utm_source=d677d981&v=D76ECCA1484A9BC6A965A3A643B6252CE45ED5A1",
+"posted": "2026-09-13",
+"sources": [
+"Adzuna"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "KBR"
+},
+{
+"id": "radarresearchengineer|kbr|washingtondc",
+"title": "Radar Research Engineer",
+"company": "KBR",
+"location": "Chantilly, Fairfax County, Virginia",
+"metro": "Washington DC",
+"url": "https://www.adzuna.com/details/5882481357?utm_medium=api&utm_source=d677d981",
+"posted": "2026-09-13",
+"sources": [
+"Adzuna"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "KBR"
+},
+{
+"id": "rfpayloadanalystengineeringspecialist|theaerospace|washingtondc",
+"title": "RF Payload Analyst - Engineering Specialist",
+"company": "The Aerospace Corporation",
+"location": "Chantilly, Fairfax County, Virginia",
+"metro": "Washington DC",
+"url": "https://www.adzuna.com/details/5882477297?utm_medium=api&utm_source=d677d981",
+"posted": "2026-09-13",
+"sources": [
+"Adzuna"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "The Aerospace Corporation"
+},
+{
 "id": "emcdesignandtestengineernorthreadingma|teradyne|boston",
 "title": "EMC Design and Test Engineer North Reading, MA",
 "company": "Teradyne",
@@ -607,6 +1480,44 @@
 "remote": false,
 "first_seen": "2026-09-17",
 "last_seen": "2026-09-17"
+},
+{
+"id": "rfengineer|kbr|washingtondc",
+"title": "RF Engineer",
+"company": "KBR",
+"location": "Dulles Town Center, Loudoun County, Virginia",
+"metro": "Washington DC",
+"url": "https://www.adzuna.com/details/5880929738?utm_medium=api&utm_source=d677d981",
+"posted": "2026-09-12",
+"sources": [
+"Adzuna"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "KBR"
+},
+{
+"id": "rfpayloadanalystengineeringspecialistwithsecurityclearance|theaerospace|washingtondc",
+"title": "RF Payload Analyst - Engineering Specialist with Security Clearance",
+"company": "The Aerospace Corporation",
+"location": "Chantilly, Fairfax County, Virginia",
+"metro": "Washington DC",
+"url": "https://www.adzuna.com/land/ad/5881325530?se=sgQhDXqy8RGW7Jd0wGJW9Q&utm_medium=api&utm_source=d677d981&v=593C0A0D6F8FACE7DDDFD9EE47CE4DEB5A1C7C69",
+"posted": "2026-09-12",
+"sources": [
+"Adzuna"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "The Aerospace Corporation"
 },
 {
 "id": "rfsystemsengineersr|appliedmaterials|sfbayarea",
@@ -638,7 +1549,9 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-09-17"
+"last_seen": "2026-09-17",
+"group": "RF·통신",
+"company_key": "Apple"
 },
 {
 "id": "seniorprincipalrfmicrowaveengineer|baesystems|boston",
@@ -654,7 +1567,9 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-09-17"
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "BAE Systems"
 },
 {
 "id": "antennaandmicrowaveengineeriionsite|rtxcorporation|boston",
@@ -707,6 +1622,85 @@
 "last_seen": "2026-09-17"
 },
 {
+"id": "rfsystemarchitect|baesystems|boston",
+"title": "RF System Architect",
+"company": "BAE Systems",
+"location": "Hudson, Hillsborough County, New Hampshire",
+"metro": "Boston",
+"url": "https://www.adzuna.com/land/ad/5879883626?se=NCnJbnmy8RGpav-j42JvOw&utm_medium=api&utm_source=d677d981&v=310DF68C464BC72CB5FEACB48D9951F2B22794B4",
+"posted": "2026-09-11",
+"sources": [
+"Adzuna"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "BAE Systems"
+},
+{
+"id": "cuasrfengineer|leidos|washingtondc",
+"title": "C-UAS RF Engineer",
+"company": "Leidos",
+"location": "Jefferson Manor, Fairfax County, Virginia",
+"metro": "Washington DC",
+"url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Alexandria-VA/C-UAS-RF-Engineer_R-00191738",
+"posted": "2026-09-11",
+"sources": [
+"Adzuna",
+"회사/workday"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Leidos"
+},
+{
+"id": "rfengineeringsmewithsecurityclearance|peraton|washingtondc",
+"title": "RF Engineering SME with Security Clearance",
+"company": "Peraton",
+"location": "Chantilly, Fairfax County, Virginia",
+"metro": "Washington DC",
+"url": "https://www.adzuna.com/land/ad/5879370873?se=0AXBmXmy8RGDf8oZs_LVjg&utm_medium=api&utm_source=d677d981&v=030A0D034139C59BF20CFC2A0F96B6D518371806",
+"posted": "2026-09-11",
+"sources": [
+"Adzuna"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Peraton"
+},
+{
+"id": "rfengineerwithsecurityclearance|kbr|washingtondc",
+"title": "RF Engineer with Security Clearance",
+"company": "KBR",
+"location": "Dulles Town Center, Loudoun County, Virginia",
+"metro": "Washington DC",
+"url": "https://www.adzuna.com/land/ad/5879364169?se=sJrYo3my8RGYM8Jm6MC_gA&utm_medium=api&utm_source=d677d981&v=31A4AAE6E36563577F49A41BB883F63CC1CAC576",
+"posted": "2026-09-11",
+"sources": [
+"Adzuna"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "KBR"
+},
+{
 "id": "rfengineercavitydesigntuning|tachyonindustrialimc|sfbayarea",
 "title": "RF Engineer — Cavity Design & Tuning",
 "company": "Tachyon Industrial, Imc",
@@ -738,7 +1732,121 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-09-17"
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "BAE Systems"
+},
+{
+"id": "cuasrfengineerwithsecurityclearance|leidos|washingtondc",
+"title": "C-UAS RF Engineer with Security Clearance",
+"company": "Leidos",
+"location": "Trade, Alexandria City, Virginia",
+"metro": "Washington DC",
+"url": "https://www.adzuna.com/land/ad/5877950680?se=COxSinmy8RGDf8oZs_LVjg&utm_medium=api&utm_source=d677d981&v=A15F9EC1F657DA12C307719EBC61DEF37AB8D0B7",
+"posted": "2026-09-10",
+"sources": [
+"Adzuna"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Leidos"
+},
+{
+"id": "parttimeseniortechnicalprofessionalweatherradar|kbr|washingtondc",
+"title": "Part-time Senior Technical Professional – Weather Radar",
+"company": "KBR",
+"location": "Silver Spring, Montgomery County, Maryland",
+"metro": "Washington DC",
+"url": "https://www.adzuna.com/details/5878368387?utm_medium=api&utm_source=d677d981",
+"posted": "2026-09-10",
+"sources": [
+"Adzuna"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "KBR"
+},
+{
+"id": "manufacturingqualityengineermqerfantenna|apple|sfbayarea",
+"title": "Manufacturing Quality Engineer (MQE) - RF Antenna",
+"company": "Apple",
+"location": "Sunnyvale, Santa Clara County, California",
+"metro": "SF Bay Area",
+"url": "https://www.adzuna.com/details/5878366569?utm_medium=api&utm_source=d677d981",
+"posted": "2026-09-10",
+"sources": [
+"Adzuna"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "RF·통신",
+"company_key": "Apple"
+},
+{
+"id": "wirelesssystemsengineer|apple|sfbayarea",
+"title": "Wireless Systems Engineer",
+"company": "Apple",
+"location": "Monte Vista, Santa Clara County, California",
+"metro": "SF Bay Area",
+"url": "https://www.adzuna.com/details/5877989050?utm_medium=api&utm_source=d677d981",
+"posted": "2026-09-10",
+"sources": [
+"Adzuna"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "RF·통신",
+"company_key": "Apple"
+},
+{
+"id": "wirelessrfsystemsvalidationengineerconnectivity|apple|sfbayarea",
+"title": "Wireless RF Systems Validation Engineer (Connectivity)",
+"company": "Apple",
+"location": "Monte Vista, Santa Clara County, California",
+"metro": "SF Bay Area",
+"url": "https://www.adzuna.com/details/5878071334?utm_medium=api&utm_source=d677d981",
+"posted": "2026-09-10",
+"sources": [
+"Adzuna"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "RF·통신",
+"company_key": "Apple"
+},
+{
+"id": "satellitecommunicationsatcomengineertssciwpoly|gditgenerald|washingtondc",
+"title": "Satellite Communication (SATCOM) Engineer - TS/SCI w/Poly",
+"company": "GDIT (General Dynamics IT)",
+"location": "USA VA McLean",
+"metro": "Washington DC",
+"url": "https://gdit.wd5.myworkdayjobs.com/en-US/External_Career_Site/job/USA-VA-McLean/Satellite-Communication--SATCOM--Engineer---TS-SCI-w-Poly_RQ228199-1",
+"posted": "2026-09-10",
+"sources": [
+"회사/workday"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "GDIT (General Dynamics IT)"
 },
 {
 "id": "seniorrfengineer|freshconsulting|sfbayarea",
@@ -857,6 +1965,82 @@
 "last_seen": "2026-09-17"
 },
 {
+"id": "antennaandmicrowaveengineeriionsitewithsecurityclearance|rtxraytheon|boston",
+"title": "Antenna and Microwave Engineer II - Onsite with Security Clearance",
+"company": "RTX (Raytheon)",
+"location": "Tewksbury, Middlesex County, Massachusetts",
+"metro": "Boston",
+"url": "https://www.adzuna.com/land/ad/5877935046?se=EvpgZHmy8RGG_Ptdkojnvw&utm_medium=api&utm_source=d677d981&v=DFFDFA0286BB24FF73D696C1D2817707FD5C180B",
+"posted": "2026-09-09",
+"sources": [
+"Adzuna"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "rfsystemarchitectwithsecurityclearance|baesystems|boston",
+"title": "RF System Architect with Security Clearance",
+"company": "BAE Systems",
+"location": "Hudson, Hillsborough County, New Hampshire",
+"metro": "Boston",
+"url": "https://www.adzuna.com/land/ad/5876721883?se=NCnJbnmy8RGpav-j42JvOw&utm_medium=api&utm_source=d677d981&v=B03979C51A6F31AA78570BFAE4BD8A32AC78F33E",
+"posted": "2026-09-09",
+"sources": [
+"Adzuna"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "BAE Systems"
+},
+{
+"id": "antennaandmicrowaveengineeriionsite|rtxraytheon|boston",
+"title": "Antenna and Microwave Engineer II - Onsite",
+"company": "RTX (Raytheon)",
+"location": "US-MA-TEWKSBURY-TB1 ~ 50 Apple Hill Dr ~ ASSABET BLDG",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-TEWKSBURY-TB1--50-Apple-Hill-Dr--ASSABET-BLDG/Antenna-and-Microwave-Engineer-II---Onsite_01873345",
+"posted": "2026-09-09",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "antennaandmicrowaveengineerionsite|rtxraytheon|boston",
+"title": "Antenna and Microwave Engineer I - Onsite",
+"company": "RTX (Raytheon)",
+"location": "US-MA-TEWKSBURY-TB1 ~ 50 Apple Hill Dr ~ ASSABET BLDG",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-TEWKSBURY-TB1--50-Apple-Hill-Dr--ASSABET-BLDG/Antenna-and-Microwave-Engineer-I---Onsite_01873343",
+"posted": "2026-09-09",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
 "id": "spectrumengineerradiofrequency|leidos|washingtondc",
 "title": "Spectrum Engineer/Radio Frequency",
 "company": "Leidos",
@@ -871,6 +2055,192 @@
 "remote": false,
 "first_seen": "2026-09-17",
 "last_seen": "2026-09-17"
+},
+{
+"id": "rfmicrowaveelectricalengineeriionsitewithsecurityclearance|rtxraytheon|boston",
+"title": "RF/Microwave Electrical Engineer II - Onsite with Security Clearance",
+"company": "RTX (Raytheon)",
+"location": "Andover, Essex County, Massachusetts",
+"metro": "Boston",
+"url": "https://www.adzuna.com/land/ad/5876604103?se=EvpgZHmy8RGG_Ptdkojnvw&utm_medium=api&utm_source=d677d981&v=3E1E8F76F8452D70EDEF1FB7B671132326630550",
+"posted": "2026-09-08",
+"sources": [
+"Adzuna"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "rfmicrowaveelectricalengineerionsitewithsecurityclearance|rtxraytheon|boston",
+"title": "RF/Microwave Electrical Engineer I -Onsite with Security Clearance",
+"company": "RTX (Raytheon)",
+"location": "Andover, Essex County, Massachusetts",
+"metro": "Boston",
+"url": "https://www.adzuna.com/land/ad/5876609815?se=EvpgZHmy8RGG_Ptdkojnvw&utm_medium=api&utm_source=d677d981&v=3D828236D50B7945E57CF0724DE1EBEAAA2BDACB",
+"posted": "2026-09-08",
+"sources": [
+"Adzuna"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "engineerprincipalengineerdigitalrfsubsystemsit|northropgrum|washingtondc",
+"title": "Engineer/Principal Engineer Digital-RF Subsystems I&T",
+"company": "Northrop Grumman",
+"location": "Druid, Baltimore, Maryland",
+"metro": "Washington DC",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Engineer-Principal-Engineer-RF-Microwave-Subsystem-I-T_R10249540",
+"posted": "2026-09-08",
+"sources": [
+"Adzuna",
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
+"id": "principalengineersrprincipalengineerdigitalrfsubsystemsitlead|northropgrum|washingtondc",
+"title": "Principal Engineer/Sr. Principal Engineer Digital-RF Subsystems I&T Lead",
+"company": "Northrop Grumman",
+"location": "Druid, Baltimore, Maryland",
+"metro": "Washington DC",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Principal-Engineer-Sr-Principal-Engineer-Digital-RF-Subsystems-I-T-Lead_R10249546",
+"posted": "2026-09-08",
+"sources": [
+"Adzuna",
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
+"id": "rfmicrowaveelectricalengineeriionsite|rtxraytheon|boston",
+"title": "RF/Microwave Electrical Engineer II - Onsite",
+"company": "RTX (Raytheon)",
+"location": "US-MA-ANDOVER-AR1 ~ 358 Lowell St ~ AR1 DUKES BLDG",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-ANDOVER-AR1--358-Lowell-St--AR1-DUKES-BLDG/RF-Microwave-Electrical-Engineer-II---Onsite_01872845",
+"posted": "2026-09-08",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "rfmicrowaveelectricalengineerionsite|rtxraytheon|boston",
+"title": "RF/Microwave Electrical Engineer I -Onsite",
+"company": "RTX (Raytheon)",
+"location": "US-MA-ANDOVER-AR1 ~ 358 Lowell St ~ AR1 DUKES BLDG",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-ANDOVER-AR1--358-Lowell-St--AR1-DUKES-BLDG/RF-Microwave-Electrical-Engineer-I--Onsite_01872842",
+"posted": "2026-09-08",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "directoradvancedtechnologyrequirementscapabilitiesairbornespectrumdominanceadvancedrfsystems|rtxraytheon|washingtondc",
+"title": "Director, Advanced Technology Requirements & Capabilities - Airborne Spectrum Dominance - Advanced RF Systems",
+"company": "RTX (Raytheon)",
+"location": "US-MD-LEXINGTON PARK-410 ~ 46579 Expedition Dr ~ BLDG 410, Ste 400 / US-VA-ARLINGTON-108 ~ 1100 Wilson Blvd ~ ROSSLYN HQ / US-TX-MCKINNEY-513PW ~ 2501 W University Dr ~ PW BLDG",
+"metro": "Washington DC",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MD-LEXINGTON-PARK-410--46579-Expedition-Dr--BLDG-410-Ste-400/Director--Advanced-Technology-Requirements---Capabilities---Airborne-Spectrum-Dominance---Advanced-RF-Systems_01872788-1",
+"posted": "2026-09-08",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "seniormechanicalengineertransportableradarsystems|rtxraytheon|boston",
+"title": "Senior Mechanical Engineer Transportable Radar Systems",
+"company": "RTX (Raytheon)",
+"location": "US-MA-WOBURN-WB1 ~ 235 Presidential Way ~ SPENCER BLDG",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-WOBURN-WB1--235-Presidential-Way--SPENCER-BLDG/Senior-Mechanical-Engineer-Transportable-Radar-Systems_01872682",
+"posted": "2026-09-08",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "seniorrfdesignengineer|skydio|sfbayarea",
+"title": "Senior RF Design Engineer",
+"company": "Skydio",
+"location": "San Mateo, California, United States",
+"metro": "SF Bay Area",
+"url": "https://jobs.ashbyhq.com/skydio/7bd047de-b65b-42b2-a2bf-7d33ceabd083",
+"posted": "2026-09-08",
+"sources": [
+"회사/ashby"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Skydio"
+},
+{
+"id": "srelectromagneticdesignengineer|draper|boston",
+"title": "Sr. Electromagnetic Design Engineer",
+"company": "Draper",
+"location": "Cambridge, MA",
+"metro": "Boston",
+"url": "https://draper.wd5.myworkdayjobs.com/en-US/Draper_Careers/job/Cambridge-MA/Sr-Electromagnetic-Design-Engineer_JR002532",
+"posted": "2026-09-08",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "Draper"
 },
 {
 "id": "seniorrfengineerwithsecurityclearance|str|boston",
@@ -963,6 +2333,24 @@
 "last_seen": "2026-09-17"
 },
 {
+"id": "seniorradiofrequencyrfmicrowavetestengineer|baesystems|washingtondc",
+"title": "Senior Radio Frequency (RF)/Microwave Test Engineer",
+"company": "BAE Systems",
+"location": "Manassas, Prince William County, Virginia",
+"metro": "Washington DC",
+"url": "https://www.adzuna.com/details/5874062928?utm_medium=api&utm_source=d677d981",
+"posted": "2026-09-07",
+"sources": [
+"Adzuna"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "BAE Systems"
+},
+{
 "id": "wirelessrfengineeringprogrammanager|apple|sfbayarea",
 "title": "Wireless/RF Engineering Program Manager",
 "company": "Apple",
@@ -976,7 +2364,9 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-09-17"
+"last_seen": "2026-09-17",
+"group": "RF·통신",
+"company_key": "Apple"
 },
 {
 "id": "srrffrontendengineerphasedarrayantennarffrontendelectronics|espace|sfbayarea",
@@ -1011,6 +2401,82 @@
 "last_seen": "2026-09-17"
 },
 {
+"id": "radiofrequencyengineersrstfe5|lockheedmart|washingtondc",
+"title": "Radio Frequency Engineer Sr Stf - E5",
+"company": "Lockheed Martin",
+"location": "Severn, Anne Arundel County, Maryland",
+"metro": "Washington DC",
+"url": "https://www.adzuna.com/land/ad/5872971795?se=gLEaYnmy8RGpav-j42JvOw&utm_medium=api&utm_source=d677d981&v=E565983CD0AB9732722615F80F6CB8809A29E683",
+"posted": "2026-09-06",
+"sources": [
+"Adzuna"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Lockheed Martin"
+},
+{
+"id": "principalengineersrprincipalengineerdigitalrfsubsystemswithsecurityclearance|northropgrum|washingtondc",
+"title": "Principal Engineer/Sr. Principal Engineer Digital-RF Subsystems with Security Clearance",
+"company": "Northrop Grumman",
+"location": "Baltimore, Baltimore County, Maryland",
+"metro": "Washington DC",
+"url": "https://www.adzuna.com/land/ad/5873279001?se=GjKmZnmy8RGRr_JonSYGrg&utm_medium=api&utm_source=d677d981&v=6A5EFEC3536EFBF59BD6F94617FC068BE7BF4635",
+"posted": "2026-09-06",
+"sources": [
+"Adzuna"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
+"id": "engineerprincipalengineerdigitalrfsubsystemsitwithsecurityclearance|northropgrum|washingtondc",
+"title": "Engineer/Principal Engineer Digital-RF Subsystems I&T with Security Clearance",
+"company": "Northrop Grumman",
+"location": "Baltimore, Baltimore County, Maryland",
+"metro": "Washington DC",
+"url": "https://www.adzuna.com/land/ad/5873279893?se=GjKmZnmy8RGRr_JonSYGrg&utm_medium=api&utm_source=d677d981&v=57A8CA0FE47EDE412CAE523E15F00E5322475F77",
+"posted": "2026-09-06",
+"sources": [
+"Adzuna"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
+"id": "radiofrequencyspectrumengineermilitarytacticallink16|leidos|washingtondc",
+"title": "Radio Frequency/Spectrum Engineer (Military/Tactical/Link-16)",
+"company": "Leidos",
+"location": "Reston, Fairfax County, Virginia",
+"metro": "Washington DC",
+"url": "https://www.adzuna.com/details/5872996809?utm_medium=api&utm_source=d677d981",
+"posted": "2026-09-06",
+"sources": [
+"Adzuna"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Leidos"
+},
+{
 "id": "radiofrequencyengineersrstfe5|lockheedmartin|washingtondc",
 "title": "Radio Frequency Engineer Sr Stf - E5",
 "company": "Lockheed Martin",
@@ -1025,6 +2491,81 @@
 "remote": false,
 "first_seen": "2026-09-17",
 "last_seen": "2026-09-17"
+},
+{
+"id": "spaceradarpayloadittechnicaladvisorstaffengineersystewithsecurityclearance|northropgrum|washingtondc",
+"title": "Space RADAR Payload I&T Technical Advisor - Staff Engineer Syste with Security Clearance",
+"company": "Northrop Grumman",
+"location": "Baltimore, Baltimore County, Maryland",
+"metro": "Washington DC",
+"url": "https://www.adzuna.com/land/ad/5872291273?se=GjKmZnmy8RGRr_JonSYGrg&utm_medium=api&utm_source=d677d981&v=7650C92512EDE433D3C9B5775B5BFA2ACC0CBBCF",
+"posted": "2026-09-05",
+"sources": [
+"Adzuna"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
+"id": "radiofrequencyengineerspectrumengineercuas|leidos|washingtondc",
+"title": "Radio Frequency Engineer/Spectrum Engineer (C-UAS)",
+"company": "Leidos",
+"location": "Washington, D.C., US",
+"metro": "Washington DC",
+"url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Washington-DC/Radio-Frequency-Engineer-Spectrum-Engineer--C-UAS-_R-00191408",
+"posted": "2026-09-05",
+"sources": [
+"Adzuna",
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Leidos"
+},
+{
+"id": "cellularrftransmittersystemsengineer|apple|boston",
+"title": "Cellular RF Transmitter Systems Engineer",
+"company": "Apple",
+"location": "South Waltham, Middlesex County, Massachusetts",
+"metro": "Boston",
+"url": "https://www.adzuna.com/details/5871676339?utm_medium=api&utm_source=d677d981",
+"posted": "2026-09-05",
+"sources": [
+"Adzuna"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "RF·통신",
+"company_key": "Apple"
+},
+{
+"id": "networkengineerrf|gditgenerald|washingtondc",
+"title": "Network Engineer RF",
+"company": "GDIT (General Dynamics IT)",
+"location": "USA VA Falls Church",
+"metro": "Washington DC",
+"url": "https://gdit.wd5.myworkdayjobs.com/en-US/External_Career_Site/job/USA-VA-Falls-Church/Network-Engineer-RF_RQ227725",
+"posted": "2026-09-05",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "GDIT (General Dynamics IT)"
 },
 {
 "id": "antennaandmicrowaveengineeri|raytheon|boston",
@@ -1063,6 +2604,116 @@
 "last_seen": "2026-09-17"
 },
 {
+"id": "radiofrequencyengineerspectrumengineercuaswithsecurityclearance|leidos|washingtondc",
+"title": "Radio Frequency Engineer/Spectrum Engineer (C-UAS) with Security Clearance",
+"company": "Leidos",
+"location": "Crystal, Arlington County, Virginia",
+"metro": "Washington DC",
+"url": "https://www.adzuna.com/land/ad/5870550793?se=COxSinmy8RGDf8oZs_LVjg&utm_medium=api&utm_source=d677d981&v=D720632E7623E497A15058A87D05CEB357DFB30C",
+"posted": "2026-09-04",
+"sources": [
+"Adzuna"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Leidos"
+},
+{
+"id": "wirelesssystemvalidationengineer|apple|sfbayarea",
+"title": "Wireless System Validation Engineer",
+"company": "Apple",
+"location": "Monte Vista, Santa Clara County, California",
+"metro": "SF Bay Area",
+"url": "https://www.adzuna.com/details/5870322649?utm_medium=api&utm_source=d677d981",
+"posted": "2026-09-04",
+"sources": [
+"Adzuna"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "RF·통신",
+"company_key": "Apple"
+},
+{
+"id": "cellularmodemrfsoftwareengineeringprogrammanager|apple|sfbayarea",
+"title": "Cellular Modem RF Software Engineering Program Manager",
+"company": "Apple",
+"location": "Monte Vista, Santa Clara County, California",
+"metro": "SF Bay Area",
+"url": "https://www.adzuna.com/details/5870227484?utm_medium=api&utm_source=d677d981",
+"posted": "2026-09-04",
+"sources": [
+"Adzuna"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "RF·통신",
+"company_key": "Apple"
+},
+{
+"id": "principalsrprincipalelectronicwarfareewsystemsengineer|northropgrum|washingtondc",
+"title": "Principal / Sr. Principal Electronic Warfare (EW) Systems Engineer",
+"company": "Northrop Grumman",
+"location": "United States-Maryland-Baltimore",
+"metro": "Washington DC",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Principal---Sr-Principal-Electronic-Warfare--EW--Systems-Engineer_R10249511",
+"posted": "2026-09-04",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
+"id": "rfspectrumpolicyengineer28905|hiimissionte|washingtondc",
+"title": "RF Spectrum Policy Engineer - 28905",
+"company": "HII (Mission Technologies)",
+"location": "Arlington, VA, Virginia, United States",
+"metro": "Washington DC",
+"url": "https://jobs.hii-tsd.com/job/Arlington%2C-VA-RF-Spectrum-Policy-Engineer-28905-Virg/1398298700/",
+"posted": "2026-09-04",
+"sources": [
+"회사/successfactors"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "HII (Mission Technologies)"
+},
+{
+"id": "rftestengineersenior|boozallenham|washingtondc",
+"title": "RF Test Engineer, Senior",
+"company": "Booz Allen Hamilton",
+"location": "King George, VA",
+"metro": "Washington DC",
+"url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/King-George-VA/RF-Test-Engineer--Senior_R0248705",
+"posted": "2026-09-04",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Booz Allen Hamilton"
+},
+{
 "id": "staffengineeropticsrf|cowboyspacecorp|sfbayarea",
 "title": "Staff Engineer, Optics & RF",
 "company": "Cowboy Space Corp.",
@@ -1093,6 +2744,237 @@
 "remote": false,
 "first_seen": "2026-09-17",
 "last_seen": "2026-09-17"
+},
+{
+"id": "emitestengineerwithsecurityclearance|rtxraytheon|boston",
+"title": "EMI Test Engineer with Security Clearance",
+"company": "RTX (Raytheon)",
+"location": "Marlborough, Middlesex County, Massachusetts",
+"metro": "Boston",
+"url": "https://www.adzuna.com/land/ad/5868370210?se=EvpgZHmy8RGG_Ptdkojnvw&utm_medium=api&utm_source=d677d981&v=A64024302F37FFF5436E442260675EF98B11C284",
+"posted": "2026-09-03",
+"sources": [
+"Adzuna"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "engineerprincipalengineerrfmicrowavedesignsubsystemsit|northropgrum|washingtondc",
+"title": "Engineer/Principal Engineer RF Microwave Design - Subsystems I&T",
+"company": "Northrop Grumman",
+"location": "Druid, Baltimore, Maryland",
+"metro": "Washington DC",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Engineer-Principal-Engineer-RF-Microwave-Design---Subsystems-I-T_R10248480",
+"posted": "2026-09-03",
+"sources": [
+"Adzuna",
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
+"id": "principalsrprincipalengineerrfmicrowavedesignsubsystemsit|northropgrum|washingtondc",
+"title": "Principal/Sr. Principal Engineer RF Microwave Design - Subsystems I&T",
+"company": "Northrop Grumman",
+"location": "Druid, Baltimore, Maryland",
+"metro": "Washington DC",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Principal-Sr-Principal-Engineer-RF-Microwave-Design---Subsystems-I-T_R10248610",
+"posted": "2026-09-03",
+"sources": [
+"Adzuna",
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
+"id": "principalsrprincipalrfmicrowavedesignengineersubsystemsit|northropgrum|washingtondc",
+"title": "Principal/Sr. Principal RF Microwave Design Engineer - Subsystems I&T",
+"company": "Northrop Grumman",
+"location": "Druid, Baltimore, Maryland",
+"metro": "Washington DC",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Principal-Sr-Principal-RF-Microwave-Design-Engineer---Subsystems-I-T_R10248616",
+"posted": "2026-09-03",
+"sources": [
+"Adzuna",
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
+"id": "principalsrsrprincipalrfmicrowavedesignengineersubsystemsit|northropgrum|washingtondc",
+"title": "Principal/Sr. Sr. Principal RF Microwave Design Engineer - Subsystems I&T",
+"company": "Northrop Grumman",
+"location": "Druid, Baltimore, Maryland",
+"metro": "Washington DC",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Principal-Sr-Sr-Principal-RF-Microwave-Design-Engineer---Subsystems-I-T_R10248620",
+"posted": "2026-09-03",
+"sources": [
+"Adzuna",
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
+"id": "rfsystemsengineersystemstssciwithsecurityclearance|northropgrum|washingtondc",
+"title": "RF Systems Engineer systems [ TS SCI ] with Security Clearance",
+"company": "Northrop Grumman",
+"location": "Stafford, Stafford County, Virginia",
+"metro": "Washington DC",
+"url": "https://www.adzuna.com/land/ad/5869560579?se=GjKmZnmy8RGRr_JonSYGrg&utm_medium=api&utm_source=d677d981&v=5B9402ADA07CF009750451690FC228E726F1E6D4",
+"posted": "2026-09-03",
+"sources": [
+"Adzuna"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
+"id": "rfsystemsengineersystemstssci|northropgrum|washingtondc",
+"title": "RF Systems Engineer systems [ TS SCI ]",
+"company": "Northrop Grumman",
+"location": "Stafford, Stafford County, Virginia",
+"metro": "Washington DC",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Virginia-Stafford/RF-Systems-Engineer-systems---TS-SCI--_R10248782",
+"posted": "2026-09-03",
+"sources": [
+"Adzuna",
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
+"id": "radaranalyst|saic|washingtondc",
+"title": "Radar Analyst",
+"company": "SAIC",
+"location": "Chantilly, Fairfax County, Virginia",
+"metro": "Washington DC",
+"url": "https://www.adzuna.com/details/5868907773?utm_medium=api&utm_source=d677d981",
+"posted": "2026-09-03",
+"sources": [
+"Adzuna"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "SAIC"
+},
+{
+"id": "rfmodelingsimulationanalyst|saic|washingtondc",
+"title": "RF Modeling/Simulation Analyst",
+"company": "SAIC",
+"location": "Chantilly, Fairfax County, Virginia",
+"metro": "Washington DC",
+"url": "https://www.adzuna.com/details/5868250834?utm_medium=api&utm_source=d677d981",
+"posted": "2026-09-03",
+"sources": [
+"Adzuna"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "SAIC"
+},
+{
+"id": "radarpayloadsystemsengineerwithsecurityclearance|kbr|washingtondc",
+"title": "Radar Payload Systems Engineer with Security Clearance",
+"company": "KBR",
+"location": "Chantilly, Fairfax County, Virginia",
+"metro": "Washington DC",
+"url": "https://www.adzuna.com/land/ad/5869638759?se=sJrYo3my8RGYM8Jm6MC_gA&utm_medium=api&utm_source=d677d981&v=D79237FA892510DDF6E9B2FB5F69C32B9323561D",
+"posted": "2026-09-03",
+"sources": [
+"Adzuna"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "KBR"
+},
+{
+"id": "spaceradarpayloadittechnicaladvisorstaffengineersystems|northropgrum|washingtondc",
+"title": "Space RADAR Payload I&T Technical Advisor - Staff Engineer Systems",
+"company": "Northrop Grumman",
+"location": "United States-Maryland-Linthicum / United States-Maryland-Baltimore",
+"metro": "Washington DC",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Linthicum/Space-RADAR-Payload-I-T-SME---Staff-Engineer-Systems_R10242686",
+"posted": "2026-09-03",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
+"id": "spaceradarpayloadittechnicaladvisorsrstaffengineersystems|northropgrum|washingtondc",
+"title": "Space RADAR Payload I&T Technical Advisor - Sr. Staff Engineer Systems",
+"company": "Northrop Grumman",
+"location": "United States-Maryland-Linthicum / United States-Maryland-Baltimore",
+"metro": "Washington DC",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Linthicum/Space-RADAR-Payload-I-T-SME---Sr-Staff-Engineer-Systems_R10242677",
+"posted": "2026-09-03",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Northrop Grumman"
 },
 {
 "id": "antennaandmicrowaveengineeriionsite|prattwhitney|boston",
@@ -1177,6 +3059,78 @@
 "remote": false,
 "first_seen": "2026-09-17",
 "last_seen": "2026-09-17"
+},
+{
+"id": "emitestengineer|rtxraytheon|boston",
+"title": "EMI Test Engineer",
+"company": "RTX (Raytheon)",
+"location": "US-MA-MARLBOROUGH-MA2 ~ 1001 Boston Post Rd ~ BLDG 2",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-MARLBOROUGH-MA2--1001-Boston-Post-Rd--BLDG-2/EMI-Test-Engineer_01871931",
+"posted": "2026-09-02",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "groundbasedradardigitizationhardwarelead|rtxraytheon|boston",
+"title": "Ground-Based Radar Digitization Hardware Lead",
+"company": "RTX (Raytheon)",
+"location": "US-MA-MARLBOROUGH-MA1 ~ 1001 Boston Post Rd ~ BLDG 1 / US-MA-TEWKSBURY-TB1 ~ 50 Apple Hill Dr ~ ASSABET BLDG",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-MARLBOROUGH-MA1--1001-Boston-Post-Rd--BLDG-1/Ground-Based-Radar-Digitization-Hardware-Lead_01862432-1",
+"posted": "2026-09-02",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "principalrfcommunicationsengineer|draper|boston",
+"title": "Principal RF Communications Engineer",
+"company": "Draper",
+"location": "Cambridge, MA",
+"metro": "Boston",
+"url": "https://draper.wd5.myworkdayjobs.com/en-US/Draper_Careers/job/Cambridge-MA/Principal-RF-Communications-Engineer_JR002180-1",
+"posted": "2026-09-02",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "Draper"
+},
+{
+"id": "entrylevelrfengineer|draper|boston",
+"title": "Entry Level RF Engineer",
+"company": "Draper",
+"location": "Cambridge, MA",
+"metro": "Boston",
+"url": "https://draper.wd5.myworkdayjobs.com/en-US/Draper_Careers/job/Cambridge-MA/Entry-Level-RF-Engineer_JR002626",
+"posted": "2026-09-02",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "Draper"
 },
 {
 "id": "radiofrequencyengineer|trimble|sfbayarea",
@@ -1293,12 +3247,16 @@
 "url": "https://boards.greenhouse.io/spacex/jobs/8691059002?gh_jid=8691059002",
 "posted": "2026-09-01",
 "sources": [
-"Greenhouse/spacex"
+"Adzuna",
+"Greenhouse/spacex",
+"회사/greenhouse"
 ],
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-09-17"
+"last_seen": "2026-09-17",
+"group": "RF·통신",
+"company_key": "SpaceX"
 },
 {
 "id": "srrffrontendmoduledesignengineerrficengineering|spacex|sfbayarea",
@@ -1309,12 +3267,15 @@
 "url": "https://boards.greenhouse.io/spacex/jobs/8562302002?gh_jid=8562302002",
 "posted": "2026-09-01",
 "sources": [
-"Greenhouse/spacex"
+"Greenhouse/spacex",
+"회사/greenhouse"
 ],
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-09-17"
+"last_seen": "2026-09-17",
+"group": "RF·통신",
+"company_key": "SpaceX"
 },
 {
 "id": "srrfsystemsanalysisengineerregulatorystarlink|spacex|washingtondc",
@@ -1325,12 +3286,16 @@
 "url": "https://boards.greenhouse.io/spacex/jobs/8687990002?gh_jid=8687990002",
 "posted": "2026-09-01",
 "sources": [
-"Greenhouse/spacex"
+"Adzuna",
+"Greenhouse/spacex",
+"회사/greenhouse"
 ],
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-09-17"
+"last_seen": "2026-09-17",
+"group": "RF·통신",
+"company_key": "SpaceX"
 },
 {
 "id": "srsignalintegrityengineerserdessatellitesstarlink|spacex|sfbayarea",
@@ -1341,12 +3306,15 @@
 "url": "https://boards.greenhouse.io/spacex/jobs/8627692002?gh_jid=8627692002",
 "posted": "2026-09-01",
 "sources": [
-"Greenhouse/spacex"
+"Greenhouse/spacex",
+"회사/greenhouse"
 ],
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-09-17"
+"last_seen": "2026-09-17",
+"group": "RF·통신",
+"company_key": "SpaceX"
 },
 {
 "id": "srwirelessfirmwareengineerstarlinkmobile|spacex|sfbayarea",
@@ -1357,12 +3325,15 @@
 "url": "https://boards.greenhouse.io/spacex/jobs/8546682002?gh_jid=8546682002",
 "posted": "2026-09-01",
 "sources": [
-"Greenhouse/spacex"
+"Greenhouse/spacex",
+"회사/greenhouse"
 ],
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-09-17"
+"last_seen": "2026-09-17",
+"group": "RF·통신",
+"company_key": "SpaceX"
 },
 {
 "id": "srwirelesssoftwareengineerstarlink|spacex|sfbayarea",
@@ -1373,12 +3344,16 @@
 "url": "https://boards.greenhouse.io/spacex/jobs/8637796002?gh_jid=8637796002",
 "posted": "2026-09-01",
 "sources": [
-"Greenhouse/spacex"
+"Adzuna",
+"Greenhouse/spacex",
+"회사/greenhouse"
 ],
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-09-17"
+"last_seen": "2026-09-17",
+"group": "RF·통신",
+"company_key": "SpaceX"
 },
 {
 "id": "wirelessfirmwareengineerstarlinkmobile|spacex|sfbayarea",
@@ -1389,12 +3364,15 @@
 "url": "https://boards.greenhouse.io/spacex/jobs/8546713002?gh_jid=8546713002",
 "posted": "2026-09-01",
 "sources": [
-"Greenhouse/spacex"
+"Greenhouse/spacex",
+"회사/greenhouse"
 ],
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-09-17"
+"last_seen": "2026-09-17",
+"group": "RF·통신",
+"company_key": "SpaceX"
 },
 {
 "id": "wirelesssoftwareengineerstarlink|spacex|sfbayarea",
@@ -1405,12 +3383,15 @@
 "url": "https://boards.greenhouse.io/spacex/jobs/8637814002?gh_jid=8637814002",
 "posted": "2026-09-01",
 "sources": [
-"Greenhouse/spacex"
+"Greenhouse/spacex",
+"회사/greenhouse"
 ],
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-09-17"
+"last_seen": "2026-09-17",
+"group": "RF·통신",
+"company_key": "SpaceX"
 },
 {
 "id": "wirelesssystemsengineerstarlinkmobile|spacex|sfbayarea",
@@ -1421,12 +3402,15 @@
 "url": "https://boards.greenhouse.io/spacex/jobs/8546717002?gh_jid=8546717002",
 "posted": "2026-09-01",
 "sources": [
-"Greenhouse/spacex"
+"Greenhouse/spacex",
+"회사/greenhouse"
 ],
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-09-17"
+"last_seen": "2026-09-17",
+"group": "RF·통신",
+"company_key": "SpaceX"
 },
 {
 "id": "senioremctestengineer|teradyne|boston",
@@ -1443,6 +3427,114 @@
 "remote": false,
 "first_seen": "2026-09-17",
 "last_seen": "2026-09-17"
+},
+{
+"id": "seniorrfdspengineer|bluehaloaero|washingtondc",
+"title": "Senior RF/DSP Engineer",
+"company": "BlueHalo / AeroVironment",
+"location": "Leesburg, VA",
+"metro": "Washington DC",
+"url": "https://avav.wd1.myworkdayjobs.com/en-US/AVAV/job/Leesburg-VA/Senior-RF-DSP-Engineer_8570",
+"posted": "2026-09-01",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "BlueHalo / AeroVironment"
+},
+{
+"id": "principalrfdspengineer|bluehaloaero|washingtondc",
+"title": "Principal RF/DSP Engineer",
+"company": "BlueHalo / AeroVironment",
+"location": "Leesburg, VA",
+"metro": "Washington DC",
+"url": "https://avav.wd1.myworkdayjobs.com/en-US/AVAV/job/Leesburg-VA/Principal-RF-DSP-Engineer_8572",
+"posted": "2026-09-01",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "BlueHalo / AeroVironment"
+},
+{
+"id": "rficlayoutdesignerrficengineering|spacex|sfbayarea",
+"title": "RFIC Layout Designer (RFIC Engineering)",
+"company": "SpaceX",
+"location": "Palo Alto, CA",
+"metro": "SF Bay Area",
+"url": "https://boards.greenhouse.io/spacex/jobs/8642055002?gh_jid=8642055002",
+"posted": "2026-09-01",
+"sources": [
+"회사/greenhouse"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "RF·통신",
+"company_key": "SpaceX"
+},
+{
+"id": "srrficdesignengineerrficengineering|spacex|sfbayarea",
+"title": "Sr. RFIC Design Engineer (RFIC Engineering)",
+"company": "SpaceX",
+"location": "Palo Alto, CA",
+"metro": "SF Bay Area",
+"url": "https://boards.greenhouse.io/spacex/jobs/8642084002?gh_jid=8642084002",
+"posted": "2026-09-01",
+"sources": [
+"회사/greenhouse"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "RF·통신",
+"company_key": "SpaceX"
+},
+{
+"id": "srrficlayoutdesignerrficengineering|spacex|sfbayarea",
+"title": "Sr. RFIC Layout Designer (RFIC Engineering)",
+"company": "SpaceX",
+"location": "Palo Alto, CA",
+"metro": "SF Bay Area",
+"url": "https://boards.greenhouse.io/spacex/jobs/8642096002?gh_jid=8642096002",
+"posted": "2026-09-01",
+"sources": [
+"회사/greenhouse"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "RF·통신",
+"company_key": "SpaceX"
+},
+{
+"id": "srsystemsengineerradarsystemsintegrator|rtxraytheon|boston",
+"title": "Sr. Systems Engineer, Radar Systems Integrator",
+"company": "RTX (Raytheon)",
+"location": "US-MA-WOBURN-WB1 ~ 235 Presidential Way ~ SPENCER BLDG",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-WOBURN-WB1--235-Presidential-Way--SPENCER-BLDG/Sr-Systems-Engineer--Radar-Systems-Integrator_01868513",
+"posted": "2026-08-31",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
 },
 {
 "id": "srstaffrfsystemsengineer|rivianandvolkswagengrouptechnologies|sfbayarea",
@@ -1577,6 +3669,96 @@
 "last_seen": "2026-09-17"
 },
 {
+"id": "navalradarseniorsystemsengineer|rtxraytheon|boston",
+"title": "Naval Radar - Senior Systems Engineer",
+"company": "RTX (Raytheon)",
+"location": "US-MA-MARLBOROUGH-MA1 ~ 1001 Boston Post Rd ~ BLDG 1",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-MARLBOROUGH-MA1--1001-Boston-Post-Rd--BLDG-1/Naval-Radar---Senior-Systems-Engineer_01870244",
+"posted": "2026-08-28",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "navalradarsystemsengineerii|rtxraytheon|boston",
+"title": "Naval Radar - Systems Engineer II",
+"company": "RTX (Raytheon)",
+"location": "US-MA-MARLBOROUGH-MA1 ~ 1001 Boston Post Rd ~ BLDG 1",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-MARLBOROUGH-MA1--1001-Boston-Post-Rd--BLDG-1/Naval-Radar---Systems-Engineer-II_01870246",
+"posted": "2026-08-28",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "navalradarprincipalsystemsengineer|rtxraytheon|boston",
+"title": "Naval Radar - Principal Systems Engineer",
+"company": "RTX (Raytheon)",
+"location": "US-MA-MARLBOROUGH-MA1 ~ 1001 Boston Post Rd ~ BLDG 1",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-MARLBOROUGH-MA1--1001-Boston-Post-Rd--BLDG-1/Naval-Radar---Principal-Systems-Engineer_01870242",
+"posted": "2026-08-28",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "spectrumengineerradiofrequencyrfengineer|leidos|washingtondc",
+"title": "Spectrum Engineer/Radio Frequency (RF) Engineer",
+"company": "Leidos",
+"location": "Washington, DC",
+"metro": "Washington DC",
+"url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Washington-DC/Spectrum-Engineer-Radio-Frequency--RF--Engineer_R-00190917",
+"posted": "2026-08-28",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Leidos"
+},
+{
+"id": "spacepayloadrfengineerlead|boozallenham|washingtondc",
+"title": "Space Payload RF Engineer, Lead",
+"company": "Booz Allen Hamilton",
+"location": "Chantilly, VA / El Segundo, CA / Aurora, CO",
+"metro": "Washington DC",
+"url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Chantilly-VA/Space-Payload-RF-Engineer--Lead_R0248195",
+"posted": "2026-08-28",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Booz Allen Hamilton"
+},
+{
 "id": "seniorelectromagneticenvironmentaleffectse3emiengineer|rtxcorporation|boston",
 "title": "Senior Electromagnetic Environmental Effects (E3) / EMI Engineer",
 "company": "RTX Corporation",
@@ -1611,6 +3793,42 @@
 "last_seen": "2026-09-17"
 },
 {
+"id": "principalsoftwareengineerradarmodelingonsite|rtxraytheon|washingtondc",
+"title": "Principal Software Engineer - Radar Modeling (Onsite)",
+"company": "RTX (Raytheon)",
+"location": "US-VA-STERLING-291 ~ 22640 Davis Dr ~ DAVIS",
+"metro": "Washington DC",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-VA-STERLING-291--22640-Davis-Dr--DAVIS/Principal-Software-Engineer---Radar-Modeling--Onsite-_01865873",
+"posted": "2026-08-27",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "principalsrprincipalrfmicrowavemixedsignaldesignengineer|northropgrum|washingtondc",
+"title": "Principal/Sr. Principal RF Microwave/Mixed Signal Design Engineer",
+"company": "Northrop Grumman",
+"location": "United States-Maryland-Baltimore",
+"metro": "Washington DC",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Principal-Sr-Principal-RF-Microwave-Mixed-Signal-Design-Engineer_R10241653",
+"posted": "2026-08-27",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
 "id": "rfengineerapg|haighfarr|boston",
 "title": "RF Engineer - APG",
 "company": "Haigh-Farr",
@@ -1625,6 +3843,116 @@
 "remote": false,
 "first_seen": "2026-09-17",
 "last_seen": "2026-09-17"
+},
+{
+"id": "mechanicalantennaengineerlevel3dulles|northropgrum|washingtondc",
+"title": "Mechanical Antenna Engineer - Level 3 - Dulles",
+"company": "Northrop Grumman",
+"location": "United States-Virginia-Dulles",
+"metro": "Washington DC",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Virginia-Dulles/Mechanical-Antenna-Engineer---Level-3---Dulles_R10238232",
+"posted": "2026-08-26",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
+"id": "rfmicrowavedesignengineerlevel4baltimore|northropgrum|washingtondc",
+"title": "RF Microwave Design Engineer Level 4 - Baltimore",
+"company": "Northrop Grumman",
+"location": "United States-Maryland-Baltimore",
+"metro": "Washington DC",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/RF-Microwave-Design-Engineer-Level-4---Baltimore_R10243411",
+"posted": "2026-08-26",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
+"id": "radarmodelingsimulationanalysisassociatesystemsengineer|northropgrum|washingtondc",
+"title": "Radar Modeling Simulation Analysis Associate Systems Engineer",
+"company": "Northrop Grumman",
+"location": "United States-Maryland-Linthicum",
+"metro": "Washington DC",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Linthicum/Radar-Modeling-Simulation-Analysis-Associate-Systems-Engineer_R10247334",
+"posted": "2026-08-26",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
+"id": "spaceradardataprocessingprincipalsrprincipalengineersystemsaht|northropgrum|washingtondc",
+"title": "Space RADAR Data Processing - Principal/Sr Principal Engineer Systems (AHT)",
+"company": "Northrop Grumman",
+"location": "United States-Maryland-Linthicum",
+"metro": "Washington DC",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Linthicum/Space-RADAR-Data-Processing---Principal-Sr-Principal-Engineer-Systems_R10239207-1",
+"posted": "2026-08-26",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
+"id": "radiofrequencyengineertssciwithpolygraph|gditgenerald|washingtondc",
+"title": "Radio Frequency Engineer_ TS/SCI with Polygraph",
+"company": "GDIT (General Dynamics IT)",
+"location": "USA VA Chantilly",
+"metro": "Washington DC",
+"url": "https://gdit.wd5.myworkdayjobs.com/en-US/External_Career_Site/job/USA-VA-Chantilly/Radio-Frequency-Engineer--TS-SCI-with-Polygraph_RQ217301-2",
+"posted": "2026-08-26",
+"sources": [
+"회사/workday"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "GDIT (General Dynamics IT)"
+},
+{
+"id": "rapiddeploymentradarfieldservicerepresentative|gditgenerald|washingtondc",
+"title": ") Rapid Deployment Radar Field Service Representative",
+"company": "GDIT (General Dynamics IT)",
+"location": "USA VA Sterling",
+"metro": "Washington DC",
+"url": "https://gdit.wd5.myworkdayjobs.com/en-US/External_Career_Site/job/USA-VA-Sterling/XMLNAME---Rapid-Deployment-Radar-Field-Service-Representative_RQ225528",
+"posted": "2026-08-26",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "GDIT (General Dynamics IT)"
 },
 {
 "id": "rfmoduleengineerwinterspringcoopjanjune27|skyworks|sfbayarea",
@@ -1691,6 +4019,78 @@
 "last_seen": "2026-09-17"
 },
 {
+"id": "principalradarreceiverexciterintegrationtestengineer|rtxraytheon|boston",
+"title": "Principal Radar Receiver / Exciter Integration & Test Engineer",
+"company": "RTX (Raytheon)",
+"location": "US-MA-TEWKSBURY-TB1 ~ 50 Apple Hill Dr ~ ASSABET BLDG / US-MA-ANDOVER-AN1 ~ 350 Lowell St ~ AN1 ESSEX BLDG / US-MA-WOBURN-WB1 ~ 235 Presidential Way ~ SPENCER BLDG",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-TEWKSBURY-TB1--50-Apple-Hill-Dr--ASSABET-BLDG/Principal-Radar-Receiver---Exciter-Integration---Test-Engineer_01869562",
+"posted": "2026-08-25",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "seniorradarreceiverexciterintegrationtestengineer|rtxraytheon|boston",
+"title": "Senior Radar Receiver / Exciter Integration & Test Engineer",
+"company": "RTX (Raytheon)",
+"location": "US-MA-TEWKSBURY-TB1 ~ 50 Apple Hill Dr ~ ASSABET BLDG / US-MA-ANDOVER-AN1 ~ 350 Lowell St ~ AN1 ESSEX BLDG / US-MA-WOBURN-WB1 ~ 235 Presidential Way ~ SPENCER BLDG",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-TEWKSBURY-TB1--50-Apple-Hill-Dr--ASSABET-BLDG/Senior-Radar-Receiver---Exciter-Integration---Test-Engineer_01869560",
+"posted": "2026-08-25",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "seniorelectromagneticenvironmentaleffectse3emiengineer|rtxraytheon|boston",
+"title": "Senior Electromagnetic Environmental Effects (E3) / EMI Engineer",
+"company": "RTX (Raytheon)",
+"location": "US-MA-MARLBOROUGH-MA2 ~ 1001 Boston Post Rd ~ BLDG 2",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-MARLBOROUGH-MA2--1001-Boston-Post-Rd--BLDG-2/Senior-Electromagnetic-Environmental-Effects--E3----EMI-Engineer_01869542",
+"posted": "2026-08-25",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "staffitsystemsengineerrfhw2ndshift|northropgrum|washingtondc",
+"title": "Staff I&T Systems Engineer - RF / HW - 2nd Shift",
+"company": "Northrop Grumman",
+"location": "United States-Maryland-Baltimore",
+"metro": "Washington DC",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Staff-I-T-Systems-Engineer---RF---HW---2nd-Shift_R10247593",
+"posted": "2026-08-25",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
 "id": "rfengineersrstaffandovermawithsecurityclearance|lockheedmartin|boston",
 "title": "RF Engineer, Sr Staff - Andover, MA with Security Clearance",
 "company": "Lockheed Martin",
@@ -1709,6 +4109,42 @@
 "last_seen": "2026-09-17"
 },
 {
+"id": "engineerrfmicrowavesubsystemit|northropgrum|washingtondc",
+"title": "Engineer RF Microwave Subsystem I&T",
+"company": "Northrop Grumman",
+"location": "United States-Maryland-Baltimore",
+"metro": "Washington DC",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Engineer-RF-Microwave-Subsystem-I-T_R10242919-1",
+"posted": "2026-08-24",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
+"id": "spectrumrfengineer28443|hiimissionte|washingtondc",
+"title": "Spectrum RF Engineer - 28443",
+"company": "HII (Mission Technologies)",
+"location": "Washington, DC, District of Columbia, United States",
+"metro": "Washington DC",
+"url": "https://jobs.hii-tsd.com/job/Washington%2C-DC-Spectrum-RF-Engineer-28443-Dist/1386938800/",
+"posted": "2026-08-24",
+"sources": [
+"회사/successfactors"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "HII (Mission Technologies)"
+},
+{
 "id": "emiemcseniorprincipalengineer|baesystems|boston",
 "title": "EMI/EMC Senior Principal Engineer",
 "company": "BAE Systems",
@@ -1723,6 +4159,24 @@
 "remote": false,
 "first_seen": "2026-09-17",
 "last_seen": "2026-09-17"
+},
+{
+"id": "principalsystemsengineerradaranalystonsite|rtxraytheon|boston",
+"title": "Principal Systems Engineer, Radar Analyst Onsite",
+"company": "RTX (Raytheon)",
+"location": "US-MA-WOBURN-WB1 ~ 235 Presidential Way ~ SPENCER BLDG",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-WOBURN-WB1--235-Presidential-Way--SPENCER-BLDG/Principal-Systems-Engineer--Radar-Analyst-Onsite_01868301",
+"posted": "2026-08-23",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
 },
 {
 "id": "rfengineer|mitlincolnlaboratory|boston",
@@ -1839,6 +4293,42 @@
 "last_seen": "2026-09-17"
 },
 {
+"id": "staffradarmodelingsimulationanalysissystemsengineer|northropgrum|washingtondc",
+"title": "Staff Radar Modeling Simulation Analysis Systems Engineer",
+"company": "Northrop Grumman",
+"location": "United States-Maryland-Baltimore",
+"metro": "Washington DC",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Staff-Radar-Modeling-Simulation-Analysis-Systems-Engineer_R10247029",
+"posted": "2026-08-21",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
+"id": "principalseniorprincipalradarmodelingsimulationanalysissystemsengineer|northropgrum|washingtondc",
+"title": "Principal / Senior Principal Radar Modeling Simulation Analysis Systems Engineer",
+"company": "Northrop Grumman",
+"location": "United States-Maryland-Baltimore",
+"metro": "Washington DC",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Principal---Senior-Principal-Radar-Modeling-Simulation-Analysis-Systems-Engineer_R10247025",
+"posted": "2026-08-21",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
 "id": "seniorantennadesignengineer|espace|sfbayarea",
 "title": "Senior Antenna Design Engineer",
 "company": "E-Space",
@@ -1941,6 +4431,24 @@
 "last_seen": "2026-09-17"
 },
 {
+"id": "rftestengineerprincipalrftestengineer2ndshift|northropgrum|washingtondc",
+"title": "RF Test Engineer/ Principal RF Test Engineer- 2nd Shift",
+"company": "Northrop Grumman",
+"location": "United States-Maryland-Baltimore",
+"metro": "Washington DC",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/RF-Test-Engineer--Principal-RF-Test-Engineer--2nd-Shift_R10246825",
+"posted": "2026-08-20",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
 "id": "rfhardwareengineer|hark|sfbayarea",
 "title": "RF Hardware Engineer",
 "company": "Hark",
@@ -2009,6 +4517,60 @@
 "last_seen": "2026-09-17"
 },
 {
+"id": "principalsemiconductorfabinprocessrftestengineer|rtxraytheon|boston",
+"title": "Principal Semiconductor Fab In-Process RF Test Engineer",
+"company": "RTX (Raytheon)",
+"location": "US-MA-ANDOVER-AR1 ~ 358 Lowell St ~ AR1 DUKES BLDG",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-ANDOVER-AR1--358-Lowell-St--AR1-DUKES-BLDG/Principal-Semiconductor-Fab-In-Process-RF-Test-Engineer_01868075-1",
+"posted": "2026-08-19",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "seniorsystemsengineergroundbasedradarsystems|rtxraytheon|boston",
+"title": "Senior Systems Engineer - Ground Based Radar Systems",
+"company": "RTX (Raytheon)",
+"location": "US-MA-WOBURN-WB2 ~ 225 Presidential Way ~ GODDARD BLDG",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-WOBURN-WB2--225-Presidential-Way--GODDARD-BLDG/Senior-Systems-Engineer---Ground-Based-Radar-Systems_01867714",
+"posted": "2026-08-19",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "principalsystemsengineergroundbasedradarsystems|rtxraytheon|boston",
+"title": "Principal Systems Engineer - Ground Based Radar Systems",
+"company": "RTX (Raytheon)",
+"location": "US-MA-WOBURN-WB2 ~ 225 Presidential Way ~ GODDARD BLDG",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-WOBURN-WB2--225-Presidential-Way--GODDARD-BLDG/Principal-Systems-Engineer---Ground-Based-Radar-Systems_01867716-1",
+"posted": "2026-08-19",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
 "id": "rfengineer|tive|boston",
 "title": "RF Engineer",
 "company": "Tive",
@@ -2042,6 +4604,1338 @@
 "remote": false,
 "first_seen": "2026-09-17",
 "last_seen": "2026-09-17"
+},
+{
+"id": "seniorrfdesignengineer|rtxraytheon|boston",
+"title": "Senior RF Design Engineer",
+"company": "RTX (Raytheon)",
+"location": "US-MA-TEWKSBURY-TB1 ~ 50 Apple Hill Dr ~ ASSABET BLDG / US-MA-ANDOVER-AR1 ~ 358 Lowell St ~ AR1 DUKES BLDG / US-MA-MARLBOROUGH-MA2 ~ 1001 Boston Post Rd ~ BLDG 2",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-TEWKSBURY-TB1--50-Apple-Hill-Dr--ASSABET-BLDG/Senior-RF-Design-Engineer_01867920",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "rfdesignengineerii|rtxraytheon|boston",
+"title": "RF Design Engineer II",
+"company": "RTX (Raytheon)",
+"location": "US-MA-TEWKSBURY-TB1 ~ 50 Apple Hill Dr ~ ASSABET BLDG / US-MA-ANDOVER-AR1 ~ 358 Lowell St ~ AR1 DUKES BLDG / US-MA-MARLBOROUGH-MA2 ~ 1001 Boston Post Rd ~ BLDG 2",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-TEWKSBURY-TB1--50-Apple-Hill-Dr--ASSABET-BLDG/RF-Design-Engineer-II_01867922",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "seniorprincipalrfdesignengineer|rtxraytheon|boston",
+"title": "Senior Principal RF Design Engineer",
+"company": "RTX (Raytheon)",
+"location": "US-MA-MARLBOROUGH-MA2 ~ 1001 Boston Post Rd ~ BLDG 2 / US-MA-TEWKSBURY-TB1 ~ 50 Apple Hill Dr ~ ASSABET BLDG",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-MARLBOROUGH-MA2--1001-Boston-Post-Rd--BLDG-2/Senior-Principal-RF-Design-Engineer_01865793",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "principalsystemsengineerradarsystemintegratoronsite|rtxraytheon|boston",
+"title": "Principal Systems Engineer, Radar System Integrator Onsite",
+"company": "RTX (Raytheon)",
+"location": "US-MA-WOBURN-WB1 ~ 235 Presidential Way ~ SPENCER BLDG",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-WOBURN-WB1--235-Presidential-Way--SPENCER-BLDG/Principal-Systems-Engineer--Radar-System-Integrator-Onsite_01866529",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "seniorsoftwareengineerradarmodelingonsite|rtxraytheon|washingtondc",
+"title": "Senior Software Engineer - Radar Modeling (Onsite)",
+"company": "RTX (Raytheon)",
+"location": "US-VA-STERLING-291 ~ 22640 Davis Dr ~ DAVIS",
+"metro": "Washington DC",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-VA-STERLING-291--22640-Davis-Dr--DAVIS/Senior-Software-Engineer---Radar-Modeling--Onsite-_01856041",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "principalantennaandmicrowaveengineer|rtxraytheon|boston",
+"title": "Principal Antenna and Microwave Engineer",
+"company": "RTX (Raytheon)",
+"location": "US-MA-TEWKSBURY-TB1 ~ 50 Apple Hill Dr ~ ASSABET BLDG",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-TEWKSBURY-TB1--50-Apple-Hill-Dr--ASSABET-BLDG/Principal-Antenna-and-Microwave-Engineer_01862650-1",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "antennaandmicrowaveengineerii|rtxraytheon|boston",
+"title": "Antenna and Microwave Engineer II",
+"company": "RTX (Raytheon)",
+"location": "US-MA-TEWKSBURY-TB1 ~ 50 Apple Hill Dr ~ ASSABET BLDG",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-TEWKSBURY-TB1--50-Apple-Hill-Dr--ASSABET-BLDG/Antenna-and-Microwave-Engineer-II_01861482",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "antennaandmicrowaveengineeriii|rtxraytheon|boston",
+"title": "Antenna and Microwave Engineer III",
+"company": "RTX (Raytheon)",
+"location": "US-MA-TEWKSBURY-TB1 ~ 50 Apple Hill Dr ~ ASSABET BLDG",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-TEWKSBURY-TB1--50-Apple-Hill-Dr--ASSABET-BLDG/Antenna-and-Microwave-Engineer-III_01861485",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "antennaandmicrowaveengineeri|rtxraytheon|boston",
+"title": "Antenna and Microwave Engineer I",
+"company": "RTX (Raytheon)",
+"location": "US-MA-TEWKSBURY-TB1 ~ 50 Apple Hill Dr ~ ASSABET BLDG",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-TEWKSBURY-TB1--50-Apple-Hill-Dr--ASSABET-BLDG/Antenna-and-Microwave-Engineer-1_01857992",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "seniorantennaandmicrowaveengineer|rtxraytheon|boston",
+"title": "Senior Antenna and Microwave Engineer",
+"company": "RTX (Raytheon)",
+"location": "US-MA-TEWKSBURY-TB1 ~ 50 Apple Hill Dr ~ ASSABET BLDG",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-TEWKSBURY-TB1--50-Apple-Hill-Dr--ASSABET-BLDG/Senior-Antenna-and-Microwave-Engineer_01856019",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "principalrfdesignengineer|rtxraytheon|boston",
+"title": "Principal RF Design Engineer",
+"company": "RTX (Raytheon)",
+"location": "US-MA-MARLBOROUGH-MA2 ~ 1001 Boston Post Rd ~ BLDG 2 / US-MA-TEWKSBURY-TB1 ~ 50 Apple Hill Dr ~ ASSABET BLDG",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-MARLBOROUGH-MA2--1001-Boston-Post-Rd--BLDG-2/Principal-RF-Design-Engineer_01865225",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "principalsystemsengineerradardataanalysisantpy2|rtxraytheon|boston",
+"title": "Principal Systems Engineer, Radar Data Analysis - AN/TPY-2",
+"company": "RTX (Raytheon)",
+"location": "US-MA-WOBURN-WB2 ~ 225 Presidential Way ~ GODDARD BLDG",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-WOBURN-WB2--225-Presidential-Way--GODDARD-BLDG/Principal-Systems-Engineer--Radar-Data-Analysis---AN-TPY-2_01866663",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "electricalengineeriiradarcomputingandnetworksystemdesign|rtxraytheon|boston",
+"title": "Electrical Engineer II - Radar Computing and Network System Design",
+"company": "RTX (Raytheon)",
+"location": "US-MA-TEWKSBURY-TB1 ~ 50 Apple Hill Dr ~ ASSABET BLDG / US-MA-MARLBOROUGH-MA2 ~ 1001 Boston Post Rd ~ BLDG 2",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-TEWKSBURY-TB1--50-Apple-Hill-Dr--ASSABET-BLDG/Electrical-Engineer-II---Radar-Computing-and-Network-System-Design_01863625",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "seniorelectricalengineerradarcomputingandnetworksystemdesign|rtxraytheon|boston",
+"title": "Senior Electrical Engineer - Radar Computing and Network System Design",
+"company": "RTX (Raytheon)",
+"location": "US-MA-MARLBOROUGH-MA2 ~ 1001 Boston Post Rd ~ BLDG 2 / US-MA-TEWKSBURY-TB1 ~ 50 Apple Hill Dr ~ ASSABET BLDG",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-MARLBOROUGH-MA2--1001-Boston-Post-Rd--BLDG-2/Senior-Electrical-Engineer---Radar-Computing-and-Network-System-Design_01863626",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "principalelectricalengineerradarcomputingandnetworksystemdesign|rtxraytheon|boston",
+"title": "Principal Electrical Engineer - Radar Computing and Network System Design",
+"company": "RTX (Raytheon)",
+"location": "US-MA-TEWKSBURY-TB1 ~ 50 Apple Hill Dr ~ ASSABET BLDG / US-MA-MARLBOROUGH-MA2 ~ 1001 Boston Post Rd ~ BLDG 2",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-TEWKSBURY-TB1--50-Apple-Hill-Dr--ASSABET-BLDG/Principal-Electrical-Engineer---Radar-Computing-and-Network-System-Design_01863627-1",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "seniorprincipalsystemsengineersurveillanceradaronsite|rtxraytheon|boston",
+"title": "Senior Principal Systems Engineer - Surveillance Radar (Onsite)",
+"company": "RTX (Raytheon)",
+"location": "US-MA-MARLBOROUGH-MA3 ~ 1001 Boston Post Rd ~ BLDG 3",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-MARLBOROUGH-MA3--1001-Boston-Post-Rd--BLDG-3/Senior-Principal-Systems-Engineer---Surveillance-Radar--Onsite-_01840505",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "ghosteyeradarleadsystemsengineer|rtxraytheon|boston",
+"title": "GhostEye Radar Lead Systems Engineer",
+"company": "RTX (Raytheon)",
+"location": "US-MA-TEWKSBURY-TB3 ~ 50 Apple Hill Dr ~ CONCORD BLDG, Tewksbury Tb3 300 Concord",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-TEWKSBURY-TB3--50-Apple-Hill-Dr--CONCORD-BLDG-Tewksbury-Tb3-300-Concord/GhostEye-Radar-Lead-Systems-Engineer_01862185",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "ghosteyeradarsystemengineeringcrossproductlead|rtxraytheon|boston",
+"title": "GhostEye Radar System Engineering Cross Product Lead",
+"company": "RTX (Raytheon)",
+"location": "US-MA-TEWKSBURY-TB3 ~ 50 Apple Hill Dr ~ CONCORD BLDG, Tewksbury Tb3 300 Concord",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-TEWKSBURY-TB3--50-Apple-Hill-Dr--CONCORD-BLDG-Tewksbury-Tb3-300-Concord/GhostEye-Radar-System-Engineering-Cross-Product-Lead_01861438",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "groundbasedradardigitizationgbrdprogramearnedvaluelead|rtxraytheon|boston",
+"title": "Ground Based Radar Digitization (GBRD) Program Earned Value Lead",
+"company": "RTX (Raytheon)",
+"location": "US-MA-WOBURN-WB2 ~ 225 Presidential Way ~ GODDARD BLDG / US-AZ-TUCSON-863A ~ 1151 E Hermans Rd ~ 863A / US-MA-MARLBOROUGH-MA1 ~ 1001 Boston Post Rd ~ BLDG 1 / US-RI-PORTSMOUTH-PS5 ~ 1847 W Main Rd ~ PROVIDENCE BLDG / US-TX-MCKINNEY-513PW ~ 2501 W University Dr ~ PW BLDG / US-MA-TEWKSBURY-TB2 ~ 50 Apple Hill Dr ~ SUDBURY BLDG, Tewksbury Tb2 200 Sudbury / US-MA-ANDOVER-AR2 ~ 362 Lowell St ~ AR2 PLYMOUTH BLDG",
+"metro": "Boston",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-WOBURN-WB2--225-Presidential-Way--GODDARD-BLDG/Ground-Based-Radar-Digitization--GBRD--Program-Earned-Value-Lead_01861595",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "RTX (Raytheon)"
+},
+{
+"id": "rftestanddevelopmentengineer2ndshift|northropgrum|washingtondc",
+"title": "RF Test and Development Engineer - 2nd Shift",
+"company": "Northrop Grumman",
+"location": "United States-Maryland-Baltimore",
+"metro": "Washington DC",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/RF-Test-and-Development-Engineer---2nd-Shift_R10246307",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
+"id": "principalsrprincipalrfhardwaresubsystemintegrationandtestengineers|northropgrum|washingtondc",
+"title": "Principal/Sr. Principal RF Hardware Subsystem Integration and Test Engineers",
+"company": "Northrop Grumman",
+"location": "United States-Maryland-Baltimore",
+"metro": "Washington DC",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Principal-Sr-Principal-RF-Hardware-Subsystem-Integration-and-Test-Engineers_R10245628",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
+"id": "principalrfsystemsengineerseniorprincipalrfsystemsengineer|northropgrum|washingtondc",
+"title": "Principal RF Systems Engineer / Senior Principal RF Systems Engineer",
+"company": "Northrop Grumman",
+"location": "United States-Maryland-Baltimore",
+"metro": "Washington DC",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Principal-RF-Systems-Engineer---Senior-Principal-RF-Systems-Engineer_R10237686",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
+"id": "srstaffitsystemsengineerrfhw|northropgrum|washingtondc",
+"title": "Sr. Staff I&T Systems Engineer - RF / HW",
+"company": "Northrop Grumman",
+"location": "United States-Maryland-Baltimore",
+"metro": "Washington DC",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Sr-Staff-I-T-Systems-Engineer---RF---HW_R10243881",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
+"id": "staffitsystemsengineerrfhw|northropgrum|washingtondc",
+"title": "Staff I&T Systems Engineer - RF / HW",
+"company": "Northrop Grumman",
+"location": "United States-Maryland-Baltimore",
+"metro": "Washington DC",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Staff-I-T-Systems-Engineer---RF---HW_R10243876-1",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
+"id": "principalengineersrprincipalengineerrfmicrowavedesign|northropgrum|washingtondc",
+"title": "Principal Engineer/Sr. Principal Engineer RF Microwave Design",
+"company": "Northrop Grumman",
+"location": "United States-Maryland-Baltimore",
+"metro": "Washington DC",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Principal-Engineer-Sr-Principal-Engineer-RF-Microwave-Design_R10241638",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
+"id": "principalantennatestengineer|northropgrum|washingtondc",
+"title": "Principal Antenna Test Engineer",
+"company": "Northrop Grumman",
+"location": "United States-Maryland-Baltimore",
+"metro": "Washington DC",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Principal-Antenna-Test-Engineer_R10241057",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
+"id": "principalsrprincipalrfmicrowavedesignengineer|northropgrum|washingtondc",
+"title": "Principal / Sr. Principal RF Microwave Design Engineer",
+"company": "Northrop Grumman",
+"location": "United States-Maryland-Baltimore",
+"metro": "Washington DC",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Principal---Sr-Principal-RF-Microwave-Design-Engineer_R10241737",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
+"id": "principalsrprincipaldigitalrfhardwaresubsystemitengineer|northropgrum|washingtondc",
+"title": "Principal/Sr. Principal Digital-RF Hardware Subsystem I&T Engineer",
+"company": "Northrop Grumman",
+"location": "United States-Maryland-Baltimore",
+"metro": "Washington DC",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Principal-Sr-Principal-Digital-RF-Hardware-Subsystem-I-T-Engineer_R10240349",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
+"id": "antennatestengineer4thshiftweekends|northropgrum|washingtondc",
+"title": "Antenna Test Engineer-4th Shift/Weekends",
+"company": "Northrop Grumman",
+"location": "United States-Maryland-Baltimore",
+"metro": "Washington DC",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Antenna-Test-Engineer-4th-Shift-Weekends_R10240511",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
+"id": "principalsrprincipalrfhardwaresubsystemitengineers|northropgrum|washingtondc",
+"title": "Principal/Sr. Principal RF Hardware Subsystem I&T Engineers",
+"company": "Northrop Grumman",
+"location": "United States-Maryland-Baltimore / United States-Maryland-Sykesville",
+"metro": "Washington DC",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Principal-Sr-Principal-RF-Hardware-Subsystem-I-T-Engineers_R10237903",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
+"id": "engineerelectronicsrfantennatest1stshift|northropgrum|washingtondc",
+"title": "Engineer Electronics/RF Antenna Test-1st Shift",
+"company": "Northrop Grumman",
+"location": "United States-Maryland-Baltimore",
+"metro": "Washington DC",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Engineer-Electronics-RF-Antenna-Test-1st-Shift_R10235400",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
+"id": "engineerprincipalengineerrfmicrowavedesignskillbridge|northropgrum|washingtondc",
+"title": "Engineer/Principal Engineer RF Microwave Design (SkillBridge)",
+"company": "Northrop Grumman",
+"location": "United States-Maryland-Baltimore",
+"metro": "Washington DC",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Engineer-Principal-Engineer-RF-Microwave-Design--SkillBridge-_R10231212",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
+"id": "skillbridgeprincipalseniorprincipalradarmodelingsimulationanalysissystemsengineer|northropgrum|washingtondc",
+"title": "Skillbridge Principal / Senior Principal Radar Modeling Simulation Analysis Systems Engineer",
+"company": "Northrop Grumman",
+"location": "United States-Maryland-Baltimore",
+"metro": "Washington DC",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Skillbridge-Principal---Senior-Principal-Radar-Modeling-Simulation-Analysis-Systems-Engineer_R10241259",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
+"id": "rfsystemsengineer|northropgrum|washingtondc",
+"title": "RF Systems Engineer",
+"company": "Northrop Grumman",
+"location": "United States-Maryland-Baltimore",
+"metro": "Washington DC",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/RF-Systems-Engineer_R10237677-1",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
+"id": "leadsystemsengineerrfsystems|leidos|washingtondc",
+"title": "Lead Systems Engineer - RF Systems",
+"company": "Leidos",
+"location": "Laurel, MD",
+"metro": "Washington DC",
+"url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Laurel-MD/Lead-Systems-Engineer---RF-Systems_R-00189860",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Leidos"
+},
+{
+"id": "aegisspyradarsubjectmatterexpertandtacticalandtechnicaltrainer|leidos|washingtondc",
+"title": "AEGIS SPY Radar Subject Matter Expert and Tactical and Technical Trainer",
+"company": "Leidos",
+"location": "Dahlgren, VA",
+"metro": "Washington DC",
+"url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Dahlgren-VA/AEGIS-SPY-Radar-Subject-Matter-Expert-and-Tactical-and-Technical-Trainer_R-00184182",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Leidos"
+},
+{
+"id": "electronicwarfareoperator|leidos|washingtondc",
+"title": "Electronic Warfare Operator",
+"company": "Leidos",
+"location": "Chantilly, VA",
+"metro": "Washington DC",
+"url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Chantilly-VA/Electronic-Warfare-Operator_R-00176300",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Leidos"
+},
+{
+"id": "electronicwarfaresubjectmatterexpert|leidos|washingtondc",
+"title": "Electronic Warfare Subject Matter Expert",
+"company": "Leidos",
+"location": "Dahlgren, VA",
+"metro": "Washington DC",
+"url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Dahlgren-VA/Electronic-Warfare-Subject-Matter-Expert_R-00187388",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Leidos"
+},
+{
+"id": "rfnetworkengineer|boozallenham|washingtondc",
+"title": "RF Network Engineer",
+"company": "Booz Allen Hamilton",
+"location": "Aberdeen Proving Ground, MD",
+"metro": "Washington DC",
+"url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Aberdeen-Proving-Ground-MD/RF-Network-Engineer_R0245184",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Booz Allen Hamilton"
+},
+{
+"id": "rfsystemsengineersenior|boozallenham|washingtondc",
+"title": "RF Systems Engineer, Senior",
+"company": "Booz Allen Hamilton",
+"location": "Dahlgren, VA",
+"metro": "Washington DC",
+"url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Dahlgren-VA/RF-Systems-Engineer--Senior_R0243334-1",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Booz Allen Hamilton"
+},
+{
+"id": "radarengineer|boozallenham|washingtondc",
+"title": "Radar Engineer",
+"company": "Booz Allen Hamilton",
+"location": "Patuxent River, MD / Lexington Park, MD",
+"metro": "Washington DC",
+"url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Patuxent-River-MD/Radar-Engineer_R0243390",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Booz Allen Hamilton"
+},
+{
+"id": "electronicwarfareengineer|boozallenham|washingtondc",
+"title": "Electronic Warfare Engineer",
+"company": "Booz Allen Hamilton",
+"location": "Patuxent River, MD / Lexington Park, MD",
+"metro": "Washington DC",
+"url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Patuxent-River-MD/Electronic-Warfare-Engineer_R0243854",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Booz Allen Hamilton"
+},
+{
+"id": "communicationsandwirelesssystemsengineer|boozallenham|washingtondc",
+"title": "Communications and Wireless Systems Engineer",
+"company": "Booz Allen Hamilton",
+"location": "McLean, VA",
+"metro": "Washington DC",
+"url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/McLean-VA/Communications-and-Wireless-Systems-Engineer_R0244606",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Booz Allen Hamilton"
+},
+{
+"id": "rfsiginttechnicalanalyst|maxarvantor|washingtondc",
+"title": "RF SIGINT Technical Analyst",
+"company": "Maxar / Vantor",
+"location": "Reston, VA",
+"metro": "Washington DC",
+"url": "https://maxar.wd1.myworkdayjobs.com/en-US/Vantor/job/Reston-VA/Mid-Senior-Strategic-Signals-Analyst_R23589",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Maxar / Vantor"
+},
+{
+"id": "productlinedirectorewsystems|bluehaloaero|washingtondc",
+"title": "Product Line Director - EW Systems",
+"company": "BlueHalo / AeroVironment",
+"location": "241 18th St, Arlington, VA / Albuquerque, NM / Huntsville, AL / Pottstown, PA / Simi Valley, CA / Sunrise, FL / Herndon, VA / Germantown, MD / Melbourne, FL / San Diego, CA",
+"metro": "Washington DC",
+"url": "https://avav.wd1.myworkdayjobs.com/en-US/AVAV/job/241-18th-St-Arlington-VA/Product-Line-Director---EW-Systems_8267",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "BlueHalo / AeroVironment"
+},
+{
+"id": "rficsystemengineer|apple|sfbayarea",
+"title": "RFIC System Engineer",
+"company": "Apple",
+"location": "San Francisco Bay Area",
+"metro": "SF Bay Area",
+"url": "https://jobs.apple.com/en-us/details/200674407/rfic-system-engineer",
+"posted": "2026-07-29",
+"sources": [
+"회사/apple"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "RF·통신",
+"company_key": "Apple"
+},
+{
+"id": "seniorrfelectricalengineer|hawkeye360|washingtondc",
+"title": "Senior RF Electrical Engineer ",
+"company": "HawkEye 360",
+"location": "Herndon, VA",
+"metro": "Washington DC",
+"url": "https://job-boards.greenhouse.io/hawkeye360/jobs/4313040009",
+"posted": "2026-07-10",
+"sources": [
+"회사/greenhouse"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "HawkEye 360"
+},
+{
+"id": "wirelesssoftwareengineer|skydio|sfbayarea",
+"title": "Wireless Software Engineer",
+"company": "Skydio",
+"location": "San Mateo, California, United States",
+"metro": "SF Bay Area",
+"url": "https://jobs.ashbyhq.com/skydio/c0c38168-badc-4dd7-96ed-99deb22149fc",
+"posted": "2026-06-01",
+"sources": [
+"회사/ashby"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Skydio"
+},
+{
+"id": "electricalengineerunmannedsystemsgroundpenetratingradar|lawrencelive|sfbayarea",
+"title": "Electrical Engineer – Unmanned Systems & Ground Penetrating Radar",
+"company": "Lawrence Livermore National Laboratory",
+"location": "Livermore, CA",
+"metro": "SF Bay Area",
+"url": "https://jobs.smartrecruiters.com/LLNL/3743990013043946",
+"posted": "2026-05-08",
+"sources": [
+"회사/smartrecruiters"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "Lawrence Livermore National Laboratory"
+},
+{
+"id": "microwaverfengineer|lawrencelive|sfbayarea",
+"title": "Microwave/RF Engineer",
+"company": "Lawrence Livermore National Laboratory",
+"location": "Livermore, CA",
+"metro": "SF Bay Area",
+"url": "https://jobs.smartrecruiters.com/LLNL/3743990012778996",
+"posted": "2026-04-22",
+"sources": [
+"회사/smartrecruiters"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "Lawrence Livermore National Laboratory"
+},
+{
+"id": "rfdesignengineer|skydio|sfbayarea",
+"title": "RF Design Engineer",
+"company": "Skydio",
+"location": "San Mateo, California, United States",
+"metro": "SF Bay Area",
+"url": "https://jobs.ashbyhq.com/skydio/f72f1fa5-d3d6-459e-8722-a94ce92ad1c8",
+"posted": "2026-02-19",
+"sources": [
+"회사/ashby"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Skydio"
+},
+{
+"id": "rficlayoutengineer|apple|sfbayarea",
+"title": "RFIC Layout Engineer",
+"company": "Apple",
+"location": "San Francisco Bay Area",
+"metro": "SF Bay Area",
+"url": "https://jobs.apple.com/en-us/details/200630222/rfic-layout-engineer",
+"posted": "2026-02-13",
+"sources": [
+"회사/apple"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "RF·통신",
+"company_key": "Apple"
+},
+{
+"id": "wirelessradiosystemsengineer|apple|sfbayarea",
+"title": "Wireless Radio Systems Engineer",
+"company": "Apple",
+"location": "San Francisco Bay Area",
+"metro": "SF Bay Area",
+"url": "https://jobs.apple.com/en-us/details/200626089/wireless-radio-systems-engineer",
+"posted": "2025-10-18",
+"sources": [
+"회사/apple"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "RF·통신",
+"company_key": "Apple"
+},
+{
+"id": "externaljobpostingtitleengineeringanalystdirectedenergyrfintermediate|peraton|washingtondc",
+"title": "External Job Posting Title Engineering Analyst – Directed Energy (RF) - Intermediate",
+"company": "Peraton",
+"location": "US-VA-Chantilly",
+"metro": "Washington DC",
+"url": "https://careers-peraton.icims.com/jobs/167356/engineering-analyst-%e2%80%93-directed-energy-%28rf%29---intermediate/job",
+"posted": "",
+"sources": [
+"회사/icims"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Peraton"
+},
+{
+"id": "externaljobpostingtitlerfsatcomtargeteradvisor|peraton|washingtondc",
+"title": "External Job Posting Title RF SATCOM Targeter, Advisor",
+"company": "Peraton",
+"location": "US-VA-Chantilly",
+"metro": "Washington DC",
+"url": "https://careers-peraton.icims.com/jobs/167154/rf-satcom-targeter%2c-advisor/job",
+"posted": "",
+"sources": [
+"회사/icims"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Peraton"
+},
+{
+"id": "externaljobpostingtitlesatcomengineersenioradvisor|peraton|washingtondc",
+"title": "External Job Posting Title SATCOM Engineer, Senior Advisor",
+"company": "Peraton",
+"location": "US-VA-Chantilly",
+"metro": "Washington DC",
+"url": "https://careers-peraton.icims.com/jobs/167153/satcom-engineer%2c-senior-advisor/job",
+"posted": "",
+"sources": [
+"회사/icims"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Peraton"
+},
+{
+"id": "externaljobpostingtitlespaceflightsafetyrfengineeringanalyst|peraton|washingtondc",
+"title": "External Job Posting Title Spaceflight Safety -RF Engineering Analyst",
+"company": "Peraton",
+"location": "US-MD-Greenbelt",
+"metro": "Washington DC",
+"url": "https://careers-peraton.icims.com/jobs/166824/spaceflight-safety--rf-engineering-analyst/job",
+"posted": "",
+"sources": [
+"회사/icims"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Peraton"
+},
+{
+"id": "externaljobpostingtitleradarrfcommunicationsengineer|peraton|washingtondc",
+"title": "External Job Posting Title Radar + RF Communications Engineer",
+"company": "Peraton",
+"location": "US-MD-College Park",
+"metro": "Washington DC",
+"url": "https://careers-peraton.icims.com/jobs/166775/radar-%2b-rf-communications-engineer/job",
+"posted": "",
+"sources": [
+"회사/icims"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Peraton"
+},
+{
+"id": "externaljobpostingtitleresearchscientistrfmachinelearning|peraton|washingtondc",
+"title": "External Job Posting Title Research Scientist - RF Machine Learning",
+"company": "Peraton",
+"location": "US-MD-College Park",
+"metro": "Washington DC",
+"url": "https://careers-peraton.icims.com/jobs/166632/research-scientist---rf-machine-learning/job",
+"posted": "",
+"sources": [
+"회사/icims"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Peraton"
+},
+{
+"id": "externaljobpostingtitlesoftwareresearchengineerrfmachinelearningrfml|peraton|washingtondc",
+"title": "External Job Posting Title Software Research Engineer - RF Machine Learning (RFML)",
+"company": "Peraton",
+"location": "US-MD-College Park",
+"metro": "Washington DC",
+"url": "https://careers-peraton.icims.com/jobs/163590/software-research-engineer---rf-machine-learning-%28rfml%29/job",
+"posted": "",
+"sources": [
+"회사/icims"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Peraton"
+},
+{
+"id": "externaljobpostingtitleprincipalrfresearchscientistrfmldspsdr|peraton|washingtondc",
+"title": "External Job Posting Title Principal RF Research Scientist (RFML/DSP/SDR)",
+"company": "Peraton",
+"location": "US-MD-Fort Meade",
+"metro": "Washington DC",
+"url": "https://careers-peraton.icims.com/jobs/163554/principal-rf-research-scientist-%28rfml-dsp-sdr%29/job",
+"posted": "",
+"sources": [
+"회사/icims"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Peraton"
+},
+{
+"id": "externaljobpostingtitlesurveillanceradartechnicaladvisor|peraton|washingtondc",
+"title": "External Job Posting Title Surveillance Radar Technical Advisor",
+"company": "Peraton",
+"location": "US-PA-King of Prussia | US-VA-Springfield",
+"metro": "Washington DC",
+"url": "https://careers-peraton.icims.com/jobs/167571/surveillance-radar-technical-advisor/job",
+"posted": "",
+"sources": [
+"회사/icims"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Peraton"
+},
+{
+"id": "computerengineerdevelopmentofrfanddigitalsystems|mitlincolnla|boston",
+"title": "Computer Engineer Development of RF and Digital Systems",
+"company": "MIT Lincoln Laboratory",
+"location": "Lexington, MA, US",
+"metro": "Boston",
+"url": "https://careers.ll.mit.edu/job/Lexington-Computer-Engineer-Development-of-RF-and-Digital-Systems-MA-02420/1399308800/",
+"posted": "",
+"sources": [
+"회사/successfactors"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "MIT Lincoln Laboratory"
+},
+{
+"id": "rfanalogdesignengineerassociatestaff|mitlincolnla|boston",
+"title": "RF/Analog Design Engineer-Associate Staff",
+"company": "MIT Lincoln Laboratory",
+"location": "Lexington, MA, US",
+"metro": "Boston",
+"url": "https://careers.ll.mit.edu/job/Lexington-RFAnalog-Design-Engineer-Associate-Staff-MA-02420/1360988700/",
+"posted": "",
+"sources": [
+"회사/successfactors"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "MIT Lincoln Laboratory"
+},
+{
+"id": "rfengineerassociatestaff|mitlincolnla|boston",
+"title": "RF Engineer-Associate Staff",
+"company": "MIT Lincoln Laboratory",
+"location": "Lexington, MA, US",
+"metro": "Boston",
+"url": "https://careers.ll.mit.edu/job/Lexington-RF-Engineer-Associate-Staff-MA-02420/1367940700/",
+"posted": "",
+"sources": [
+"회사/successfactors"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "MIT Lincoln Laboratory"
+},
+{
+"id": "rfcommunicationssystemanalysttechnicalstaff|mitlincolnla|boston",
+"title": "RF Communications System Analyst-Technical Staff",
+"company": "MIT Lincoln Laboratory",
+"location": "Lexington, MA, US",
+"metro": "Boston",
+"url": "https://careers.ll.mit.edu/job/Lexington-RF-Communications-System-Analyst-Technical-Staff-MA-02420/1397099100/",
+"posted": "",
+"sources": [
+"회사/successfactors"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "MIT Lincoln Laboratory"
+},
+{
+"id": "rfengineer|mitlincolnla|boston",
+"title": "RF Engineer",
+"company": "MIT Lincoln Laboratory",
+"location": "Lexington, MA, US",
+"metro": "Boston",
+"url": "https://careers.ll.mit.edu/job/Lexington-RF-Engineer-MA-02420/1386364700/",
+"posted": "",
+"sources": [
+"회사/successfactors"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "MIT Lincoln Laboratory"
+},
+{
+"id": "wirelesscommunicationsengineeranalysttechnicalstaff|mitlincolnla|boston",
+"title": "Wireless Communications Engineer & Analyst-Technical Staff",
+"company": "MIT Lincoln Laboratory",
+"location": "Lexington, MA, US",
+"metro": "Boston",
+"url": "https://careers.ll.mit.edu/job/Lexington-Wireless-Communications-Engineer-&amp;-Analyst-Technical-Staff-MA-02420/1367941300/",
+"posted": "",
+"sources": [
+"회사/successfactors"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "MIT Lincoln Laboratory"
+},
+{
+"id": "radarsystemsengineer|mitlincolnla|boston",
+"title": "Radar Systems Engineer",
+"company": "MIT Lincoln Laboratory",
+"location": "Lexington, MA, US",
+"metro": "Boston",
+"url": "https://careers.ll.mit.edu/job/Lexington-Radar-Systems-Engineer-MA-02420/1427595100/",
+"posted": "",
+"sources": [
+"회사/successfactors"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "MIT Lincoln Laboratory"
+},
+{
+"id": "radarsignalssystemsandprocessinganalysttechnicalstaff|mitlincolnla|boston",
+"title": "Radar Signals, Systems and Processing Analyst-Technical Staff",
+"company": "MIT Lincoln Laboratory",
+"location": "Lexington, MA, US",
+"metro": "Boston",
+"url": "https://careers.ll.mit.edu/job/Lexington-Radar-Signals%2C-Systems-and-Processing-Analyst-Technical-Staff-MA-02420/1396522200/",
+"posted": "",
+"sources": [
+"회사/successfactors"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "MIT Lincoln Laboratory"
+},
+{
+"id": "radarsignalprocessingengineerassociatestaff|mitlincolnla|boston",
+"title": "Radar Signal Processing Engineer-Associate Staff",
+"company": "MIT Lincoln Laboratory",
+"location": "Lexington, MA, US",
+"metro": "Boston",
+"url": "https://careers.ll.mit.edu/job/Lexington-Radar-Signal-Processing-Engineer-Associate-Staff-MA-02420/1370853500/",
+"posted": "",
+"sources": [
+"회사/successfactors"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "MIT Lincoln Laboratory"
+},
+{
+"id": "electromagneticssubjectmatterexpertandanalysttechnicalstaff|mitlincolnla|boston",
+"title": "Electromagnetics Subject Matter Expert and Analyst-Technical Staff",
+"company": "MIT Lincoln Laboratory",
+"location": "Lexington, MA, US",
+"metro": "Boston",
+"url": "https://careers.ll.mit.edu/job/Lexington-Electromagnetics-Subject-Matter-Expert-and-Analyst-Technical-Staff-MA-02420/1405827100/",
+"posted": "",
+"sources": [
+"회사/successfactors"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "MIT Lincoln Laboratory"
+},
+{
+"id": "radarsystemsanalystassociatestaff|mitlincolnla|boston",
+"title": "Radar Systems Analyst-Associate Staff",
+"company": "MIT Lincoln Laboratory",
+"location": "Lexington, MA, US",
+"metro": "Boston",
+"url": "https://careers.ll.mit.edu/job/Lexington-Radar-Systems-Analyst-Associate-Staff-MA-02420/1370853100/",
+"posted": "",
+"sources": [
+"회사/successfactors"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "MIT Lincoln Laboratory"
+},
+{
+"id": "radarmeteorologist|mitlincolnla|boston",
+"title": "Radar Meteorologist",
+"company": "MIT Lincoln Laboratory",
+"location": "Lexington, MA, US",
+"metro": "Boston",
+"url": "https://careers.ll.mit.edu/job/Lexington-Radar-Meteorologist-MA-02420/1412562300/",
+"posted": "",
+"sources": [
+"회사/successfactors"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "MIT Lincoln Laboratory"
 }
 ]
 }

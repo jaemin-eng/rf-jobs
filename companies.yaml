@@ -108,7 +108,9 @@ companies:
   - name: SAIC
     group: 방산
     aliases: [Science Applications International]
-    careers: [https://jobs.saic.com, https://www.saic.com/careers]
+    sources:
+      - ttcportals: https://jobs.saic.com
+    careers: [https://jobs.saic.com]
 
   - name: CACI
     group: 방산

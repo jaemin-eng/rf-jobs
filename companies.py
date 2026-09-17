@@ -121,11 +121,17 @@ def _check_robots(url):
 
 def _get(url, **kw):
     _check_robots(url)
-    _throttle(url)
     kw.setdefault("timeout", TIMEOUT)
     h = dict(HEADERS)
     h.update(kw.pop("headers", {}) or {})
-    return requests.get(url, headers=h, **kw)
+    for attempt in range(3):
+        _throttle(url)
+        r = requests.get(url, headers=h, **kw)
+        if r.status_code == 429 and attempt < 2:      # 요청이 잦다는 응답이면 기다렸다 재시도
+            time.sleep(15 * (attempt + 1))
+            continue
+        return r
+    return r
 
 
 def _post(url, **kw):
@@ -625,11 +631,50 @@ def fetch_jobsyn(origin, title_ok):
     return _dedupe(out)
 
 
+STATE_PATHS = ["ca-california", "ma-massachusetts", "nh-new-hampshire",
+               "va-virginia", "md-maryland", "dc-district-of-columbia"]
+
+
+def fetch_ttcportals(base, title_ok):
+    """TTC Portals 채용 사이트(예: jobs.saic.com). 주별 목록을 훑음"""
+    base = base.rstrip("/")
+    out, raw, ok = [], 0, False
+    for st in STATE_PATHS:
+        for page in range(1, 16):
+            r = _get(f"{base}/search/jobs/in/{st}", params={"page": page} if page > 1 else None)
+            if r.status_code == 404:
+                break
+            if r.status_code != 200:
+                raise RuntimeError(f"TTC HTTP {r.status_code}")
+            ok = True
+            items = re.findall(r'href="((?:https?://[^"]+)?/jobs/(\d+)-[^"]+)"[^>]*>(.*?)</a>(.{0,400})', r.text, re.S)
+            if not items:
+                break
+            raw += len(items)
+            for href, jid, inner, after in items:
+                title = _txt(inner)
+                if not title or not title_ok(title):
+                    continue
+                m = re.search(r"Location:?\s*(.{0,70}?)\s*(?:Date Posted|NEW\b|$)", _txt(after))
+                loc = (m.group(1) if m else "").strip(" ,")
+                m = re.search(r"Date Posted:?\s*([A-Z][a-z]{2} \d{1,2}, \d{4})", _txt(after))
+                out.append(Found(jid, title, loc,
+                                 href if href.startswith("http") else base + href,
+                                 _us_date(m.group(1)) if m else ""))
+            if len(items) < 25:
+                break
+    if not ok:
+        raise RuntimeError("TTC Portals 응답 없음")
+    if raw == 0:
+        raise RuntimeError("TTC Portals 결과 0건")
+    return _dedupe(out)
+
+
 FETCHERS = {
     "workday": fetch_workday, "greenhouse": fetch_greenhouse, "lever": fetch_lever,
     "ashby": fetch_ashby, "smartrecruiters": fetch_smartrecruiters, "icims": fetch_icims,
     "phenom": fetch_phenom, "radancy": fetch_radancy, "successfactors": fetch_successfactors,
-    "eightfold": fetch_eightfold, "apple": fetch_apple, "jobsyn": fetch_jobsyn,
+    "eightfold": fetch_eightfold, "apple": fetch_apple, "jobsyn": fetch_jobsyn, "ttcportals": fetch_ttcportals,
 }
 
 
@@ -679,6 +724,8 @@ def discover(url):
         path = urlparse(final).path
         pm = re.match(r"(/[a-z]{2,6}/[a-z]{2})(?:/|$)", path)
         add("phenom", f"https://{host}{pm.group(1) if pm else '/us/en'}")
+    if "ttcportals.com" in text or "sitestats.ttcportals" in text:
+        add("ttcportals", f"https://{host}")
     if "talentbrew" in text or "tbcdn." in text or "/search-jobs" in text:
         add("radancy", f"https://{host}")
     if "rmkcdn.successfactors.com" in text or "jobTitle-link" in text or "career5.successfactors" in text:

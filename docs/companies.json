@@ -1,0 +1,603 @@
+{
+"updated": "2026-09-17T14:00:26+00:00",
+"companies": [
+{
+"name": "Lockheed Martin",
+"group": "방산",
+"status": "ok",
+"via": "eightfold",
+"source": "{\"host\": \"lockheedmartin.eightfold.ai\", \"domain\": \"lockheedmartin.com\"}",
+"count": 63,
+"seconds": 54,
+"listed": 15
+},
+{
+"name": "RTX / Raytheon",
+"group": "방산",
+"status": "ok",
+"via": "workday",
+"source": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway",
+"count": 181,
+"seconds": 60,
+"listed": 60
+},
+{
+"name": "Northrop Grumman",
+"group": "방산",
+"status": "ok",
+"via": "workday",
+"source": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site",
+"count": 78,
+"seconds": 66,
+"listed": 42
+},
+{
+"name": "General Dynamics Mission Systems",
+"group": "방산",
+"status": "ok",
+"via": "icims",
+"source": "https://careers-gdms.icims.com",
+"count": 7,
+"seconds": 15,
+"listed": 4
+},
+{
+"name": "GDIT",
+"group": "방산",
+"status": "ok",
+"via": "workday",
+"source": "https://gdit.wd5.myworkdayjobs.com/External_Career_Site",
+"count": 8,
+"seconds": 11,
+"listed": 4
+},
+{
+"name": "BAE Systems",
+"group": "방산",
+"status": "ok",
+"via": "phenom",
+"source": "https://jobs.baesystems.com/global/en",
+"count": 5,
+"seconds": 309,
+"listed": 16
+},
+{
+"name": "L3Harris",
+"group": "방산",
+"status": "ok",
+"via": "radancy",
+"source": "https://careers.l3harris.com",
+"count": 25,
+"seconds": 12,
+"listed": 0
+},
+{
+"name": "Boeing",
+"group": "방산",
+"status": "ok",
+"via": "workday",
+"source": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS",
+"count": 14,
+"seconds": 30,
+"listed": 0
+},
+{
+"name": "HII Mission Technologies",
+"group": "방산",
+"status": "ok",
+"via": "successfactors",
+"source": "https://jobs.hii-tsd.com",
+"count": 17,
+"seconds": 30,
+"listed": 4
+},
+{
+"name": "Textron Systems",
+"group": "방산",
+"status": "fail",
+"via": "",
+"source": "",
+"count": 0,
+"error": "채용 시스템을 찾지 못함",
+"seconds": 2,
+"listed": 0
+},
+{
+"name": "Leonardo DRS",
+"group": "방산",
+"status": "ok",
+"via": "successfactors",
+"source": "https://careers.leonardodrs.com",
+"count": 3,
+"seconds": 12,
+"listed": 3
+},
+{
+"name": "Sierra Nevada Corporation",
+"group": "방산",
+"status": "ok",
+"via": "workday",
+"source": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site",
+"count": 2,
+"seconds": 8,
+"listed": 0
+},
+{
+"name": "Mercury Systems",
+"group": "방산",
+"status": "fail",
+"via": "",
+"source": "",
+"count": 0,
+"error": "채용 시스템을 찾지 못함",
+"seconds": 1,
+"listed": 1
+},
+{
+"name": "Leidos",
+"group": "방산",
+"status": "ok",
+"via": "workday",
+"source": "https://leidos.wd5.myworkdayjobs.com/External",
+"count": 52,
+"seconds": 66,
+"listed": 18
+},
+{
+"name": "SAIC",
+"group": "방산",
+"status": "fail",
+"via": "",
+"source": "",
+"count": 0,
+"error": "채용 시스템을 찾지 못함",
+"seconds": 1,
+"listed": 2
+},
+{
+"name": "CACI",
+"group": "방산",
+"status": "ok",
+"via": "eightfold",
+"source": "{\"host\": \"caci.eightfold.ai\", \"domain\": \"caci.com\"}",
+"count": 28,
+"seconds": 39,
+"listed": 16
+},
+{
+"name": "Booz Allen Hamilton",
+"group": "방산",
+"status": "ok",
+"via": "workday",
+"source": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs",
+"count": 23,
+"seconds": 33,
+"listed": 9
+},
+{
+"name": "Parsons",
+"group": "방산",
+"status": "ok",
+"via": "workday",
+"source": "https://parsons.wd5.myworkdayjobs.com/Search",
+"count": 16,
+"seconds": 48,
+"listed": 0
+},
+{
+"name": "Peraton",
+"group": "방산",
+"status": "ok",
+"via": "icims",
+"source": "https://careers-peraton.icims.com",
+"count": 18,
+"seconds": 7,
+"listed": 12
+},
+{
+"name": "ManTech",
+"group": "방산",
+"status": "fail",
+"via": "",
+"source": "",
+"count": 0,
+"error": "workday: Workday 결과 0건 (사이트 이름 확인 필요)",
+"seconds": 6,
+"listed": 0
+},
+{
+"name": "Amentum",
+"group": "방산",
+"status": "ok",
+"via": "workday",
+"source": "https://pae.wd1.myworkdayjobs.com/Amentum_Careers",
+"count": 24,
+"seconds": 19,
+"listed": 10
+},
+{
+"name": "V2X",
+"group": "방산",
+"status": "fail",
+"via": "",
+"source": "",
+"count": 0,
+"error": "icims: iCIMS 결과 0건 (형식 확인 필요)",
+"seconds": 4,
+"listed": 0
+},
+{
+"name": "KBR",
+"group": "방산",
+"status": "ok",
+"via": "phenom",
+"source": "https://careers.kbr.com/us/en",
+"count": 3,
+"seconds": 296,
+"listed": 11
+},
+{
+"name": "Jacobs",
+"group": "방산",
+"status": "fail",
+"via": "",
+"source": "",
+"count": 0,
+"error": "채용 시스템을 찾지 못함",
+"seconds": 0,
+"listed": 0
+},
+{
+"name": "Vantor / Maxar",
+"group": "방산",
+"status": "ok",
+"via": "workday",
+"source": "https://maxar.wd1.myworkdayjobs.com/Vantor",
+"count": 1,
+"seconds": 6,
+"listed": 1
+},
+{
+"name": "BlackSky",
+"group": "방산",
+"status": "ok",
+"via": "greenhouse",
+"source": "blacksky",
+"count": 1,
+"seconds": 0,
+"listed": 0
+},
+{
+"name": "HawkEye 360",
+"group": "방산",
+"status": "fail",
+"via": "",
+"source": "",
+"count": 0,
+"error": "greenhouse: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Read timed out. ; lever: Lever HTTP 404; ashby: Ashby HTTP 404",
+"seconds": 30,
+"listed": 1
+},
+{
+"name": "Viasat",
+"group": "방산",
+"status": "fail",
+"via": "",
+"source": "",
+"count": 0,
+"error": "icims: iCIMS 결과 0건 (형식 확인 필요); icims: iCIMS 결과 0건 (형식 확인 필요); icims: iCIMS 결과 0건 (형식 확인 필요)",
+"seconds": 11,
+"listed": 0
+},
+{
+"name": "Hughes Network Systems",
+"group": "방산",
+"status": "fail",
+"via": "",
+"source": "",
+"count": 0,
+"error": "채용 시스템을 찾지 못함",
+"seconds": 1,
+"listed": 0
+},
+{
+"name": "SES Space & Defense",
+"group": "방산",
+"status": "fail",
+"via": "",
+"source": "",
+"count": 0,
+"error": "채용 시스템을 찾지 못함",
+"seconds": 0,
+"listed": 1
+},
+{
+"name": "Anduril",
+"group": "방산",
+"status": "ok",
+"via": "greenhouse",
+"source": "andurilindustries",
+"count": 65,
+"seconds": 24,
+"listed": 0
+},
+{
+"name": "Shield AI",
+"group": "방산",
+"status": "ok",
+"via": "lever",
+"source": "shieldai",
+"count": 0,
+"seconds": 1,
+"listed": 0
+},
+{
+"name": "Epirus",
+"group": "방산",
+"status": "ok",
+"via": "greenhouse",
+"source": "epirus",
+"count": 2,
+"seconds": 0,
+"listed": 0
+},
+{
+"name": "Saronic",
+"group": "방산",
+"status": "ok",
+"via": "ashby",
+"source": "saronic",
+"count": 1,
+"seconds": 0,
+"listed": 0
+},
+{
+"name": "AeroVironment / BlueHalo",
+"group": "방산",
+"status": "ok",
+"via": "workday",
+"source": "https://avav.wd1.myworkdayjobs.com/AVAV",
+"count": 7,
+"seconds": 16,
+"listed": 3
+},
+{
+"name": "Palantir",
+"group": "방산",
+"status": "ok",
+"via": "lever",
+"source": "palantir",
+"count": 0,
+"seconds": 1,
+"listed": 0
+},
+{
+"name": "Skydio",
+"group": "방산",
+"status": "ok",
+"via": "ashby",
+"source": "skydio",
+"count": 3,
+"seconds": 0,
+"listed": 3
+},
+{
+"name": "Saildrone",
+"group": "방산",
+"status": "fail",
+"via": "",
+"source": "",
+"count": 0,
+"error": "greenhouse: Greenhouse HTTP 404; ashby: Ashby HTTP 404; lever: Lever HTTP 404",
+"seconds": 0,
+"listed": 0
+},
+{
+"name": "Applied Intuition",
+"group": "방산",
+"status": "ok",
+"via": "ashby",
+"source": "applied",
+"count": 0,
+"seconds": 0,
+"listed": 0
+},
+{
+"name": "Aalyria",
+"group": "방산",
+"status": "fail",
+"via": "",
+"source": "",
+"count": 0,
+"error": "greenhouse: Greenhouse HTTP 404; ashby: Ashby HTTP 404; lever: Lever HTTP 404",
+"seconds": 1,
+"listed": 0
+},
+{
+"name": "Vannevar Labs",
+"group": "방산",
+"status": "ok",
+"via": "greenhouse",
+"source": "vannevarlabs",
+"count": 0,
+"seconds": 0,
+"listed": 0
+},
+{
+"name": "STR",
+"group": "방산",
+"status": "fail",
+"via": "",
+"source": "",
+"count": 0,
+"error": "greenhouse: Greenhouse 공고 0건; lever: Lever HTTP 404",
+"seconds": 2,
+"listed": 1
+},
+{
+"name": "MIT Lincoln Laboratory",
+"group": "연구소",
+"status": "ok",
+"via": "successfactors",
+"source": "https://careers.ll.mit.edu",
+"count": 12,
+"seconds": 13,
+"listed": 12
+},
+{
+"name": "Lawrence Livermore National Laboratory",
+"group": "연구소",
+"status": "ok",
+"via": "smartrecruiters",
+"source": "LLNL",
+"count": 2,
+"seconds": 0,
+"listed": 2
+},
+{
+"name": "Sandia National Laboratories",
+"group": "연구소",
+"status": "fail",
+"via": "",
+"source": "",
+"count": 0,
+"error": "채용 시스템을 찾지 못함",
+"seconds": 4,
+"listed": 0
+},
+{
+"name": "Draper",
+"group": "연구소",
+"status": "ok",
+"via": "workday",
+"source": "https://draper.wd5.myworkdayjobs.com/Draper_Careers",
+"count": 3,
+"seconds": 6,
+"listed": 3
+},
+{
+"name": "MITRE",
+"group": "연구소",
+"status": "ok",
+"via": "phenom",
+"source": "https://careers.mitre.org/us/en",
+"count": 15,
+"seconds": 309,
+"listed": 12
+},
+{
+"name": "Johns Hopkins APL",
+"group": "연구소",
+"status": "fail",
+"via": "",
+"source": "",
+"count": 0,
+"error": "radancy: Radancy HTTP 404",
+"seconds": 1,
+"listed": 0
+},
+{
+"name": "The Aerospace Corporation",
+"group": "연구소",
+"status": "ok",
+"via": "workday",
+"source": "https://aero.wd5.myworkdayjobs.com/External",
+"count": 25,
+"seconds": 25,
+"listed": 11
+},
+{
+"name": "SRI International",
+"group": "연구소",
+"status": "ok",
+"via": "icims",
+"source": "https://careers-sri.icims.com",
+"count": 4,
+"seconds": 3,
+"listed": 0
+},
+{
+"name": "IDA",
+"group": "연구소",
+"status": "fail",
+"via": "",
+"source": "",
+"count": 0,
+"error": "채용 시스템을 찾지 못함",
+"seconds": 0,
+"listed": 0
+},
+{
+"name": "Riverside Research",
+"group": "연구소",
+"status": "ok",
+"via": "icims",
+"source": "https://careers-riversideresearch.icims.com",
+"count": 4,
+"seconds": 3,
+"listed": 0
+},
+{
+"name": "Physical Sciences Inc.",
+"group": "연구소",
+"status": "fail",
+"via": "",
+"source": "",
+"count": 0,
+"error": "채용 시스템을 찾지 못함",
+"seconds": 0,
+"listed": 0
+},
+{
+"name": "Charles River Analytics",
+"group": "연구소",
+"status": "fail",
+"via": "",
+"source": "",
+"count": 0,
+"error": "greenhouse: Greenhouse HTTP 404; lever: Lever HTTP 404",
+"seconds": 1,
+"listed": 0
+},
+{
+"name": "Apple",
+"group": "RF·통신",
+"status": "ok",
+"via": "apple",
+"source": "true",
+"count": 80,
+"seconds": 47,
+"listed": 15
+},
+{
+"name": "Qualcomm",
+"group": "RF·통신",
+"status": "ok",
+"via": "eightfold",
+"source": "{\"host\": \"careers.qualcomm.com\", \"domain\": \"qualcomm.com\"}",
+"count": 42,
+"seconds": 24,
+"listed": 7
+},
+{
+"name": "SpaceX",
+"group": "RF·통신",
+"status": "ok",
+"via": "greenhouse",
+"source": "spacex",
+"count": 82,
+"seconds": 0,
+"listed": 13
+},
+{
+"name": "Astranis",
+"group": "RF·통신",
+"status": "ok",
+"via": "greenhouse",
+"source": "astranis",
+"count": 1,
+"seconds": 0,
+"listed": 0
+}
+]
+}

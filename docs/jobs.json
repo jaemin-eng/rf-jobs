@@ -1,5 +1,5 @@
 {
-"updated": "2026-09-17T09:51:00+00:00",
+"updated": "2026-09-17T14:00:26+00:00",
 "jobs": [
 {
 "id": "rfengineer30280withsecurityclearance|hiimissionte|washingtondc",
@@ -56,6 +56,153 @@
 "last_seen": "2026-09-17",
 "group": "방산",
 "company_key": "BAE Systems"
+},
+{
+"id": "rfengineerlevelivtssciclearance|lockheedmart|sfbayarea",
+"title": "RF Engineer (Level IV) - TS/SCI clearance",
+"company": "Lockheed Martin",
+"location": "Sunnyvale, CA",
+"metro": "SF Bay Area",
+"url": "https://lockheedmartin.eightfold.ai/careers/job/996476704960",
+"posted": "2026-09-17",
+"sources": [
+"Adzuna",
+"회사/eightfold"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Lockheed Martin"
+},
+{
+"id": "leadrfpcblayoutengineer|arraylabs|sfbayarea",
+"title": "Lead RF PCB Layout Engineer",
+"company": "Array Labs",
+"location": "Redwood City, San Mateo County, California",
+"metro": "SF Bay Area",
+"url": "https://www.adzuna.com/details/5887497745?utm_medium=api&utm_source=d677d981",
+"posted": "2026-09-17",
+"sources": [
+"Adzuna"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "",
+"company_key": null
+},
+{
+"id": "radaroptimizationengineer|leidos|washingtondc",
+"title": "Radar Optimization Engineer",
+"company": "Leidos",
+"location": "Reston, Fairfax County, Virginia",
+"metro": "Washington DC",
+"url": "https://www.adzuna.com/details/5887595143?utm_medium=api&utm_source=d677d981",
+"posted": "2026-09-17",
+"sources": [
+"Adzuna"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Leidos"
+},
+{
+"id": "rfanalogicdesignengineer|qualcomm|sfbayarea",
+"title": "RF/Analog IC Design Engineer",
+"company": "Qualcomm",
+"location": "Santa Clara, California",
+"metro": "SF Bay Area",
+"url": "https://careers.qualcomm.com/careers/job/446719874932",
+"posted": "2026-09-17",
+"sources": [
+"회사/eightfold"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "RF·통신",
+"company_key": "Qualcomm"
+},
+{
+"id": "rfsystemsengineer|qualcomm|sfbayarea",
+"title": "RF Systems Engineer",
+"company": "Qualcomm",
+"location": "Santa Clara, California",
+"metro": "SF Bay Area",
+"url": "https://careers.qualcomm.com/careers/job/446719923069",
+"posted": "2026-09-17",
+"sources": [
+"회사/eightfold"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "RF·통신",
+"company_key": "Qualcomm"
+},
+{
+"id": "seniorrficdesignengineer|qualcomm|sfbayarea",
+"title": "Senior RFIC Design Engineer",
+"company": "Qualcomm",
+"location": "Santa Clara, California",
+"metro": "SF Bay Area",
+"url": "https://careers.qualcomm.com/careers/job/446721085767",
+"posted": "2026-09-17",
+"sources": [
+"회사/eightfold"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "RF·통신",
+"company_key": "Qualcomm"
+},
+{
+"id": "wirelesssoftwareengineer|qualcomm|sfbayarea",
+"title": "#Wireless Software Engineer",
+"company": "Qualcomm",
+"location": "Santa Clara, California",
+"metro": "SF Bay Area",
+"url": "https://careers.qualcomm.com/careers/job/446720729799",
+"posted": "2026-09-17",
+"sources": [
+"회사/eightfold"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "RF·통신",
+"company_key": "Qualcomm"
+},
+{
+"id": "signalintegrityarchitectpcbmodelingautomation|qualcomm|sfbayarea",
+"title": "Signal Integrity Architect, PCB Modeling & Automation",
+"company": "Qualcomm",
+"location": "Santa Clara, California / Austin, Texas / Tempe, Arizona / Oregon - Remote / San Diego, California / Washington - Remote",
+"metro": "SF Bay Area",
+"url": "https://careers.qualcomm.com/careers/job/446716071844",
+"posted": "2026-09-17",
+"sources": [
+"회사/eightfold"
+],
+"flags": [],
+"remote": true,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "RF·통신",
+"company_key": "Qualcomm"
 },
 {
 "id": "rfoperationsengineer1careerfaironly|markimicrowa|sfbayarea",
@@ -228,12 +375,13 @@
 "id": "seniorrfandantennassystemengineer|caci|washingtondc",
 "title": "Senior RF and Antennas System Engineer",
 "company": "CACI",
-"location": "Fairfax, Fairfax County, Virginia",
+"location": "Fairfax, VA / Sterling, VA",
 "metro": "Washington DC",
-"url": "https://www.adzuna.com/land/ad/5886232916?se=6g5H70Oy8RGRr_JonSYGrg&utm_medium=api&utm_source=d677d981&v=E0CEA332A1AE670AD81A1F8693F95F5ED794DDE2",
+"url": "https://caci.eightfold.ai/careers/job/1443153100099",
 "posted": "2026-09-16",
 "sources": [
-"Adzuna"
+"Adzuna",
+"회사/eightfold"
 ],
 "flags": [],
 "remote": false,
@@ -302,12 +450,13 @@
 "id": "seniorrfanalyst|theaerospace|washingtondc",
 "title": "Senior RF Analyst",
 "company": "The Aerospace Corporation",
-"location": "Chantilly, Fairfax County, Virginia",
+"location": "Chantilly, VA / El Segundo, CA",
 "metro": "Washington DC",
-"url": "https://www.adzuna.com/details/5886155286?utm_medium=api&utm_source=d677d981",
+"url": "https://aero.wd5.myworkdayjobs.com/en-US/External/job/Chantilly-VA/Senior-RF-Analyst_R016593",
 "posted": "2026-09-16",
 "sources": [
-"Adzuna"
+"Adzuna",
+"회사/workday"
 ],
 "flags": [],
 "remote": false,
@@ -615,6 +764,42 @@
 "last_seen": "2026-09-17",
 "group": "RF·통신",
 "company_key": "Apple"
+},
+{
+"id": "seniorsystemsengineerradarsignalprocessing|leonardodrs|washingtondc",
+"title": "Senior Systems Engineer - Radar Signal Processing",
+"company": "Leonardo DRS",
+"location": "Germantown, MD, US, 20876",
+"metro": "Washington DC",
+"url": "https://careers.leonardodrs.com/job/Germantown-Senior-Systems-Engineer-Radar-Signal-Processing-MD-20876/1430862500/",
+"posted": "2026-09-16",
+"sources": [
+"회사/successfactors"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Leonardo DRS"
+},
+{
+"id": "rfhardwareengineer|caci|washingtondc",
+"title": "RF Hardware Engineer",
+"company": "CACI",
+"location": "Aberdeen Proving Ground, MD",
+"metro": "Washington DC",
+"url": "https://caci.eightfold.ai/careers/job/1443153116381",
+"posted": "2026-09-16",
+"sources": [
+"회사/eightfold"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "CACI"
 },
 {
 "id": "srmanufacturingrfdfxengineer|blueorigin|sfbayarea",
@@ -1009,6 +1194,60 @@
 "company_key": "RTX / Raytheon"
 },
 {
+"id": "radiofrequencyengineeringmgrl5|lockheedmart|boston",
+"title": "Radio Frequency Engineering Mgr - L5",
+"company": "Lockheed Martin",
+"location": "Chelmsford, MA / Andover, MA",
+"metro": "Boston",
+"url": "https://lockheedmartin.eightfold.ai/careers/job/996476862263",
+"posted": "2026-09-15",
+"sources": [
+"회사/eightfold"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Lockheed Martin"
+},
+{
+"id": "rfnetworktestandevaluationengineerradios|caci|washingtondc",
+"title": "RF Network Test and Evaluation Engineer (Radios)",
+"company": "CACI",
+"location": "Aberdeen Proving Ground, MD",
+"metro": "Washington DC",
+"url": "https://caci.eightfold.ai/careers/job/1443153520860",
+"posted": "2026-09-15",
+"sources": [
+"회사/eightfold"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "CACI"
+},
+{
+"id": "seniorsolutionsarchitectelectronicwarfare|caci|washingtondc",
+"title": "Senior Solutions Architect (Electronic Warfare)",
+"company": "CACI",
+"location": "Sterling, VA / Chantilly, VA / Annapolis Junction, MD",
+"metro": "Washington DC",
+"url": "https://caci.eightfold.ai/careers/job/1443153254488",
+"posted": "2026-09-15",
+"sources": [
+"회사/eightfold"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "CACI"
+},
+{
 "id": "rfengineerlevelivtssciclearancewithsecurityclearance|lockheedmart|sfbayarea",
 "title": "RF Engineer (Level IV) - TS/SCI clearance with Security Clearance",
 "company": "Lockheed Martin",
@@ -1217,12 +1456,13 @@
 "id": "rfpayloadanalystengineeringspecialist|theaerospace|washingtondc",
 "title": "RF Payload Analyst - Engineering Specialist",
 "company": "The Aerospace Corporation",
-"location": "Chantilly, Fairfax County, Virginia",
+"location": "Chantilly, VA / El Segundo, CA",
 "metro": "Washington DC",
-"url": "https://www.adzuna.com/details/5882477297?utm_medium=api&utm_source=d677d981",
+"url": "https://aero.wd5.myworkdayjobs.com/en-US/External/job/Chantilly-VA/RF-Payload-Analyst---Engineering-Specialist_R016550-1",
 "posted": "2026-09-13",
 "sources": [
-"Adzuna"
+"Adzuna",
+"회사/workday"
 ],
 "flags": [],
 "remote": false,
@@ -1799,6 +2039,24 @@
 "company_key": "RTX / Raytheon"
 },
 {
+"id": "airdefenseelectronicwarfareanalystsenior|caci|washingtondc",
+"title": "Air Defense Electronic Warfare Analyst (Senior)",
+"company": "CACI",
+"location": "Aberdeen, MD",
+"metro": "Washington DC",
+"url": "https://caci.eightfold.ai/careers/job/1443152713552",
+"posted": "2026-09-09",
+"sources": [
+"회사/eightfold"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "CACI"
+},
+{
 "id": "spectrumengineerradiofrequency|leidos|washingtondc",
 "title": "Spectrum Engineer/Radio Frequency",
 "company": "Leidos",
@@ -2001,6 +2259,24 @@
 "last_seen": "2026-09-17",
 "group": "연구소",
 "company_key": "Draper"
+},
+{
+"id": "radiofrequencyrfengineer|caci|washingtondc",
+"title": "Radio Frequency (RF) Engineer",
+"company": "CACI",
+"location": "Aberdeen Proving Ground, MD",
+"metro": "Washington DC",
+"url": "https://caci.eightfold.ai/careers/job/1443152680533",
+"posted": "2026-09-08",
+"sources": [
+"회사/eightfold"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "CACI"
 },
 {
 "id": "seniorrfengineerwithsecurityclearance|str|boston",
@@ -2228,16 +2504,35 @@
 "company_key": "Leidos"
 },
 {
+"id": "rftestengineeringmanager|leonardodrs|washingtondc",
+"title": "RF Test Engineering Manager",
+"company": "Leonardo DRS",
+"location": "Frederick, MD, US, 21703",
+"metro": "Washington DC",
+"url": "https://careers.leonardodrs.com/job/Frederick-RF-Test-Engineering-Manager-MD-21703/1390862200/",
+"posted": "2026-09-06",
+"sources": [
+"회사/successfactors"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Leonardo DRS"
+},
+{
 "id": "radiofrequencyengineersrstfe5|lockheedmart|washingtondc",
 "title": "Radio Frequency Engineer Sr Stf - E5",
 "company": "Lockheed Martin",
 "location": "Severn, MD",
 "metro": "Washington DC",
-"url": "https://www.linkedin.com/jobs/view/radio-frequency-engineer-sr-stf-e5-at-lockheed-martin-4461481067",
+"url": "https://lockheedmartin.eightfold.ai/careers/job/996476737030",
 "posted": "2026-09-05",
 "sources": [
 "Adzuna",
-"JSearch/LinkedIn"
+"JSearch/LinkedIn",
+"회사/eightfold"
 ],
 "flags": [],
 "remote": false,
@@ -2754,6 +3049,42 @@
 "company_key": "Northrop Grumman"
 },
 {
+"id": "midlevelradiofrequencyengineer|amentum|washingtondc",
+"title": "Mid Level Radio Frequency Engineer",
+"company": "Amentum",
+"location": "US-VA-Dahlgren",
+"metro": "Washington DC",
+"url": "https://pae.wd1.myworkdayjobs.com/en-US/Amentum_Careers/job/US-VA-Dahlgren/Junior-Radio-Frequency-Engineer_R0169712",
+"posted": "2026-09-03",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Amentum"
+},
+{
+"id": "leadrfsystemsengineer|mitre|washingtondc",
+"title": "Lead RF Systems Engineer",
+"company": "MITRE",
+"location": "McLean, Virginia",
+"metro": "Washington DC",
+"url": "https://mitre.wd5.myworkdayjobs.com/MITRE/job/McLean-VA/Lead-RF-Systems-Engineer_R117416/apply",
+"posted": "2026-09-03",
+"sources": [
+"회사/phenom"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "MITRE"
+},
+{
 "id": "seniorprincipalengineerrfwithsecurityclearance|baesystems|boston",
 "title": "Senior Principal Engineer - RF with Security Clearance",
 "company": "BAE Systems",
@@ -2878,6 +3209,24 @@
 "company_key": "Draper"
 },
 {
+"id": "rfantennaengineer|caci|washingtondc",
+"title": "RF Antenna Engineer",
+"company": "CACI",
+"location": "Fairfax, VA",
+"metro": "Washington DC",
+"url": "https://caci.eightfold.ai/careers/job/1443151296957",
+"posted": "2026-09-02",
+"sources": [
+"회사/eightfold"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "CACI"
+},
+{
 "id": "radiofrequencyengineer|trimble|sfbayarea",
 "title": "Radio Frequency Engineer",
 "company": "Trimble",
@@ -2897,13 +3246,14 @@
 "id": "rfengineerseniorandoverma|lockheedmart|boston",
 "title": "RF Engineer, Senior - Andover, MA",
 "company": "Lockheed Martin",
-"location": "Andover, Essex County, Massachusetts",
+"location": "Andover, MA",
 "metro": "Boston",
-"url": "https://www.adzuna.com/land/ad/5866299068?se=oLoM10Oy8RGW7Jd0wGJW9Q&utm_medium=api&utm_source=d677d981&v=D4C33FD1677AC8D286C75FCE639DEA82582150E0",
+"url": "https://lockheedmartin.eightfold.ai/careers/job/996476288801",
 "posted": "2026-09-01",
 "sources": [
 "Adzuna",
-"JSearch/LinkedIn"
+"JSearch/LinkedIn",
+"회사/eightfold"
 ],
 "flags": [
 "⚠️ 클리어런스/시민권"
@@ -2918,12 +3268,13 @@
 "id": "rfengineersrstaffandoverma|lockheedmart|boston",
 "title": "RF Engineer, Sr Staff - Andover, MA",
 "company": "Lockheed Martin",
-"location": "Andover, Essex County, Massachusetts",
+"location": "Andover, MA",
 "metro": "Boston",
-"url": "https://www.adzuna.com/land/ad/5866299106?se=oLoM10Oy8RGW7Jd0wGJW9Q&utm_medium=api&utm_source=d677d981&v=99212E0BBB9DA19F13729A4160D858916E195202",
+"url": "https://lockheedmartin.eightfold.ai/careers/job/996476233025",
 "posted": "2026-09-01",
 "sources": [
-"Adzuna"
+"Adzuna",
+"회사/eightfold"
 ],
 "flags": [],
 "remote": false,
@@ -3480,6 +3831,7 @@
 "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Washington-DC/Spectrum-Engineer-Radio-Frequency--RF--Engineer_R-00190917",
 "posted": "2026-08-28",
 "sources": [
+"Adzuna",
 "회사/workday"
 ],
 "flags": [],
@@ -3488,6 +3840,204 @@
 "last_seen": "2026-09-17",
 "group": "방산",
 "company_key": "Leidos"
+},
+{
+"id": "electronicwarfaresystemsengineer|mitre|washingtondc",
+"title": "Electronic Warfare Systems Engineer",
+"company": "MITRE",
+"location": "Aberdeen, Maryland",
+"metro": "Washington DC",
+"url": "https://mitre.wd5.myworkdayjobs.com/MITRE/job/Aberdeen-MD/Electronic-Warfare-Systems-Engineer_R117141-1/apply",
+"posted": "2026-08-28",
+"sources": [
+"회사/phenom"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "MITRE"
+},
+{
+"id": "principalrfandspectrumengineer|mitre|washingtondc",
+"title": "Principal RF and Spectrum Engineer",
+"company": "MITRE",
+"location": "McLean, Virginia",
+"metro": "Washington DC",
+"url": "https://mitre.wd5.myworkdayjobs.com/MITRE/job/McLean-VA/Principal-RF-and-Spectrum-Engineer_R117293-1/apply",
+"posted": "2026-08-28",
+"sources": [
+"회사/phenom"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "MITRE"
+},
+{
+"id": "seniorsatcomengineer|mitre|washingtondc",
+"title": "Senior SATCOM Engineer",
+"company": "MITRE",
+"location": "McLean, Virginia / Bedford, Massachusetts / San Diego, California",
+"metro": "Washington DC",
+"url": "https://mitre.wd5.myworkdayjobs.com/MITRE/job/McLean-VA/Senior-SATCOM-Engineer_R116634/apply",
+"posted": "2026-08-28",
+"sources": [
+"회사/phenom"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "MITRE"
+},
+{
+"id": "wirelesscommunicationsengineer|mitre|washingtondc",
+"title": "Wireless Communications Engineer",
+"company": "MITRE",
+"location": "McLean, Virginia / Bedford, Massachusetts",
+"metro": "Washington DC",
+"url": "https://mitre.wd5.myworkdayjobs.com/MITRE/job/McLean-VA/Wireless-Communications-Engineer_R116635-1/apply",
+"posted": "2026-08-28",
+"sources": [
+"회사/phenom"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "MITRE"
+},
+{
+"id": "leadwirelesscommunicationsengineer|mitre|boston",
+"title": "Lead Wireless Communications Engineer",
+"company": "MITRE",
+"location": "Bedford, Massachusetts / McLean, Virginia / San Diego, California",
+"metro": "Boston",
+"url": "https://mitre.wd5.myworkdayjobs.com/MITRE/job/Bedford-MA/Lead-Wireless-Communications-Engineer_R116887/apply",
+"posted": "2026-08-28",
+"sources": [
+"회사/phenom"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "MITRE"
+},
+{
+"id": "leadwirelesscommunicationssystemsengineer|mitre|boston",
+"title": "Lead Wireless Communications Systems Engineer",
+"company": "MITRE",
+"location": "Bedford, Massachusetts / McLean, Virginia / San Diego, California",
+"metro": "Boston",
+"url": "https://mitre.wd5.myworkdayjobs.com/MITRE/job/Bedford-MA/Lead-Wireless-Communications-Systems-Engineer_R116888-1/apply",
+"posted": "2026-08-28",
+"sources": [
+"회사/phenom"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "MITRE"
+},
+{
+"id": "rfspectrumengineerlead|mitre|washingtondc",
+"title": "RF Spectrum Engineer, Lead",
+"company": "MITRE",
+"location": "Boulder, Colorado / Colorado Springs, Colorado / McLean, Virginia",
+"metro": "Washington DC",
+"url": "https://mitre.wd5.myworkdayjobs.com/MITRE/job/Boulder-CO/RF-Spectrum-Engineer--Lead_R116607-1/apply",
+"posted": "2026-08-28",
+"sources": [
+"회사/phenom"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "MITRE"
+},
+{
+"id": "wirelesscommunicationssystemsengineer|mitre|boston",
+"title": "Wireless Communications Systems Engineer",
+"company": "MITRE",
+"location": "Bedford, Massachusetts / McLean, Virginia / San Diego, California",
+"metro": "Boston",
+"url": "https://mitre.wd5.myworkdayjobs.com/MITRE/job/Bedford-MA/Wireless-Communications-Systems-Engineer_R116886-1/apply",
+"posted": "2026-08-28",
+"sources": [
+"회사/phenom"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "MITRE"
+},
+{
+"id": "wirelesssignalprocessingengineer|mitre|boston",
+"title": "Wireless Signal Processing Engineer",
+"company": "MITRE",
+"location": "Bedford, Massachusetts / Colorado Springs, Colorado / McLean, Virginia / San Diego, California",
+"metro": "Boston",
+"url": "https://mitre.wd5.myworkdayjobs.com/MITRE/job/Bedford-MA/Wireless-Signal-Processing-Engineer_R117112/apply",
+"posted": "2026-08-28",
+"sources": [
+"회사/phenom"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "MITRE"
+},
+{
+"id": "seniorwirelesssecurityengineer|mitre|boston",
+"title": "Senior Wireless Security Engineer",
+"company": "MITRE",
+"location": "Bedford, Massachusetts",
+"metro": "Boston",
+"url": "https://mitre.wd5.myworkdayjobs.com/MITRE/job/Bedford-MA/Wireless---Security-Engineer_R116392-2/apply",
+"posted": "2026-08-28",
+"sources": [
+"회사/phenom"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "MITRE"
+},
+{
+"id": "seniorantennaelectromagneticsengineer|mitre|boston",
+"title": "Senior Antenna/Electromagnetics Engineer",
+"company": "MITRE",
+"location": "Bedford, Massachusetts / McLean, Virginia",
+"metro": "Boston",
+"url": "https://mitre.wd5.myworkdayjobs.com/MITRE/job/Bedford-MA/Senior-Antenna-Electromagnetics-Engineer_R116369-1/apply",
+"posted": "2026-08-28",
+"sources": [
+"회사/phenom"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "MITRE"
 },
 {
 "id": "seniorelectromagneticenvironmentaleffectse3emiengineer|rtxraytheon|boston",
@@ -3764,12 +4314,13 @@
 "id": "rfandantennassystemsengineer|caci|washingtondc",
 "title": "RF and Antennas Systems Engineer",
 "company": "CACI",
-"location": "Sterling, Loudoun County, Virginia",
+"location": "Sterling, VA",
 "metro": "Washington DC",
-"url": "https://www.adzuna.com/details/5856144416?utm_medium=api&utm_source=d677d981",
+"url": "https://caci.eightfold.ai/careers/job/1443153100097",
 "posted": "2026-08-25",
 "sources": [
-"Adzuna"
+"Adzuna",
+"회사/eightfold"
 ],
 "flags": [],
 "remote": false,
@@ -3849,6 +4400,24 @@
 "company_key": "Northrop Grumman"
 },
 {
+"id": "seniorelectromagneticpulseemporrfengineersignonbonus|amentum|washingtondc",
+"title": "Senior Electromagnetic Pulse (EMP) or RF Engineer Sign-On Bonus",
+"company": "Amentum",
+"location": "US-VA-Dahlgren",
+"metro": "Washington DC",
+"url": "https://pae.wd1.myworkdayjobs.com/en-US/Amentum_Careers/job/US-VA-Dahlgren/Senior-Electromagnetic-Pulse--EMP--or-RF-Engineer-Sign-On-Bonus_R0168993",
+"posted": "2026-08-25",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Amentum"
+},
+{
 "id": "rfengineersrstaffandovermawithsecurityclearance|lockheedmart|boston",
 "title": "RF Engineer, Sr Staff - Andover, MA with Security Clearance",
 "company": "Lockheed Martin",
@@ -3903,6 +4472,24 @@
 "last_seen": "2026-09-17",
 "group": "방산",
 "company_key": "HII Mission Technologies"
+},
+{
+"id": "cyberrfsoftwareengineerseniorstaff|lockheedmart|washingtondc",
+"title": "Cyber RF Software Engineer Senior Staff",
+"company": "Lockheed Martin",
+"location": "Fort Meade, MD",
+"metro": "Washington DC",
+"url": "https://lockheedmartin.eightfold.ai/careers/job/996476480602",
+"posted": "2026-08-24",
+"sources": [
+"회사/eightfold"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Lockheed Martin"
 },
 {
 "id": "emiemcseniorprincipalengineer|baesystems|boston",
@@ -4193,12 +4780,13 @@
 "id": "juniorpcbdrafterrfpowerboards|caci|washingtondc",
 "title": "Junior PCB Drafter – RF & Power Boards",
 "company": "CACI",
-"location": "Washington, DC",
+"location": "Fairfax, VA / Dulles, VA",
 "metro": "Washington DC",
-"url": "https://hire.run/jobs/caci-junior-pcb-drafter-rf-power-boards-washington-dc-1ktt",
+"url": "https://caci.eightfold.ai/careers/job/1443152936730",
 "posted": "2026-08-20",
 "sources": [
-"JSearch/Hire.run"
+"JSearch/Hire.run",
+"회사/eightfold"
 ],
 "flags": [
 "⚠️ 클리어런스/시민권"
@@ -4226,6 +4814,60 @@
 "last_seen": "2026-09-17",
 "group": "방산",
 "company_key": "Northrop Grumman"
+},
+{
+"id": "principalradiofrequencyengineer|leonardodrs|washingtondc",
+"title": "Principal Radio Frequency Engineer",
+"company": "Leonardo DRS",
+"location": "Frederick, MD, US, 21703",
+"metro": "Washington DC",
+"url": "https://careers.leonardodrs.com/job/Frederick-Principal-Radio-Frequency-Engineer-MD-21703/1421430500/",
+"posted": "2026-08-20",
+"sources": [
+"회사/successfactors"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Leonardo DRS"
+},
+{
+"id": "rfantennatestengineer|caci|washingtondc",
+"title": "RF & Antenna Test Engineer",
+"company": "CACI",
+"location": "Dulles, VA",
+"metro": "Washington DC",
+"url": "https://caci.eightfold.ai/careers/job/1443152966369",
+"posted": "2026-08-20",
+"sources": [
+"회사/eightfold"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "CACI"
+},
+{
+"id": "seniorrfantennaengineer|caci|washingtondc",
+"title": "Senior RF/Antenna Engineer",
+"company": "CACI",
+"location": "Fairfax, VA / Chantilly, VA",
+"metro": "Washington DC",
+"url": "https://caci.eightfold.ai/careers/job/1443151210462",
+"posted": "2026-08-20",
+"sources": [
+"회사/eightfold"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "CACI"
 },
 {
 "id": "rfhardwareengineer|hark|sfbayarea",
@@ -4352,6 +4994,24 @@
 "last_seen": "2026-09-17",
 "group": "방산",
 "company_key": "RTX / Raytheon"
+},
+{
+"id": "seniorpcbdrafterrfpowerboards|caci|washingtondc",
+"title": "Senior PCB Drafter – RF & Power Boards",
+"company": "CACI",
+"location": "Fairfax, VA / Dulles, VA",
+"metro": "Washington DC",
+"url": "https://caci.eightfold.ai/careers/job/1443152936732",
+"posted": "2026-08-19",
+"sources": [
+"회사/eightfold"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "CACI"
 },
 {
 "id": "rfengineer|tive|boston",
@@ -5130,6 +5790,294 @@
 "company_key": "AeroVironment / BlueHalo"
 },
 {
+"id": "rfengineer|amentum|washingtondc",
+"title": "RF Engineer",
+"company": "Amentum",
+"location": "US-VA-Dahlgren",
+"metro": "Washington DC",
+"url": "https://pae.wd1.myworkdayjobs.com/en-US/Amentum_Careers/job/US-VA-Dahlgren/RF-Engineer_R0167317",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Amentum"
+},
+{
+"id": "seniorelectromagneticenvironmentaleffectse3engineer|amentum|washingtondc",
+"title": "Senior Electromagnetic Environmental Effects (E3) Engineer",
+"company": "Amentum",
+"location": "US-VA-Dahlgren",
+"metro": "Washington DC",
+"url": "https://pae.wd1.myworkdayjobs.com/en-US/Amentum_Careers/job/US-VA-Dahlgren/Senior-Electromagnetic-Environmental-Effects--E3--Engineer_R0167316",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Amentum"
+},
+{
+"id": "seniorelectromagneticpulseempengineersignonbonuseligible|amentum|washingtondc",
+"title": "Senior Electromagnetic Pulse (EMP) Engineer - Sign-on Bonus Eligible",
+"company": "Amentum",
+"location": "US-VA-Dahlgren",
+"metro": "Washington DC",
+"url": "https://pae.wd1.myworkdayjobs.com/en-US/Amentum_Careers/job/US-VA-Dahlgren/Senior-Electromagnetic-Pulse--EMP--Engineer---Sign-on-Bonus-Eligible_R0167324",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Amentum"
+},
+{
+"id": "seniorrfspectrumengineer|theaerospace|washingtondc",
+"title": "Senior RF Spectrum Engineer",
+"company": "The Aerospace Corporation",
+"location": "El Segundo, CA / Chantilly, VA / Colorado Springs, CO",
+"metro": "Washington DC",
+"url": "https://aero.wd5.myworkdayjobs.com/en-US/External/job/El-Segundo-CA/Senior-RF-Spectrum-Engineer_R016032-1",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "The Aerospace Corporation"
+},
+{
+"id": "advancedrfelectronicsengineer|theaerospace|washingtondc",
+"title": "Advanced RF Electronics Engineer",
+"company": "The Aerospace Corporation",
+"location": "Chantilly, VA",
+"metro": "Washington DC",
+"url": "https://aero.wd5.myworkdayjobs.com/en-US/External/job/Chantilly-VA/Advanced-RF-Electronics-Engineer_R016065",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "The Aerospace Corporation"
+},
+{
+"id": "electromagneticsimulationengineer|theaerospace|washingtondc",
+"title": "Electromagnetic Simulation Engineer​",
+"company": "The Aerospace Corporation",
+"location": "Chantilly, VA",
+"metro": "Washington DC",
+"url": "https://aero.wd5.myworkdayjobs.com/en-US/External/job/Chantilly-VA/Electromagnetic-Simulation-Engineer-_R015082",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "The Aerospace Corporation"
+},
+{
+"id": "rfandantennaengineerengspecialistsrengspecialist|theaerospace|washingtondc",
+"title": "RF and Antenna Engineer​ - Eng Specialist/Sr Eng Specialist",
+"company": "The Aerospace Corporation",
+"location": "Chantilly, VA",
+"metro": "Washington DC",
+"url": "https://aero.wd5.myworkdayjobs.com/en-US/External/job/Chantilly-VA/RF-and-Antenna-Engineer----Eng-Specialist-Sr-Eng-Specialist_R015488",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "The Aerospace Corporation"
+},
+{
+"id": "seniorrfspectrumpolicyanalystengineer|theaerospace|washingtondc",
+"title": "Senior RF Spectrum Policy Analyst/Engineer",
+"company": "The Aerospace Corporation",
+"location": "Chantilly, VA / El Segundo, CA / Colorado Springs, CO",
+"metro": "Washington DC",
+"url": "https://aero.wd5.myworkdayjobs.com/en-US/External/job/Chantilly-VA/Senior-RF-Spectrum-Policy-Analyst-Engineer_R016033",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "The Aerospace Corporation"
+},
+{
+"id": "seniorcyberewtechadvisor|theaerospace|washingtondc",
+"title": "Senior Cyber/EW Tech Advisor",
+"company": "The Aerospace Corporation",
+"location": "Crystal City, VA",
+"metro": "Washington DC",
+"url": "https://aero.wd5.myworkdayjobs.com/en-US/External/job/Crystal-City-VA/Senior-Cyber-EW-Tech-Advisor_R015527",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "The Aerospace Corporation"
+},
+{
+"id": "spacebasedradarsystemarchitect|theaerospace|washingtondc",
+"title": "Space-Based Radar System Architect",
+"company": "The Aerospace Corporation",
+"location": "Chantilly, VA",
+"metro": "Washington DC",
+"url": "https://aero.wd5.myworkdayjobs.com/en-US/External/job/Chantilly-VA/Space-Based-Radar-System-Architect_R015843",
+"posted": "2026-08-18",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "The Aerospace Corporation"
+},
+{
+"id": "radiofrequencyengineerseniorstaff|lockheedmart|washingtondc",
+"title": "Radio Frequency Engineer Senior Staff",
+"company": "Lockheed Martin",
+"location": "Hanover, MD",
+"metro": "Washington DC",
+"url": "https://lockheedmartin.eightfold.ai/careers/job/996476205651",
+"posted": "2026-08-15",
+"sources": [
+"회사/eightfold"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Lockheed Martin"
+},
+{
+"id": "rfhardwareengineerstaff|lockheedmart|washingtondc",
+"title": "RF Hardware Engineer Staff",
+"company": "Lockheed Martin",
+"location": "Fort Meade, MD",
+"metro": "Washington DC",
+"url": "https://lockheedmartin.eightfold.ai/careers/job/996476206122",
+"posted": "2026-08-15",
+"sources": [
+"회사/eightfold"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Lockheed Martin"
+},
+{
+"id": "rfseniorsystemsengineer|lockheedmart|washingtondc",
+"title": "RF Senior Systems Engineer",
+"company": "Lockheed Martin",
+"location": "Hanover, MD",
+"metro": "Washington DC",
+"url": "https://lockheedmartin.eightfold.ai/careers/job/996476199491",
+"posted": "2026-08-14",
+"sources": [
+"회사/eightfold"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Lockheed Martin"
+},
+{
+"id": "rfsystemsengineerlevel2|lockheedmart|washingtondc",
+"title": "RF Systems Engineer Level 2",
+"company": "Lockheed Martin",
+"location": "Hanover, MD",
+"metro": "Washington DC",
+"url": "https://lockheedmartin.eightfold.ai/careers/job/996476201976",
+"posted": "2026-08-14",
+"sources": [
+"회사/eightfold"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Lockheed Martin"
+},
+{
+"id": "cyberrfsoftwareengineersenior|lockheedmart|washingtondc",
+"title": "Cyber RF Software Engineer, Senior",
+"company": "Lockheed Martin",
+"location": "Hanover, MD",
+"metro": "Washington DC",
+"url": "https://lockheedmartin.eightfold.ai/careers/job/996476189732",
+"posted": "2026-08-14",
+"sources": [
+"회사/eightfold"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Lockheed Martin"
+},
+{
+"id": "cyberrfsoftwareengineerstaff|lockheedmart|washingtondc",
+"title": "Cyber RF Software Engineer Staff",
+"company": "Lockheed Martin",
+"location": "Hanover, MD",
+"metro": "Washington DC",
+"url": "https://lockheedmartin.eightfold.ai/careers/job/996476187762",
+"posted": "2026-08-14",
+"sources": [
+"회사/eightfold"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Lockheed Martin"
+},
+{
 "id": "rficsystemengineer|apple|sfbayarea",
 "title": "RFIC System Engineer",
 "company": "Apple",
@@ -5146,6 +6094,42 @@
 "last_seen": "2026-09-17",
 "group": "RF·통신",
 "company_key": "Apple"
+},
+{
+"id": "fieldsystemsengineerradarcuas|caci|washingtondc",
+"title": "Field Systems Engineer (Radar/C-UAS)",
+"company": "CACI",
+"location": "Sterling, VA",
+"metro": "Washington DC",
+"url": "https://caci.eightfold.ai/careers/job/1443152357455",
+"posted": "2026-07-23",
+"sources": [
+"회사/eightfold"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "CACI"
+},
+{
+"id": "rfdesignelectricalengineer|caci|washingtondc",
+"title": "RF Design Electrical Engineer",
+"company": "CACI",
+"location": "Dulles, VA",
+"metro": "Washington DC",
+"url": "https://caci.eightfold.ai/careers/job/1443152321516",
+"posted": "2026-07-22",
+"sources": [
+"회사/eightfold"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "CACI"
 },
 {
 "id": "seniorrfelectricalengineer|hawkeye360|washingtondc",
@@ -5184,6 +6168,24 @@
 "company_key": "KBR"
 },
 {
+"id": "testengineeraterf|qualcomm|sfbayarea",
+"title": "Test Engineer, ATE RF",
+"company": "Qualcomm",
+"location": "Santa Clara, California",
+"metro": "SF Bay Area",
+"url": "https://careers.qualcomm.com/careers/job/446718634177",
+"posted": "2026-07-02",
+"sources": [
+"회사/eightfold"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "RF·통신",
+"company_key": "Qualcomm"
+},
+{
 "id": "rfanalystsenior|kbr|washingtondc",
 "title": "RF Analyst – Senior",
 "company": "KBR",
@@ -5220,6 +6222,24 @@
 "company_key": "Apple"
 },
 {
+"id": "airdefenseelectronicwarfareanalystintermiediate|caci|washingtondc",
+"title": "Air Defense Electronic Warfare Analyst (Intermiediate)",
+"company": "CACI",
+"location": "Aberdeen Proving Ground, MD",
+"metro": "Washington DC",
+"url": "https://caci.eightfold.ai/careers/job/1443151231095",
+"posted": "2026-06-05",
+"sources": [
+"회사/eightfold"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "CACI"
+},
+{
 "id": "wirelesssoftwareengineer|skydio|sfbayarea",
 "title": "Wireless Software Engineer",
 "company": "Skydio",
@@ -5236,6 +6256,24 @@
 "last_seen": "2026-09-17",
 "group": "방산",
 "company_key": "Skydio"
+},
+{
+"id": "seniorsystemsengineerradaravionicsintegration|caci|washingtondc",
+"title": "Senior Systems Engineer – Radar & Avionics Integration",
+"company": "CACI",
+"location": "Washington, DC",
+"metro": "Washington DC",
+"url": "https://caci.eightfold.ai/careers/job/1443149339716",
+"posted": "2026-05-28",
+"sources": [
+"회사/eightfold"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "CACI"
 },
 {
 "id": "radarpayloadsystemsengineer|kbr|washingtondc",
@@ -5740,6 +6778,24 @@
 "last_seen": "2026-09-17",
 "group": "연구소",
 "company_key": "MIT Lincoln Laboratory"
+},
+{
+"id": "externaljobpostingtitlerfengineeringsme|peraton|washingtondc",
+"title": "External Job Posting Title RF Engineering SME",
+"company": "Peraton",
+"location": "US-VA-Chantilly",
+"metro": "Washington DC",
+"url": "https://careers-peraton.icims.com/jobs/170434/rf-engineering-sme/job",
+"posted": "",
+"sources": [
+"회사/icims"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Peraton"
 }
 ]
 }

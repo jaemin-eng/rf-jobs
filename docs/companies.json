@@ -1,5 +1,5 @@
 {
-"updated": "2026-09-17T21:52:44+00:00",
+"updated": "2026-09-17T22:21:47+00:00",
 "companies": [
 {
 "name": "Lockheed Martin",
@@ -13,8 +13,8 @@
 "other_locations": [
 "Moorestown, NJ",
 "Didcot, GBR / Manchester, GBR",
-"Fort Worth, TX",
-"Marietta, GA"
+"Owego, NY",
+"Palmdale, CA"
 ],
 "listed": 12
 },
@@ -59,7 +59,7 @@
 "via": "icims",
 "source": "https://careers-gdms.icims.com",
 "count": 6,
-"seconds": 43,
+"seconds": 42,
 "in_metro": 0,
 "other_locations": [
 "Scottsdale, AZ",
@@ -75,7 +75,7 @@
 "via": "workday",
 "source": "https://gdit.wd5.myworkdayjobs.com/External_Career_Site",
 "count": 7,
-"seconds": 22,
+"seconds": 23,
 "in_metro": 4,
 "other_locations": [
 "Egg Harbor Township, NJ",
@@ -91,11 +91,11 @@
 "via": "phenom",
 "source": "https://jobs.baesystems.com/global/en",
 "count": 3,
-"seconds": 360,
+"seconds": 362,
 "in_metro": 1,
 "other_locations": [
-"Boulder, Colorado / Westminster, Colorado",
-"Huntsville, Alabama"
+"Huntsville, Alabama",
+"Boulder, Colorado / Westminster, Colorado"
 ],
 "listed": 11
 },
@@ -106,7 +106,7 @@
 "via": "radancy",
 "source": "https://careers.l3harris.com",
 "count": 21,
-"seconds": 24,
+"seconds": 23,
 "in_metro": 0,
 "other_locations": [
 "Palm Bay, Brevard, FL",
@@ -140,7 +140,7 @@
 "via": "successfactors",
 "source": "https://jobs.hii-tsd.com",
 "count": 16,
-"seconds": 24,
+"seconds": 23,
 "in_metro": 3,
 "other_locations": [
 "Hurlburt Field, FL, Florida",
@@ -182,7 +182,7 @@
 "via": "workday",
 "source": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site",
 "count": 2,
-"seconds": 33,
+"seconds": 36,
 "in_metro": 0,
 "other_locations": [
 "Lone Tree, CO",
@@ -210,7 +210,7 @@
 "via": "workday",
 "source": "https://leidos.wd5.myworkdayjobs.com/External",
 "count": 49,
-"seconds": 150,
+"seconds": 151,
 "in_metro": 6,
 "other_locations": [
 "Huntsville, AL",
@@ -227,8 +227,8 @@
 "via": "",
 "source": "",
 "count": 0,
-"error": "채용 시스템을 찾지 못함",
-"seconds": 3,
+"error": "ttcportals: TTC HTTP 403",
+"seconds": 6,
 "in_metro": 0,
 "other_locations": [],
 "listed": 2
@@ -240,13 +240,13 @@
 "via": "eightfold",
 "source": "{\"host\": \"caci.eightfold.ai\", \"domain\": \"caci.com\"}",
 "count": 25,
-"seconds": 81,
+"seconds": 79,
 "in_metro": 16,
 "other_locations": [
 "Panama City, FL",
 "Albuquerque, NM",
 "Portsmouth, VA",
-"International - Australia"
+"Rochester, NY"
 ],
 "listed": 16
 },
@@ -256,9 +256,9 @@
 "status": "ok",
 "via": "workday",
 "source": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs",
-"count": 26,
-"seconds": 111,
-"in_metro": 14,
+"count": 27,
+"seconds": 109,
+"in_metro": 15,
 "other_locations": [
 "Australia",
 "San Diego, CA",
@@ -337,7 +337,7 @@
 "source": "",
 "count": 0,
 "error": "icims: iCIMS 결과 0건 (형식 확인 필요)",
-"seconds": 15,
+"seconds": 18,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0
@@ -348,10 +348,14 @@
 "status": "ok",
 "via": "phenom",
 "source": "https://careers.kbr.com/us/en",
-"count": 9,
-"seconds": 362,
-"in_metro": 9,
-"other_locations": [],
+"count": 8,
+"seconds": 361,
+"in_metro": 0,
+"other_locations": [
+"Ann Arbor, Michigan",
+"Beavercreek Township, Ohio",
+"Huntsville, Alabama"
+],
 "listed": 9
 },
 {
@@ -413,7 +417,7 @@
 "source": "",
 "count": 0,
 "error": "icims: iCIMS 결과 0건 (형식 확인 필요); icims: iCIMS 결과 0건 (형식 확인 필요); icims: iCIMS 결과 0건 (형식 확인 필요)",
-"seconds": 51,
+"seconds": 54,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0
@@ -468,7 +472,7 @@
 "via": "lever",
 "source": "shieldai",
 "count": 0,
-"seconds": 2,
+"seconds": 7,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0
@@ -508,7 +512,7 @@
 "via": "workday",
 "source": "https://avav.wd1.myworkdayjobs.com/AVAV",
 "count": 6,
-"seconds": 25,
+"seconds": 27,
 "in_metro": 2,
 "other_locations": [
 "Albuquerque, NM",
@@ -523,7 +527,7 @@
 "via": "lever",
 "source": "palantir",
 "count": 0,
-"seconds": 4,
+"seconds": 6,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0
@@ -573,7 +577,7 @@
 "source": "",
 "count": 0,
 "error": "greenhouse: Greenhouse HTTP 404; ashby: Ashby HTTP 404; lever: Lever HTTP 404",
-"seconds": 6,
+"seconds": 5,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0
@@ -610,7 +614,7 @@
 "via": "successfactors",
 "source": "https://careers.ll.mit.edu",
 "count": 13,
-"seconds": 27,
+"seconds": 24,
 "in_metro": 13,
 "other_locations": [],
 "listed": 13
@@ -634,7 +638,7 @@
 "via": "jobsyn",
 "source": "sandia.jobs",
 "count": 7,
-"seconds": 18,
+"seconds": 17,
 "in_metro": 0,
 "other_locations": [
 "Albuquerque, NM"
@@ -660,7 +664,7 @@
 "via": "phenom",
 "source": "https://careers.mitre.org/us/en",
 "count": 15,
-"seconds": 360,
+"seconds": 361,
 "in_metro": 13,
 "other_locations": [
 "Boulder, Colorado",
@@ -676,7 +680,7 @@
 "source": "",
 "count": 0,
 "error": "icims: iCIMS 결과 0건 (형식 확인 필요); icims: iCIMS HTTP 404; icims: iCIMS 결과 0건 (형식 확인 필요); radancy: Radancy HTTP 404",
-"seconds": 48,
+"seconds": 42,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0
@@ -688,7 +692,7 @@
 "via": "workday",
 "source": "https://aero.wd5.myworkdayjobs.com/External",
 "count": 24,
-"seconds": 129,
+"seconds": 130,
 "in_metro": 8,
 "other_locations": [
 "El Segundo, CA",
@@ -705,7 +709,7 @@
 "via": "icims",
 "source": "https://careers-sri.icims.com",
 "count": 4,
-"seconds": 17,
+"seconds": 18,
 "in_metro": 0,
 "other_locations": [
 "Boulder, CO",
@@ -750,7 +754,7 @@
 "source": "",
 "count": 0,
 "error": "채용 시스템을 찾지 못함",
-"seconds": 1,
+"seconds": 0,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0
@@ -775,7 +779,7 @@
 "via": "apple",
 "source": "true",
 "count": 77,
-"seconds": 75,
+"seconds": 72,
 "in_metro": 5,
 "other_locations": [
 "Sunnyvale",
@@ -788,14 +792,18 @@
 {
 "name": "Qualcomm",
 "group": "RF·통신",
-"status": "fail",
-"via": "",
-"source": "",
-"count": 0,
-"error": "eightfold: Eightfold pcsx HTTP 429, v2 HTTP 403; eightfold: Eightfold pcsx HTTP 429, v2 HTTP 403",
-"seconds": 130,
-"in_metro": 0,
-"other_locations": [],
+"status": "ok",
+"via": "eightfold",
+"source": "{\"host\": \"careers.qualcomm.com\", \"domain\": \"qualcomm.com\"}",
+"count": 42,
+"seconds": 169,
+"in_metro": 6,
+"other_locations": [
+"San Diego, California",
+"Farnborough, United Kingdom",
+"Singapore, Central Singapore, Singapore",
+"Hyderabad, Telangāna, India"
+],
 "listed": 7
 },
 {
@@ -805,7 +813,7 @@
 "via": "greenhouse",
 "source": "spacex",
 "count": 82,
-"seconds": 0,
+"seconds": 19,
 "in_metro": 13,
 "other_locations": [
 "Redmond, WA",

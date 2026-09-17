@@ -420,7 +420,8 @@ def fetch_companies(cfg, state):
     if not comps:
         return []
     ok_title = title_matcher(cfg)
-    company_sources.RESPECT_ROBOTS = cfg.get("respect_robots_txt", True)
+    company_sources.RESPECT_ROBOTS = cfg.get("respect_robots_txt", False)
+    company_sources.REQUEST_DELAY = float(cfg.get("company_request_delay", 3.0))
     cache = state.setdefault("company_sources", {})
     results, statuses = [], []
 

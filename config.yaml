@@ -50,8 +50,10 @@ clearance_patterns:
 # true면 위 표시가 붙은 공고를 아예 숨김 (시민권/클리어런스가 없다면 true 추천)
 hide_clearance_jobs: false
 
-# 회사 사이트가 robots.txt로 자동 수집을 막아두면 그 사이트는 읽지 않음
-respect_robots_txt: true
+# true면 robots.txt로 자동 수집을 막아둔 회사 사이트는 읽지 않음
+respect_robots_txt: false
+# 같은 회사 사이트에 요청을 보내는 간격(초). 크게 둘수록 상대 서버에 부담이 적음
+company_request_delay: 3.0
 
 # 평소 실행: 최근 며칠 이내 새 공고만 확인
 max_days_old: 3

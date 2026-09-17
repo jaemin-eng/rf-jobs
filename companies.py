@@ -23,8 +23,7 @@ BROWSER_UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.3
 HEADERS = {"User-Agent": BROWSER_UA, "Accept-Language": "en-US,en;q=0.9"}
 
 # 회사 사이트 검색에 쓰는 키워드 (제목 필터는 job_watcher가 따로 적용)
-SEARCH_TERMS = ["RF", "antenna", "EMC", "EMI", "microwave", "radar",
-                "electromagnetic", "electronic warfare", "phased array", "RFIC"]
+SEARCH_TERMS = ["RF", "antenna", "EMC", "radar", "microwave", "electromagnetic"]
 
 
 def _clean_loc(loc):
@@ -59,7 +58,8 @@ def _txt(s):
 # 공식 공개 API (robots.txt 대상 아님)
 OFFICIAL_API_HOSTS = ("boards-api.greenhouse.io", "api.lever.co", "api.ashbyhq.com",
                       "api.smartrecruiters.com")
-RESPECT_ROBOTS = True
+RESPECT_ROBOTS = False      # job_watcher가 config.yaml 값으로 덮어씀
+REQUEST_DELAY = 3.0         # 회사 사이트에 요청을 보내는 간격(초)
 ROBOTS_UA = "rf-job-watcher"
 _robots_cache = {}
 
@@ -94,6 +94,26 @@ def _robots_ok(url):
     return rp.can_fetch(ROBOTS_UA, url)
 
 
+_last_call = {}
+_throttle_lock = None
+
+
+def _throttle(url):
+    """같은 사이트에는 REQUEST_DELAY 간격을 두고 요청 (서버 부담 최소화)"""
+    global _throttle_lock
+    if _throttle_lock is None:
+        import threading
+        _throttle_lock = threading.Lock()
+    host = urlparse(url).hostname or ""
+    if host in OFFICIAL_API_HOSTS:
+        return
+    with _throttle_lock:
+        wait = REQUEST_DELAY - (time.time() - _last_call.get(host, 0))
+        if wait > 0:
+            time.sleep(wait)
+        _last_call[host] = time.time()
+
+
 def _check_robots(url):
     if not _robots_ok(url):
         raise RobotsBlocked(f"{urlparse(url).hostname}: robots.txt에서 자동 수집을 막아둠")
@@ -101,6 +121,7 @@ def _check_robots(url):
 
 def _get(url, **kw):
     _check_robots(url)
+    _throttle(url)
     kw.setdefault("timeout", TIMEOUT)
     h = dict(HEADERS)
     h.update(kw.pop("headers", {}) or {})
@@ -109,6 +130,7 @@ def _get(url, **kw):
 
 def _post(url, **kw):
     _check_robots(url)
+    _throttle(url)
     kw.setdefault("timeout", TIMEOUT)
     h = dict(HEADERS)
     h.update(kw.pop("headers", {}) or {})
@@ -163,7 +185,6 @@ def fetch_workday(url, title_ok):
             offset += 20
             if not posts or (total and offset >= total):
                 break
-            time.sleep(0.3)
     if not ok:
         raise RuntimeError("Workday 응답 없음")
     if raw == 0:
@@ -301,7 +322,6 @@ def fetch_icims(base, title_ok):
                 out.append(Found(jid, title, loc, href.split("?")[0]))
             if len(links) < 10:
                 break
-            time.sleep(0.3)
     if not ok:
         raise RuntimeError("iCIMS 응답 없음")
     if raw == 0:
@@ -352,7 +372,6 @@ def fetch_phenom(base, title_ok):
             total = obj.get("totalHits") or 0
             if not jobs or start + 10 >= total:
                 break
-            time.sleep(0.3)
     if not ok:
         raise RuntimeError("Phenom 응답 없음")
     if raw == 0:
@@ -396,7 +415,6 @@ def fetch_radancy(base, title_ok):
                 out.append(Found(jid, title, loc, base + href, _us_date(_txt(m.group(1)) if m else "")))
             if len(items) < 100:
                 break
-            time.sleep(0.3)
     if not ok:
         raise RuntimeError("Radancy 응답 없음")
     if raw == 0:
@@ -450,7 +468,6 @@ def fetch_successfactors(base, title_ok):
                                  _us_date(_txt(m.group(1))) if m else ""))
             if len(seen_here) < 25:
                 break
-            time.sleep(0.3)
     if not ok:
         raise RuntimeError("SuccessFactors 응답 없음")
     if raw == 0:
@@ -503,7 +520,6 @@ def fetch_eightfold(conf, title_ok):
                                          datetime.fromtimestamp(ts).strftime("%Y-%m-%d") if isinstance(ts, (int, float)) else ""))
                     if len(items) < size or (count and start + size >= count):
                         break
-                    time.sleep(0.3)
             if raw == 0:
                 raise RuntimeError("결과 0건")
             return _dedupe(out)
@@ -554,7 +570,6 @@ def fetch_apple(_, title_ok):
                                  (d.get("postDateInGMT") or d.get("postingDate") or "")[:10]))
             if len(results) < 20:
                 break
-            time.sleep(0.5)
     if raw == 0:
         raise RuntimeError("Apple 결과 0건 (형식 확인 필요)")
     return _dedupe(out)
@@ -605,7 +620,6 @@ def fetch_jobsyn(origin, title_ok):
             pages = ((data.get("pagination") or {}).get("total_pages")) or 0
             if not jobs or page >= pages:
                 break
-            time.sleep(0.3)
     if raw == 0:
         raise RuntimeError("DirectEmployers 결과 0건")
     return _dedupe(out)

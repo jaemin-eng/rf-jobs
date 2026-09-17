@@ -168,7 +168,10 @@ const daysAgo = n => { const t = new Date(); t.setHours(0,0,0,0); t.setDate(t.ge
 const fmt = d => d ? `${d.slice(5,7)}.${d.slice(8,10)}` : "—";
 const catsOf = j => CATS.filter(([,re]) => re.test(j.title)).map(([n]) => n);
 const isNew = j => day(j.first_seen) >= daysAgo(1);
-const isGone = j => updated && day(j.last_seen) < daysAgo(4);
+// 회사 채용 페이지(Greenhouse/Lever)는 열린 공고 전체를 매번 받아오므로, 거기서 안 보이면 마감으로 판단
+const isGone = j => updated && (j.sources||[]).length > 0
+  && (j.sources||[]).every(x => /^(Greenhouse|Lever)/.test(x))
+  && day(j.last_seen) < daysAgo(2);
 const hasClr = j => (j.flags||[]).some(f => /클리어런스|연방/.test(f));
 
 function savePrefs(){
@@ -262,7 +265,7 @@ function renderList(base){
       `<span class="tag metro">${esc(j.metro)}</span>`,
       ...catsOf(j).map(c => `<span class="tag">${esc(c)}</span>`),
       ...(j.flags||[]).map(f => `<span class="tag warn">${esc(f)}</span>`),
-      isGone(j) ? `<span class="tag gone" title="최근 수집에서 보이지 않음 — 마감되었을 수 있습니다">목록에서 사라짐</span>` : "",
+      isGone(j) ? `<span class="tag gone" title="회사 채용 페이지에서 사라짐. 마감되었을 수 있습니다">목록에서 사라짐</span>` : "",
     ].join("");
     const src = [...new Set((j.sources||[]).map(x => x.replace(/^JSearch\//,"")))].join(", ");
     const btn = (k, on, off) => `<button class="act" type="button" data-id="${esc(j.id)}" data-s="${k}" aria-pressed="${s===k}">${s===k?on:off}</button>`;

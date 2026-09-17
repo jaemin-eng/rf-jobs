@@ -30,7 +30,12 @@ SEARCH_TERMS = ["RF", "antenna", "EMC", "EMI", "microwave", "radar",
 def _clean_loc(loc):
     parts, seen = [], set()
     for p in re.split(r"\s*/\s*", loc or ""):
-        p = re.sub(r",\s*(United States( of America)?|USA|US)$", "", p.strip())
+        p = re.sub(r"\s*~.*$", "", p.strip())                       # Workday 사업장 주소 제거
+        p = re.sub(r"^(US|USA)-([A-Z]{2})-([A-Za-z][A-Za-z .']+?)(-[A-Z0-9]{2,4})?$",
+                   lambda m: f"{m.group(3).title()}, {m.group(2)}", p)       # US-MA-TEWKSBURY-TB1
+        p = re.sub(r"^USA\s+([A-Z]{2})\s+(.+)$", lambda m: f"{m.group(2)}, {m.group(1)}", p)
+        p = re.sub(r"^United States-([A-Za-z ]+)-(.+)$", lambda m: f"{m.group(2)}, {m.group(1)}", p)
+        p = re.sub(r",\s*(United States( of America)?|USA|US)$", "", p)
         if p and p.lower() not in seen:
             seen.add(p.lower())
             parts.append(p)

@@ -50,6 +50,16 @@ STATE_NAMES = {
 
 
 # ----------------------------------------------------------------------------
+def title_key(title):
+    """같은 공고의 사이트별 표기 차이를 없앰 (예: 'with Security Clearance', '- Onsite')"""
+    t = (title or "").lower()
+    t = re.sub(r"\bwith (an? )?(active )?(security )?clearance\b.*$", "", t)
+    t = re.sub(r"\(\s*skillbridge[^)]*\)", "", t)
+    t = re.sub(r"[-–,|]\s*(onsite|on-site|hybrid|remote|telework)\b.*$", "", t)
+    t = re.sub(r"\bsr\.?(?=\s)", "senior", t)
+    return t.strip()
+
+
 @dataclass
 class Job:
     source: str
@@ -72,7 +82,7 @@ class Job:
             if company.endswith(suffix) and len(company) > len(suffix) + 2:
                 company = company[: -len(suffix)]
                 break
-        return f"{norm(self.title)}|{company[:12]}|{norm(self.metro)}"
+        return f"{norm(title_key(self.title))}|{company[:12]}|{norm(self.metro)}"
 
 
 def log(msg):
@@ -509,7 +519,12 @@ def rekey_store(state, index):
     """회사 이름 표기가 바뀌어도 같은 공고가 두 번 나오지 않도록 저장된 공고를 다시 묶음."""
     old = state.get("jobs", {})
     new = {}
+    week_ago = (datetime.now() - timedelta(days=7)).strftime("%Y-%m-%d")
     for rec in old.values():
+        # 회사 채용 페이지에서만 보이던 공고가 1주일 넘게 사라졌으면 정리 (마감)
+        if rec.get("last_seen", "") < week_ago and all(
+                x.startswith(("회사/", "Greenhouse", "Lever")) for x in rec.get("sources", [])):
+            continue
         canon, group = classify_company(rec.get("company", ""), index)
         if canon:
             rec["company"], rec["company_key"], rec["group"] = canon, canon, group

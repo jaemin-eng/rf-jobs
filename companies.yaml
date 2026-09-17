@@ -46,7 +46,8 @@ companies:
   - name: General Dynamics Mission Systems
     group: 방산
     aliases: [General Dynamics Mission, GDMS, General Dynamics]
-    careers: [https://www.gd.com/careers/job-search, https://gdmissionsystems.com/careers]
+    sources:
+      - icims: https://careers-gdms.icims.com
 
   - name: GDIT
     group: 방산

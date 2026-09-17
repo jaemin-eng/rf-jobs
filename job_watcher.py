@@ -146,7 +146,7 @@ def fetch_jsearch(cfg, state):
     if last and state.get("jsearch_backfilled") and not os.getenv("FORCE_ALL"):
         elapsed = datetime.now(timezone.utc) - datetime.fromisoformat(last)
         if elapsed < timedelta(days=src.get("run_every_days", 1), hours=-6):
-            log(f"JSearch: 건너뜀 (오늘 이미 실행, 월 호출량 절약)")
+            log("JSearch: 건너뜀 (오늘 이미 실행, 월 호출량 절약)")
             return []
 
     queries = src["rotating_queries"]
@@ -167,7 +167,7 @@ def fetch_jsearch(cfg, state):
         for q in todays:
             query = f"{q} in {m['jsearch_location']}"
             try:
-                r = requests.get("https://jsearch.p.rapidapi.com/search", headers=headers, timeout=TIMEOUT,
+                r = requests.get("https://jsearch.p.rapidapi.com/search-v2", headers=headers, timeout=TIMEOUT,
                                  params={"query": query, "page": 1, "num_pages": 1,
                                          "date_posted": date_posted, "country": "us"})
                 calls += 1
@@ -175,18 +175,21 @@ def fetch_jsearch(cfg, state):
             except (requests.RequestException, ValueError) as e:
                 problems.append(f"{query}: {e}")
                 continue
-            data = body.get("data") or []
+            # search-v2: {"data": {"jobs": [...], "cursor": "..."}} (구버전: {"data": [...]})
+            raw = body.get("data") if isinstance(body, dict) else None
+            data = (raw.get("jobs") if isinstance(raw, dict) else raw) or []
             if r.status_code != 200 or not data:
                 msg = body.get("message") or body.get("error") or body.get("status") or r.text[:120]
                 problems.append(f"{query} -> HTTP {r.status_code}, {len(data)}건, {msg}")
             for d in data:
-                loc = ", ".join(x for x in [d.get("job_city"), d.get("job_state")] if x)
+                loc = d.get("job_location") or ", ".join(
+                    x for x in [d.get("job_city"), d.get("job_state")] if x)
                 jobs.append(Job(
                     source=f"JSearch/{d.get('job_publisher') or '?'}",
                     source_id=str(d.get("job_id")),
                     title=d.get("job_title") or "",
                     company=d.get("employer_name") or "",
-                    location=loc or d.get("job_location") or ("Remote" if d.get("job_is_remote") else ""),
+                    location=loc or ("Remote" if d.get("job_is_remote") else ""),
                     url=d.get("job_apply_link") or "",
                     posted=(d.get("job_posted_at_datetime_utc") or "")[:10],
                     description=d.get("job_description") or "",

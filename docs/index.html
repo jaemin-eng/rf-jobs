@@ -84,6 +84,22 @@ select{padding:8px 10px;border:1px solid var(--line);border-radius:8px;backgroun
 .job.flash{animation:flash .6s ease-out}
 @keyframes flash{from{background:var(--trace-soft)}to{background:transparent}}
 
+.groups{display:flex;flex-wrap:wrap;gap:6px;margin:-6px 0 16px}
+.chip.grp[aria-pressed="true"]{background:var(--marker-soft);border-color:var(--marker);color:var(--ink)}
+.tag.grp{border-color:var(--marker);color:var(--marker)}
+details.coverage{margin-top:28px;border:1px solid var(--line);border-radius:10px;background:var(--panel)}
+details.coverage summary{cursor:pointer;padding:12px 16px;font-weight:700;font-family:var(--cond);font-size:16px}
+details.coverage summary .sub{font-weight:400;font-family:var(--sans);font-size:13px;color:var(--ink-2);margin-left:8px}
+.cov-wrap{overflow-x:auto;padding:0 16px 14px}
+.cov{width:100%;border-collapse:collapse;font-size:13.5px}
+.cov th{text-align:left;color:var(--ink-2);font-weight:500;padding:6px 8px;border-bottom:1px solid var(--line);white-space:nowrap}
+.cov td{padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+.cov td:nth-child(2),.cov td:nth-child(3),.cov td:nth-child(4){white-space:nowrap}
+.cov td.num{font-variant-numeric:tabular-nums;text-align:right}
+.cov .okm{color:var(--applied);font-weight:700}
+.cov .bad{color:var(--warn);font-weight:700}
+.cov .err{color:var(--ink-2);font-size:12px}
+.cov button{appearance:none;border:0;background:none;color:inherit;font:inherit;padding:0;cursor:pointer;text-align:left;text-decoration:underline;text-decoration-color:var(--line)}
 .empty{padding:40px 8px;color:var(--ink-2);text-align:left}
 .empty strong{color:var(--ink);display:block;font-size:16px;margin-bottom:4px}
 footer{margin-top:26px;font-size:12.5px;color:var(--ink-2)}
@@ -126,7 +142,16 @@ footer button{font:inherit;background:none;border:0;color:var(--trace);cursor:po
     <div class="chips" id="chips" role="group" aria-label="분야"></div>
   </div>
 
+  <div class="groups" id="groups" role="group" aria-label="회사 그룹"></div>
+
   <ul class="list" id="list"></ul>
+
+  <details class="coverage" id="coverage">
+    <summary>회사 직접 연결 현황<span class="sub" id="covSub"></span></summary>
+    <div class="cov-wrap"><table class="cov"><thead><tr>
+      <th>회사</th><th>그룹</th><th>상태</th><th>방식</th><th style="text-align:right">대시보드 공고</th><th>참고</th>
+    </tr></thead><tbody id="covBody"></tbody></table></div>
+  </details>
 
   <footer>
     관심·지원함·숨김 표시는 이 브라우저에만 저장됩니다.
@@ -144,6 +169,7 @@ const CATS = [
   ["EMC/EMI",  /\bEM[CI]\b|electromagnetic|compliance|signal integrity/i],
   ["마이크로파", /microwave|mm-?wave|millimeter/i],
 ];
+const GROUPS = ["방산","연구소","RF·통신"];
 const VIEWS = [["all","전체"],["new","새 공고"],["saved","관심"],["applied","지원함"],["hidden","숨김"]];
 const KEY = "rfjw-status-v1", PREF = "rfjw-prefs-v1";
 
@@ -156,6 +182,7 @@ const saved = store.get(PREF, {});
 const ui = {
   metros: new Set(saved.metros || METROS),
   cats: new Set(saved.cats || []),
+  groups: new Set(saved.groups || []),
   view: saved.view || "all",
   q: "", sort: saved.sort || "found", noClr: !!saved.noClr,
 };
@@ -170,12 +197,12 @@ const catsOf = j => CATS.filter(([,re]) => re.test(j.title)).map(([n]) => n);
 const isNew = j => day(j.first_seen) >= daysAgo(1);
 // 회사 채용 페이지(Greenhouse/Lever)는 열린 공고 전체를 매번 받아오므로, 거기서 안 보이면 마감으로 판단
 const isGone = j => updated && (j.sources||[]).length > 0
-  && (j.sources||[]).every(x => /^(Greenhouse|Lever)/.test(x))
+  && (j.sources||[]).every(x => /^(회사\/|Greenhouse|Lever)/.test(x))
   && day(j.last_seen) < daysAgo(2);
 const hasClr = j => (j.flags||[]).some(f => /클리어런스|연방/.test(f));
 
 function savePrefs(){
-  store.set(PREF, {metros:[...ui.metros], cats:[...ui.cats], view:ui.view, sort:ui.sort, noClr:ui.noClr});
+  store.set(PREF, {metros:[...ui.metros], cats:[...ui.cats], groups:[...ui.groups], view:ui.view, sort:ui.sort, noClr:ui.noClr});
 }
 
 function sparkline(metro){
@@ -212,6 +239,7 @@ function baseFiltered(){
     if (!ui.metros.has(j.metro) && j.metro !== "Remote") return false;
     if (ui.noClr && hasClr(j)) return false;
     if (ui.cats.size && !catsOf(j).some(c => ui.cats.has(c))) return false;
+    if (ui.groups.size && !ui.groups.has(j.group)) return false;
     if (q && !`${j.title} ${j.company} ${j.location}`.toLowerCase().includes(q)) return false;
     return true;
   });
@@ -233,6 +261,30 @@ function renderTabs(base){
   $("#chips").innerHTML = CATS.map(([n]) =>
     `<button class="chip" type="button" data-c="${esc(n)}" aria-pressed="${ui.cats.has(n)}">${esc(n)}</button>`
   ).join("");
+}
+
+function renderGroups(){
+  const all = jobs.filter(j => status[j.id] !== "hidden");
+  $("#groups").innerHTML = `<span class="chip" style="border:0;background:none;cursor:default;padding-left:0">회사 그룹</span>` +
+    GROUPS.map(g => `<button class="chip grp" type="button" data-g="${esc(g)}" aria-pressed="${ui.groups.has(g)}">${esc(g)} <span class="n">${all.filter(j=>j.group===g).length}</span></button>`).join("");
+}
+
+let companies = [];
+function renderCoverage(){
+  if (!companies.length) { $("#coverage").hidden = true; return; }
+  $("#coverage").hidden = false;
+  const ok = companies.filter(c => c.status === "ok").length;
+  $("#covSub").textContent = `${companies.length}곳 중 ${ok}곳 연결됨`;
+  const order = {fail:0, ok:1};
+  const rows = [...companies].sort((a,b) => (order[a.status]-order[b.status]) || GROUPS.indexOf(a.group)-GROUPS.indexOf(b.group) || a.name.localeCompare(b.name));
+  $("#covBody").innerHTML = rows.map(c => `<tr>
+    <td><button type="button" data-company="${esc(c.name)}">${esc(c.name)}</button></td>
+    <td>${esc(c.group||"")}</td>
+    <td>${c.status==="ok" ? '<span class="okm">연결됨</span>' : '<span class="bad">실패</span>'}</td>
+    <td>${esc(c.via||"")}</td>
+    <td class="num">${c.listed ?? 0}</td>
+    <td class="err">${c.status==="ok" ? `RF 관련 ${c.count}건 (전 지역)` : esc(c.error||"")+" · Adzuna 회사명 검색으로 보완 중"}</td>
+  </tr>`).join("");
 }
 
 function renderList(base){
@@ -263,11 +315,12 @@ function renderList(base){
     const s = status[j.id] || "";
     const tags = [
       `<span class="tag metro">${esc(j.metro)}</span>`,
+      j.group ? `<span class="tag grp">${esc(j.group)}</span>` : "",
       ...catsOf(j).map(c => `<span class="tag">${esc(c)}</span>`),
       ...(j.flags||[]).map(f => `<span class="tag warn">${esc(f)}</span>`),
       isGone(j) ? `<span class="tag gone" title="회사 채용 페이지에서 사라짐. 마감되었을 수 있습니다">목록에서 사라짐</span>` : "",
     ].join("");
-    const src = [...new Set((j.sources||[]).map(x => x.replace(/^JSearch\//,"")))].join(", ");
+    const src = [...new Set((j.sources||[]).map(x => x.replace(/^JSearch\//,"").replace(/^회사\/.*/,"회사 공식 채용")))].join(", ");
     const btn = (k, on, off) => `<button class="act" type="button" data-id="${esc(j.id)}" data-s="${k}" aria-pressed="${s===k}">${s===k?on:off}</button>`;
     return `<li class="job${isGone(j)?' is-gone':''}" data-row="${esc(j.id)}">
       <div class="date">${fmt(j.posted || j.first_seen)}${isNew(j)?'<br class="nb"><span class="new">NEW</span>':''}</div>
@@ -283,7 +336,7 @@ function renderList(base){
 
 function render(){
   const base = baseFiltered();
-  renderChannels(); renderTabs(base); renderList(base);
+  renderChannels(); renderTabs(base); renderGroups(); renderList(base); renderCoverage();
 }
 
 // 이벤트
@@ -297,6 +350,13 @@ $("#channels").addEventListener("click", e => {
 });
 $("#tabs").addEventListener("click", e => { const b=e.target.closest(".tab"); if(!b) return; ui.view=b.dataset.v; savePrefs(); render(); });
 $("#chips").addEventListener("click", e => { const b=e.target.closest(".chip"); if(!b) return; const c=b.dataset.c; ui.cats.has(c)?ui.cats.delete(c):ui.cats.add(c); savePrefs(); render(); });
+$("#groups").addEventListener("click", e => { const b=e.target.closest(".grp"); if(!b) return; const g=b.dataset.g; ui.groups.has(g)?ui.groups.delete(g):ui.groups.add(g); savePrefs(); render(); });
+$("#covBody").addEventListener("click", e => {
+  const b = e.target.closest("[data-company]"); if (!b) return;
+  const name = b.dataset.company.split(/\s*[(/]/)[0];
+  ui.q = name; $("#q").value = name; ui.view = "all"; render();
+  window.scrollTo({top: 0, behavior: "smooth"});
+});
 $("#q").addEventListener("input", e => { ui.q = e.target.value; render(); });
 $("#sort").addEventListener("change", e => { ui.sort = e.target.value; savePrefs(); render(); });
 $("#noClr").addEventListener("change", e => { ui.noClr = e.target.checked; savePrefs(); render(); });
@@ -331,6 +391,9 @@ $("#sort").value = ui.sort;
 $("#noClr").checked = ui.noClr;
 
 // 데이터 불러오기
+fetch("companies.json?t=" + Date.now()).then(r => r.ok ? r.json() : {companies: []})
+  .then(d => { companies = d.companies || []; renderCoverage(); }).catch(() => {});
+
 fetch("jobs.json?t=" + Date.now())
   .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
   .then(d => {

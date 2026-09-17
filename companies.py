@@ -87,7 +87,7 @@ def fetch_workday(url, title_ok):
     base = f"{u.scheme}://{u.hostname}"
     api = f"{base}/wday/cxs/{tenant}/{site}/jobs"
     hdr = {"Content-Type": "application/json", "Accept": "application/json"}
-    found, ok = [], False
+    found, ok, raw = [], False, 0
     for term in SEARCH_TERMS:
         offset = 0
         while offset < 400:
@@ -98,6 +98,7 @@ def fetch_workday(url, title_ok):
             ok = True
             data = r.json()
             posts = data.get("jobPostings") or []
+            raw += len(posts)
             for p in posts:
                 title = p.get("title", "")
                 if not title_ok(title):
@@ -115,6 +116,8 @@ def fetch_workday(url, title_ok):
             time.sleep(0.3)
     if not ok:
         raise RuntimeError("Workday 응답 없음")
+    if raw == 0:
+        raise RuntimeError("Workday 결과 0건 (사이트 이름 확인 필요)")
     return _dedupe(found)
 
 
@@ -146,6 +149,8 @@ def fetch_greenhouse(slug, title_ok):
     r = _get(f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs")
     if r.status_code != 200:
         raise RuntimeError(f"Greenhouse HTTP {r.status_code}")
+    if not r.json().get("jobs"):
+        raise RuntimeError("Greenhouse 공고 0건")
     return [Found(d.get("id"), d.get("title"), (d.get("location") or {}).get("name", ""),
                   d.get("absolute_url"), d.get("updated_at", ""))
             for d in r.json().get("jobs", []) if title_ok(d.get("title", ""))]
@@ -155,6 +160,8 @@ def fetch_lever(slug, title_ok):
     r = _get(f"https://api.lever.co/v0/postings/{slug}", params={"mode": "json"})
     if r.status_code != 200 or not isinstance(r.json(), list):
         raise RuntimeError(f"Lever HTTP {r.status_code}")
+    if not r.json():
+        raise RuntimeError("Lever 공고 0건")
     out = []
     from datetime import datetime
     for d in r.json():
@@ -173,6 +180,8 @@ def fetch_ashby(slug, title_ok):
     r = _get(f"https://api.ashbyhq.com/posting-api/job-board/{slug}")
     if r.status_code != 200:
         raise RuntimeError(f"Ashby HTTP {r.status_code}")
+    if not r.json().get("jobs"):
+        raise RuntimeError("Ashby 공고 0건")
     out = []
     for d in r.json().get("jobs", []):
         if not title_ok(d.get("title", "")):
@@ -208,7 +217,7 @@ def fetch_smartrecruiters(company, title_ok):
 
 def fetch_icims(base, title_ok):
     base = base.rstrip("/")
-    out, ok = [], False
+    out, ok, raw = [], False, 0
     for term in SEARCH_TERMS:
         for page in range(0, 10):
             r = _get(f"{base}/jobs/search", params={"ss": 1, "searchKeyword": term,
@@ -219,6 +228,7 @@ def fetch_icims(base, title_ok):
             links = re.findall(r'href="(https?://[^"]+/jobs/(\d+)/[^"]+/job[^"]*)"[^>]*>(.*?)</a>', r.text, re.S)
             if not links:
                 break
+            raw += len(links)
             for href, jid, inner in links:
                 title = _txt(inner)
                 if not title or not title_ok(title):
@@ -236,6 +246,8 @@ def fetch_icims(base, title_ok):
             time.sleep(0.3)
     if not ok:
         raise RuntimeError("iCIMS 응답 없음")
+    if raw == 0:
+        raise RuntimeError("iCIMS 결과 0건 (형식 확인 필요)")
     return _dedupe(out)
 
 
@@ -255,7 +267,7 @@ def _find_json_after(text, key):
 
 def fetch_phenom(base, title_ok):
     base = base.rstrip("/")
-    out, ok = [], False
+    out, ok, raw = [], False, 0
     for term in SEARCH_TERMS:
         for start in range(0, 200, 10):
             r = _get(f"{base}/search-results", params={"keywords": term, "from": start, "s": 1})
@@ -266,6 +278,7 @@ def fetch_phenom(base, title_ok):
                 raise RuntimeError("Phenom 형식 아님")
             ok = True
             jobs = ((obj.get("data") or {}).get("jobs")) or []
+            raw += len(jobs)
             for d in jobs:
                 title = d.get("title", "")
                 if not title_ok(title):
@@ -284,12 +297,14 @@ def fetch_phenom(base, title_ok):
             time.sleep(0.3)
     if not ok:
         raise RuntimeError("Phenom 응답 없음")
+    if raw == 0:
+        raise RuntimeError("Phenom 결과 0건")
     return _dedupe(out)
 
 
 def fetch_radancy(base, title_ok):
     base = base.rstrip("/")
-    out, ok = [], False
+    out, ok, raw = [], False, 0
     hdr = {"X-Requested-With": "XMLHttpRequest", "Accept": "application/json"}
     for term in SEARCH_TERMS:
         for page in range(1, 11):
@@ -307,10 +322,11 @@ def fetch_radancy(base, title_ok):
             except ValueError:
                 raise RuntimeError("Radancy 형식 아님")
             ok = True
-            items = re.findall(r'<a[^>]+href="(/job/[^"]+)"[^>]*data-job-id="(\d+)"[^>]*>(.*?)</a>', body, re.S)
+            items = re.findall(r'<a[^>]+href="((?:/[a-z]{2}(?:-[a-z]{2})?)?/job/[^"]+)"[^>]*data-job-id="(\d+)"[^>]*>(.*?)</a>', body, re.S)
             if not items:
                 items = [(h, i, inner) for i, h, inner in re.findall(
-                    r'<a[^>]+data-job-id="(\d+)"[^>]*href="(/job/[^"]+)"[^>]*>(.*?)</a>', body, re.S)]
+                    r'<a[^>]+data-job-id="(\d+)"[^>]*href="((?:/[a-z]{2}(?:-[a-z]{2})?)?/job/[^"]+)"[^>]*>(.*?)</a>', body, re.S)]
+            raw += len(items)
             for href, jid, inner in items:
                 m = re.search(r"<h\d[^>]*>(.*?)</h\d>", inner, re.S)
                 title = _txt(m.group(1) if m else inner)
@@ -325,6 +341,8 @@ def fetch_radancy(base, title_ok):
             time.sleep(0.3)
     if not ok:
         raise RuntimeError("Radancy 응답 없음")
+    if raw == 0:
+        raise RuntimeError("Radancy 결과 0건 (형식 확인 필요)")
     return _dedupe(out)
 
 
@@ -340,7 +358,7 @@ def _us_date(s):
 
 def fetch_successfactors(base, title_ok):
     base = base.rstrip("/")
-    out, ok = [], False
+    out, ok, raw = [], False, 0
     for term in SEARCH_TERMS:
         for start in range(0, 500, 25):
             r = _get(f"{base}/search/", params={"q": term, "startrow": start})
@@ -353,6 +371,7 @@ def fetch_successfactors(base, title_ok):
                     raise RuntimeError("SuccessFactors 형식 아님")
             ok = True
             seen_here = set()
+            raw += len(links)
             for href, inner in links:
                 if href in seen_here:
                     continue
@@ -376,41 +395,67 @@ def fetch_successfactors(base, title_ok):
             time.sleep(0.3)
     if not ok:
         raise RuntimeError("SuccessFactors 응답 없음")
+    if raw == 0:
+        raise RuntimeError("SuccessFactors 결과 0건")
     return _dedupe(out)
+
+
+def _ef_positions(obj):
+    """Eightfold 응답에서 공고 목록 찾기 (v2: positions, PCSX: data.positions)"""
+    if not isinstance(obj, dict):
+        return [], 0
+    data = obj.get("data") if isinstance(obj.get("data"), dict) else obj
+    items = data.get("positions") or data.get("jobs") or []
+    return items, data.get("count") or data.get("total") or 0
 
 
 def fetch_eightfold(conf, title_ok):
+    from datetime import datetime
     host, domain = conf["host"], conf["domain"]
-    out, ok = [], False
-    for term in SEARCH_TERMS:
-        for start in range(0, 500, 100):
-            r = _get(f"https://{host}/api/apply/v2/jobs",
-                     params={"domain": domain, "query": term, "start": start, "num": 100,
-                             "sort_by": "relevance"})
-            if r.status_code != 200:
-                raise RuntimeError(f"Eightfold HTTP {r.status_code}")
-            ok = True
-            data = r.json()
-            items = data.get("positions") or []
-            for d in items:
-                title = d.get("name", "")
-                if not title_ok(title):
-                    continue
-                locs = d.get("locations") or [d.get("location", "")]
-                ts = d.get("t_create")
-                from datetime import datetime
-                out.append(Found(d.get("id"), title, " / ".join(x for x in locs if x),
-                                 d.get("canonicalPositionUrl") or f"https://{host}/careers?pid={d.get('id')}",
-                                 datetime.fromtimestamp(ts).strftime("%Y-%m-%d") if ts else ""))
-            if len(items) < 100 or start + 100 >= (data.get("count") or 0):
-                break
-    if not ok:
-        raise RuntimeError("Eightfold 응답 없음")
-    return _dedupe(out)
+    hdr = {"Accept": "application/json", "Referer": f"https://{host}/careers"}
+    endpoints = [("pcsx", f"https://{host}/api/pcsx/search", 10),
+                 ("v2", f"https://{host}/api/apply/v2/jobs", 100)]
+    errors = []
+    for kind, api, size in endpoints:
+        out, raw = [], 0
+        try:
+            for term in SEARCH_TERMS:
+                for start in range(0, 600, size):
+                    params = {"domain": domain, "query": term, "start": start, "sort_by": "relevance"}
+                    if kind == "v2":
+                        params["num"] = size
+                    else:
+                        params["location"] = ""
+                    r = _get(api, headers=hdr, params=params)
+                    if r.status_code != 200:
+                        raise RuntimeError(f"HTTP {r.status_code}")
+                    items, count = _ef_positions(r.json())
+                    raw += len(items)
+                    for d in items:
+                        title = d.get("name") or d.get("title") or ""
+                        if not title_ok(title):
+                            continue
+                        locs = d.get("locations") or d.get("standardizedLocations") or [d.get("location", "")]
+                        ts = d.get("postedTs") or d.get("t_create") or d.get("t_update")
+                        url = d.get("canonicalPositionUrl") or d.get("positionUrl") or f"/careers/job/{d.get('id')}"
+                        if url.startswith("/"):
+                            url = f"https://{host}{url}"
+                        out.append(Found(d.get("id") or d.get("displayJobId"), title,
+                                         " / ".join(x for x in locs if isinstance(x, str) and x), url,
+                                         datetime.fromtimestamp(ts).strftime("%Y-%m-%d") if isinstance(ts, (int, float)) else ""))
+                    if len(items) < size or (count and start + size >= count):
+                        break
+                    time.sleep(0.3)
+            if raw == 0:
+                raise RuntimeError("결과 0건")
+            return _dedupe(out)
+        except Exception as e:
+            errors.append(f"{kind} {str(e)[:60]}")
+    raise RuntimeError("Eightfold " + ", ".join(errors))
 
 
 def fetch_apple(_, title_ok):
-    out, ok = [], False
+    out, ok, raw = [], False, 0
     for term in SEARCH_TERMS:
         for page in range(1, 11):
             r = _get("https://jobs.apple.com/en-us/search",
@@ -436,6 +481,7 @@ def fetch_apple(_, title_ok):
                         results.append(json.loads(chunk))
                     except ValueError:
                         pass
+            raw += len(results)
             for d in results:
                 title = d.get("postingTitle", "")
                 if not title_ok(title):
@@ -451,6 +497,8 @@ def fetch_apple(_, title_ok):
             if len(results) < 20:
                 break
             time.sleep(0.5)
+    if raw == 0:
+        raise RuntimeError("Apple 결과 0건 (형식 확인 필요)")
     return _dedupe(out)
 
 
@@ -516,7 +564,7 @@ def discover(url):
         icims.insert(0, host)
     for h in icims:
         add("icims", f"https://{h}")
-    m = re.search(r'([a-z0-9-]+\.eightfold\.ai)', text)
+    m = re.search(r'([a-z0-9-]+\.eightfold\.ai)', host if host.endswith("eightfold.ai") else text)
     d = re.search(r'["\']?domain["\']?\s*[:=]\s*["\']([a-z0-9.-]+\.[a-z]{2,})["\']', text)
     if (m or "/api/apply/v2" in text) and d:
         add("eightfold", {"host": host if not m else m.group(1), "domain": d.group(1)})
@@ -535,6 +583,13 @@ def discover(url):
                 sub = urljoin(final, href)
                 if sub != url and urlparse(sub).hostname:
                     return discover_once(sub)
+    def rank(c):
+        k, v = next(iter(c.items()))
+        if k == "workday":
+            site = v.rsplit("/", 1)[-1].lower()
+            return 0 if re.search(r"career|external|search|jobs", site) else 1
+        return 0
+    cands.sort(key=rank)
     return cands
 
 
@@ -562,10 +617,9 @@ def run_company(comp, title_ok, cache):
     """회사 하나 수집. (결과 목록, 상태 dict) 반환"""
     name = comp["name"]
     tried, errors = [], []
-    candidates = []
-    if cache.get(name):
+    candidates = list(comp.get("sources") or [])
+    if cache.get(name) and cache[name] not in candidates:
         candidates.append(cache[name])
-    candidates += list(comp.get("sources") or [])
     discovered = False
     idx = 0
     while True:

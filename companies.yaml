@@ -25,8 +25,8 @@ companies:
     group: 방산
     aliases: [Lockheed]
     sources:
-      - radancy: https://www.lockheedmartinjobs.com
-    careers: [https://www.lockheedmartinjobs.com/search-jobs]
+      - eightfold: {host: lockheedmartin.eightfold.ai, domain: lockheedmartin.com}
+    careers: [https://lockheedmartin.eightfold.ai/careers]
 
   - name: RTX / Raytheon
     group: 방산
@@ -40,6 +40,7 @@ companies:
     aliases: [Northrop]
     sources:
       - workday: https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site
+      - eightfold: {host: jobs.northropgrumman.com, domain: ngc.com}
     careers: [https://jobs.northropgrumman.com/careers]
 
   - name: General Dynamics Mission Systems
@@ -76,11 +77,13 @@ companies:
   - name: Textron Systems
     group: 방산
     aliases: [Textron]
-    careers: [https://www.textron.com/careers, https://textron.wd5.myworkdayjobs.com/Careers]
+    careers: [https://www.textronsystems.com/careers, https://www.textron.com/careers]
 
   - name: Leonardo DRS
     group: 방산
     aliases: [Leonardo DRS, DRS Technologies]
+    sources:
+      - successfactors: https://careers.leonardodrs.com
     careers: [https://www.leonardodrs.com/careers/]
 
   - name: Sierra Nevada Corporation
@@ -108,8 +111,8 @@ companies:
   - name: CACI
     group: 방산
     sources:
-      - phenom: https://careers.caci.com/global/en
-    careers: [https://careers.caci.com/global/en]
+      - eightfold: {host: caci.eightfold.ai, domain: caci.com}
+    careers: [https://caci.eightfold.ai/careers]
 
   - name: Booz Allen Hamilton
     group: 방산
@@ -120,6 +123,8 @@ companies:
   - name: Parsons
     group: 방산
     aliases: [Parsons Corporation]
+    sources:
+      - workday: https://parsons.wd5.myworkdayjobs.com/Search
     careers: [https://jobs.parsons.com, https://www.parsons.com/careers/]
 
   - name: Peraton
@@ -132,6 +137,8 @@ companies:
 
   - name: Amentum
     group: 방산
+    sources:
+      - workday: https://pae.wd1.myworkdayjobs.com/Amentum_Careers
     careers: [https://www.amentum.com/careers/]
 
   - name: V2X
@@ -274,6 +281,8 @@ companies:
   - name: The Aerospace Corporation
     group: 연구소
     aliases: [Aerospace Corporation]
+    sources:
+      - workday: https://aero.wd5.myworkdayjobs.com/External
     careers: [https://aerospace.org/careers, https://careers.aerospace.org]
 
   - name: SRI International
@@ -310,6 +319,7 @@ companies:
     group: RF·통신
     sources:
       - eightfold: {host: careers.qualcomm.com, domain: qualcomm.com}
+      - eightfold: {host: qualcomm.eightfold.ai, domain: qualcomm.com}
     careers: [https://careers.qualcomm.com/careers]
 
   - name: SpaceX

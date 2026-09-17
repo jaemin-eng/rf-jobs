@@ -157,7 +157,23 @@
   "Adzuna:5884382291": "2026-09-17",
   "seniorrfanalystwithsecurityclearance|aerospacecorporation|washingtondc": "2026-09-17",
   "seniorrfanalyst|theaerospacecorporation|washingtondc": "2026-09-17",
-  "Adzuna:5886155286": "2026-09-17"
+  "Adzuna:5886155286": "2026-09-17",
+  "Adzuna:5883500453": "2026-09-17",
+  "rfengineer|actalent|boston": "2026-09-17",
+  "rfengineerwithsecurityclearance|amentum|washingtondc": "2026-09-17",
+  "Adzuna:5884993089": "2026-09-17",
+  "Adzuna:5887131176": "2026-09-17",
+  "rfengineer30280withsecurityclearance|hiimissiontechnologies|washingtondc": "2026-09-17",
+  "Adzuna:5884853941": "2026-09-17",
+  "seniorelectromagneticpulseemporrfengineersignonbonuswithsecurityclearance|amentum|washingtondc": "2026-09-17",
+  "Adzuna:5885464012": "2026-09-17",
+  "engineerrfmicrowavedesign1|judgegroupinc|washingtondc": "2026-09-17",
+  "Adzuna:5884818679": "2026-09-17",
+  "midlevelradiofrequencyengineerwithsecurityclearance|amentum|washingtondc": "2026-09-17",
+  "rfmicrowavedesignengineer1withsecurityclearance|asdinc|washingtondc": "2026-09-17",
+  "Adzuna:5885463415": "2026-09-17",
+  "seniorelectromagneticenvironmentaleffectse3engineerwithsecurityclearance|amentum|washingtondc": "2026-09-17",
+  "Adzuna:5884998563": "2026-09-17"
  },
  "jobs": {
   "seniorrfengineer|freshconsulting|sfbayarea": {
@@ -1470,8 +1486,149 @@
    "remote": false,
    "first_seen": "2026-09-17",
    "last_seen": "2026-09-17"
+  },
+  "rfengineer|actalent|boston": {
+   "id": "rfengineer|actalent|boston",
+   "title": "Rf Engineer",
+   "company": "Actalent",
+   "location": "Tyngsborough, Middlesex County, Massachusetts",
+   "metro": "Boston",
+   "url": "https://www.adzuna.com/land/ad/5883500453?se=Jh9HU3Wy8RGRr_JonSYGrg&utm_medium=api&utm_source=d677d981&v=4233F5FAAC4701269FFD0D6F0185732FB0AA66CE",
+   "posted": "2026-09-14",
+   "sources": [
+    "Adzuna"
+   ],
+   "flags": [],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17"
+  },
+  "rfengineerwithsecurityclearance|amentum|washingtondc": {
+   "id": "rfengineerwithsecurityclearance|amentum|washingtondc",
+   "title": "RF Engineer with Security Clearance",
+   "company": "Amentum",
+   "location": "Dahlgren, King George County, Virginia",
+   "metro": "Washington DC",
+   "url": "https://www.adzuna.com/land/ad/5884993089?se=EG9DXnWy8RGG_Ptdkojnvw&utm_medium=api&utm_source=d677d981&v=84341C7C92CE6EA3A8FE080F091D9CA3ECB684D3",
+   "posted": "2026-09-15",
+   "sources": [
+    "Adzuna"
+   ],
+   "flags": [
+    "⚠️ 클리어런스/시민권"
+   ],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17"
+  },
+  "rfengineer30280withsecurityclearance|hiimissiontechnologies|washingtondc": {
+   "id": "rfengineer30280withsecurityclearance|hiimissiontechnologies|washingtondc",
+   "title": "RF Engineer - 30280 with Security Clearance",
+   "company": "HII Mission Technologies",
+   "location": "Annapolis, Anne Arundel County, Maryland",
+   "metro": "Washington DC",
+   "url": "https://www.adzuna.com/land/ad/5887131176?se=EG9DXnWy8RGG_Ptdkojnvw&utm_medium=api&utm_source=d677d981&v=697DA27EA32C7BEECD1DACFB11D4388C01F4E888",
+   "posted": "2026-09-17",
+   "sources": [
+    "Adzuna"
+   ],
+   "flags": [
+    "⚠️ 클리어런스/시민권"
+   ],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17"
+  },
+  "seniorelectromagneticpulseemporrfengineersignonbonuswithsecurityclearance|amentum|washingtondc": {
+   "id": "seniorelectromagneticpulseemporrfengineersignonbonuswithsecurityclearance|amentum|washingtondc",
+   "title": "Senior Electromagnetic Pulse (EMP) or RF Engineer Sign-On Bonus with Security Clearance",
+   "company": "Amentum",
+   "location": "Dahlgren, King George County, Virginia",
+   "metro": "Washington DC",
+   "url": "https://www.adzuna.com/land/ad/5884853941?se=EG9DXnWy8RGG_Ptdkojnvw&utm_medium=api&utm_source=d677d981&v=42C372DC0693903AA597BA8ECBDB06B16DA4188B",
+   "posted": "2026-09-15",
+   "sources": [
+    "Adzuna"
+   ],
+   "flags": [
+    "⚠️ 클리어런스/시민권"
+   ],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17"
+  },
+  "engineerrfmicrowavedesign1|judgegroupinc|washingtondc": {
+   "id": "engineerrfmicrowavedesign1|judgegroupinc|washingtondc",
+   "title": "Engineer RF Microwave Design 1",
+   "company": "Judge Group, Inc.",
+   "location": "East Case, Baltimore, Maryland",
+   "metro": "Washington DC",
+   "url": "https://www.adzuna.com/land/ad/5885464012?se=EG9DXnWy8RGG_Ptdkojnvw&utm_medium=api&utm_source=d677d981&v=7637B07B6CA4CF8D421C516594D94C3C3C88A2FB",
+   "posted": "2026-09-15",
+   "sources": [
+    "Adzuna"
+   ],
+   "flags": [],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17"
+  },
+  "midlevelradiofrequencyengineerwithsecurityclearance|amentum|washingtondc": {
+   "id": "midlevelradiofrequencyengineerwithsecurityclearance|amentum|washingtondc",
+   "title": "Mid Level Radio Frequency Engineer with Security Clearance",
+   "company": "Amentum",
+   "location": "Dahlgren, King George County, Virginia",
+   "metro": "Washington DC",
+   "url": "https://www.adzuna.com/land/ad/5884818679?se=EG9DXnWy8RGG_Ptdkojnvw&utm_medium=api&utm_source=d677d981&v=4BB238A2BAF660E13F7315BF5C83622D9795E7BF",
+   "posted": "2026-09-15",
+   "sources": [
+    "Adzuna"
+   ],
+   "flags": [
+    "⚠️ 클리어런스/시민권"
+   ],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17"
+  },
+  "rfmicrowavedesignengineer1withsecurityclearance|asdinc|washingtondc": {
+   "id": "rfmicrowavedesignengineer1withsecurityclearance|asdinc|washingtondc",
+   "title": "RF MICROWAVE DESIGN ENGINEER 1 with Security Clearance",
+   "company": "ASD, Inc.",
+   "location": "Baltimore, Baltimore County, Maryland",
+   "metro": "Washington DC",
+   "url": "https://www.adzuna.com/land/ad/5885463415?se=EG9DXnWy8RGG_Ptdkojnvw&utm_medium=api&utm_source=d677d981&v=E089765424EF27B20EA0E667E900EFD42ADA1A98",
+   "posted": "2026-09-15",
+   "sources": [
+    "Adzuna"
+   ],
+   "flags": [
+    "⚠️ 클리어런스/시민권"
+   ],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17"
+  },
+  "seniorelectromagneticenvironmentaleffectse3engineerwithsecurityclearance|amentum|washingtondc": {
+   "id": "seniorelectromagneticenvironmentaleffectse3engineerwithsecurityclearance|amentum|washingtondc",
+   "title": "Senior Electromagnetic Environmental Effects (E3) Engineer with Security Clearance",
+   "company": "Amentum",
+   "location": "Dahlgren, King George County, Virginia",
+   "metro": "Washington DC",
+   "url": "https://www.adzuna.com/land/ad/5884998563?se=hrO4ZXWy8RGW7Jd0wGJW9Q&utm_medium=api&utm_source=d677d981&v=707B8E488F0DA275FDD7E81A66F20F90403428D8",
+   "posted": "2026-09-15",
+   "sources": [
+    "Adzuna"
+   ],
+   "flags": [
+    "⚠️ 클리어런스/시민권"
+   ],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17"
   }
  },
  "backfilled": "2026-09-17",
- "jsearch_last_run": "2026-09-17T04:57:37.323426+00:00"
+ "jsearch_last_run": "2026-09-17T08:53:41.419690+00:00",
+ "jsearch_turn": 2
 }

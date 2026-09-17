@@ -275,12 +275,12 @@ function renderCoverage(){
   $("#coverage").hidden = false;
   const ok = companies.filter(c => c.status === "ok").length;
   $("#covSub").textContent = `${companies.length}곳 중 ${ok}곳 연결됨`;
-  const order = {fail:0, ok:1};
+  const order = {fail:0, blocked:1, ok:2};
   const rows = [...companies].sort((a,b) => (order[a.status]-order[b.status]) || GROUPS.indexOf(a.group)-GROUPS.indexOf(b.group) || a.name.localeCompare(b.name));
   $("#covBody").innerHTML = rows.map(c => `<tr>
     <td><button type="button" data-company="${esc(c.name)}">${esc(c.name)}</button></td>
     <td>${esc(c.group||"")}</td>
-    <td>${c.status==="ok" ? '<span class="okm">연결됨</span>' : '<span class="bad">실패</span>'}</td>
+    <td>${c.status==="ok" ? '<span class="okm">연결됨</span>' : c.status==="blocked" ? '<span class="bad">수집 금지</span>' : '<span class="bad">실패</span>'}</td>
     <td>${esc(c.via||"")}</td>
     <td class="num">${c.listed ?? 0}</td>
     <td class="err">${c.status==="ok"

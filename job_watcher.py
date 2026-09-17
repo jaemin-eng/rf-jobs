@@ -147,7 +147,12 @@ def fetch_jsearch(cfg, state):
         if elapsed < timedelta(days=src.get("run_every_days", 1), hours=-2):
             log(f"JSearch: 건너뜀 (마지막 실행 {elapsed.days}일 전, 호출량 절약)")
             return []
-    days, pages = window(cfg, state)
+    # JSearch를 처음 쓰는 실행이면 한 달치, 이후엔 평소 범위
+    if last:
+        days, pages = cfg["max_days_old"], 1
+    else:
+        days, pages = cfg.get("backfill_days", 30), 2
+        log("JSearch: 첫 실행이라 최근 한 달치를 가져옵니다")
     date_posted = "today" if days <= 1 else "3days" if days <= 3 else "week" if days <= 7 else "month"
     headers = {"X-RapidAPI-Key": key, "X-RapidAPI-Host": "jsearch.p.rapidapi.com"}
     jobs = []
@@ -157,7 +162,7 @@ def fetch_jsearch(cfg, state):
                 "https://jsearch.p.rapidapi.com/search",
                 headers=headers,
                 params={"query": f"{q} in {m['search_location']}", "page": 1,
-                        "num_pages": min(pages, 3), "date_posted": date_posted, "country": "us"},
+                        "num_pages": pages, "date_posted": date_posted, "country": "us"},
             )
             for d in (data or {}).get("data", []) or []:
                 loc = ", ".join(x for x in [d.get("job_city"), d.get("job_state")] if x)

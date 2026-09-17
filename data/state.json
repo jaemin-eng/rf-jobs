@@ -173,7 +173,77 @@
   "rfmicrowavedesignengineer1withsecurityclearance|asdinc|washingtondc": "2026-09-17",
   "Adzuna:5885463415": "2026-09-17",
   "seniorelectromagneticenvironmentaleffectse3engineerwithsecurityclearance|amentum|washingtondc": "2026-09-17",
-  "Adzuna:5884998563": "2026-09-17"
+  "Adzuna:5884998563": "2026-09-17",
+  "electromagneticcompatibilityemcengineeriii|blueorigin|sfbayarea": "2026-09-17",
+  "JSearch:SlFZX2FfMW9GTmtVV1R6aUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBURmhaWmtobWREbG9RbVk0WTJScFEwSlBXVzAzTVhObVIwazJRVE5wVjJwMVdFcExXVWc1TFdvNWFWRTJRWFozWDFSeWNrOTBOalpvTUhSWVUySmFZakJvUTNJelRFNDJSV2Q0ZVRoa2N6RktOVFZPUVRoak5rNHRhVEZUUmtsWGMyMXhNamhvYjIxSVNsUTBVR00wV0Vjd2NuWnRhMDAxVjFoRVQyNU5iRmRzVTFBMGRUY1NGM2MyZFhKaGN6ZDBTbVJZWWpWT2IxQmZURk14TmtGRkdpSkJSSE55T1daVExWZFlhazVQTFdGb2FFaHZUVEJuU0dWWGVHUnFiekZRWDNOQg": "2026-09-17",
+  "JSearch:VE5NLXRzel9mRDFPbVpteUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTWGhYUzJ0TUxVOVFSbTFYZDJkNE1ITXRYMWRUYXpaUWJubGhiakpwTVVWeFdFaHlOWFpPWjJOSU9VbGhTRzAzYzNsaFdIRk9kRWxDVDBvNVRXbHJjazlYU21wd1JuTnljR2d5TWxNMVNXbEZNa051ZERWRFZHbHFMVVpIUjNaWWJraGZWRVp4VUVFeFRGaFpaWFpvUkV0UldVVnhNSGhmYWxNM05IbENiRnBTZGxCNE1tY1NGM2MyZFhKaGN6ZDBTbVJZWWpWT2IxQmZURk14TmtGRkdpSkJSSE55T1daU1RHSlJTRU5SWTBKb2RFRjNSM0Z5Y21aTmNVcHllazVhWWxoUg": "2026-09-17",
+  "electromagneticcompatibilityengineer|insightglobal|sfbayarea": "2026-09-17",
+  "seniorhardwareengineeremiemc|rivetindustries|sfbayarea": "2026-09-17",
+  "JSearch:TlYtQ3FBaUUwTW1OU25tdUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVzlXWTAxU0xXWXRaa3hrVFRjMmIyUjJRVVptZVZaZlVGcDRZbVJ5WlRaVlNqVldiWFIzWmtKRWEwZExWMk14TjNSTmJqQk5RbkUyVTI1eVNVaHlURmRxYkU5RVpuRmlOVFpuZUhVM1RHRk9ZbmxJZFdGS2Qwb3RTR1JaTm01Tk5HaG9OMVpCVDNCc04zQjJibmR2ZFZVeVdWTkplRXRxY0U5dldrSkJVbHAyY1hoSllsOFNGM2MyZFhKaGN6ZDBTbVJZWWpWT2IxQmZURk14TmtGRkdpSkJSSE55T1daVU4zZDRUV3hpTTJoMllrSkVWVms0V25SVVNEaFdXSFZrU1ZWMw": "2026-09-17",
+  "principalmmwavedesignengineerpoweramplifiersterawave|blueorigin|sfbayarea": "2026-09-17",
+  "JSearch:ZmJSa242VGMxVU05ck96YUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMjFYVjBwamVYUXlOVGxGYm1sRVdWSlVNV1JZUkVkelNXOUNaamN6V0d4dFNqZDFPRlpXV1VaS01FSm1OM05pVUVkalFVSXpNRWR1V2pneFFqVnFZazVoYjJ0WloyOUNiRjlTY1Rjek1XeDJRVVExUzFKak5UZDNTR3gxV2xsUlRXdDRUMkZSV0dWbGNuRmZhVXcyTm04ME9GUkRXV1JUVDA4NE4yMVdXR293Y1VoZllYTVNGM2x4ZFhKaGJ6Y3dSRTFJWkRWT2IxQnhTek5HZVVFNEdpSkJSSE55T1daVGJWUmlORmxTVWs5TmNYRlJSMHRRY2twcFdXOXliM0Z0WlZOMw": "2026-09-17",
+  "JSearch:X09FVVVQalFRdkdQamh5NEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTbWw2WmtWV05GRnlkVkZHZDJ0aFdUaFFkblV4WjA1S1ZVaE9lVmR4ZDA5eGNtOWpkVEpqVURsT1JISmhTa1p5UXkxVkxUSjFWVUZYUVRKT05YQTJNSE5XUVdJMk9ISm5XblpPWlhaQmNtWkNiSE5IYms5b1R6ZzBZazVzYW1aS2NsVTNiR1owZW5SSWF6aDJWVEZ6TFhGM1drNVhMWGN4WlZCcmJHWkxWM0pPTVZkcVpXSVNGM2x4ZFhKaGJ6Y3dSRTFJWkRWT2IxQnhTek5HZVVFNEdpSkJSSE55T1daUlRGWXdhRE5EV1U1bE9UWnBRbFV6VTBGSVEyeEdlWEF0YVhwMw": "2026-09-17",
+  "seniorrfengineerdevices|gridware|sfbayarea": "2026-09-17",
+  "seniorrficlayoutengineercmosanalogrf|appleinc|sfbayarea": "2026-09-17",
+  "JSearch:eG9PZzhjdExYZE1rTHJNZEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTa3hOWlZwMFEwUnlWbXRHVDJ4MVlUQk5WMjB0ZUVaeFZGSkVRVlJNUVdSR1psWm9lR3hGVnpsTVJGaDFNMHBYUWpabmNEWktWVWc0VjJKamJuY3hNWGt6U0ZwS1MyUm5aRjluUlZaTGRtOVFaMEp4VEZCRGVqWlRNMWhXVVdzNGQyWlVURmcwVlZabVJYUTVlVkZLTTJFNVFUaE5hR05xVlhSWWNFNTBOblJFU2twUk9VUVNGM2x4ZFhKaGJ6Y3dSRTFJWkRWT2IxQnhTek5HZVVFNEdpSkJSSE55T1daVFRrRTJjVFp4V2xjMVltTjNURnAwVUZwNGNrZEdjREZ2ZVVWbg": "2026-09-17",
+  "principalradiofrequencyengineer|lumextalent|sfbayarea": "2026-09-17",
+  "JSearch:emFmOE1SX0traXh3MlRTS0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBUSGgxYWtOaGVVcG5VSEZFYUhkV2FWUnlZbGxzTjNGT1YwY3RlWEF6Tm5SU01rTnpiRUo2YmtkMk5sa3djbTFSYW5KU2JFRkhUWEZUUW14NVMwZHNjUzFhY0hoRU4wWkNkV1JJT0hWaWVFeFFPVE5qWTFWNFkyRXlhQzFGZDNCdlRHTXhVUzB0ZFZkdGFGcHRNR2xXWkU4MlVXSTRWbmhPYVRZNWVFRlpVV2g2V2tSRWJHOFNGM2x4ZFhKaGJ6Y3dSRTFJWkRWT2IxQnhTek5HZVVFNEdpSkJSSE55T1daVGJqbFhkblV5U2tGd1NUWllUa3RoYlRrMmNXNVRURjgwTUdaUg": "2026-09-17",
+  "JSearch:Y2k1VzJMQlFEUGlLV1pYVkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBURTVaU0VSb1kycElVbGcyYUROVmRrWm5XVEV3TmtSRWF6WnFTMmQyT1VaaVVISnliMDl0YzA5eFdIZFlURlUyTkV4M2FGWnRVR2RGVWpOZmNqQndXR0p5Ums1V2IxWnBkbmREVkdnNGIweFNTMTlwZHkxMVlVWktkRmhKYUV0cmFXbDJSM05HTlc1ek1IVk9iRTlZY0UxclJqRnNkMngzVXkxcmRUWmlRMnhEUmpsUFVYWVNGM2x4ZFhKaGJ6Y3dSRTFJWkRWT2IxQnhTek5HZVVFNEdpSkJSSE55T1daUldXUjFhM0ZXV2w5UGJrYzBNa2hVVEU5bVgwaHNXazlPUTNsUg": "2026-09-17",
+  "seniorrfdesignandtestengineer|triveniit|sfbayarea": "2026-09-17",
+  "rfengineer3|lamresearchcorporation|sfbayarea": "2026-09-17",
+  "JSearch:R1NPako4RzdRNjZDMHhNdEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVFpaWkcxV2FVZDBabWRHZEZWWE0zaFBhWFYyVFZWeWNtWlBURlV6TXpsRVUyeGZUbWRITFhoU2FsUjZjMkZpVmpsZllWSmtjRTAyVFdKbVNqVkpibEV6Y1U0MVRFdFhjMlZVWVhNMGJWY3RSemxFUlhJMVZsZHJjbGxaZEV0TmJEUnlUVXBEZFZZMFYwRkZURzB5VEVsdlgzRk1lRnBRUmkwNGEwRk1iMnhzTUVZd2RYZ1NGM2x4ZFhKaGJ6Y3dSRTFJWkRWT2IxQnhTek5HZVVFNEdpSkJSSE55T1daUmNWRmpTR1JNVm5RMVdHazFRVWRFWHpKb2VGQnFURWxpU25Obg": "2026-09-17",
+  "JSearch:U1VKd2Z0aUpLa2QwV3FfNEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMHB6TkRsWWJuSnZhV1UxYTJkeFJURXhPV0pIWnkxT09IVnBlVkpVWm1wckxVTldka3hRVmpsTFRGZFlXa2w2VDA1YVFqQjRSRFYzU0ZaalpXSjJaQzFaWkdscllqWkxjMVZHUWxSNlozSldZa1ZXVlY5T1VVazJUMnczT1hJMFdHOHlkV1JvY0ZodVJsRnBZakozZGs1TFV6RkViWFZ0TlhKdldEUmFTVkpCZDFGWGFsQVNGM2x4ZFhKaGJ6Y3dSRTFJWkRWT2IxQnhTek5HZVVFNEdpSkJSSE55T1daUk1ucHVOWHB1ZW5VelJIcHJVbTFrTkcxWmNqUjZabVExTVU5Ug": "2026-09-17",
+  "seniorwirelessrfsystemsengineer|mytra|sfbayarea": "2026-09-17",
+  "JSearch:OWgtX1lhd0FleGxocXQxSkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMlJKV0cwM1MzSmtWRXhuYlhBMFNsaE5WVVZ5UTBwRlFVOWhWRkpYVVhsdGRtbHdkV0ZvU0VGMVNYRXRjRWg1VVhrd2FFaHJiRFZRT1V4YVkwWkdSR0poWkVSQ1UxQkRiVXRNVVZocVEwaEJlREZTYlZsVFpsQTNlbkIyWmtWRE9XbEtkekpzVmpVM1lqaHpSWGx1ZFZrNGJUQlJTV0Z0YjFKMlZrNXVWbkUzYVhZNWQxb1NGM2x4ZFhKaGJ6Y3dSRTFJWkRWT2IxQnhTek5HZVVFNEdpSkJSSE55T1daVFEwaHBhMkZNVWkxNE4yZDBPVTgzZFZkSFJWTnRYeTFNTlZsQg": "2026-09-17",
+  "radiofrequencyengineer|osiengineering|sfbayarea": "2026-09-17",
+  "staffengineeremc|intertek|boston": "2026-09-17",
+  "JSearch:b2d2eGU1Q21GbU82MUw1aUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBUR1JJTVRSMlowaHdNWHBRYlZSRVZsWkhMV3RWZUV0TlNuTjJhMVJEVVc5emVtdEtiVzltVmtGT01WQlVTWGRmY0habmN6WmhibVV5YVZoR1NYRnVPSEprVjJOSldGWjRUSGRpVjJ0MWVGWkZXV3RPYm1SMk1FNTRiRlIzUzFaUVJtZEVUMUZDTjI1TlVYWnRUa0pTZG1ZNU5FWnZVR1pPVERab01VcG9aak00ZURGcFZHa1NGekZMZFhKaGNYbG9Uall0WldoMlkxQXhXWHBsTFZGekdpSkJSSE55T1daVVEzaDNhRUZ5TWxkVmFWOUpkVFF3ZGxscmJtMHhOblF0Y2pWbg": "2026-09-17",
+  "JSearch:cVN6RUQ5YmRPeW9oT0djMkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTekV5Y2xGSldIVmtVM2h3TVUxR2QzaFRialJyTXkwMlJXSm5jRTVLYlhaRlRUSlhZbk5WWHpjNUxXTlZOa3hRYlRsNmVHcHFaVk5aY0ZVd1ltTjNWVk4yUlVSWk4wbzJOUzA1TUV4VFFTMUNTazVwVWxBNVh6bFpjSEpLUkRkMWRHbHNhRGt6VVRKa1VVcHFOMDAzTW1kMGRYaFliMVZFYmxaQ2NXTmpUbGhNTm1WT2QzQVNGekZMZFhKaGNYbG9Uall0WldoMlkxQXhXWHBsTFZGekdpSkJSSE55T1daUmRrbGZPVTVzTVVacmJtbDFYMmxFTUZKR1Rrb3lZakJNV25WMw": "2026-09-17",
+  "senioremcemicomplianceengineerteradyne|teradyne|boston": "2026-09-17",
+  "JSearch:MDBSTGNGRlBBWE03c19QdEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMGhPYm14QlNpMVBaM3BqV1dSeVQzRnNlVGszZG5NMVdqQkdielI0U1RKeVNtNDNVR3BmTFdNeU0wa3RiM0JpUkZwbU5sRnJZMnBhTkdVME4yWTJaR3hKV2psamVtTkhVMHcyTUhreU0za3diV0Z4Y1dGcE5IZDRiVkZYYlRGVWEwcGxOME5OVWxGVE9XdHlVbXAyYTBsM2NGWnNUVVoxWlRacE5VRjJhVFE0VkRoM01sOFNGekZMZFhKaGNYbG9Uall0WldoMlkxQXhXWHBsTFZGekdpSkJSSE55T1daVFEzUmhOamwzZEVNNGJrOXZaRzQzWDFNM01FVXpkM2hhUVVabg": "2026-09-17",
+  "senioremiemcengineerforhighperformancesensorsystems|raytheon|boston": "2026-09-17",
+  "JSearch:YWVWWlRxem9fUjBYTDRtSkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMnhQVHpsUmRETk5VVUY2TWtvM1VYRmtNa0Z6VERkMlIwMXFTV1Z4VkVwMFprdG9Va1pPY2pWclpWcFZSaTFGV0RSWE1qSmpXbGROTXpSclVrWndkMjlTWkZOd05FNHpNWEpoY1UxSWMwSkhiVU5wYUY5RWFtdE5Na1JZYWtWMWJXVmxXVlF5YVV3MmVrYzVabTR3WjBwQlIwVmtNRUYyWmpGNlQyNWlZMVpwTkVkR2RITVNGekZMZFhKaGNYbG9Uall0WldoMlkxQXhXWHBsTFZGekdpSkJSSE55T1daU2JtaEdTV1YzTmtaclpUQnNRM2MzY21wQk9EUnlaMEZTUm5sbg": "2026-09-17",
+  "senioremctestengineer|teradyne|boston": "2026-09-17",
+  "emitestengineer|rtx|boston": "2026-09-17",
+  "JSearch:aUtPb2t1eE9Db09uSDNwUUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBURzlpUkZvM2RFcERkMnN5ZFZwRFMzTnFOVUZtVlhOeVFXWnFkMWd4VVRSV1kwSm9WRUk0V0hjeWNXeEVXV0ZHYjJwU2NrSkVSVXRRVHpCeVRtUnFkMGhrT1dKWVZUSjNlR3hTTVVOVVNEVkNkVmhoV1VGaFVYZ3pRV3BWYlV0YVVUSk1OalJSYUVSSmFVeE9ia1F6VmtJdE1tNWtXVWhmTjBaTmMxQkJWbEZFYUc5bU9EWVNGekZMZFhKaGNYbG9Uall0WldoMlkxQXhXWHBsTFZGekdpSkJSSE55T1daVUxUaDVNaTFmZW1KUU4waHZPRWx2ZWtWQ1NUUmlWMnR4TUVSUg": "2026-09-17",
+  "JSearch:SEpsY2NfN0F2UWtwS1JJUEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTWE5VTm1oYVZFTjViWFZIWkRSdVRHZHRTa2hEUTBWWGJEUlhXamRyZFdOeWNHRXpZVmM0Y0dscldsTmxjVkZHYlVNMlNUZHpVMjV3T1RoM1JtaDJSVFpYUlhGRVMwaExObEpYZGtaUWRqUnFNbFEyWkVGVGNXVlNSbGd5TUVaMFJIcGxlVlptTkdWU1UzaHNZWFkxUkhwRFdVa3dja1kwU2xNd1JsUTFSMnhoY25GM1MyVVNGekZMZFhKaGNYbG9Uall0WldoMlkxQXhXWHBsTFZGekdpSkJSSE55T1daUmJGQlVXa3QwY1hjeVRtTXhUMVZLZEd4d2FITnFXRE0wWlRaMw": "2026-09-17",
+  "emcdesignandtestengineernorthreadingma|teradyne|boston": "2026-09-17",
+  "JSearch:eklyNlBrUEJ4MXVIT0VaREFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVU0yU25sMlRIaHBabEZNZVZOelgwcDBZblo0VnpoQ1ZYSm1NMDVVWXpSelgxQm9NWGhmWmpoT2MyNVpka3BhZUhsVlZVMHRVRGxWVlZORGNVUm1WR290Ym1KQ1JVdGxXVTQxYmkxUFdIbElVVkZCUTFjelFsVkVTMUkwYW1Fd2NrRjBXRUprU25aVWRISmpTa2h4UW5WNFdUQTFaWHBzU1VkV00wY3plbWhIWDFVNGJtWVNGek54ZFhKaGRqZFJSVkJUYzJ0a1ZWQnZabXAxTmtGbkdpSkJSSE55T1daVVJERTRZazVPWjBSWFQzZ3dOMGQ0ZG5aR1drUlZZM1ZpY0dsUg": "2026-09-17",
+  "staffmmicdesignengineersoirfonsiteboston|lintrinsicsemiconductorsinc|boston": "2026-09-17",
+  "JSearch:RnZuQWQzUDhEanFHcm84Z0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTbVZmYVVkUlJreEtNRkkzTUVkS01VcFJOSE41Vm5kS1YzQkZZM1Y0ZDNoSUxXbGhiMGRTVVU5WGNYRm9iRXMwWm1SVmVXUmFkR2xyTFVJNFZUbHFYMFZqU0ZkcGFtVk5YMEphYmkwelZsUnFORFYzYTFWVmJUSXliM1I0VVdWRk5qaE1iWHB3VWt4cU1GcHpkbHBKY1RZeGNHOW5UbFJsTkhwclZYZzNhR3hRU0VkaFpUUVNGek54ZFhKaGRqZFJSVkJUYzJ0a1ZWQnZabXAxTmtGbkdpSkJSSE55T1daVGIxSnNaMVpuVkhWcmNGTmtVREZTUzNGUmVYWjRWRXQ1VFd0bg": "2026-09-17",
+  "seniorrfelectricalengineer|axcelistechnologies|boston": "2026-09-17",
+  "seniorstaffdesignengineeranalogmixedsignalrf|mediatek|boston": "2026-09-17",
+  "JSearch:V1gxaXFQZFplcE1RWFNha0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTak5zVFdnMWRucHNlRXRSZVY5WldWUXhSVEZ6U1daUlMxVkhibUZoWVc5NFdXMHlPWEZRU0RoSFVqTlVlRzQ0UlhGRmExbFlZa0ZyVmt0c1JqTnllVXhDUTBWdFYwUmFhVTlxYzJacVRUQk1jV1l4V0VsRFRqRmFTVkpKZVRNeGJUUlNaVXhLYzFwc0xVOTRValY0V1ZGaVQyTXdRVEZmWXpOU2NHUmtMVGszZW5oWVNGWVNGek54ZFhKaGRqZFJSVkJUYzJ0a1ZWQnZabXAxTmtGbkdpSkJSSE55T1daVE16ZDNOVmxSZEZobVYzWnhWRGxTVjNWWFVuZFBZakUxWVc5Qg": "2026-09-17",
+  "JSearch:MDJpZ0djOVBUdHhGU0JfQ0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBUR0puWHpWU1kxUk9USHBxTkdkT1lYRlFTRE53YzJ0NGVWSnNXWEJPYTNCelRFeFVOWEZNYTFKeWRsQTNTR3hKZEZOZldtbFFOVVpWYms1UWFqbFBURmg0TjFkTFFYQjFWelJ3VVVWRlNubFFSV0ZzYURoNFdqVjZkakoxYm1aU1pTMW9iRXhQU1drM1lrbFFhSFJuTTBoaFZ6ZG9XUzE0TkhWbldrVTBkMEZzU201NlZVUVNGek54ZFhKaGRqZFJSVkJUYzJ0a1ZWQnZabXAxTmtGbkdpSkJSSE55T1daU2FtYzRWbWRwZG1GTlVUa3lURTgxVTAxdFVtaGZNVFl0V21Sbg": "2026-09-17",
+  "electricalengineeranalogrf|xsightincorporated|boston": "2026-09-17",
+  "JSearch:SGJYR0xNVVo4eW1LZ0xwR0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTa2RrYVdJeWEyTjBOa0ZNWHpkTVpHaDZTSFJrUzBONE5HZGlXV0ZmV1V4VFUyeHZOak5rWkhGdFoySktUMVpNWVdobldFOWlkMTlOVDJwT1RVdDZibk5NVXkxcVJFdDBZVE5RWlVJMlh5MVRVazU0TUV4YWNrbFZaM1JrWVhoRU1WaGtheTFMVkVWT05rZE9iVGxRTm5KdGJEaFZlamR4UjJWcFlrWkphbWRMYjNNMFNqZ1NGek54ZFhKaGRqZFJSVkJUYzJ0a1ZWQnZabXAxTmtGbkdpSkJSSE55T1daU1kwdFFUVXRXWWsxb1lqUlBUV05KYVhKb2JXOTBMVTQ0ZEdOMw": "2026-09-17",
+  "rfmicrowavedesignengineer|acroservicecorp|boston": "2026-09-17",
+  "JSearch:Z1Fwc19HdG04elM4OGFFZkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTemhqTjFCSmNVZFhSblUzWkVOSlowZDBkRW93T1c5a2IwaE1SbXc1VVZwbVpHSlhSMEptVjA5VVQwbExaMFpaUlU5b1NFWkRaa3QxWldSdVdXcDNUbXMwWlU5VlZIaFFNMjFCWDFaME9XZzJWVW93U0MxaFNrZFlRVVJvVVc5MWRIRTROMHRqU20xb1dXVmxiMmQ2ZGpaUmNHMVFkMWx2YWtwNWNXcHlXVlZvU21jNVdVZ1NGek54ZFhKaGRqZFJSVkJUYzJ0a1ZWQnZabXAxTmtGbkdpSkJSSE55T1daVE9UUTRabkEyU25vNVFsTlVkVkptVUV4MGJUUmhkRzlQZW14Mw": "2026-09-17",
+  "seniorprincipalaerfdesignengineer|cadence|boston": "2026-09-17",
+  "JSearch:MUpjbnhVMG5rTURCc1lidUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTa3BrVjNWWlZVeExiREJMYlZSQ1FtOVdXalpmWmxCYVNsQlhPR2hWUlVvelptaEJZelIyZWtaaWN6bHJNa2ROYTBSU1ZsRmhNM1JaY3pCSlRERlNOMFZ0YTJkSmNrSnlMWEl0UlZGeU0yRnFjVVZDVkdOdVpHczVXVlEwTmpaS2IwazJTa1JVWTNCVmNWRTBkbFp2T0V0SE5sQlZhbVpmVkd4cmFsQklUREJGVTFsbGJWY1NGek54ZFhKaGRqZFJSVkJUYzJ0a1ZWQnZabXAxTmtGbkdpSkJSSE55T1daUk9IWmFPRGRNTkhoQ2NYcE1RM2RxYjFGNWFtTXlZbXhPY1hKbg": "2026-09-17",
+  "rfengineer|mitlincolnlaboratory|boston": "2026-09-17",
+  "JSearch:QjZNMWgyUXVqcEpfQnhsZkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTV1pJZUZvME1EQkhZVUphWkhOSlgzWjZaQzFuV21SUWRXeEVlSFZSUldaMWRUTjRUR0oxUkdwRlVUUkZVbGxUWTE5cGRWbFVNM0ZKYWtJeVozcHhNVGg1YjFWVU5qbExSM2hyYURWMFJHRnhjVFpuYkdwSlpHSlBkVVpsTWpBNVRDMU1OMk5ZZEhGUFFrWmhObTl0YldSWmVWTkdUMjUyZEdSUFRWQktjV3hDY2xZM05FRVNGelZoZFhKaGRrYzNURXh5VmpWT2IxQnVZbXBCZDBGUkdpSkJSSE55T1daUmVYUkpZbEpDVVV0U2FYSkViMjlhUTJsb2VuZFlUVEZQZFRGbg": "2026-09-17",
+  "electromagneticcompatibilityemcengineeriii|blueorigin|washingtondc": "2026-09-17",
+  "JSearch:Y3ZjTUg4YnhRNFlYTmhVd0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTbEZYVEY5WVFVVk5kbWg2VEhwclFYUkVXbWN0VFVKSlNDMTRSVk00VGpCblZtbE5PVEl6TFRKbGFWQnFSakpEUkd4aWExaEtla00xZG1WeGRrWlRVRGg0ZDJkVVdUaG1URzF4ZDA4NE1WcGxVbVowVFVadE5TMVVWVXBSY1RCS04xRnFiVFo2Y1hSbWJqWnhTREZmZVZCblpuWjNRbXhtYWxOS1EwZHZZbFZ3V25ack5ra1NGelZoZFhKaGRrYzNURXh5VmpWT2IxQnVZbXBCZDBGUkdpSkJSSE55T1daUmFXRllSRlpmUmxNd1JXVTVXRTFTY2tkcFkzbEZNRGN5VmtSbg": "2026-09-17",
+  "rfspectrumengineerfornascuasanalysis|leidosinc|washingtondc": "2026-09-17",
+  "radiofrequencysystemsengineer|leidos|washingtondc": "2026-09-17",
+  "JSearch:X0NlM0E5TlIwUGpqdHpCQUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBURkk1ZURBdFJISmtRakJ5TFRNM1FXZE1jVnBsTUZaQ1ZsVXhYMko2UlZKdlZVY3hhell6WDNwblRGaFZWakF0VVdkVllucFVNV2RhZEZsNVVEUldYMDVFY21KaFJGVkxWbVYyU1hreFQwbDBOekJGTkRKZmRtVlBVWFJMWWpJelVVRlRWbVJpVFdVeWVWSmtRbFJWTW5OUFZubHlTV28zVkRsWmJGcG9ZbmRITTI1YVdrd1NGelkyZFhKaGMxTk5VRkJ5YWpWT2IxQjVOWEpsYTFFNEdpSkJSSE55T1daVVRERXpNblE1ZVVaUlV6QkplVkZoUlRkUVEyODRla016U0V0Ug": "2026-09-17",
+  "spectrumengineerradiofrequency|leidos|washingtondc": "2026-09-17",
+  "JSearch:VzBCUjR1c1YxWTFnQ0x4Y0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTelE0T0VJeFlucGlRWGhYUzFKVFVVSnRaMjV2VFU5b2FIRm5UMUZqWVhOT1RGaFBkemRIWWkwdGFVMVdkSEJ2Vm14TVF6TTVZamQ0YkRSWGFsTlNlbTQzZGxGWk4zb3dYMVl0WkhGRU1VdFVjRlJNY0VKYVQwMDNZbGxzUm1admFrbzJXbVZPUlZSNVpsRmxWM0pLTVZKTmR6RjZNak5aTUU5VlIxTktTbXN5ZWtGa2JEVVNGelkyZFhKaGMxTk5VRkJ5YWpWT2IxQjVOWEpsYTFFNEdpSkJSSE55T1daU2RIRmZNek5yVVRKdWIwbFhTVEo1VGxwVE5HSlJhRkpSYVZKUg": "2026-09-17",
+  "JSearch:ajdaUW1zTkdraTV0TUYtV0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTa0ZTU1VOdWRFWnpjbWMwYnpCaldUVnlZWGRCT0dGV1RXRjNkV3BZVTBsUVZrTjRZVGhHVVVKcUxUaEdNbFJDY21Zek5Xa3pkVGQ2YkV0b2VVNUpObkJPTldwalNUUjJZMUo2YVRCU1lrWTNNVGxETFRkUk9XNHplRzlxUlVSdU5ERnJOVU5TUTFRd2RYQXdNbGxtUW5oU1VIVlJSMlJvT0d4dWJFcDNRWEl4ZW0wdE1Xc1NGelkyZFhKaGMxTk5VRkJ5YWpWT2IxQjVOWEpsYTFFNEdpSkJSSE55T1daUllWbGhVV1JFU0VSZlIyUlBURFp1ZFVSRVdUaGpUV1pYZWpabg": "2026-09-17",
+  "seniorrfgeolocationengineerspectrumsensingteam|chaosindustries|washingtondc": "2026-09-17",
+  "JSearch:QlBoSURGRC1DdG5oZGhZY0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTalJHTTFSQk9YbDBSMlpQV1doaU5XOVlhMjA0TFdKdFYweE9jR0o2VlRCSlQzUnZOME13V21zM1YzUTNOSEZ0Wm05SGQzZENhRGRDU1ZKcGVEbEZSRTVqVDE5M1MwUXRTbVV0ZUdwMlZqUnNXV3czUm1SUWFVUkNaVVV3U2tjM1luRTVUelZTWVVzM2NGWjJVRTlEVVdzM2JFWk1SRTFmT0d4R2JsQmxSemw1VjNWSVZUTVNGelkyZFhKaGMxTk5VRkJ5YWpWT2IxQjVOWEpsYTFFNEdpSkJSSE55T1daVFlrdE9NbXhxUkVzek9XbFRkMll6VG1WT1RtTjNOWEZ0TURCMw": "2026-09-17",
+  "enterpriseseniorrfsoftwareengineerdsplinuxc|eriasventures|washingtondc": "2026-09-17",
+  "JSearch:T3F6a2FHUTVxb29hZW84WkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMmROVWtWMFJubEdkRmhDUjJ0NlVFUnpZamxtY0dKcWJsUTFkVlpTVmpORE56RjVVMmRyYVRGbVJGbDViVTAzWTFSNlZIb3dXR2c0WkU5ME0zbGthRkJpZEVJd1oxZE5VMFp2UkVzNUxYbHRablpyYW13dFdWbDBia0poVG5aUlIycE5kVjlvV0d0a2J6WlpkemhhU25wT1QzUmlWRmxLY0Vzd2R6ZHpSWGgzWjFJdFVXb1NGelkyZFhKaGMxTk5VRkJ5YWpWT2IxQjVOWEpsYTFFNEdpSkJSSE55T1daVVdrbHhjR1pXTUhObFkwdFBPR0U0YVRsaExXTmtibmh0YlhaQg": "2026-09-17",
+  "rfsystemsprogrammanager|lynk|washingtondc": "2026-09-17",
+  "JSearch:dzRYMzF5YzZiVFlCTENHQ0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTekY0VWxsWGRUUnRNamt0YlU5VU5tcG1XbGQzWWs4elpFbGFRMEZXWjJnMkxVRXpSbTFtTVhSNFoyMVlUR0phTFVkSmVrVmhZbVZYT1U5MVZHeHdXV2hYYjIxdVYzZHhOMXBDVWtvMWNtRjVOamR1YzJZNU5GUktiblV3VjB4bmJsUlRRblJrY25sd04yVnNiMmxpVUdWSE5VNUxXRzFUTlhNNWEyVXdhalZNYnkwdGNUTVNGelkyZFhKaGMxTk5VRkJ5YWpWT2IxQjVOWEpsYTFFNEdpSkJSSE55T1daUlYyNXpNa1pyY21WRVZFcE9SWFk0WlRSblZIRXRlbFJOUzJOUg": "2026-09-17",
+  "juniorpcbdrafterrfpowerboards|caci|washingtondc": "2026-09-17",
+  "radiofrequencyengineersrstfe5|lockheedmartin|washingtondc": "2026-09-17",
+  "JSearch:MXF4aUhuR3dsZTBWWWNhVUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBUSEJCTldKbmRFVnRPRzlxTkZKS1JXUlFTVUpETldsUVJFNVZXbUZqYlhsRlZuVjRValJHVEROeGVuVTFiM0ZmTVhSSVkwSk9kRzl0ZDNWQk5HRXdWa1JvU25CSmRuTnRXVXA0ZGtoRGJrRm1OMmhOUlVrMU4wUlhSR3RLTXpkS1dWQmlkVWRvV0hGc2VWUnBkRzVrVWxWbVprMUVZVkZ5UkVGdVdHTlljV0p6V21sQlUxb1NGelkyZFhKaGMxTk5VRkJ5YWpWT2IxQjVOWEpsYTFFNEdpSkJSSE55T1daVWEzbDVUbUl4YkZaTmVEZFlkMjUyZVV4cFdpMWhYelJDWWxaUg": "2026-09-17",
+  "principalrfcommunicationssystemsengineer|sesspacedefense|washingtondc": "2026-09-17",
+  "JSearch:YnJaanJpWUdyZEVua3BweEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVkZvYVdOYU56aEtNVU5NZUZkT0xVbDZWWFpTT1hWSWMyNVpZbmhEUm1scVJHTlhkVTVwZUZsd1ZXWkplVU5zWTNSWVYybHdUbXR0Y1VoYU1HaDRibU5oVDNsT1RIbzBURmRVUVdaM1FURkdUekpDY1ZKUWFGRklTSFZFVkRGd1QwMXBYMFZtT0hWVVkxYzJXa2hCYkY5UU1XVk9OM00yTjBWbWNFZEliWHBQYkY5c2EzQVNGelkyZFhKaGMxTk5VRkJ5YWpWT2IxQjVOWEpsYTFFNEdpSkJSSE55T1daU1pYbEZaVk56WmpjeU1XMVpZakZWVkhkemIwcE1kRmM0ZGw5Ug": "2026-09-17",
+  "spacepayloadrfengineerlead|boozallenhamilton|washingtondc": "2026-09-17",
+  "JSearch:MFBSSUVaajMySXhYUnd0dkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTblpDT1d4QmVrY3pjRVZLYldaZmJESldPVFkwWnpGa2VqQnhWWGxPYVVwb0xXMUtjR1o0VW5keE1HRXRUV28yTUdJMmR6Sk5UalZTTW5odlZWSjFWMncxYkdGamVrVlhNSEpmVURaSU9WcFlaa3BIZFdsaWNqQjFhbkZwTUU5R1ZVSXdaRGd4TW1scFMzbzFOelppZGswNFVXSldZMDVtT1RaU1IwRTVOR2s0VkRkT1RVUVNGelkyZFhKaGMxTk5VRkJ5YWpWT2IxQjVOWEpsYTFFNEdpSkJSSE55T1daVWFXeHFhVWR6YlVsMWNtd3daSHBFZGxkQ1FrMVNMWGMyZFdoQg": "2026-09-17"
  },
  "jobs": {
   "seniorrfengineer|freshconsulting|sfbayarea": {
@@ -640,9 +710,12 @@
    "url": "https://www.adzuna.com/land/ad/5866299068?se=oLoM10Oy8RGW7Jd0wGJW9Q&utm_medium=api&utm_source=d677d981&v=D4C33FD1677AC8D286C75FCE639DEA82582150E0",
    "posted": "2026-09-01",
    "sources": [
-    "Adzuna"
+    "Adzuna",
+    "JSearch/LinkedIn"
    ],
-   "flags": [],
+   "flags": [
+    "⚠️ 클리어런스/시민권"
+   ],
    "remote": false,
    "first_seen": "2026-09-17",
    "last_seen": "2026-09-17"
@@ -856,7 +929,8 @@
    "url": "https://www.adzuna.com/land/ad/5864082730?se=eHaM3EOy8RGPhZDySvILTw&utm_medium=api&utm_source=d677d981&v=B4D8836EBE2AA2EF4194A2E398F9167E5503EA1F",
    "posted": "2026-09-01",
    "sources": [
-    "Adzuna"
+    "Adzuna",
+    "JSearch/BeBee"
    ],
    "flags": [
     "⚠️ 클리어런스/시민권"
@@ -1170,7 +1244,8 @@
    "url": "https://www.adzuna.com/land/ad/5846173049?se=6DyE4EOy8RGW7Jd0wGJW9Q&utm_medium=api&utm_source=d677d981&v=831B5AC6EEA4E68856940B0B5DF4F51AD721C6E4",
    "posted": "2026-08-18",
    "sources": [
-    "Adzuna"
+    "Adzuna",
+    "JSearch/RTX Careers"
    ],
    "flags": [
     "⚠️ 클리어런스/시민권"
@@ -1626,9 +1701,596 @@
    "remote": false,
    "first_seen": "2026-09-17",
    "last_seen": "2026-09-17"
+  },
+  "electromagneticcompatibilityemcengineeriii|blueorigin|sfbayarea": {
+   "id": "electromagneticcompatibilityemcengineeriii|blueorigin|sfbayarea",
+   "title": "Electromagnetic Compatibility (EMC) Engineer III",
+   "company": "Blue Origin",
+   "location": "San Francisco, CA",
+   "metro": "SF Bay Area",
+   "url": "https://www.linkedin.com/jobs/view/electromagnetic-compatibility-emc-engineer-iii-at-blue-origin-4446261344",
+   "posted": "2026-09-16",
+   "sources": [
+    "JSearch/LinkedIn"
+   ],
+   "flags": [
+    "⚠️ 클리어런스/시민권"
+   ],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17"
+  },
+  "electromagneticcompatibilityengineer|insightglobal|sfbayarea": {
+   "id": "electromagneticcompatibilityengineer|insightglobal|sfbayarea",
+   "title": "Electromagnetic Compatibility Engineer",
+   "company": "Insight Global",
+   "location": "San Jose, CA",
+   "metro": "SF Bay Area",
+   "url": "https://www.linkedin.com/jobs/view/electromagnetic-compatibility-engineer-at-insight-global-4463896916",
+   "posted": "2026-09-09",
+   "sources": [
+    "JSearch/LinkedIn"
+   ],
+   "flags": [],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17"
+  },
+  "seniorhardwareengineeremiemc|rivetindustries|sfbayarea": {
+   "id": "seniorhardwareengineeremiemc|rivetindustries|sfbayarea",
+   "title": "Senior Hardware Engineer, EMI/EMC",
+   "company": "Rivet Industries",
+   "location": "San Jose, CA",
+   "metro": "SF Bay Area",
+   "url": "https://www.linkedin.com/jobs/view/senior-hardware-engineer-emi-emc-at-rivet-industries-4462554871",
+   "posted": "2026-09-09",
+   "sources": [
+    "JSearch/LinkedIn"
+   ],
+   "flags": [
+    "⚠️ 클리어런스/시민권"
+   ],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17"
+  },
+  "principalmmwavedesignengineerpoweramplifiersterawave|blueorigin|sfbayarea": {
+   "id": "principalmmwavedesignengineerpoweramplifiersterawave|blueorigin|sfbayarea",
+   "title": "Principal mmWave Design Engineer (Power Amplifiers) - TeraWave",
+   "company": "Blue Origin",
+   "location": "San Francisco, CA",
+   "metro": "SF Bay Area",
+   "url": "https://www.linkedin.com/jobs/view/principal-mmwave-design-engineer-power-amplifiers-terawave-at-blue-origin-4430629418",
+   "posted": "2026-08-30",
+   "sources": [
+    "JSearch/LinkedIn"
+   ],
+   "flags": [
+    "⚠️ 클리어런스/시민권"
+   ],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17"
+  },
+  "seniorrfengineerdevices|gridware|sfbayarea": {
+   "id": "seniorrfengineerdevices|gridware|sfbayarea",
+   "title": "Senior RF Engineer, Devices",
+   "company": "Gridware",
+   "location": "San Francisco, CA",
+   "metro": "SF Bay Area",
+   "url": "https://www.linkedin.com/jobs/view/senior-rf-engineer-devices-at-gridware-4443628908",
+   "posted": "2026-09-09",
+   "sources": [
+    "JSearch/LinkedIn"
+   ],
+   "flags": [],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17"
+  },
+  "seniorrficlayoutengineercmosanalogrf|appleinc|sfbayarea": {
+   "id": "seniorrficlayoutengineercmosanalogrf|appleinc|sfbayarea",
+   "title": "Senior RFIC Layout Engineer – CMOS Analog/RF",
+   "company": "Apple Inc.",
+   "location": "San Francisco, CA",
+   "metro": "SF Bay Area",
+   "url": "https://www.jobleads.com/us/job/senior-rfic-layout-engineer-cmos-analog-rf--san-francisco--ed38921c98692033a3ead6fe4ce774d99",
+   "posted": "2026-09-06",
+   "sources": [
+    "JSearch/JobLeads"
+   ],
+   "flags": [],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17"
+  },
+  "principalradiofrequencyengineer|lumextalent|sfbayarea": {
+   "id": "principalradiofrequencyengineer|lumextalent|sfbayarea",
+   "title": "Principal Radio Frequency Engineer",
+   "company": "Lumex Talent",
+   "location": "Mountain View, CA",
+   "metro": "SF Bay Area",
+   "url": "https://www.linkedin.com/jobs/view/principal-radio-frequency-engineer-at-lumex-talent-4465595354",
+   "posted": "2026-09-15",
+   "sources": [
+    "JSearch/LinkedIn"
+   ],
+   "flags": [
+    "⚠️ 클리어런스/시민권"
+   ],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17"
+  },
+  "seniorrfdesignandtestengineer|triveniit|sfbayarea": {
+   "id": "seniorrfdesignandtestengineer|triveniit|sfbayarea",
+   "title": "Senior RF Design and Test Engineer",
+   "company": "Triveni IT",
+   "location": "Sunnyvale, CA",
+   "metro": "SF Bay Area",
+   "url": "https://www.linkedin.com/jobs/view/senior-rf-design-and-test-engineer-at-triveni-it-4463868758",
+   "posted": "2026-09-09",
+   "sources": [
+    "JSearch/LinkedIn"
+   ],
+   "flags": [],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17"
+  },
+  "rfengineer3|lamresearchcorporation|sfbayarea": {
+   "id": "rfengineer3|lamresearchcorporation|sfbayarea",
+   "title": "RF Engineer 3",
+   "company": "Lam Research Corporation",
+   "location": "Fremont, CA",
+   "metro": "SF Bay Area",
+   "url": "https://opportunities.lamresearch.com/job/Fremont-RF-Engineer-3-CA-94536/1406136000/",
+   "posted": "2026-09-02",
+   "sources": [
+    "JSearch/Lam Research – Careers"
+   ],
+   "flags": [],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17"
+  },
+  "seniorwirelessrfsystemsengineer|mytra|sfbayarea": {
+   "id": "seniorwirelessrfsystemsengineer|mytra|sfbayarea",
+   "title": "Senior Wireless RF Systems Engineer",
+   "company": "Mytra",
+   "location": "Brisbane, CA",
+   "metro": "SF Bay Area",
+   "url": "https://www.ziprecruiter.com/c/Mytra/Job/Senior-Wireless-RF-Systems-Engineer/-in-Brisbane,CA?jid=fb9504a11bd73568",
+   "posted": "2026-09-11",
+   "sources": [
+    "JSearch/ZipRecruiter"
+   ],
+   "flags": [],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17"
+  },
+  "radiofrequencyengineer|osiengineering|sfbayarea": {
+   "id": "radiofrequencyengineer|osiengineering|sfbayarea",
+   "title": "Radio Frequency Engineer",
+   "company": "OSI Engineering",
+   "location": "Cupertino, CA",
+   "metro": "SF Bay Area",
+   "url": "https://www.linkedin.com/jobs/view/radio-frequency-engineer-at-osi-engineering-4461335329",
+   "posted": "2026-09-02",
+   "sources": [
+    "JSearch/LinkedIn"
+   ],
+   "flags": [],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17"
+  },
+  "staffengineeremc|intertek|boston": {
+   "id": "staffengineeremc|intertek|boston",
+   "title": "Staff Engineer - EMC",
+   "company": "Intertek",
+   "location": "Boxborough, MA",
+   "metro": "Boston",
+   "url": "https://www.ziprecruiter.com/c/Intertek/Job/Staff-Engineer-EMC/-in-Boxboro,MA?jid=f4e49147e384d114",
+   "posted": "2026-09-13",
+   "sources": [
+    "JSearch/ZipRecruiter"
+   ],
+   "flags": [],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17"
+  },
+  "senioremcemicomplianceengineerteradyne|teradyne|boston": {
+   "id": "senioremcemicomplianceengineerteradyne|teradyne|boston",
+   "title": "Senior EMC/EMI Compliance Engineer TERADYNE",
+   "company": "Teradyne",
+   "location": "North Reading, MA",
+   "metro": "Boston",
+   "url": "https://www.jobilize.com/amp/job/us-ma-north-reading-senior-emc-emi-compliance-engineer-teradyne-hiring",
+   "posted": "2026-09-16",
+   "sources": [
+    "JSearch/Jobilize"
+   ],
+   "flags": [],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17"
+  },
+  "senioremiemcengineerforhighperformancesensorsystems|raytheon|boston": {
+   "id": "senioremiemcengineerforhighperformancesensorsystems|raytheon|boston",
+   "title": "Senior EMI/EMC Engineer for High-Performance Sensor Systems",
+   "company": "Raytheon",
+   "location": "Marlborough, MA",
+   "metro": "Boston",
+   "url": "https://www.jobleads.com/us/job/senior-emi-emc-engineer-for-high-performance-sensor-systems--marlborough--e2f0cded242321a6aac6f83c058a3cefb",
+   "posted": "2026-09-07",
+   "sources": [
+    "JSearch/JobLeads"
+   ],
+   "flags": [
+    "⚠️ 클리어런스/시민권"
+   ],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17"
+  },
+  "senioremctestengineer|teradyne|boston": {
+   "id": "senioremctestengineer|teradyne|boston",
+   "title": "Senior EMC Test Engineer",
+   "company": "Teradyne",
+   "location": "North Reading, MA",
+   "metro": "Boston",
+   "url": "https://us.trabajo.org/job-5003-91634f364e1222be005f727f519a8c65",
+   "posted": "2026-09-01",
+   "sources": [
+    "JSearch/Trabajo.org"
+   ],
+   "flags": [],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17"
+  },
+  "emitestengineer|rtx|boston": {
+   "id": "emitestengineer|rtx|boston",
+   "title": "EMI Test Engineer",
+   "company": "RTX",
+   "location": "Marlborough, MA",
+   "metro": "Boston",
+   "url": "https://careers.rtx.com/ca/fr/job/01871931/EMI-Test-Engineer",
+   "posted": "2026-09-07",
+   "sources": [
+    "JSearch/RTX Careers"
+   ],
+   "flags": [
+    "⚠️ 클리어런스/시민권"
+   ],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17"
+  },
+  "emcdesignandtestengineernorthreadingma|teradyne|boston": {
+   "id": "emcdesignandtestengineernorthreadingma|teradyne|boston",
+   "title": "EMC Design and Test Engineer North Reading, MA",
+   "company": "Teradyne",
+   "location": "Reading, MA",
+   "metro": "Boston",
+   "url": "https://www.learn4good.com/jobs/reading/massachusetts/engineering/5307470852/e/",
+   "posted": "2026-09-12",
+   "sources": [
+    "JSearch/Learn4Good"
+   ],
+   "flags": [],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17"
+  },
+  "staffmmicdesignengineersoirfonsiteboston|lintrinsicsemiconductorsinc|boston": {
+   "id": "staffmmicdesignengineersoirfonsiteboston|lintrinsicsemiconductorsinc|boston",
+   "title": "Staff MMIC Design Engineer - SoI RF, Onsite Boston",
+   "company": "LintrinsIC Semiconductors Inc.",
+   "location": "Boston, MA",
+   "metro": "Boston",
+   "url": "https://bebee.com/us/jobs/staff-mmic-design-engineer-soi-rf-onsite-boston-lintrinsic-semiconductors-inc-boston--pureheal-28528_25199_27a55b5539f7930af82d8025d32a7612",
+   "posted": "2026-09-07",
+   "sources": [
+    "JSearch/BeBee"
+   ],
+   "flags": [
+    "⚠️ 클리어런스/시민권"
+   ],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17"
+  },
+  "seniorrfelectricalengineer|axcelistechnologies|boston": {
+   "id": "seniorrfelectricalengineer|axcelistechnologies|boston",
+   "title": "Senior RF Electrical Engineer",
+   "company": "Axcelis Technologies",
+   "location": "Beverly, MA",
+   "metro": "Boston",
+   "url": "https://www.linkedin.com/jobs/view/senior-rf-electrical-engineer-at-axcelis-technologies-4467262291",
+   "posted": "2026-09-14",
+   "sources": [
+    "JSearch/LinkedIn"
+   ],
+   "flags": [],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17"
+  },
+  "seniorstaffdesignengineeranalogmixedsignalrf|mediatek|boston": {
+   "id": "seniorstaffdesignengineeranalogmixedsignalrf|mediatek|boston",
+   "title": "Senior Staff Design Engineer – Analog/Mixed-Signal/RF",
+   "company": "MediaTek",
+   "location": "Woburn, MA",
+   "metro": "Boston",
+   "url": "https://www.linkedin.com/jobs/view/senior-staff-design-engineer-%E2%80%93-analog-mixed-signal-rf-at-mediatek-4430373274",
+   "posted": "2026-09-16",
+   "sources": [
+    "JSearch/LinkedIn"
+   ],
+   "flags": [],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17"
+  },
+  "electricalengineeranalogrf|xsightincorporated|boston": {
+   "id": "electricalengineeranalogrf|xsightincorporated|boston",
+   "title": "Electrical Engineer, Analog + RF",
+   "company": "X-Sight Incorporated",
+   "location": "Boston, MA",
+   "metro": "Boston",
+   "url": "https://www.indeed.com/viewjob?jk=1f804be7b6e6731e",
+   "posted": "2026-08-21",
+   "sources": [
+    "JSearch/Indeed"
+   ],
+   "flags": [],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17"
+  },
+  "rfmicrowavedesignengineer|acroservicecorp|boston": {
+   "id": "rfmicrowavedesignengineer|acroservicecorp|boston",
+   "title": "RF/Microwave Design Engineer",
+   "company": "Acro Service Corp",
+   "location": "Lexington, MA",
+   "metro": "Boston",
+   "url": "https://www.ihireengineering.com/jobs/view/533686782",
+   "posted": "2026-08-19",
+   "sources": [
+    "JSearch/IHireEngineering"
+   ],
+   "flags": [],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17"
+  },
+  "seniorprincipalaerfdesignengineer|cadence|boston": {
+   "id": "seniorprincipalaerfdesignengineer|cadence|boston",
+   "title": "Senior Principal AE-RF Design Engineer",
+   "company": "Cadence",
+   "location": "Burlington, MA",
+   "metro": "Boston",
+   "url": "https://www.linkedin.com/jobs/view/senior-principal-ae-rf-design-engineer-at-cadence-4448818125",
+   "posted": "2026-08-25",
+   "sources": [
+    "JSearch/LinkedIn"
+   ],
+   "flags": [],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17"
+  },
+  "rfengineer|mitlincolnlaboratory|boston": {
+   "id": "rfengineer|mitlincolnlaboratory|boston",
+   "title": "RF Engineer",
+   "company": "MIT Lincoln Laboratory",
+   "location": "Lexington, MA",
+   "metro": "Boston",
+   "url": "https://careers.ll.mit.edu/job/Lexington-RF-Engineer-MA-02420/1386364700/",
+   "posted": "2026-08-22",
+   "sources": [
+    "JSearch/Jobs At MIT Lincoln Laboratory - MIT"
+   ],
+   "flags": [
+    "⚠️ 클리어런스/시민권"
+   ],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17"
+  },
+  "electromagneticcompatibilityemcengineeriii|blueorigin|washingtondc": {
+   "id": "electromagneticcompatibilityemcengineeriii|blueorigin|washingtondc",
+   "title": "Electromagnetic Compatibility (EMC) Engineer III",
+   "company": "Blue Origin",
+   "location": "Reston, VA",
+   "metro": "Washington DC",
+   "url": "https://www.linkedin.com/jobs/view/electromagnetic-compatibility-emc-engineer-iii-at-blue-origin-4446259338",
+   "posted": "2026-09-15",
+   "sources": [
+    "JSearch/LinkedIn"
+   ],
+   "flags": [
+    "⚠️ 클리어런스/시민권"
+   ],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17"
+  },
+  "rfspectrumengineerfornascuasanalysis|leidosinc|washingtondc": {
+   "id": "rfspectrumengineerfornascuasanalysis|leidosinc|washingtondc",
+   "title": "RF & Spectrum Engineer for NAS/C-UAS Analysis",
+   "company": "Leidos Inc",
+   "location": "Washington, DC",
+   "metro": "Washington DC",
+   "url": "https://www.jobleads.com/us/job/rf-spectrum-engineer-for-nas-c-uas-analysis--washington--e6e28ea23946cf81a3a2d2aacc79bb097",
+   "posted": "2026-09-03",
+   "sources": [
+    "JSearch/JobLeads"
+   ],
+   "flags": [],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17"
+  },
+  "radiofrequencysystemsengineer|leidos|washingtondc": {
+   "id": "radiofrequencysystemsengineer|leidos|washingtondc",
+   "title": "Radio Frequency Systems Engineer",
+   "company": "LEIDOS",
+   "location": "Washington, DC",
+   "metro": "Washington DC",
+   "url": "https://salutemyjob.com/jobs/radio-frequency-systems-engineer-washington-washington-dc/2963640150-2/",
+   "posted": "2026-09-09",
+   "sources": [
+    "JSearch/SaluteMyJob"
+   ],
+   "flags": [],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17"
+  },
+  "spectrumengineerradiofrequency|leidos|washingtondc": {
+   "id": "spectrumengineerradiofrequency|leidos|washingtondc",
+   "title": "Spectrum Engineer/Radio Frequency",
+   "company": "Leidos",
+   "location": "Washington, DC",
+   "metro": "Washington DC",
+   "url": "https://bebee.com/us/jobs/spectrum-engineer-radio-frequency-leidos-washington-dc--jooble-5694396599085643122",
+   "posted": "2026-09-08",
+   "sources": [
+    "JSearch/BeBee"
+   ],
+   "flags": [],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17"
+  },
+  "seniorrfgeolocationengineerspectrumsensingteam|chaosindustries|washingtondc": {
+   "id": "seniorrfgeolocationengineerspectrumsensingteam|chaosindustries|washingtondc",
+   "title": "Senior RF Geolocation Engineer, Spectrum Sensing Team",
+   "company": "CHAOS Industries",
+   "location": "Washington, DC",
+   "metro": "Washington DC",
+   "url": "https://simplify.jobs/p/576aeab9-846e-49cd-a71c-a1c41c6f3167/Senior-Radio-Frequency-Geolocation-Engineer",
+   "posted": "2026-09-04",
+   "sources": [
+    "JSearch/Simplify"
+   ],
+   "flags": [
+    "⚠️ 클리어런스/시민권"
+   ],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17"
+  },
+  "enterpriseseniorrfsoftwareengineerdsplinuxc|eriasventures|washingtondc": {
+   "id": "enterpriseseniorrfsoftwareengineerdsplinuxc|eriasventures|washingtondc",
+   "title": "Enterprise - Senior RF Software Engineer - DSP, Linux, C++",
+   "company": "Erias Ventures",
+   "location": "Annapolis Junction, MD",
+   "metro": "Washington DC",
+   "url": "https://www.linkedin.com/jobs/view/enterprise-senior-rf-software-engineer-dsp-linux-c%2B%2B-at-erias-ventures-4467256398",
+   "posted": "2026-09-14",
+   "sources": [
+    "JSearch/LinkedIn"
+   ],
+   "flags": [
+    "⚠️ 클리어런스/시민권"
+   ],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17"
+  },
+  "rfsystemsprogrammanager|lynk|washingtondc": {
+   "id": "rfsystemsprogrammanager|lynk|washingtondc",
+   "title": "RF Systems Program Manager",
+   "company": "Lynk",
+   "location": "Washington, DC",
+   "metro": "Washington DC",
+   "url": "https://us.trabajo.org/job-28652-59e584dd6c839ec6f00a587d2434fe4b",
+   "posted": "2026-08-20",
+   "sources": [
+    "JSearch/Trabajo.org"
+   ],
+   "flags": [],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17"
+  },
+  "juniorpcbdrafterrfpowerboards|caci|washingtondc": {
+   "id": "juniorpcbdrafterrfpowerboards|caci|washingtondc",
+   "title": "Junior PCB Drafter – RF & Power Boards",
+   "company": "CACI",
+   "location": "Washington, DC",
+   "metro": "Washington DC",
+   "url": "https://hire.run/jobs/caci-junior-pcb-drafter-rf-power-boards-washington-dc-1ktt",
+   "posted": "2026-08-20",
+   "sources": [
+    "JSearch/Hire.run"
+   ],
+   "flags": [
+    "⚠️ 클리어런스/시민권"
+   ],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17"
+  },
+  "radiofrequencyengineersrstfe5|lockheedmartin|washingtondc": {
+   "id": "radiofrequencyengineersrstfe5|lockheedmartin|washingtondc",
+   "title": "Radio Frequency Engineer Sr Stf - E5",
+   "company": "Lockheed Martin",
+   "location": "Severn, MD",
+   "metro": "Washington DC",
+   "url": "https://www.linkedin.com/jobs/view/radio-frequency-engineer-sr-stf-e5-at-lockheed-martin-4461481067",
+   "posted": "2026-09-05",
+   "sources": [
+    "JSearch/LinkedIn"
+   ],
+   "flags": [],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17"
+  },
+  "principalrfcommunicationssystemsengineer|sesspacedefense|washingtondc": {
+   "id": "principalrfcommunicationssystemsengineer|sesspacedefense|washingtondc",
+   "title": "Principal RF Communications Systems Engineer",
+   "company": "SES Space & Defense",
+   "location": "Reston, VA",
+   "metro": "Washington DC",
+   "url": "https://www.linkedin.com/jobs/view/principal-rf-communications-systems-engineer-at-ses-space-defense-4428895480",
+   "posted": "2026-09-02",
+   "sources": [
+    "JSearch/LinkedIn"
+   ],
+   "flags": [],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17"
+  },
+  "spacepayloadrfengineerlead|boozallenhamilton|washingtondc": {
+   "id": "spacepayloadrfengineerlead|boozallenhamilton|washingtondc",
+   "title": "Space Payload RF Engineer, Lead",
+   "company": "Booz Allen Hamilton",
+   "location": "Chantilly, VA",
+   "metro": "Washington DC",
+   "url": "https://www.linkedin.com/jobs/view/space-payload-rf-engineer-lead-at-booz-allen-hamilton-4460516359",
+   "posted": "2026-08-28",
+   "sources": [
+    "JSearch/LinkedIn"
+   ],
+   "flags": [
+    "⚠️ 클리어런스/시민권"
+   ],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17"
   }
  },
  "backfilled": "2026-09-17",
- "jsearch_last_run": "2026-09-17T08:53:41.419690+00:00",
- "jsearch_turn": 2
+ "jsearch_last_run": "2026-09-17T08:59:32.260295+00:00",
+ "jsearch_turn": 4,
+ "jsearch_backfilled": true
 }

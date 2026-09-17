@@ -1,5 +1,5 @@
 {
-"updated": "2026-09-17T08:54:41+00:00",
+"updated": "2026-09-17T09:01:00+00:00",
 "jobs": [
 {
 "id": "rfengineer30280withsecurityclearance|hiimissiontechnologies|washingtondc",
@@ -265,6 +265,56 @@
 "last_seen": "2026-09-17"
 },
 {
+"id": "electromagneticcompatibilityemcengineeriii|blueorigin|sfbayarea",
+"title": "Electromagnetic Compatibility (EMC) Engineer III",
+"company": "Blue Origin",
+"location": "San Francisco, CA",
+"metro": "SF Bay Area",
+"url": "https://www.linkedin.com/jobs/view/electromagnetic-compatibility-emc-engineer-iii-at-blue-origin-4446261344",
+"posted": "2026-09-16",
+"sources": [
+"JSearch/LinkedIn"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17"
+},
+{
+"id": "senioremcemicomplianceengineerteradyne|teradyne|boston",
+"title": "Senior EMC/EMI Compliance Engineer TERADYNE",
+"company": "Teradyne",
+"location": "North Reading, MA",
+"metro": "Boston",
+"url": "https://www.jobilize.com/amp/job/us-ma-north-reading-senior-emc-emi-compliance-engineer-teradyne-hiring",
+"posted": "2026-09-16",
+"sources": [
+"JSearch/Jobilize"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17"
+},
+{
+"id": "seniorstaffdesignengineeranalogmixedsignalrf|mediatek|boston",
+"title": "Senior Staff Design Engineer – Analog/Mixed-Signal/RF",
+"company": "MediaTek",
+"location": "Woburn, MA",
+"metro": "Boston",
+"url": "https://www.linkedin.com/jobs/view/senior-staff-design-engineer-%E2%80%93-analog-mixed-signal-rf-at-mediatek-4430373274",
+"posted": "2026-09-16",
+"sources": [
+"JSearch/LinkedIn"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17"
+},
+{
 "id": "srmanufacturingrfdfxengineer|blueorigin|sfbayarea",
 "title": "Sr. Manufacturing RF DFX Engineer",
 "company": "Blue Origin",
@@ -423,6 +473,42 @@
 "last_seen": "2026-09-17"
 },
 {
+"id": "principalradiofrequencyengineer|lumextalent|sfbayarea",
+"title": "Principal Radio Frequency Engineer",
+"company": "Lumex Talent",
+"location": "Mountain View, CA",
+"metro": "SF Bay Area",
+"url": "https://www.linkedin.com/jobs/view/principal-radio-frequency-engineer-at-lumex-talent-4465595354",
+"posted": "2026-09-15",
+"sources": [
+"JSearch/LinkedIn"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17"
+},
+{
+"id": "electromagneticcompatibilityemcengineeriii|blueorigin|washingtondc",
+"title": "Electromagnetic Compatibility (EMC) Engineer III",
+"company": "Blue Origin",
+"location": "Reston, VA",
+"metro": "Washington DC",
+"url": "https://www.linkedin.com/jobs/view/electromagnetic-compatibility-emc-engineer-iii-at-blue-origin-4446259338",
+"posted": "2026-09-15",
+"sources": [
+"JSearch/LinkedIn"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17"
+},
+{
 "id": "rfengineerlevelivtssciclearancewithsecurityclearance|lockheedmartin|sfbayarea",
 "title": "RF Engineer (Level IV) - TS/SCI clearance with Security Clearance",
 "company": "Lockheed Martin",
@@ -450,6 +536,72 @@
 "posted": "2026-09-14",
 "sources": [
 "Adzuna"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17"
+},
+{
+"id": "seniorrfelectricalengineer|axcelistechnologies|boston",
+"title": "Senior RF Electrical Engineer",
+"company": "Axcelis Technologies",
+"location": "Beverly, MA",
+"metro": "Boston",
+"url": "https://www.linkedin.com/jobs/view/senior-rf-electrical-engineer-at-axcelis-technologies-4467262291",
+"posted": "2026-09-14",
+"sources": [
+"JSearch/LinkedIn"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17"
+},
+{
+"id": "enterpriseseniorrfsoftwareengineerdsplinuxc|eriasventures|washingtondc",
+"title": "Enterprise - Senior RF Software Engineer - DSP, Linux, C++",
+"company": "Erias Ventures",
+"location": "Annapolis Junction, MD",
+"metro": "Washington DC",
+"url": "https://www.linkedin.com/jobs/view/enterprise-senior-rf-software-engineer-dsp-linux-c%2B%2B-at-erias-ventures-4467256398",
+"posted": "2026-09-14",
+"sources": [
+"JSearch/LinkedIn"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17"
+},
+{
+"id": "staffengineeremc|intertek|boston",
+"title": "Staff Engineer - EMC",
+"company": "Intertek",
+"location": "Boxborough, MA",
+"metro": "Boston",
+"url": "https://www.ziprecruiter.com/c/Intertek/Job/Staff-Engineer-EMC/-in-Boxboro,MA?jid=f4e49147e384d114",
+"posted": "2026-09-13",
+"sources": [
+"JSearch/ZipRecruiter"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17"
+},
+{
+"id": "emcdesignandtestengineernorthreadingma|teradyne|boston",
+"title": "EMC Design and Test Engineer North Reading, MA",
+"company": "Teradyne",
+"location": "Reading, MA",
+"metro": "Boston",
+"url": "https://www.learn4good.com/jobs/reading/massachusetts/engineering/5307470852/e/",
+"posted": "2026-09-12",
+"sources": [
+"JSearch/Learn4Good"
 ],
 "flags": [],
 "remote": false,
@@ -539,6 +691,22 @@
 "last_seen": "2026-09-17"
 },
 {
+"id": "seniorwirelessrfsystemsengineer|mytra|sfbayarea",
+"title": "Senior Wireless RF Systems Engineer",
+"company": "Mytra",
+"location": "Brisbane, CA",
+"metro": "SF Bay Area",
+"url": "https://www.ziprecruiter.com/c/Mytra/Job/Senior-Wireless-RF-Systems-Engineer/-in-Brisbane,CA?jid=fb9504a11bd73568",
+"posted": "2026-09-11",
+"sources": [
+"JSearch/ZipRecruiter"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17"
+},
+{
 "id": "rfengineercavitydesigntuning|tachyonindustrialimc|sfbayarea",
 "title": "RF Engineer — Cavity Design & Tuning",
 "company": "Tachyon Industrial, Imc",
@@ -607,6 +775,104 @@
 "last_seen": "2026-09-17"
 },
 {
+"id": "electromagneticcompatibilityengineer|insightglobal|sfbayarea",
+"title": "Electromagnetic Compatibility Engineer",
+"company": "Insight Global",
+"location": "San Jose, CA",
+"metro": "SF Bay Area",
+"url": "https://www.linkedin.com/jobs/view/electromagnetic-compatibility-engineer-at-insight-global-4463896916",
+"posted": "2026-09-09",
+"sources": [
+"JSearch/LinkedIn"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17"
+},
+{
+"id": "seniorhardwareengineeremiemc|rivetindustries|sfbayarea",
+"title": "Senior Hardware Engineer, EMI/EMC",
+"company": "Rivet Industries",
+"location": "San Jose, CA",
+"metro": "SF Bay Area",
+"url": "https://www.linkedin.com/jobs/view/senior-hardware-engineer-emi-emc-at-rivet-industries-4462554871",
+"posted": "2026-09-09",
+"sources": [
+"JSearch/LinkedIn"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17"
+},
+{
+"id": "seniorrfengineerdevices|gridware|sfbayarea",
+"title": "Senior RF Engineer, Devices",
+"company": "Gridware",
+"location": "San Francisco, CA",
+"metro": "SF Bay Area",
+"url": "https://www.linkedin.com/jobs/view/senior-rf-engineer-devices-at-gridware-4443628908",
+"posted": "2026-09-09",
+"sources": [
+"JSearch/LinkedIn"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17"
+},
+{
+"id": "seniorrfdesignandtestengineer|triveniit|sfbayarea",
+"title": "Senior RF Design and Test Engineer",
+"company": "Triveni IT",
+"location": "Sunnyvale, CA",
+"metro": "SF Bay Area",
+"url": "https://www.linkedin.com/jobs/view/senior-rf-design-and-test-engineer-at-triveni-it-4463868758",
+"posted": "2026-09-09",
+"sources": [
+"JSearch/LinkedIn"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17"
+},
+{
+"id": "radiofrequencysystemsengineer|leidos|washingtondc",
+"title": "Radio Frequency Systems Engineer",
+"company": "LEIDOS",
+"location": "Washington, DC",
+"metro": "Washington DC",
+"url": "https://salutemyjob.com/jobs/radio-frequency-systems-engineer-washington-washington-dc/2963640150-2/",
+"posted": "2026-09-09",
+"sources": [
+"JSearch/SaluteMyJob"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17"
+},
+{
+"id": "spectrumengineerradiofrequency|leidos|washingtondc",
+"title": "Spectrum Engineer/Radio Frequency",
+"company": "Leidos",
+"location": "Washington, DC",
+"metro": "Washington DC",
+"url": "https://bebee.com/us/jobs/spectrum-engineer-radio-frequency-leidos-washington-dc--jooble-5694396599085643122",
+"posted": "2026-09-08",
+"sources": [
+"JSearch/BeBee"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17"
+},
+{
 "id": "seniorrfengineerwithsecurityclearance|str|boston",
 "title": "Senior RF Engineer with Security Clearance",
 "company": "STR",
@@ -634,6 +900,60 @@
 "posted": "2026-09-07",
 "sources": [
 "Adzuna"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17"
+},
+{
+"id": "senioremiemcengineerforhighperformancesensorsystems|raytheon|boston",
+"title": "Senior EMI/EMC Engineer for High-Performance Sensor Systems",
+"company": "Raytheon",
+"location": "Marlborough, MA",
+"metro": "Boston",
+"url": "https://www.jobleads.com/us/job/senior-emi-emc-engineer-for-high-performance-sensor-systems--marlborough--e2f0cded242321a6aac6f83c058a3cefb",
+"posted": "2026-09-07",
+"sources": [
+"JSearch/JobLeads"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17"
+},
+{
+"id": "emitestengineer|rtx|boston",
+"title": "EMI Test Engineer",
+"company": "RTX",
+"location": "Marlborough, MA",
+"metro": "Boston",
+"url": "https://careers.rtx.com/ca/fr/job/01871931/EMI-Test-Engineer",
+"posted": "2026-09-07",
+"sources": [
+"JSearch/RTX Careers"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17"
+},
+{
+"id": "staffmmicdesignengineersoirfonsiteboston|lintrinsicsemiconductorsinc|boston",
+"title": "Staff MMIC Design Engineer - SoI RF, Onsite Boston",
+"company": "LintrinsIC Semiconductors Inc.",
+"location": "Boston, MA",
+"metro": "Boston",
+"url": "https://bebee.com/us/jobs/staff-mmic-design-engineer-soi-rf-onsite-boston-lintrinsic-semiconductors-inc-boston--pureheal-28528_25199_27a55b5539f7930af82d8025d32a7612",
+"posted": "2026-09-07",
+"sources": [
+"JSearch/BeBee"
 ],
 "flags": [
 "⚠️ 클리어런스/시민권"
@@ -675,6 +995,38 @@
 "last_seen": "2026-09-17"
 },
 {
+"id": "seniorrficlayoutengineercmosanalogrf|appleinc|sfbayarea",
+"title": "Senior RFIC Layout Engineer – CMOS Analog/RF",
+"company": "Apple Inc.",
+"location": "San Francisco, CA",
+"metro": "SF Bay Area",
+"url": "https://www.jobleads.com/us/job/senior-rfic-layout-engineer-cmos-analog-rf--san-francisco--ed38921c98692033a3ead6fe4ce774d99",
+"posted": "2026-09-06",
+"sources": [
+"JSearch/JobLeads"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17"
+},
+{
+"id": "radiofrequencyengineersrstfe5|lockheedmartin|washingtondc",
+"title": "Radio Frequency Engineer Sr Stf - E5",
+"company": "Lockheed Martin",
+"location": "Severn, MD",
+"metro": "Washington DC",
+"url": "https://www.linkedin.com/jobs/view/radio-frequency-engineer-sr-stf-e5-at-lockheed-martin-4461481067",
+"posted": "2026-09-05",
+"sources": [
+"JSearch/LinkedIn"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17"
+},
+{
 "id": "antennaandmicrowaveengineeri|raytheon|boston",
 "title": "Antenna and Microwave Engineer I",
 "company": "Raytheon",
@@ -693,6 +1045,24 @@
 "last_seen": "2026-09-17"
 },
 {
+"id": "seniorrfgeolocationengineerspectrumsensingteam|chaosindustries|washingtondc",
+"title": "Senior RF Geolocation Engineer, Spectrum Sensing Team",
+"company": "CHAOS Industries",
+"location": "Washington, DC",
+"metro": "Washington DC",
+"url": "https://simplify.jobs/p/576aeab9-846e-49cd-a71c-a1c41c6f3167/Senior-Radio-Frequency-Geolocation-Engineer",
+"posted": "2026-09-04",
+"sources": [
+"JSearch/Simplify"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17"
+},
+{
 "id": "staffengineeropticsrf|cowboyspacecorp|sfbayarea",
 "title": "Staff Engineer, Optics & RF",
 "company": "Cowboy Space Corp.",
@@ -702,6 +1072,22 @@
 "posted": "2026-09-03",
 "sources": [
 "Adzuna"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17"
+},
+{
+"id": "rfspectrumengineerfornascuasanalysis|leidosinc|washingtondc",
+"title": "RF & Spectrum Engineer for NAS/C-UAS Analysis",
+"company": "Leidos Inc",
+"location": "Washington, DC",
+"metro": "Washington DC",
+"url": "https://www.jobleads.com/us/job/rf-spectrum-engineer-for-nas-c-uas-analysis--washington--e6e28ea23946cf81a3a2d2aacc79bb097",
+"posted": "2026-09-03",
+"sources": [
+"JSearch/JobLeads"
 ],
 "flags": [],
 "remote": false,
@@ -745,6 +1131,54 @@
 "last_seen": "2026-09-17"
 },
 {
+"id": "rfengineer3|lamresearchcorporation|sfbayarea",
+"title": "RF Engineer 3",
+"company": "Lam Research Corporation",
+"location": "Fremont, CA",
+"metro": "SF Bay Area",
+"url": "https://opportunities.lamresearch.com/job/Fremont-RF-Engineer-3-CA-94536/1406136000/",
+"posted": "2026-09-02",
+"sources": [
+"JSearch/Lam Research – Careers"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17"
+},
+{
+"id": "radiofrequencyengineer|osiengineering|sfbayarea",
+"title": "Radio Frequency Engineer",
+"company": "OSI Engineering",
+"location": "Cupertino, CA",
+"metro": "SF Bay Area",
+"url": "https://www.linkedin.com/jobs/view/radio-frequency-engineer-at-osi-engineering-4461335329",
+"posted": "2026-09-02",
+"sources": [
+"JSearch/LinkedIn"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17"
+},
+{
+"id": "principalrfcommunicationssystemsengineer|sesspacedefense|washingtondc",
+"title": "Principal RF Communications Systems Engineer",
+"company": "SES Space & Defense",
+"location": "Reston, VA",
+"metro": "Washington DC",
+"url": "https://www.linkedin.com/jobs/view/principal-rf-communications-systems-engineer-at-ses-space-defense-4428895480",
+"posted": "2026-09-02",
+"sources": [
+"JSearch/LinkedIn"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17"
+},
+{
 "id": "radiofrequencyengineer|trimble|sfbayarea",
 "title": "Radio Frequency Engineer",
 "company": "Trimble",
@@ -769,9 +1203,12 @@
 "url": "https://www.adzuna.com/land/ad/5866299068?se=oLoM10Oy8RGW7Jd0wGJW9Q&utm_medium=api&utm_source=d677d981&v=D4C33FD1677AC8D286C75FCE639DEA82582150E0",
 "posted": "2026-09-01",
 "sources": [
-"Adzuna"
+"Adzuna",
+"JSearch/LinkedIn"
 ],
-"flags": [],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
 "remote": false,
 "first_seen": "2026-09-17",
 "last_seen": "2026-09-17"
@@ -837,7 +1274,8 @@
 "url": "https://www.adzuna.com/land/ad/5864082730?se=eHaM3EOy8RGPhZDySvILTw&utm_medium=api&utm_source=d677d981&v=B4D8836EBE2AA2EF4194A2E398F9167E5503EA1F",
 "posted": "2026-09-01",
 "sources": [
-"Adzuna"
+"Adzuna",
+"JSearch/BeBee"
 ],
 "flags": [
 "⚠️ 클리어런스/시민권"
@@ -991,6 +1429,22 @@
 "last_seen": "2026-09-17"
 },
 {
+"id": "senioremctestengineer|teradyne|boston",
+"title": "Senior EMC Test Engineer",
+"company": "Teradyne",
+"location": "North Reading, MA",
+"metro": "Boston",
+"url": "https://us.trabajo.org/job-5003-91634f364e1222be005f727f519a8c65",
+"posted": "2026-09-01",
+"sources": [
+"JSearch/Trabajo.org"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17"
+},
+{
 "id": "srstaffrfsystemsengineer|rivianandvolkswagengrouptechnologies|sfbayarea",
 "title": "Sr. Staff RF Systems Engineer",
 "company": "Rivian and Volkswagen Group Technologies",
@@ -1018,6 +1472,24 @@
 "Adzuna"
 ],
 "flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17"
+},
+{
+"id": "principalmmwavedesignengineerpoweramplifiersterawave|blueorigin|sfbayarea",
+"title": "Principal mmWave Design Engineer (Power Amplifiers) - TeraWave",
+"company": "Blue Origin",
+"location": "San Francisco, CA",
+"metro": "SF Bay Area",
+"url": "https://www.linkedin.com/jobs/view/principal-mmwave-design-engineer-power-amplifiers-terawave-at-blue-origin-4430629418",
+"posted": "2026-08-30",
+"sources": [
+"JSearch/LinkedIn"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
 "remote": false,
 "first_seen": "2026-09-17",
 "last_seen": "2026-09-17"
@@ -1082,6 +1554,24 @@
 "Adzuna"
 ],
 "flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17"
+},
+{
+"id": "spacepayloadrfengineerlead|boozallenhamilton|washingtondc",
+"title": "Space Payload RF Engineer, Lead",
+"company": "Booz Allen Hamilton",
+"location": "Chantilly, VA",
+"metro": "Washington DC",
+"url": "https://www.linkedin.com/jobs/view/space-payload-rf-engineer-lead-at-booz-allen-hamilton-4460516359",
+"posted": "2026-08-28",
+"sources": [
+"JSearch/LinkedIn"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
 "remote": false,
 "first_seen": "2026-09-17",
 "last_seen": "2026-09-17"
@@ -1185,6 +1675,22 @@
 "last_seen": "2026-09-17"
 },
 {
+"id": "seniorprincipalaerfdesignengineer|cadence|boston",
+"title": "Senior Principal AE-RF Design Engineer",
+"company": "Cadence",
+"location": "Burlington, MA",
+"metro": "Boston",
+"url": "https://www.linkedin.com/jobs/view/senior-principal-ae-rf-design-engineer-at-cadence-4448818125",
+"posted": "2026-08-25",
+"sources": [
+"JSearch/LinkedIn"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17"
+},
+{
 "id": "rfengineersrstaffandovermawithsecurityclearance|lockheedmartin|boston",
 "title": "RF Engineer, Sr Staff - Andover, MA with Security Clearance",
 "company": "Lockheed Martin",
@@ -1214,6 +1720,24 @@
 "Adzuna"
 ],
 "flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17"
+},
+{
+"id": "rfengineer|mitlincolnlaboratory|boston",
+"title": "RF Engineer",
+"company": "MIT Lincoln Laboratory",
+"location": "Lexington, MA",
+"metro": "Boston",
+"url": "https://careers.ll.mit.edu/job/Lexington-RF-Engineer-MA-02420/1386364700/",
+"posted": "2026-08-22",
+"sources": [
+"JSearch/Jobs At MIT Lincoln Laboratory - MIT"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
 "remote": false,
 "first_seen": "2026-09-17",
 "last_seen": "2026-09-17"
@@ -1299,6 +1823,22 @@
 "last_seen": "2026-09-17"
 },
 {
+"id": "electricalengineeranalogrf|xsightincorporated|boston",
+"title": "Electrical Engineer, Analog + RF",
+"company": "X-Sight Incorporated",
+"location": "Boston, MA",
+"metro": "Boston",
+"url": "https://www.indeed.com/viewjob?jk=1f804be7b6e6731e",
+"posted": "2026-08-21",
+"sources": [
+"JSearch/Indeed"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17"
+},
+{
 "id": "seniorantennadesignengineer|espace|sfbayarea",
 "title": "Senior Antenna Design Engineer",
 "company": "E-Space",
@@ -1367,6 +1907,40 @@
 "last_seen": "2026-09-17"
 },
 {
+"id": "rfsystemsprogrammanager|lynk|washingtondc",
+"title": "RF Systems Program Manager",
+"company": "Lynk",
+"location": "Washington, DC",
+"metro": "Washington DC",
+"url": "https://us.trabajo.org/job-28652-59e584dd6c839ec6f00a587d2434fe4b",
+"posted": "2026-08-20",
+"sources": [
+"JSearch/Trabajo.org"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17"
+},
+{
+"id": "juniorpcbdrafterrfpowerboards|caci|washingtondc",
+"title": "Junior PCB Drafter – RF & Power Boards",
+"company": "CACI",
+"location": "Washington, DC",
+"metro": "Washington DC",
+"url": "https://hire.run/jobs/caci-junior-pcb-drafter-rf-power-boards-washington-dc-1ktt",
+"posted": "2026-08-20",
+"sources": [
+"JSearch/Hire.run"
+],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17"
+},
+{
 "id": "rfhardwareengineer|hark|sfbayarea",
 "title": "RF Hardware Engineer",
 "company": "Hark",
@@ -1419,6 +1993,22 @@
 "last_seen": "2026-09-17"
 },
 {
+"id": "rfmicrowavedesignengineer|acroservicecorp|boston",
+"title": "RF/Microwave Design Engineer",
+"company": "Acro Service Corp",
+"location": "Lexington, MA",
+"metro": "Boston",
+"url": "https://www.ihireengineering.com/jobs/view/533686782",
+"posted": "2026-08-19",
+"sources": [
+"JSearch/IHireEngineering"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17"
+},
+{
 "id": "rfengineer|tive|boston",
 "title": "RF Engineer",
 "company": "Tive",
@@ -1443,7 +2033,8 @@
 "url": "https://www.adzuna.com/land/ad/5846173049?se=6DyE4EOy8RGW7Jd0wGJW9Q&utm_medium=api&utm_source=d677d981&v=831B5AC6EEA4E68856940B0B5DF4F51AD721C6E4",
 "posted": "2026-08-18",
 "sources": [
-"Adzuna"
+"Adzuna",
+"JSearch/RTX Careers"
 ],
 "flags": [
 "⚠️ 클리어런스/시민권"

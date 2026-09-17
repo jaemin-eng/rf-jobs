@@ -76,6 +76,7 @@ companies:
     careers: [https://careers.hii.com, https://jobs.hii-tsd.com]
 
   - name: Textron Systems
+    manual_url: https://careers.textron.com/search/?q=RF
     group: 방산
     aliases: [Textron]
     careers: [https://www.textronsystems.com/careers, https://www.textron.com/careers]
@@ -93,6 +94,7 @@ companies:
     careers: [https://www.sncorp.com/careers/]
 
   - name: Mercury Systems
+    manual_url: https://myjobs.adp.com/mercurysystemscareers/cx/job-listing
     group: 방산
     aliases: [Mercury Systems]
     # ADP 채용 시스템(myjobs.adp.com)이라 직접 연결 불가 → Adzuna/JSearch 회사명 검색으로 수집
@@ -106,6 +108,7 @@ companies:
     careers: [https://careers.leidos.com]
 
   - name: SAIC
+    manual_url: https://jobs.saic.com/search/jobs
     group: 방산
     aliases: [Science Applications International]
     sources:
@@ -136,6 +139,7 @@ companies:
     careers: [https://careers.peraton.com]
 
   - name: ManTech
+    manual_url: https://www.mantech.com/careers/
     group: 방산
     careers: [https://www.mantech.com/careers, https://mantech.wd1.myworkdayjobs.com/External]
 
@@ -146,6 +150,7 @@ companies:
     careers: [https://www.amentum.com/careers/]
 
   - name: V2X
+    manual_url: https://careers-gov2x.icims.com/jobs/search?ss=1&searchKeyword=RF
     group: 방산
     aliases: [Vectrus, Vertex Aerospace]
     careers: [https://gov2x.com/careers/]
@@ -156,6 +161,7 @@ companies:
     careers: [https://careers.kbr.com/us/en, https://www.kbr.com/en/careers]
 
   - name: Jacobs
+    manual_url: https://careers.jacobs.com/en_US/careers/SearchJobs/RF
     group: 방산
     aliases: [Jacobs Engineering]
     careers: [https://careers.jacobs.com/en_US/careers]
@@ -177,15 +183,18 @@ companies:
     sources: [{greenhouse: hawkeye360}]
 
   - name: Viasat
+    manual_url: https://careers.viasat.com/careers?query=RF
     group: 방산
     careers: [https://careers.viasat.com, https://www.viasat.com/careers/]
 
   - name: Hughes Network Systems
+    manual_url: https://www.hughes.com/who-we-are/careers
     group: 방산
     aliases: [Hughes, EchoStar]
     careers: [https://www.hughes.com/who-we-are/careers]
 
   - name: SES Space & Defense
+    manual_url: https://www.ses.com/careers
     group: 방산
     aliases: [SES Government Solutions, SES Space]
     careers: [https://www.ses.com/careers]
@@ -226,8 +235,8 @@ companies:
 
   - name: Saildrone
     group: 방산
-    sources: [{greenhouse: saildrone}, {ashby: saildrone}, {lever: saildrone}]
-    careers: [https://www.saildrone.com/careers]
+    sources: [{greenhouse: saildroneinc}]
+    careers: [https://job-boards.greenhouse.io/saildroneinc]
 
   - name: Applied Intuition
     group: 방산
@@ -235,6 +244,7 @@ companies:
     careers: [https://www.appliedintuition.com/careers]
 
   - name: Aalyria
+    manual_url: https://www.aalyria.com/careers
     group: 방산
     sources: [{greenhouse: aalyria}, {ashby: aalyria}, {lever: aalyria}]
     careers: [https://www.aalyria.com/careers]
@@ -247,8 +257,8 @@ companies:
   - name: STR
     group: 방산
     aliases: [Systems & Technology Research]
-    careers: [https://www.str.us/careers, https://str.us/careers]
-    sources: [{greenhouse: str}, {lever: str}]
+    sources: [{greenhouse: systemstechnologyresearch}]
+    careers: [https://job-boards.greenhouse.io/systemstechnologyresearch]
 
   # ---------------- 연구소 / FFRDC ----------------
   - name: MIT Lincoln Laboratory
@@ -280,6 +290,7 @@ companies:
     careers: [https://careers.mitre.org, https://mitre.wd5.myworkdayjobs.com/MITRE]
 
   - name: Johns Hopkins APL
+    manual_url: https://careers-jhuapl.icims.com/jobs/search?ss=1&searchKeyword=RF
     group: 연구소
     aliases: [Johns Hopkins University Applied Physics, JHU APL, Applied Physics Laboratory]
     sources:
@@ -301,6 +312,7 @@ companies:
     careers: [https://www.sri.com/careers/, https://careers.sri.com]
 
   - name: IDA
+    manual_url: https://www.ida.org/careers/careers-at-ida
     group: 연구소
     aliases: [Institute for Defense Analyses]
     careers: [https://www.ida.org/careers]
@@ -310,11 +322,13 @@ companies:
     careers: [https://www.riversideresearch.org/careers]
 
   - name: Physical Sciences Inc.
+    manual_url: https://www.psicorp.com/careers/
     group: 연구소
     aliases: [Physical Sciences Inc, PSI]
     careers: [https://www.psicorp.com/careers/]
 
   - name: Charles River Analytics
+    manual_url: https://cra.com/careers/
     group: 연구소
     careers: [https://cra.com/careers/]
     sources: [{greenhouse: charlesriveranalytics}, {lever: cra}]

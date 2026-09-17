@@ -463,28 +463,64 @@ def fetch_adzuna_companies(cfg, state):
     if not (app_id and app_key) or not cfg["sources"]["adzuna"].get("company_sweep", True):
         return []
     days, _ = window(cfg, state)
+    # 직접 연결에 실패한 회사는 이름 표기를 여러 개로 시도
+    failed = {c["name"] for c in state.get("company_status", []) if c.get("status") != "ok"}
     jobs, calls = [], 0
     for comp in load_companies().get("companies", []):
         if comp.get("adzuna") is False:
             continue
-        cname = re.split(r"\s*[(/]", comp["name"])[0].strip()
-        data = get_json("https://api.adzuna.com/v1/api/jobs/us/search/1", params={
-            "app_id": app_id, "app_key": app_key, "company": cname,
-            "what_or": "RF antenna EMC EMI microwave radar electromagnetic RFIC MMIC",
-            "max_days_old": max(days, 14), "results_per_page": 50,
-            "content-type": "application/json"})
-        calls += 1
-        for d in (data or {}).get("results", []) or []:
-            jobs.append(Job(
-                source="Adzuna", source_id=str(d.get("id")),
-                title=re.sub(r"<[^>]+>", "", d.get("title") or ""),
-                company=(d.get("company") or {}).get("display_name", ""),
-                location=_adzuna_location(d.get("location") or {}),
-                url=d.get("redirect_url") or "", posted=(d.get("created") or "")[:10],
-                description=d.get("description") or ""))
-        time.sleep(2.6)
+        names = [re.split(r"\s*[(/]", comp["name"])[0].strip()]
+        if comp["name"] in failed:
+            for a in (comp.get("aliases") or [])[:2]:
+                if len(a) > 4 and a not in names:
+                    names.append(a)
+        for cname in names:
+            data = get_json("https://api.adzuna.com/v1/api/jobs/us/search/1", params={
+                "app_id": app_id, "app_key": app_key, "company": cname,
+                "what_or": "RF antenna EMC EMI microwave radar electromagnetic RFIC MMIC",
+                "max_days_old": max(days, 14), "results_per_page": 50,
+                "content-type": "application/json"})
+            calls += 1
+            time.sleep(2.6)
+            for d in (data or {}).get("results", []) or []:
+                jobs.append(Job(
+                    source="Adzuna", source_id=str(d.get("id")),
+                    title=re.sub(r"<[^>]+>", "", d.get("title") or ""),
+                    company=(d.get("company") or {}).get("display_name", ""),
+                    location=_adzuna_location(d.get("location") or {}),
+                    url=d.get("redirect_url") or "", posted=(d.get("created") or "")[:10],
+                    description=d.get("description") or ""))
     log(f"Adzuna 회사명 검색: 호출 {calls}회, {len(jobs)}건")
     return jobs
+
+
+def company_link(comp, st):
+    """현황표에서 눌러서 열 수 있는 채용 페이지 주소"""
+    if comp.get("manual_url"):
+        return comp["manual_url"]
+    kind, val = (st.get("via"), st.get("source"))
+    if kind == "workday" and val:
+        return val
+    if kind == "greenhouse" and val:
+        return f"https://job-boards.greenhouse.io/{val}"
+    if kind == "lever" and val:
+        return f"https://jobs.lever.co/{val}"
+    if kind == "ashby" and val:
+        return f"https://jobs.ashbyhq.com/{val}"
+    if kind == "smartrecruiters" and val:
+        return f"https://jobs.smartrecruiters.com/{val}"
+    if kind == "eightfold" and val:
+        try:
+            return f"https://{json.loads(val)['host']}/careers"
+        except Exception:
+            return ""
+    if kind == "apple":
+        return "https://jobs.apple.com/en-us/search?search=RF"
+    if kind == "jobsyn" and val:
+        return f"https://{val}/jobs/"
+    if val and str(val).startswith("http"):
+        return str(val)
+    return (comp.get("careers") or [""])[0]
 
 
 def write_company_status(state):
@@ -493,9 +529,11 @@ def write_company_status(state):
     for rec in state.get("jobs", {}).values():
         if rec.get("company_key"):
             counts[rec["company_key"]] = counts.get(rec["company_key"], 0) + 1
+    by_name = {c["name"]: c for c in load_companies().get("companies", [])}
     rows = []
     for st in state.get("company_status", []):
-        rows.append(dict(st, listed=counts.get(st["name"], 0)))
+        comp = by_name.get(st["name"], {})
+        rows.append(dict(st, listed=counts.get(st["name"], 0), link=company_link(comp, st)))
     COMPANY_STATUS_JSON.write_text(json.dumps(
         {"updated": datetime.now(timezone.utc).isoformat(timespec="seconds"), "companies": rows},
         ensure_ascii=False, indent=0), encoding="utf-8")

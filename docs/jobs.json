@@ -1,5 +1,5 @@
 {
-"updated": "2026-09-17T15:24:35+00:00",
+"updated": "2026-09-17T15:40:41+00:00",
 "jobs": [
 {
 "id": "rfengineer30280|hiimissionte|washingtondc",
@@ -239,6 +239,42 @@
 "last_seen": "2026-09-17",
 "group": "연구소",
 "company_key": "Draper"
+},
+{
+"id": "seniorrfpcblayoutengineer|arraylabs|sfbayarea",
+"title": "Senior RF PCB Layout Engineer",
+"company": "Array Labs",
+"location": "Redwood City, San Mateo County, California",
+"metro": "SF Bay Area",
+"url": "https://www.adzuna.com/details/5887813888?utm_medium=api&utm_source=d677d981",
+"posted": "2026-09-17",
+"sources": [
+"Adzuna"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "",
+"company_key": null
+},
+{
+"id": "directhireopportunityrfengineerbedford|adeccous|boston",
+"title": "Direct Hire Opportunity-RF Engineer-Bedford",
+"company": "Adecco US, Inc.",
+"location": "Manchester, Hillsborough County, New Hampshire",
+"metro": "Boston",
+"url": "https://www.adzuna.com/land/ad/5887837602?se=zM8bQayy8RG2D9vMuepRVA&utm_medium=api&utm_source=d677d981&v=39A3A507A4CED8B9D114D2EB6E11BCD4C82FDFDA",
+"posted": "2026-09-17",
+"sources": [
+"Adzuna"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "",
+"company_key": null
 },
 {
 "id": "rfoperationsengineer1careerfaironly|markimicrowa|sfbayarea",
@@ -1093,9 +1129,12 @@
 "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-WOBURN-WB1--235-Presidential-Way--SPENCER-BLDG/Radar-Digital-Product-Line--RDPL--Software-Product-Owner_01874782",
 "posted": "2026-09-15",
 "sources": [
+"Adzuna",
 "회사/workday"
 ],
-"flags": [],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
 "remote": false,
 "first_seen": "2026-09-17",
 "last_seen": "2026-09-17",
@@ -5840,7 +5879,7 @@
 "company": "Apple",
 "location": "San Francisco Bay Area",
 "metro": "SF Bay Area",
-"url": "https://jobs.apple.com/en-us/details/200640903/sipi-rf-integrity-engineer",
+"url": "https://jobs.apple.com/en-us/details/200660612/sipi-rf-integrity-engineer",
 "posted": "2026-01-12",
 "sources": [
 "회사/apple"
@@ -6453,6 +6492,24 @@
 "location": "Fort Belvoir, VA",
 "metro": "Washington DC",
 "url": "https://careers-peraton.icims.com/jobs/167151/satcom-software-engineer%2c-senior-advisor/job",
+"posted": "",
+"sources": [
+"회사/icims"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Peraton"
+},
+{
+"id": "externaljobpostingtitleradarsiteadvisor|peraton|washingtondc",
+"title": "External Job Posting Title Radar Site Advisor",
+"company": "Peraton",
+"location": "Herndon, VA",
+"metro": "Washington DC",
+"url": "https://careers-peraton.icims.com/jobs/170833/radar-site-advisor/job",
 "posted": "",
 "sources": [
 "회사/icims"

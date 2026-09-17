@@ -873,7 +873,15 @@
   "회사:Draper:/job/Cambridge-MA/Senior-RF-Integration---Test-Engineer_JR002932": "2026-09-17",
   "seniorrfintegrationtestengineer|draper|boston": "2026-09-17",
   "ewsystemsarchitect|mitre|boston": "2026-09-17",
-  "회사:MITRE:R117275": "2026-09-17"
+  "회사:MITRE:R117275": "2026-09-17",
+  "seniorrfpcblayoutengineer|arraylabs|sfbayarea": "2026-09-17",
+  "Adzuna:5887813888": "2026-09-17",
+  "directhireopportunityrfengineerbedford|adeccous|boston": "2026-09-17",
+  "Adzuna:5887837602": "2026-09-17",
+  "radardigitalproductlinerdplsoftwareproductowner|rtx|boston": "2026-09-17",
+  "Adzuna:5884911878": "2026-09-17",
+  "externaljobpostingtitleradarsiteadvisor|peraton|washingtondc": "2026-09-17",
+  "회사:Peraton:170833": "2026-09-17"
  },
  "jobs": {
   "seniorrfengineer|freshconsult|sfbayarea": {
@@ -4079,9 +4087,12 @@
    "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-WOBURN-WB1--235-Presidential-Way--SPENCER-BLDG/Radar-Digital-Product-Line--RDPL--Software-Product-Owner_01874782",
    "posted": "2026-09-15",
    "sources": [
+    "Adzuna",
     "회사/workday"
    ],
-   "flags": [],
+   "flags": [
+    "⚠️ 클리어런스/시민권"
+   ],
    "remote": false,
    "first_seen": "2026-09-17",
    "last_seen": "2026-09-17",
@@ -6047,7 +6058,7 @@
    "company": "Apple",
    "location": "San Francisco Bay Area",
    "metro": "SF Bay Area",
-   "url": "https://jobs.apple.com/en-us/details/200640903/sipi-rf-integrity-engineer",
+   "url": "https://jobs.apple.com/en-us/details/200660612/sipi-rf-integrity-engineer",
    "posted": "2026-01-12",
    "sources": [
     "회사/apple"
@@ -7338,6 +7349,60 @@
    "last_seen": "2026-09-17",
    "group": "연구소",
    "company_key": "MITRE"
+  },
+  "seniorrfpcblayoutengineer|arraylabs|sfbayarea": {
+   "id": "seniorrfpcblayoutengineer|arraylabs|sfbayarea",
+   "title": "Senior RF PCB Layout Engineer",
+   "company": "Array Labs",
+   "location": "Redwood City, San Mateo County, California",
+   "metro": "SF Bay Area",
+   "url": "https://www.adzuna.com/details/5887813888?utm_medium=api&utm_source=d677d981",
+   "posted": "2026-09-17",
+   "sources": [
+    "Adzuna"
+   ],
+   "flags": [],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17",
+   "group": "",
+   "company_key": null
+  },
+  "directhireopportunityrfengineerbedford|adeccous|boston": {
+   "id": "directhireopportunityrfengineerbedford|adeccous|boston",
+   "title": "Direct Hire Opportunity-RF Engineer-Bedford",
+   "company": "Adecco US, Inc.",
+   "location": "Manchester, Hillsborough County, New Hampshire",
+   "metro": "Boston",
+   "url": "https://www.adzuna.com/land/ad/5887837602?se=zM8bQayy8RG2D9vMuepRVA&utm_medium=api&utm_source=d677d981&v=39A3A507A4CED8B9D114D2EB6E11BCD4C82FDFDA",
+   "posted": "2026-09-17",
+   "sources": [
+    "Adzuna"
+   ],
+   "flags": [],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17",
+   "group": "",
+   "company_key": null
+  },
+  "externaljobpostingtitleradarsiteadvisor|peraton|washingtondc": {
+   "id": "externaljobpostingtitleradarsiteadvisor|peraton|washingtondc",
+   "title": "External Job Posting Title Radar Site Advisor",
+   "company": "Peraton",
+   "location": "Herndon, VA",
+   "metro": "Washington DC",
+   "url": "https://careers-peraton.icims.com/jobs/170833/radar-site-advisor/job",
+   "posted": "",
+   "sources": [
+    "회사/icims"
+   ],
+   "flags": [],
+   "remote": false,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17",
+   "group": "방산",
+   "company_key": "Peraton"
   }
  },
  "backfilled": "2026-09-17",
@@ -7503,8 +7568,8 @@
    "status": "ok",
    "via": "workday",
    "source": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway",
-   "count": 181,
-   "seconds": 61,
+   "count": 182,
+   "seconds": 71,
    "in_metro": 48,
    "other_locations": [
     "Mckinney, TX",
@@ -7520,7 +7585,7 @@
    "via": "workday",
    "source": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site",
    "count": 78,
-   "seconds": 72,
+   "seconds": 56,
    "in_metro": 41,
    "other_locations": [
     "Gilbert, Arizona",
@@ -7536,7 +7601,7 @@
    "via": "icims",
    "source": "https://careers-gdms.icims.com",
    "count": 7,
-   "seconds": 19,
+   "seconds": 13,
    "in_metro": 0,
    "other_locations": [
     "Scottsdale, AZ",
@@ -7551,7 +7616,7 @@
    "via": "workday",
    "source": "https://gdit.wd5.myworkdayjobs.com/External_Career_Site",
    "count": 8,
-   "seconds": 11,
+   "seconds": 12,
    "in_metro": 4,
    "other_locations": [
     "Egg Harbor Township, NJ",
@@ -7566,12 +7631,12 @@
    "status": "ok",
    "via": "phenom",
    "source": "https://jobs.baesystems.com/global/en",
-   "count": 5,
-   "seconds": 276,
+   "count": 4,
+   "seconds": 306,
    "in_metro": 2,
    "other_locations": [
-    "Huntsville, Alabama",
-    "Boulder, Colorado / Westminster, Colorado"
+    "Boulder, Colorado / Westminster, Colorado",
+    "Huntsville, Alabama"
    ]
   },
   {
@@ -7582,7 +7647,7 @@
    "source": "",
    "count": 0,
    "error": "radancy: careers.l3harris.com: robots.txt에서 자동 수집을 막아둠",
-   "seconds": 0,
+   "seconds": 1,
    "in_metro": 0,
    "other_locations": []
   },
@@ -7592,8 +7657,8 @@
    "status": "ok",
    "via": "workday",
    "source": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS",
-   "count": 14,
-   "seconds": 35,
+   "count": 15,
+   "seconds": 30,
    "in_metro": 0,
    "other_locations": [
     "USA - El Segundo, CA",
@@ -7609,7 +7674,7 @@
    "via": "successfactors",
    "source": "https://jobs.hii-tsd.com",
    "count": 17,
-   "seconds": 33,
+   "seconds": 22,
    "in_metro": 3,
    "other_locations": [
     "Hurlburt Field, FL, Florida",
@@ -7626,7 +7691,7 @@
    "source": "",
    "count": 0,
    "error": "채용 시스템을 찾지 못함",
-   "seconds": 3,
+   "seconds": 2,
    "in_metro": 0,
    "other_locations": []
   },
@@ -7637,7 +7702,7 @@
    "via": "successfactors",
    "source": "https://careers.leonardodrs.com",
    "count": 3,
-   "seconds": 13,
+   "seconds": 9,
    "in_metro": 3,
    "other_locations": []
   },
@@ -7648,7 +7713,7 @@
    "via": "workday",
    "source": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site",
    "count": 2,
-   "seconds": 9,
+   "seconds": 7,
    "in_metro": 0,
    "other_locations": [
     "Lone Tree, CO",
@@ -7674,7 +7739,7 @@
    "via": "workday",
    "source": "https://leidos.wd5.myworkdayjobs.com/External",
    "count": 52,
-   "seconds": 73,
+   "seconds": 74,
    "in_metro": 9,
    "other_locations": [
     "Huntsville, AL",
@@ -7714,7 +7779,7 @@
    "via": "workday",
    "source": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs",
    "count": 23,
-   "seconds": 34,
+   "seconds": 36,
    "in_metro": 12,
    "other_locations": [
     "Australia",
@@ -7730,7 +7795,7 @@
    "via": "workday",
    "source": "https://parsons.wd5.myworkdayjobs.com/Search",
    "count": 16,
-   "seconds": 78,
+   "seconds": 83,
    "in_metro": 9,
    "other_locations": [
     "US - AL, Huntsville",
@@ -7743,9 +7808,9 @@
    "status": "ok",
    "via": "icims",
    "source": "https://careers-peraton.icims.com",
-   "count": 18,
-   "seconds": 8,
-   "in_metro": 12,
+   "count": 20,
+   "seconds": 5,
+   "in_metro": 13,
    "other_locations": [
     "Red Bank, NJ",
     "US",
@@ -7772,7 +7837,7 @@
    "via": "workday",
    "source": "https://pae.wd1.myworkdayjobs.com/Amentum_Careers",
    "count": 24,
-   "seconds": 26,
+   "seconds": 17,
    "in_metro": 5,
    "other_locations": [
     "Huntsville, AL",
@@ -7799,11 +7864,13 @@
    "status": "ok",
    "via": "phenom",
    "source": "https://careers.kbr.com/us/en",
-   "count": 3,
-   "seconds": 279,
+   "count": 11,
+   "seconds": 300,
    "in_metro": 0,
    "other_locations": [
-    "San Diego, California / Newport, Rhode Island"
+    "Ann Arbor, Michigan",
+    "Beavercreek Township, Ohio",
+    "Huntsville, Alabama"
    ]
   },
   {
@@ -7861,7 +7928,7 @@
    "source": "",
    "count": 0,
    "error": "icims: careers-viasat.icims.com: robots.txt에서 자동 수집을 막아둠; icims: employees-viasat.icims.com: robots.txt에서 자동 수집을 막아둠; icims: globalcareers-viasat.icims.com: robots.txt에서 자동 수집을 막아둠",
-   "seconds": 3,
+   "seconds": 2,
    "in_metro": 0,
    "other_locations": []
   },
@@ -7896,7 +7963,7 @@
    "via": "greenhouse",
    "source": "andurilindustries",
    "count": 65,
-   "seconds": 0,
+   "seconds": 23,
    "in_metro": 0,
    "other_locations": [
     "Costa Mesa, California",
@@ -7912,7 +7979,7 @@
    "via": "lever",
    "source": "shieldai",
    "count": 0,
-   "seconds": 1,
+   "seconds": 2,
    "in_metro": 0,
    "other_locations": []
   },
@@ -7949,7 +8016,7 @@
    "via": "workday",
    "source": "https://avav.wd1.myworkdayjobs.com/AVAV",
    "count": 7,
-   "seconds": 19,
+   "seconds": 15,
    "in_metro": 3,
    "other_locations": [
     "Albuquerque, NM",
@@ -7963,7 +8030,7 @@
    "via": "lever",
    "source": "palantir",
    "count": 0,
-   "seconds": 1,
+   "seconds": 3,
    "in_metro": 0,
    "other_locations": []
   },
@@ -8009,7 +8076,7 @@
    "source": "",
    "count": 0,
    "error": "greenhouse: Greenhouse HTTP 404; ashby: Ashby HTTP 404; lever: Lever HTTP 404",
-   "seconds": 1,
+   "seconds": 2,
    "in_metro": 0,
    "other_locations": []
   },
@@ -8020,7 +8087,7 @@
    "via": "greenhouse",
    "source": "vannevarlabs",
    "count": 0,
-   "seconds": 0,
+   "seconds": 1,
    "in_metro": 0,
    "other_locations": []
   },
@@ -8043,7 +8110,7 @@
    "via": "successfactors",
    "source": "https://careers.ll.mit.edu",
    "count": 12,
-   "seconds": 11,
+   "seconds": 7,
    "in_metro": 12,
    "other_locations": []
   },
@@ -8065,7 +8132,7 @@
    "via": "jobsyn",
    "source": "sandia.jobs",
    "count": 7,
-   "seconds": 11,
+   "seconds": 5,
    "in_metro": 0,
    "other_locations": [
     "Albuquerque, NM"
@@ -8078,7 +8145,7 @@
    "via": "workday",
    "source": "https://draper.wd5.myworkdayjobs.com/Draper_Careers",
    "count": 4,
-   "seconds": 5,
+   "seconds": 6,
    "in_metro": 4,
    "other_locations": []
   },
@@ -8089,11 +8156,11 @@
    "via": "phenom",
    "source": "https://careers.mitre.org/us/en",
    "count": 15,
-   "seconds": 277,
+   "seconds": 313,
    "in_metro": 13,
    "other_locations": [
-    "Boulder, Colorado",
-    "El Segundo, California"
+    "El Segundo, California",
+    "Boulder, Colorado"
    ]
   },
   {
@@ -8104,7 +8171,7 @@
    "source": "",
    "count": 0,
    "error": "icims: careers-jhuapl.icims.com: robots.txt에서 자동 수집을 막아둠; icims: iCIMS HTTP 404; icims: jhuapl.icims.com: robots.txt에서 자동 수집을 막아둠; radancy: www.jhuapl.edu: robots.txt에서 자동 수집을 막아둠",
-   "seconds": 2,
+   "seconds": 1,
    "in_metro": 0,
    "other_locations": []
   },
@@ -8115,7 +8182,7 @@
    "via": "workday",
    "source": "https://aero.wd5.myworkdayjobs.com/External",
    "count": 25,
-   "seconds": 25,
+   "seconds": 29,
    "in_metro": 9,
    "other_locations": [
     "El Segundo, CA",
@@ -8131,7 +8198,7 @@
    "via": "icims",
    "source": "https://careers-sri.icims.com",
    "count": 4,
-   "seconds": 4,
+   "seconds": 2,
    "in_metro": 0,
    "other_locations": [
     "Boulder, CO",
@@ -8157,7 +8224,7 @@
    "via": "icims",
    "source": "https://careers-riversideresearch.icims.com",
    "count": 4,
-   "seconds": 4,
+   "seconds": 2,
    "in_metro": 1,
    "other_locations": [
     "Dayton, OH",
@@ -8185,7 +8252,7 @@
    "source": "",
    "count": 0,
    "error": "greenhouse: Greenhouse HTTP 404; lever: Lever HTTP 404",
-   "seconds": 2,
+   "seconds": 1,
    "in_metro": 0,
    "other_locations": []
   },
@@ -8196,12 +8263,12 @@
    "via": "apple",
    "source": "true",
    "count": 81,
-   "seconds": 73,
+   "seconds": 43,
    "in_metro": 7,
    "other_locations": [
     "Sunnyvale",
-    "Los Angeles Metro Area",
     "San Diego",
+    "Los Angeles Metro Area",
     "Austin"
    ]
   },

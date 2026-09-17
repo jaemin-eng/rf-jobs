@@ -27,12 +27,22 @@ SEARCH_TERMS = ["RF", "antenna", "EMC", "EMI", "microwave", "radar",
                 "electromagnetic", "electronic warfare", "phased array", "RFIC"]
 
 
+def _clean_loc(loc):
+    parts, seen = [], set()
+    for p in re.split(r"\s*/\s*", loc or ""):
+        p = re.sub(r",\s*(United States( of America)?|USA|US)$", "", p.strip())
+        if p and p.lower() not in seen:
+            seen.add(p.lower())
+            parts.append(p)
+    return " / ".join(parts)
+
+
 class Found:
     """수집한 공고 한 건 (job_watcher.Job 으로 변환됨)"""
     __slots__ = ("id", "title", "location", "url", "posted", "description")
 
     def __init__(self, id, title, location, url, posted="", description=""):
-        self.id, self.title, self.location = str(id), title or "", location or ""
+        self.id, self.title, self.location = str(id), title or "", _clean_loc(location)
         self.url, self.posted, self.description = url or "", (posted or "")[:10], description or ""
 
 

@@ -499,8 +499,32 @@ def save_state(state):
     STATE_PATH.write_text(json.dumps(state, indent=1, ensure_ascii=False))
 
 
+def rekey_store(state, index):
+    """회사 이름 표기가 바뀌어도 같은 공고가 두 번 나오지 않도록 저장된 공고를 다시 묶음."""
+    old = state.get("jobs", {})
+    new = {}
+    for rec in old.values():
+        canon, group = classify_company(rec.get("company", ""), index)
+        if canon:
+            rec["company"], rec["company_key"], rec["group"] = canon, canon, group
+        key = Job("", "", rec["title"], rec["company"], "", "", metro=rec.get("metro", "")).dedupe_key
+        rec["id"] = key
+        if key in new:
+            cur = new[key]
+            cur["first_seen"] = min(cur["first_seen"], rec["first_seen"])
+            cur["last_seen"] = max(cur["last_seen"], rec["last_seen"])
+            cur["sources"] = sorted(set(cur.get("sources", [])) | set(rec.get("sources", [])))
+            cur["flags"] = sorted(set(cur.get("flags", [])) | set(rec.get("flags", [])))
+            if any(x.startswith("회사/") for x in rec.get("sources", [])):
+                cur["url"], cur["location"] = rec["url"], rec["location"]
+        else:
+            new[key] = rec
+    state["jobs"] = new
+
+
 def update_job_store(state, jobs, today, index=None):
     """대시보드용: 조건에 맞는 모든 공고를 first_seen / last_seen과 함께 보관."""
+    rekey_store(state, index or [])
     store = state.setdefault("jobs", {})
     for j in jobs:
         canon, group = classify_company(j.company, index or [])
@@ -513,7 +537,7 @@ def update_job_store(state, jobs, today, index=None):
             rec["flags"] = sorted(set(rec.get("flags", [])) | set(j.flags))
             rec["group"], rec["company_key"] = group, canon
             if j.source.startswith("회사/"):
-                rec["url"] = j.url  # 회사 공식 페이지 링크를 우선
+                rec["url"], rec["location"] = j.url, j.location  # 회사 공식 페이지 정보를 우선
         else:
             store[j.dedupe_key] = {
                 "id": j.dedupe_key, "title": j.title, "company": j.company,

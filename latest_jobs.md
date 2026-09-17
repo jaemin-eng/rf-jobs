@@ -1,22 +1,23 @@
-# 새 RF/Antenna/EMC 공고 — 2026-09-17 15:40
+# 새 RF/Antenna/EMC 공고 — 2026-09-17 21:52
 
-총 **4건**
+총 **5건**
 
 ## Boston (2)
 
 | 게시일 | 직무 | 회사 | 위치 | 출처 | 비고 |
 |---|---|---|---|---|---|
-| 2026-09-17 | [Direct Hire Opportunity-RF Engineer-Bedford](https://www.adzuna.com/land/ad/5887837602?se=zM8bQayy8RG2D9vMuepRVA&utm_medium=api&utm_source=d677d981&v=39A3A507A4CED8B9D114D2EB6E11BCD4C82FDFDA) | Adecco US, Inc. | Manchester, Hillsborough County, New Hampshire | Adzuna |  |
-| 2026-09-15 | [Radar Digital Product Line (RDPL) Software Product Owner](https://www.adzuna.com/land/ad/5884911878?se=oqJqWKyy8RGbT_HZnV2BXQ&utm_medium=api&utm_source=d677d981&v=00627A9C98B36A3A6EA912CE88AB2C122BABDF75) | RTX / Raytheon | Woburn, Middlesex County, Massachusetts | Adzuna | ⚠️ 클리어런스/시민권 |
+| 2026-09-17 | [Senior Principal Engineer - RF](https://www.adzuna.com/land/ad/5887854251?se=sj2GkN-y8RG-HvXocs6iYQ&utm_medium=api&utm_source=d677d981&v=F5B158B0D63EFC98047E3F87085D6E10468B4237) | BAE Systems | Nashua, Hillsborough County, New Hampshire | Adzuna |  |
+|  | [Technical Staff-Radar Systems Engineer](https://careers.ll.mit.edu/job/Lexington-Technical-Staff-Radar-Systems-Engineer-MA-02420/1431189100/) | MIT Lincoln Laboratory | Lexington, MA | 회사/successfactors |  |
 
 ## SF Bay Area (1)
 
 | 게시일 | 직무 | 회사 | 위치 | 출처 | 비고 |
 |---|---|---|---|---|---|
-| 2026-09-17 | [Senior RF PCB Layout Engineer](https://www.adzuna.com/details/5887813888?utm_medium=api&utm_source=d677d981) | Array Labs | Redwood City, San Mateo County, California | Adzuna |  |
+| 2026-09-17 | [Electrical Engineer - Radio Frequency/Microwave ](https://jobs.smartrecruiters.com/LLNL/3743990015346816) | Lawrence Livermore National Laboratory | Livermore, CA | 회사/smartrecruiters |  |
 
-## Washington DC (1)
+## Washington DC (2)
 
 | 게시일 | 직무 | 회사 | 위치 | 출처 | 비고 |
 |---|---|---|---|---|---|
-|  | [External Job Posting Title Radar Site Advisor](https://careers-peraton.icims.com/jobs/170833/radar-site-advisor/job) | Peraton | Herndon, VA | 회사/icims |  |
+| 2026-09-17 | [RF Analysis Engineer](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Laurel-MD/RF-Analysis-Engineer_R0249755) | Booz Allen Hamilton | Laurel, MD | 회사/workday |  |
+| 2026-09-17 | [Electronic Warfare Analyst](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Reston-VA/Electronic-Warfare-Analyst_R0249710) | Booz Allen Hamilton | Reston, VA / Colorado Springs, CO | 회사/workday |  |

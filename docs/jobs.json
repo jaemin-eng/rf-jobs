@@ -1,5 +1,5 @@
 {
-"updated": "2026-09-17T15:40:41+00:00",
+"updated": "2026-09-17T21:52:44+00:00",
 "jobs": [
 {
 "id": "rfengineer30280|hiimissionte|washingtondc",
@@ -175,9 +175,12 @@
 "url": "https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/Chantilly-Virginia/RF-Systems-Engineer_R2130096/apply",
 "posted": "2026-09-17",
 "sources": [
+"Adzuna",
 "회사/phenom"
 ],
-"flags": [],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
 "remote": false,
 "first_seen": "2026-09-17",
 "last_seen": "2026-09-17",
@@ -231,9 +234,12 @@
 "url": "https://draper.wd5.myworkdayjobs.com/en-US/Draper_Careers/job/Cambridge-MA/Senior-RF-Integration---Test-Engineer_JR002932",
 "posted": "2026-09-17",
 "sources": [
+"Adzuna",
 "회사/workday"
 ],
-"flags": [],
+"flags": [
+"⚠️ 클리어런스/시민권"
+],
 "remote": false,
 "first_seen": "2026-09-17",
 "last_seen": "2026-09-17",
@@ -275,6 +281,60 @@
 "last_seen": "2026-09-17",
 "group": "",
 "company_key": null
+},
+{
+"id": "rfanalysisengineer|boozallenham|washingtondc",
+"title": "RF Analysis Engineer",
+"company": "Booz Allen Hamilton",
+"location": "Laurel, MD",
+"metro": "Washington DC",
+"url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Laurel-MD/RF-Analysis-Engineer_R0249755",
+"posted": "2026-09-17",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Booz Allen Hamilton"
+},
+{
+"id": "electronicwarfareanalyst|boozallenham|washingtondc",
+"title": "Electronic Warfare Analyst",
+"company": "Booz Allen Hamilton",
+"location": "Reston, VA / Colorado Springs, CO",
+"metro": "Washington DC",
+"url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Reston-VA/Electronic-Warfare-Analyst_R0249710",
+"posted": "2026-09-17",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "방산",
+"company_key": "Booz Allen Hamilton"
+},
+{
+"id": "electricalengineerradiofrequencymicrowave|lawrencelive|sfbayarea",
+"title": "Electrical Engineer - Radio Frequency/Microwave ",
+"company": "Lawrence Livermore National Laboratory",
+"location": "Livermore, CA",
+"metro": "SF Bay Area",
+"url": "https://jobs.smartrecruiters.com/LLNL/3743990015346816",
+"posted": "2026-09-17",
+"sources": [
+"회사/smartrecruiters"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "Lawrence Livermore National Laboratory"
 },
 {
 "id": "rfoperationsengineer1careerfaironly|markimicrowa|sfbayarea",
@@ -6520,6 +6580,24 @@
 "last_seen": "2026-09-17",
 "group": "방산",
 "company_key": "Peraton"
+},
+{
+"id": "technicalstaffradarsystemsengineer|mitlincolnla|boston",
+"title": "Technical Staff-Radar Systems Engineer",
+"company": "MIT Lincoln Laboratory",
+"location": "Lexington, MA",
+"metro": "Boston",
+"url": "https://careers.ll.mit.edu/job/Lexington-Technical-Staff-Radar-Systems-Engineer-MA-02420/1431189100/",
+"posted": "",
+"sources": [
+"회사/successfactors"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-17",
+"group": "연구소",
+"company_key": "MIT Lincoln Laboratory"
 }
 ]
 }

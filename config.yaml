@@ -1,0 +1,120 @@
+# ============================================================
+#  RF / Antenna / EMC Job Watcher 설정 파일
+#  API 키는 여기에 쓰지 말고 GitHub Secrets(환경변수)에 넣으세요.
+# ============================================================
+
+# 검색어 (각 API에 이 문구로 검색합니다)
+search_queries:
+  - "RF engineer"
+  - "antenna engineer"
+  - "EMC engineer"
+  - "EMI engineer"
+  - "microwave engineer"
+  - "RF design engineer"
+
+# 공고 "제목"에 아래 패턴 중 하나라도 있어야 통과 (정규식, 대소문자 무시)
+title_include_patterns:
+  - '\bRF\b'
+  - '\bantenna'
+  - '\bEMC\b'
+  - '\bEMI\b'
+  - 'electromagnetic'
+  - '\bmicrowave'
+  - '\bmmwave\b|mm-wave|millimeter'
+  - 'radio frequency'
+  - '\bwireless\b.*\b(hardware|engineer|design)'
+  - 'signal integrity'
+  - 'regulatory compliance engineer'
+
+# 제목에 아래가 있으면 제외 (원치 않으면 지우세요)
+title_exclude_patterns:
+  - '\bsales\b'
+  - '\brecruiter\b'
+  - '\btechnician\b'
+  - '\bintern\b'
+
+# 본문에 이런 문구가 있으면 "⚠️ 시민권/클리어런스" 표시
+clearance_patterns:
+  - 'security clearance'
+  - 'secret clearance'
+  - '\bTS/SCI\b'
+  - 'U\.?S\.? citizenship (is )?required'
+  - 'must be a U\.?S\.? citizen'
+  - '\bITAR\b'
+# true면 위 표시가 붙은 공고를 아예 숨김 (시민권/클리어런스가 없다면 true 추천)
+hide_clearance_jobs: false
+
+# 최근 며칠 이내 공고만
+max_days_old: 3
+
+# 원격 근무 공고도 포함할지
+include_remote: false
+
+# 지역 정의: 검색어 + 해당 지역으로 인정할 도시 목록
+metros:
+  "SF Bay Area":
+    search_location: "San Francisco Bay Area, CA"
+    adzuna_where: "San Francisco"
+    radius_miles: 60
+    states: ["CA"]
+    cities: [San Francisco, South San Francisco, San Jose, Oakland, Berkeley, Emeryville,
+             Palo Alto, Mountain View, Sunnyvale, Santa Clara, Cupertino, Menlo Park,
+             Redwood City, San Mateo, Foster City, Burlingame, San Carlos, Belmont,
+             San Bruno, Fremont, Newark, Union City, Hayward, Milpitas, Pleasanton,
+             Livermore, Dublin, San Ramon, Walnut Creek, Concord, Alameda, Richmond,
+             Los Gatos, Campbell, Saratoga, Morgan Hill, Los Altos, Scotts Valley, Bay Area]
+  "Boston":
+    search_location: "Boston, MA"
+    adzuna_where: "Boston"
+    radius_miles: 45
+    states: ["MA", "NH"]
+    cities: [Boston, Cambridge, Somerville, Watertown, Waltham, Newton, Needham, Wellesley,
+             Natick, Framingham, Marlborough, Hudson, Hopkinton, Burlington, Bedford,
+             Lexington, Woburn, Wilmington, Tewksbury, Andover, North Andover, Billerica,
+             Chelmsford, Lowell, Westford, Littleton, Acton, Maynard, Concord, Medford,
+             Malden, Quincy, Braintree, Canton, Norwood, Westwood, Beverly, Danvers,
+             Peabody, Salem, Lynnfield, Marlboro, Boxborough, Nashua, Salem NH, Hampton]
+  "Washington DC":
+    search_location: "Washington, DC"
+    adzuna_where: "Washington, DC"
+    radius_miles: 45
+    states: ["DC", "VA", "MD"]
+    cities: [Washington, Arlington, Alexandria, Crystal City, Falls Church, McLean, Tysons,
+             Vienna, Fairfax, Reston, Herndon, Chantilly, Dulles, Sterling, Ashburn,
+             Leesburg, Manassas, Springfield, Lorton, Woodbridge, Bethesda, Rockville,
+             Gaithersburg, Germantown, Silver Spring, College Park, Greenbelt, Lanham,
+             Laurel, Columbia, Annapolis Junction, Fort Meade, Hanover, Linthicum,
+             Elkridge, Frederick, Beltsville, Adelphi, Suitland, Largo, Bowie]
+
+# ------------------------------------------------------------
+# 데이터 소스
+# ------------------------------------------------------------
+sources:
+  # JSearch: LinkedIn / Indeed / Glassdoor / ZipRecruiter 등 (Google for Jobs 기반)
+  # 무료 요금제 월 호출 수가 적으므로(약 200회) 며칠에 한 번만 실행
+  jsearch:
+    enabled: true
+    run_every_days: 2
+    # 호출 수 절약: 검색어를 OR로 묶어 지역당 1~2회만 호출
+    combined_queries:
+      - "RF engineer OR antenna engineer OR microwave engineer"
+      - "EMC engineer OR EMI engineer OR RF design engineer"
+
+  # Adzuna: 무료 API, 여러 채용 사이트를 모아줌
+  adzuna:
+    enabled: true
+
+  # USAJOBS: 연방정부 공고 (대부분 미국 시민권 필요) — DC 지역에서 유용
+  usajobs:
+    enabled: true
+    metros: ["Washington DC", "Boston", "SF Bay Area"]
+
+  # 회사 채용 페이지 직접 조회 (Greenhouse / Lever 공개 API, 키 불필요)
+  # 회사의 채용 URL이 boards.greenhouse.io/<slug> 또는 jobs.lever.co/<slug> 형태면
+  # 그 <slug>를 추가하세요. 없는 slug는 자동으로 건너뜁니다.
+  greenhouse:
+    enabled: true
+    companies: [andurilindustries, spacex, astranis, samsara, verkada, apexspace]
+  lever:
+    enabled: true
+    companies: [shieldai, epirus, palantir]

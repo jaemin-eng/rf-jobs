@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RF · Antenna · EMC 공고</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📡</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&family=IBM+Plex+Sans+Condensed:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#EDF0EE; --panel:#F8FAF9; --ink:#14263B; --ink-2:#4A5B6C; --line:#CDD5D3;
+  --trace:#0F7A83; --trace-soft:#D3E8E9; --marker:#C98A00; --marker-soft:#FBEFCF;
+  --applied:#3A7D44; --warn:#A5541B;
+  --sans:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+  --cond:"IBM Plex Sans Condensed","IBM Plex Sans KR",system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){
+  --paper:#0E1822; --panel:#15222F; --ink:#E4ECEF; --ink-2:#98A9B6; --line:#2A3A48;
+  --trace:#4FC3CB; --trace-soft:#17363B; --marker:#F0B63A; --marker-soft:#3A2F14;
+  --applied:#7CC287; --warn:#E39462;
+}}
+:root[data-theme="dark"]{
+  --paper:#0E1822; --panel:#15222F; --ink:#E4ECEF; --ink-2:#98A9B6; --line:#2A3A48;
+  --trace:#4FC3CB; --trace-soft:#17363B; --marker:#F0B63A; --marker-soft:#3A2F14;
+  --applied:#7CC287; --warn:#E39462;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.5}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--trace);outline-offset:2px}
+.wrap{max-width:1080px;margin:0 auto;padding:28px 20px 60px}
+
+header{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap}
+h1{font-family:var(--cond);font-weight:700;font-size:30px;letter-spacing:-.01em;margin:0}
+.updated{color:var(--ink-2);font-size:13px}
+.theme{background:none;border:1px solid var(--line);color:var(--ink-2);border-radius:6px;padding:3px 9px;cursor:pointer;font:inherit;font-size:13px;margin-left:8px}
+
+/* 지역 채널: 14일간 새 공고 추이 */
+.channels{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin:22px 0 18px;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--panel)}
+.ch{appearance:none;border:0;background:none;color:inherit;font:inherit;text-align:left;padding:14px 16px 10px;cursor:pointer;border-right:1px solid var(--line);position:relative}
+.ch:last-child{border-right:0}
+.ch[aria-pressed="false"]{opacity:.42}
+.ch-name{font-family:var(--cond);font-weight:700;font-size:16px}
+.ch-count{font-family:var(--cond);font-size:34px;font-weight:700;line-height:1.1;font-variant-numeric:tabular-nums;color:var(--trace)}
+.ch-sub{font-size:12px;color:var(--ink-2)}
+.ch svg{display:block;width:100%;height:34px;margin-top:6px}
+.ch svg .bar{fill:var(--trace)}
+.ch svg .bar.today{fill:var(--marker)}
+.ch svg .base{stroke:var(--line)}
+
+.toolbar{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center;margin-bottom:10px}
+.search{flex:1 1 240px;min-width:0;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--ink);font:inherit}
+select{padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--ink);font:inherit}
+.check{display:flex;gap:6px;align-items:center;font-size:14px;color:var(--ink-2);cursor:pointer}
+.tabs,.chips{display:flex;flex-wrap:wrap;gap:6px}
+.tab,.chip{appearance:none;border:1px solid var(--line);background:var(--panel);color:var(--ink-2);font:inherit;font-size:13px;padding:5px 11px;border-radius:999px;cursor:pointer}
+.tab[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.chip[aria-pressed="true"]{background:var(--trace-soft);color:var(--ink);border-color:var(--trace)}
+.tab .n{font-variant-numeric:tabular-nums;opacity:.7;margin-left:3px}
+.row2{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;margin-bottom:16px}
+
+/* 공고 목록 */
+.list{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.job{display:grid;grid-template-columns:78px 1fr auto;gap:4px 16px;padding:13px 4px;border-bottom:1px solid var(--line);align-items:start}
+.date{font-variant-numeric:tabular-nums;font-size:13px;color:var(--ink-2);padding-top:2px}
+.date .new{display:inline-block;margin-top:3px;background:var(--marker-soft);color:var(--marker);font-weight:700;font-size:11px;padding:1px 6px;border-radius:4px}
+.title{font-weight:700;font-size:16px;text-decoration:none}
+.title:hover{text-decoration:underline;text-decoration-color:var(--trace)}
+.meta{font-size:13.5px;color:var(--ink-2);margin-top:1px}
+.meta b{color:var(--ink);font-weight:500}
+.tags{display:flex;flex-wrap:wrap;gap:5px;margin-top:6px}
+.tag{font-size:11.5px;padding:1px 7px;border-radius:4px;border:1px solid var(--line);color:var(--ink-2)}
+.tag.metro{border-color:var(--trace);color:var(--trace)}
+.tag.warn{border-color:var(--warn);color:var(--warn)}
+.tag.gone{border-style:dashed}
+.acts{display:flex;gap:4px}
+.act{appearance:none;border:1px solid var(--line);background:var(--panel);color:var(--ink-2);font:inherit;font-size:12.5px;padding:4px 9px;border-radius:6px;cursor:pointer;white-space:nowrap}
+.act[aria-pressed="true"][data-s="saved"]{background:var(--marker-soft);border-color:var(--marker);color:var(--ink)}
+.act[aria-pressed="true"][data-s="applied"]{background:var(--applied);border-color:var(--applied);color:#fff}
+.act[aria-pressed="true"][data-s="hidden"]{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.job.is-gone .title{color:var(--ink-2)}
+.job.flash{animation:flash .6s ease-out}
+@keyframes flash{from{background:var(--trace-soft)}to{background:transparent}}
+
+.empty{padding:40px 8px;color:var(--ink-2);text-align:left}
+.empty strong{color:var(--ink);display:block;font-size:16px;margin-bottom:4px}
+footer{margin-top:26px;font-size:12.5px;color:var(--ink-2)}
+footer button{font:inherit;background:none;border:0;color:var(--trace);cursor:pointer;padding:0;text-decoration:underline}
+
+@media (max-width:720px){
+  .channels{grid-template-columns:1fr}
+  .ch{border-right:0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:1fr auto;align-items:center}
+  .ch:last-child{border-bottom:0}
+  .ch svg{grid-column:1/-1}
+  .ch-count{font-size:26px}
+  .job{grid-template-columns:1fr}
+  .date{display:flex;gap:8px;align-items:center}
+  .date .new{margin-top:0}
+  .acts{margin-top:6px}
+}
+@media (prefers-reduced-motion:reduce){.job.flash{animation:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>RF · Antenna · EMC 공고</h1>
+    <div class="updated"><span id="updated">불러오는 중…</span><button class="theme" id="theme" type="button">테마</button></div>
+  </header>
+
+  <div class="channels" id="channels" role="group" aria-label="지역 선택"></div>
+
+  <div class="toolbar">
+    <input class="search" id="q" type="search" placeholder="직무, 회사, 도시 검색" aria-label="검색">
+    <select id="sort" aria-label="정렬">
+      <option value="found">찾은 날짜순</option>
+      <option value="posted">게시일순</option>
+      <option value="company">회사 이름순</option>
+    </select>
+    <label class="check"><input type="checkbox" id="noClr"> 클리어런스·시민권 요구 공고 숨기기</label>
+  </div>
+  <div class="row2">
+    <div class="tabs" id="tabs" role="group" aria-label="보기"></div>
+    <div class="chips" id="chips" role="group" aria-label="분야"></div>
+  </div>
+
+  <ul class="list" id="list"></ul>
+
+  <footer>
+    관심·지원함·숨김 표시는 이 브라우저에만 저장됩니다.
+    <button id="exportBtn" type="button">표시 내보내기</button> ·
+    <button id="importBtn" type="button">가져오기</button>
+    <input type="file" id="importFile" accept="application/json" hidden>
+  </footer>
+</div>
+
+<script>
+const METROS = ["SF Bay Area","Boston","Washington DC"];
+const CATS = [
+  ["RF",       /\bRF\b|radio frequency|wireless/i],
+  ["안테나",    /antenna/i],
+  ["EMC/EMI",  /\bEM[CI]\b|electromagnetic|compliance|signal integrity/i],
+  ["마이크로파", /microwave|mm-?wave|millimeter/i],
+];
+const VIEWS = [["all","전체"],["new","새 공고"],["saved","관심"],["applied","지원함"],["hidden","숨김"]];
+const KEY = "rfjw-status-v1", PREF = "rfjw-prefs-v1";
+
+const store = {
+  get(k, d){ try{ return JSON.parse(localStorage.getItem(k)) ?? d }catch{ return d } },
+  set(k, v){ try{ localStorage.setItem(k, JSON.stringify(v)) }catch{} }
+};
+let status = store.get(KEY, {});
+const saved = store.get(PREF, {});
+const ui = {
+  metros: new Set(saved.metros || METROS),
+  cats: new Set(saved.cats || []),
+  view: saved.view || "all",
+  q: "", sort: saved.sort || "found", noClr: !!saved.noClr,
+};
+let jobs = [], updated = null;
+
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const day = d => d ? new Date(d + "T00:00:00") : null;
+const daysAgo = n => { const t = new Date(); t.setHours(0,0,0,0); t.setDate(t.getDate()-n); return t; };
+const fmt = d => d ? `${d.slice(5,7)}.${d.slice(8,10)}` : "—";
+const catsOf = j => CATS.filter(([,re]) => re.test(j.title)).map(([n]) => n);
+const isNew = j => day(j.first_seen) >= daysAgo(1);
+const isGone = j => updated && day(j.last_seen) < daysAgo(4);
+const hasClr = j => (j.flags||[]).some(f => /클리어런스|연방/.test(f));
+
+function savePrefs(){
+  store.set(PREF, {metros:[...ui.metros], cats:[...ui.cats], view:ui.view, sort:ui.sort, noClr:ui.noClr});
+}
+
+function sparkline(metro){
+  const N = 14, counts = Array(N).fill(0);
+  for (const j of jobs) if (j.metro === metro) {
+    const d = day(j.first_seen); if (!d) continue;
+    const i = Math.round((daysAgo(0) - d) / 864e5);
+    if (i >= 0 && i < N) counts[N-1-i]++;
+  }
+  const max = Math.max(1, ...counts), w = 100/N;
+  const bars = counts.map((c,i) => {
+    const h = c ? Math.max(3, c/max*30) : 0;
+    return `<rect class="bar${i===N-1?' today':''}" x="${i*w+w*.18}" y="${32-h}" width="${w*.64}" height="${h}" rx=".6"><title>${c}건</title></rect>`;
+  }).join("");
+  return `<svg viewBox="0 0 100 34" preserveAspectRatio="none" aria-hidden="true"><line class="base" x1="0" x2="100" y1="32.5" y2="32.5" stroke-width=".6"/>${bars}</svg>`;
+}
+
+function renderChannels(){
+  $("#channels").innerHTML = METROS.map(m => {
+    const live = jobs.filter(j => j.metro === m && status[j.id] !== "hidden" && !isGone(j));
+    const fresh = live.filter(isNew).length;
+    return `<button class="ch" type="button" data-m="${esc(m)}" aria-pressed="${ui.metros.has(m)}">
+      <div><div class="ch-name">${esc(m)}</div>
+      <div class="ch-sub">${fresh ? `오늘·어제 새 공고 ${fresh}건` : "최근 새 공고 없음"}</div></div>
+      <div class="ch-count">${live.length}</div>
+      ${sparkline(m)}
+    </button>`;
+  }).join("");
+}
+
+function baseFiltered(){
+  const q = ui.q.trim().toLowerCase();
+  return jobs.filter(j => {
+    if (!ui.metros.has(j.metro) && j.metro !== "Remote") return false;
+    if (ui.noClr && hasClr(j)) return false;
+    if (ui.cats.size && !catsOf(j).some(c => ui.cats.has(c))) return false;
+    if (q && !`${j.title} ${j.company} ${j.location}`.toLowerCase().includes(q)) return false;
+    return true;
+  });
+}
+function inView(j, v){
+  const s = status[j.id];
+  if (v === "hidden") return s === "hidden";
+  if (s === "hidden") return false;
+  if (v === "saved") return s === "saved";
+  if (v === "applied") return s === "applied";
+  if (v === "new") return isNew(j) && !s;
+  return true;
+}
+
+function renderTabs(base){
+  $("#tabs").innerHTML = VIEWS.map(([v,label]) =>
+    `<button class="tab" type="button" data-v="${v}" aria-pressed="${ui.view===v}">${label}<span class="n">${base.filter(j=>inView(j,v)).length}</span></button>`
+  ).join("");
+  $("#chips").innerHTML = CATS.map(([n]) =>
+    `<button class="chip" type="button" data-c="${esc(n)}" aria-pressed="${ui.cats.has(n)}">${esc(n)}</button>`
+  ).join("");
+}
+
+function renderList(base){
+  let rows = base.filter(j => inView(j, ui.view));
+  const by = {
+    found:   (a,b) => (b.first_seen||"").localeCompare(a.first_seen||"") || (b.posted||"").localeCompare(a.posted||""),
+    posted:  (a,b) => (b.posted||"").localeCompare(a.posted||""),
+    company: (a,b) => a.company.localeCompare(b.company) || a.title.localeCompare(b.title),
+  }[ui.sort];
+  rows.sort(by);
+  // 전체 보기에서는 목록에서 사라진 공고를 뒤로
+  if (ui.view === "all") rows.sort((a,b) => isGone(a) - isGone(b));
+
+  if (!jobs.length) {
+    $("#list").innerHTML = `<li class="empty"><strong>아직 수집된 공고가 없습니다</strong>GitHub Actions에서 RF Job Watcher를 한 번 실행하면 여기에 공고가 채워집니다.</li>`;
+    return;
+  }
+  if (!rows.length) {
+    const msg = {saved:"관심 표시한 공고가 없습니다. 목록에서 ☆ 관심을 눌러 모아두세요.",
+                 applied:"지원함으로 표시한 공고가 없습니다.",
+                 hidden:"숨긴 공고가 없습니다.",
+                 new:"오늘·어제 새로 찾은 공고가 없습니다. 전체 탭에서 이전 공고를 볼 수 있습니다."}[ui.view]
+      || "조건에 맞는 공고가 없습니다. 검색어나 분야 필터를 줄여보세요.";
+    $("#list").innerHTML = `<li class="empty"><strong>표시할 공고가 없습니다</strong>${msg}</li>`;
+    return;
+  }
+  $("#list").innerHTML = rows.map(j => {
+    const s = status[j.id] || "";
+    const tags = [
+      `<span class="tag metro">${esc(j.metro)}</span>`,
+      ...catsOf(j).map(c => `<span class="tag">${esc(c)}</span>`),
+      ...(j.flags||[]).map(f => `<span class="tag warn">${esc(f)}</span>`),
+      isGone(j) ? `<span class="tag gone" title="최근 수집에서 보이지 않음 — 마감되었을 수 있습니다">목록에서 사라짐</span>` : "",
+    ].join("");
+    const src = [...new Set((j.sources||[]).map(x => x.replace(/^JSearch\//,"")))].join(", ");
+    const btn = (k, on, off) => `<button class="act" type="button" data-id="${esc(j.id)}" data-s="${k}" aria-pressed="${s===k}">${s===k?on:off}</button>`;
+    return `<li class="job${isGone(j)?' is-gone':''}" data-row="${esc(j.id)}">
+      <div class="date">${fmt(j.posted || j.first_seen)}${isNew(j)?'<br class="nb"><span class="new">NEW</span>':''}</div>
+      <div>
+        <a class="title" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>
+        <div class="meta"><b>${esc(j.company)}</b>, ${esc(j.location)}${src?` <span>(${esc(src)})</span>`:""}</div>
+        <div class="tags">${tags}</div>
+      </div>
+      <div class="acts">${btn("saved","★ 관심","☆ 관심")}${btn("applied","✓ 지원함","지원함")}${btn("hidden","숨김 취소","숨김")}</div>
+    </li>`;
+  }).join("");
+}
+
+function render(){
+  const base = baseFiltered();
+  renderChannels(); renderTabs(base); renderList(base);
+}
+
+// 이벤트
+$("#channels").addEventListener("click", e => {
+  const b = e.target.closest(".ch"); if (!b) return;
+  const m = b.dataset.m;
+  if (ui.metros.has(m) && ui.metros.size === 1) ui.metros = new Set(METROS);
+  else if (ui.metros.size === METROS.length) ui.metros = new Set([m]);
+  else ui.metros.has(m) ? ui.metros.delete(m) : ui.metros.add(m);
+  savePrefs(); render();
+});
+$("#tabs").addEventListener("click", e => { const b=e.target.closest(".tab"); if(!b) return; ui.view=b.dataset.v; savePrefs(); render(); });
+$("#chips").addEventListener("click", e => { const b=e.target.closest(".chip"); if(!b) return; const c=b.dataset.c; ui.cats.has(c)?ui.cats.delete(c):ui.cats.add(c); savePrefs(); render(); });
+$("#q").addEventListener("input", e => { ui.q = e.target.value; render(); });
+$("#sort").addEventListener("change", e => { ui.sort = e.target.value; savePrefs(); render(); });
+$("#noClr").addEventListener("change", e => { ui.noClr = e.target.checked; savePrefs(); render(); });
+$("#list").addEventListener("click", e => {
+  const b = e.target.closest(".act"); if (!b) return;
+  const {id, s} = b.dataset;
+  if (status[id] === s) delete status[id]; else status[id] = s;
+  store.set(KEY, status);
+  render();
+  const row = document.querySelector(`[data-row="${CSS.escape(id)}"]`);
+  if (row) { row.classList.add("flash"); setTimeout(()=>row.classList.remove("flash"), 700); }
+});
+$("#exportBtn").addEventListener("click", () => {
+  const blob = new Blob([JSON.stringify(status, null, 1)], {type:"application/json"});
+  const a = Object.assign(document.createElement("a"), {href:URL.createObjectURL(blob), download:"job-status.json"});
+  a.click(); URL.revokeObjectURL(a.href);
+});
+$("#importBtn").addEventListener("click", () => $("#importFile").click());
+$("#importFile").addEventListener("change", async e => {
+  const f = e.target.files[0]; if (!f) return;
+  try { status = {...status, ...JSON.parse(await f.text())}; store.set(KEY, status); render(); }
+  catch { alert("파일을 읽지 못했습니다. 이 페이지에서 내보낸 job-status.json 파일을 선택하세요."); }
+});
+$("#theme").addEventListener("click", () => {
+  const root = document.documentElement;
+  const dark = root.dataset.theme ? root.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+  root.dataset.theme = dark ? "light" : "dark";
+  store.set("rfjw-theme", root.dataset.theme);
+});
+{ const t = store.get("rfjw-theme", null); if (t) document.documentElement.dataset.theme = t; }
+$("#sort").value = ui.sort;
+$("#noClr").checked = ui.noClr;
+
+// 데이터 불러오기
+fetch("jobs.json?t=" + Date.now())
+  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(d => {
+    jobs = d.jobs || [];
+    updated = d.updated ? new Date(d.updated) : null;
+    $("#updated").textContent = updated
+      ? `마지막 수집 ${updated.toLocaleString("ko-KR",{month:"long",day:"numeric",hour:"numeric",minute:"2-digit"})}`
+      : "수집 기록 없음";
+    render();
+  })
+  .catch(() => {
+    $("#updated").textContent = "데이터를 불러오지 못함";
+    $("#list").innerHTML = `<li class="empty"><strong>jobs.json을 불러오지 못했습니다</strong>GitHub Actions가 한 번 이상 실행되었는지 확인하세요. 파일을 직접 열었다면(file://) 브라우저가 막기 때문에, 폴더에서 <code>python -m http.server</code>를 실행한 뒤 localhost로 여세요.</li>`;
+  });
+</script>
+</body>
+</html>

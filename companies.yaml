@@ -1,0 +1,330 @@
+# ============================================================
+#  직접 연결할 회사 목록
+#
+#  group   : 대시보드 필터 이름 (방산 / 연구소 / RF·통신)
+#  aliases : 다른 사이트(Adzuna, JSearch)에서 회사 이름이 이렇게 나오면 같은 회사로 봄
+#  sources : 확인된 채용 시스템 주소 (있으면 이것을 먼저 사용)
+#  careers : 회사 채용 페이지 주소. sources가 없거나 실패하면 이 페이지를 열어서
+#            어떤 채용 시스템(Workday, Greenhouse 등)을 쓰는지 자동으로 찾음
+#  adzuna  : false로 두면 Adzuna 회사명 검색을 생략
+#
+#  sources 형식 예:
+#    - workday: https://회사.wd5.myworkdayjobs.com/사이트이름
+#    - greenhouse: 슬러그        - lever: 슬러그        - ashby: 슬러그
+#    - smartrecruiters: 회사ID   - icims: https://careers-xxx.icims.com
+#    - phenom: https://careers.xxx.com/global/en
+#    - radancy: https://www.xxxjobs.com
+#    - successfactors: https://careers.xxx.com
+#    - eightfold: {host: careers.xxx.com, domain: xxx.com}
+#    - apple: true
+# ============================================================
+
+companies:
+  # ---------------- 대형 방산 ----------------
+  - name: Lockheed Martin
+    group: 방산
+    aliases: [Lockheed]
+    sources:
+      - radancy: https://www.lockheedmartinjobs.com
+    careers: [https://www.lockheedmartinjobs.com/search-jobs]
+
+  - name: RTX (Raytheon)
+    group: 방산
+    aliases: [RTX, Raytheon, Collins Aerospace, Pratt & Whitney, BBN]
+    sources:
+      - workday: https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway
+    careers: [https://careers.rtx.com/global/en]
+
+  - name: Northrop Grumman
+    group: 방산
+    aliases: [Northrop]
+    sources:
+      - workday: https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site
+    careers: [https://jobs.northropgrumman.com/careers]
+
+  - name: General Dynamics Mission Systems
+    group: 방산
+    aliases: [General Dynamics Mission, GDMS, General Dynamics]
+    careers: [https://www.gd.com/careers/job-search, https://gdmissionsystems.com/careers]
+
+  - name: GDIT (General Dynamics IT)
+    group: 방산
+    aliases: [General Dynamics Information Technology, GDIT]
+    careers: [https://www.gdit.com/careers/search/]
+
+  - name: BAE Systems
+    group: 방산
+    aliases: [BAE]
+    careers: [https://jobs.baesystems.com/global/en, https://www.baesystems.com/en-us/careers]
+
+  - name: L3Harris
+    group: 방산
+    aliases: [L3Harris, L3 Harris, Harris Corporation, Aerojet]
+    careers: [https://careers.l3harris.com/en, https://careers.l3harris.com]
+
+  - name: Boeing (Defense, Aurora Flight Sciences)
+    group: 방산
+    aliases: [Boeing, Aurora Flight Sciences, Wisk]
+    sources:
+      - workday: https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS
+
+  - name: HII (Mission Technologies)
+    group: 방산
+    aliases: [HII, Huntington Ingalls]
+    careers: [https://careers.hii.com, https://jobs.hii-tsd.com]
+
+  - name: Textron Systems
+    group: 방산
+    aliases: [Textron]
+    careers: [https://www.textron.com/careers, https://textron.wd5.myworkdayjobs.com/Careers]
+
+  - name: Leonardo DRS
+    group: 방산
+    aliases: [Leonardo DRS, DRS Technologies]
+    careers: [https://www.leonardodrs.com/careers/]
+
+  - name: Sierra Nevada Corporation
+    group: 방산
+    aliases: [Sierra Nevada, SNC]
+    careers: [https://www.sncorp.com/careers/]
+
+  - name: Mercury Systems
+    group: 방산
+    aliases: [Mercury Systems]
+    careers: [https://www.mrcy.com/company/careers]
+
+  # ---------------- 방산 IT·시스템 ----------------
+  - name: Leidos
+    group: 방산
+    sources:
+      - workday: https://leidos.wd5.myworkdayjobs.com/External
+    careers: [https://careers.leidos.com]
+
+  - name: SAIC
+    group: 방산
+    aliases: [Science Applications International]
+    careers: [https://jobs.saic.com, https://www.saic.com/careers]
+
+  - name: CACI
+    group: 방산
+    sources:
+      - phenom: https://careers.caci.com/global/en
+    careers: [https://careers.caci.com/global/en]
+
+  - name: Booz Allen Hamilton
+    group: 방산
+    aliases: [Booz Allen]
+    sources:
+      - workday: https://bah.wd1.myworkdayjobs.com/BAH_Jobs
+
+  - name: Parsons
+    group: 방산
+    aliases: [Parsons Corporation]
+    careers: [https://jobs.parsons.com, https://www.parsons.com/careers/]
+
+  - name: Peraton
+    group: 방산
+    careers: [https://careers.peraton.com]
+
+  - name: ManTech
+    group: 방산
+    careers: [https://www.mantech.com/careers, https://mantech.wd1.myworkdayjobs.com/External]
+
+  - name: Amentum
+    group: 방산
+    careers: [https://www.amentum.com/careers/]
+
+  - name: V2X
+    group: 방산
+    aliases: [Vectrus, Vertex Aerospace]
+    careers: [https://gov2x.com/careers/]
+
+  - name: KBR
+    group: 방산
+    aliases: [KBR Government Solutions]
+    careers: [https://careers.kbr.com/us/en, https://www.kbr.com/en/careers]
+
+  - name: Jacobs
+    group: 방산
+    aliases: [Jacobs Engineering]
+    careers: [https://careers.jacobs.com/en_US/careers]
+
+  - name: Maxar / Vantor
+    group: 방산
+    aliases: [Maxar, Vantor]
+    careers: [https://www.maxar.com/careers, https://vantor.com/careers]
+
+  - name: BlackSky
+    group: 방산
+    careers: [https://www.blacksky.com/careers/]
+    sources: [{greenhouse: blacksky}, {lever: blacksky}]
+
+  - name: HawkEye 360
+    group: 방산
+    aliases: [HawkEye360]
+    careers: [https://www.he360.com/careers/]
+    sources: [{greenhouse: hawkeye360}, {lever: hawkeye360}, {ashby: hawkeye360}]
+
+  - name: Viasat
+    group: 방산
+    careers: [https://careers.viasat.com, https://www.viasat.com/careers/]
+
+  - name: Hughes Network Systems
+    group: 방산
+    aliases: [Hughes, EchoStar]
+    careers: [https://www.hughes.com/who-we-are/careers]
+
+  - name: SES Space & Defense
+    group: 방산
+    aliases: [SES Government Solutions, SES Space]
+    careers: [https://www.ses.com/careers]
+
+  # ---------------- 신흥 방산 ----------------
+  - name: Anduril
+    group: 방산
+    aliases: [Anduril Industries]
+    sources: [{greenhouse: andurilindustries}]
+
+  - name: Shield AI
+    group: 방산
+    sources: [{lever: shieldai}]
+
+  - name: Epirus
+    group: 방산
+    sources: [{greenhouse: epirus}, {ashby: epirus}, {lever: epirus}]
+    careers: [https://www.epirusinc.com/careers]
+
+  - name: Saronic
+    group: 방산
+    sources: [{ashby: saronic}, {greenhouse: saronic}, {lever: saronic}]
+    careers: [https://www.saronic.com/careers]
+
+  - name: BlueHalo / AeroVironment
+    group: 방산
+    aliases: [BlueHalo, AeroVironment, AV Inc]
+    careers: [https://www.avinc.com/careers, https://www.bluehalo.com/careers/]
+
+  - name: Palantir
+    group: 방산
+    sources: [{lever: palantir}]
+
+  - name: Skydio
+    group: 방산
+    sources: [{ashby: skydio}, {greenhouse: skydio}, {lever: skydio}]
+    careers: [https://www.skydio.com/careers]
+
+  - name: Saildrone
+    group: 방산
+    sources: [{greenhouse: saildrone}, {ashby: saildrone}, {lever: saildrone}]
+    careers: [https://www.saildrone.com/careers]
+
+  - name: Applied Intuition
+    group: 방산
+    sources: [{greenhouse: appliedintuition}, {ashby: appliedintuition}, {lever: appliedintuition}]
+    careers: [https://www.appliedintuition.com/careers]
+
+  - name: Aalyria
+    group: 방산
+    sources: [{greenhouse: aalyria}, {ashby: aalyria}, {lever: aalyria}]
+    careers: [https://www.aalyria.com/careers]
+
+  - name: Vannevar Labs
+    group: 방산
+    sources: [{greenhouse: vannevarlabs}, {ashby: vannevarlabs}, {lever: vannevarlabs}]
+    careers: [https://www.vannevarlabs.com/careers]
+
+  - name: STR (Systems & Technology Research)
+    group: 방산
+    aliases: [Systems & Technology Research, STR]
+    careers: [https://www.str.us/careers, https://str.us/careers]
+    sources: [{greenhouse: str}, {lever: str}]
+
+  # ---------------- 연구소 / FFRDC ----------------
+  - name: MIT Lincoln Laboratory
+    group: 연구소
+    aliases: [Lincoln Laboratory, MIT Lincoln]
+    sources:
+      - successfactors: https://careers.ll.mit.edu
+
+  - name: Lawrence Livermore National Laboratory
+    group: 연구소
+    aliases: [LLNL, Lawrence Livermore]
+    sources:
+      - smartrecruiters: LLNL
+
+  - name: Sandia National Laboratories
+    group: 연구소
+    aliases: [Sandia]
+    careers: [https://www.sandia.gov/careers/career-possibilities/, https://careers.sandia.gov]
+
+  - name: Draper
+    group: 연구소
+    aliases: [Draper Laboratory, Charles Stark Draper]
+    careers: [https://www.draper.com/careers, https://careers.draper.com]
+
+  - name: MITRE
+    group: 연구소
+    careers: [https://careers.mitre.org, https://mitre.wd5.myworkdayjobs.com/MITRE]
+
+  - name: Johns Hopkins APL
+    group: 연구소
+    aliases: [Johns Hopkins University Applied Physics, JHU APL, Applied Physics Laboratory]
+    careers: [https://www.jhuapl.edu/careers, https://jobs.jhuapl.edu]
+
+  - name: The Aerospace Corporation
+    group: 연구소
+    aliases: [Aerospace Corporation]
+    careers: [https://aerospace.org/careers, https://careers.aerospace.org]
+
+  - name: SRI International
+    group: 연구소
+    aliases: [SRI]
+    careers: [https://www.sri.com/careers/, https://careers.sri.com]
+
+  - name: IDA (Institute for Defense Analyses)
+    group: 연구소
+    aliases: [Institute for Defense Analyses]
+    careers: [https://www.ida.org/careers]
+
+  - name: Riverside Research
+    group: 연구소
+    careers: [https://www.riversideresearch.org/careers]
+
+  - name: Physical Sciences Inc.
+    group: 연구소
+    aliases: [Physical Sciences Inc, PSI]
+    careers: [https://www.psicorp.com/careers/]
+
+  - name: Charles River Analytics
+    group: 연구소
+    careers: [https://cra.com/careers/]
+    sources: [{greenhouse: charlesriveranalytics}, {lever: cra}]
+
+  # ---------------- RF 반도체·통신 (직접 연결) ----------------
+  - name: Apple
+    group: RF·통신
+    sources:
+      - apple: true
+
+  - name: Qualcomm
+    group: RF·통신
+    sources:
+      - eightfold: {host: careers.qualcomm.com, domain: qualcomm.com}
+    careers: [https://careers.qualcomm.com/careers]
+
+  - name: SpaceX
+    group: RF·통신
+    aliases: [Starlink]
+    sources: [{greenhouse: spacex}]
+
+  - name: Astranis
+    group: RF·통신
+    sources: [{greenhouse: astranis}, {ashby: astranis}, {lever: astranis}]
+
+# ---- 아래 회사들은 직접 연결 없이, Adzuna/JSearch에서 잡힌 공고에 그룹 표시만 붙임 ----
+tag_only:
+  RF·통신: [Google, Meta, Broadcom, Skyworks, Qorvo, MACOM, Analog Devices, Keysight,
+           "Rohde & Schwarz", Ericsson, Nokia, Samsung, Planet Labs,
+           Iridium, Intelsat, Amazon, Kuiper, Marvell, NXP, Infineon, Texas Instruments, Microchip,
+           Nvidia, Intel, AMD, Cisco, Verizon, "AT&T", T-Mobile, Pivotal Commware, Zoox, Tesla]
+  연구소: [NIST, Naval Research Laboratory, NASA, Air Force Research Laboratory, MIT]

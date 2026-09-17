@@ -14,7 +14,13 @@ search_queries:
 
 # 공고 "제목"에 아래 패턴 중 하나라도 있어야 통과 (정규식, 대소문자 무시)
 title_include_patterns:
-  - '\bRF\b'
+  - '\bRF(IC|FE)?\b|\bRF/'
+  - '\bMMIC\b'
+  - '\bradar\b'
+  - 'phased[- ]array'
+  - 'electronic warfare|\bEW\b'
+  - '\bSATCOM\b'
+  - 'transceiver'
   - '\bantenna'
   - '\bEMC\b'
   - '\bEMI\b'
@@ -124,20 +130,14 @@ sources:
       - "EMI compliance engineer"
 
   # Adzuna: 무료 API, 여러 채용 사이트를 모아줌
+  # company_sweep: companies.yaml의 회사를 이름으로도 한 번씩 검색 (직접 연결 실패 대비)
   adzuna:
     enabled: true
+    company_sweep: true
 
   # USAJOBS: 연방정부 공고 (대부분 미국 시민권 필요) — DC 지역에서 유용
   usajobs:
     enabled: true
     metros: ["Washington DC", "Boston", "SF Bay Area"]
 
-  # 회사 채용 페이지 직접 조회 (Greenhouse / Lever 공개 API, 키 불필요)
-  # 회사의 채용 URL이 boards.greenhouse.io/<slug> 또는 jobs.lever.co/<slug> 형태면
-  # 그 <slug>를 추가하세요. 없는 slug는 자동으로 건너뜁니다.
-  greenhouse:
-    enabled: true
-    companies: [andurilindustries, spacex, astranis, samsara, verkada]
-  lever:
-    enabled: true
-    companies: [shieldai, palantir]
+  # 회사 채용 페이지 직접 연결은 companies.yaml 에서 관리합니다

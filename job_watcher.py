@@ -29,8 +29,12 @@ from pathlib import Path
 import requests
 import yaml
 
+import companies as company_sources
+
 ROOT = Path(__file__).parent
 CONFIG_PATH = ROOT / "config.yaml"
+COMPANIES_PATH = ROOT / "companies.yaml"
+COMPANY_STATUS_JSON = ROOT / "docs" / "companies.json"
 STATE_PATH = ROOT / "data" / "state.json"
 HISTORY_PATH = ROOT / "data" / "jobs_history.csv"
 LATEST_PATH = ROOT / "latest_jobs.md"
@@ -63,7 +67,12 @@ class Job:
     @property
     def dedupe_key(self) -> str:
         norm = lambda s: re.sub(r"[^a-z0-9]", "", (s or "").lower())
-        return f"{norm(self.title)}|{norm(self.company)}|{norm(self.metro)}"
+        company = norm(self.company)
+        for suffix in ("corporation", "corp", "incorporated", "inc", "llc", "company", "co"):
+            if company.endswith(suffix) and len(company) > len(suffix) + 2:
+                company = company[: -len(suffix)]
+                break
+        return f"{norm(self.title)}|{company[:12]}|{norm(self.metro)}"
 
 
 def log(msg):
@@ -301,59 +310,6 @@ def _recent(date_str, days):
         return True
 
 
-def fetch_greenhouse(cfg, state):
-    src = cfg["sources"]["greenhouse"]
-    if not src.get("enabled"):
-        return []
-    jobs = []
-    for slug in src.get("companies", []):
-        data = get_json(f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs")
-        if data is None:
-            log(f"  Greenhouse '{slug}': 조회 실패 — slug가 맞는지 확인하세요")
-            continue
-        for d in data.get("jobs", []):
-            jobs.append(Job(
-                source=f"Greenhouse/{slug}",
-                source_id=str(d.get("id")),
-                title=d.get("title") or "",
-                company=slug,
-                location=(d.get("location") or {}).get("name", ""),
-                url=d.get("absolute_url") or "",
-                posted=(d.get("updated_at") or "")[:10],
-            ))
-    log(f"Greenhouse: {len(jobs)}건 (필터 전)")
-    return jobs
-
-
-def fetch_lever(cfg, state):
-    src = cfg["sources"]["lever"]
-    if not src.get("enabled"):
-        return []
-    jobs = []
-    for slug in src.get("companies", []):
-        data = get_json(f"https://api.lever.co/v0/postings/{slug}", params={"mode": "json"})
-        if data is None or not isinstance(data, list):
-            log(f"  Lever '{slug}': 조회 실패 — slug가 맞는지 확인하세요")
-            continue
-        for d in data:
-            cats = d.get("categories") or {}
-            locs = cats.get("allLocations") or [cats.get("location", "")]
-            created = d.get("createdAt")
-            posted = datetime.fromtimestamp(created / 1000).strftime("%Y-%m-%d") if created else ""
-            jobs.append(Job(
-                source=f"Lever/{slug}",
-                source_id=str(d.get("id")),
-                title=d.get("text") or "",
-                company=slug,
-                location=" / ".join(x for x in locs if x),
-                url=d.get("hostedUrl") or "",
-                posted=posted,
-                description=d.get("descriptionPlain") or "",
-            ))
-    log(f"Lever: {len(jobs)}건 (필터 전)")
-    return jobs
-
-
 # ----------------------------------------------------------------------------
 # 필터링
 # ----------------------------------------------------------------------------
@@ -398,6 +354,135 @@ def filter_jobs(jobs, cfg):
 # ----------------------------------------------------------------------------
 # 상태 / 출력
 # ----------------------------------------------------------------------------
+# ----------------------------------------------------------------------------
+# 회사 직접 연결 + 회사 그룹 표시
+# ----------------------------------------------------------------------------
+def load_companies():
+    if not COMPANIES_PATH.exists():
+        return {"companies": [], "tag_only": {}}
+    return yaml.safe_load(COMPANIES_PATH.read_text(encoding="utf-8")) or {}
+
+
+def _norm(s):
+    return re.sub(r"[^a-z0-9]", "", (s or "").lower())
+
+
+def build_company_index(creg):
+    """회사 이름 → (정식 이름, 그룹). 긴 별칭부터 비교."""
+    pairs = []
+    for c in creg.get("companies", []):
+        base = re.split(r"\s*[(/]", c["name"])[0]
+        for a in [c["name"], base] + list(c.get("aliases") or []):
+            if _norm(a):
+                pairs.append((_norm(a), c["name"], c.get("group", "")))
+    for group, names in (creg.get("tag_only") or {}).items():
+        for n in names:
+            pairs.append((_norm(n), n, group))
+    pairs.sort(key=lambda x: -len(x[0]))
+    return pairs
+
+
+def classify_company(name, index):
+    n = _norm(name)
+    if not n:
+        return None, ""
+    words = re.findall(r"[a-z0-9&]+", (name or "").lower().replace("&", ""))
+    joined = {w for w in words} | {a + b for a, b in zip(words, words[1:])}
+    for key, canon, group in index:
+        if len(key) <= 6:
+            if key in joined:
+                return canon, group
+        elif key in n:
+            return canon, group
+    return None, ""
+
+
+def title_matcher(cfg):
+    inc = [re.compile(p, re.I) for p in cfg["title_include_patterns"]]
+    exc = [re.compile(p, re.I) for p in cfg.get("title_exclude_patterns", [])]
+    return lambda t: any(p.search(t or "") for p in inc) and not any(p.search(t or "") for p in exc)
+
+
+def fetch_companies(cfg, state):
+    from concurrent.futures import ThreadPoolExecutor
+    creg = load_companies()
+    comps = creg.get("companies", [])
+    if not comps:
+        return []
+    ok_title = title_matcher(cfg)
+    cache = state.setdefault("company_sources", {})
+    results, statuses = [], []
+
+    def work(comp):
+        t0 = time.time()
+        found, st = company_sources.run_company(comp, ok_title, cache)
+        st["seconds"] = round(time.time() - t0)
+        return comp, found, st
+
+    with ThreadPoolExecutor(max_workers=6) as ex:
+        for comp, found, st in ex.map(work, comps):
+            statuses.append(st)
+            for f in found:
+                results.append(Job(
+                    source=f"회사/{st['via']}", source_id=f"{comp['name']}:{f.id}",
+                    title=f.title, company=comp["name"], location=f.location,
+                    url=f.url, posted=f.posted, description=f.description))
+    okc = [s for s in statuses if s["status"] == "ok"]
+    log(f"회사 직접 연결: {len(okc)}/{len(statuses)}곳 성공, RF 관련 공고 {len(results)}건(지역 필터 전)")
+    for st in statuses:
+        if st["status"] == "ok":
+            log(f"  ✓ {st['name']}: {st['via']} {st['count']}건 ({st['seconds']}초)")
+    for st in statuses:
+        if st["status"] != "ok":
+            log(f"  ✗ {st['name']}: {st.get('error', '')}")
+    state["company_status"] = statuses
+    return results
+
+
+def fetch_adzuna_companies(cfg, state):
+    """모든 등록 회사를 Adzuna에서 회사 이름으로 한 번 더 검색 (직접 연결 실패 대비)"""
+    app_id, app_key = os.getenv("ADZUNA_APP_ID"), os.getenv("ADZUNA_APP_KEY")
+    if not (app_id and app_key) or not cfg["sources"]["adzuna"].get("company_sweep", True):
+        return []
+    days, _ = window(cfg, state)
+    jobs, calls = [], 0
+    for comp in load_companies().get("companies", []):
+        if comp.get("adzuna") is False:
+            continue
+        cname = re.split(r"\s*[(/]", comp["name"])[0].strip()
+        data = get_json("https://api.adzuna.com/v1/api/jobs/us/search/1", params={
+            "app_id": app_id, "app_key": app_key, "company": cname,
+            "what_or": "RF antenna EMC EMI microwave radar electromagnetic RFIC MMIC",
+            "max_days_old": max(days, 14), "results_per_page": 50,
+            "content-type": "application/json"})
+        calls += 1
+        for d in (data or {}).get("results", []) or []:
+            jobs.append(Job(
+                source="Adzuna", source_id=str(d.get("id")),
+                title=re.sub(r"<[^>]+>", "", d.get("title") or ""),
+                company=(d.get("company") or {}).get("display_name", ""),
+                location=_adzuna_location(d.get("location") or {}),
+                url=d.get("redirect_url") or "", posted=(d.get("created") or "")[:10],
+                description=d.get("description") or ""))
+        time.sleep(2.6)
+    log(f"Adzuna 회사명 검색: 호출 {calls}회, {len(jobs)}건")
+    return jobs
+
+
+def write_company_status(state):
+    COMPANY_STATUS_JSON.parent.mkdir(exist_ok=True)
+    counts = {}
+    for rec in state.get("jobs", {}).values():
+        if rec.get("company_key"):
+            counts[rec["company_key"]] = counts.get(rec["company_key"], 0) + 1
+    rows = []
+    for st in state.get("company_status", []):
+        rows.append(dict(st, listed=counts.get(st["name"], 0)))
+    COMPANY_STATUS_JSON.write_text(json.dumps(
+        {"updated": datetime.now(timezone.utc).isoformat(timespec="seconds"), "companies": rows},
+        ensure_ascii=False, indent=0), encoding="utf-8")
+
+
 def load_state():
     if STATE_PATH.exists():
         return json.loads(STATE_PATH.read_text())
@@ -414,10 +499,11 @@ def save_state(state):
     STATE_PATH.write_text(json.dumps(state, indent=1, ensure_ascii=False))
 
 
-def update_job_store(state, jobs, today):
+def update_job_store(state, jobs, today, index=None):
     """대시보드용: 조건에 맞는 모든 공고를 first_seen / last_seen과 함께 보관."""
     store = state.setdefault("jobs", {})
     for j in jobs:
+        canon, group = classify_company(j.company, index or [])
         rec = store.get(j.dedupe_key)
         if rec:
             rec["last_seen"] = today
@@ -425,12 +511,16 @@ def update_job_store(state, jobs, today):
             if not rec.get("posted") and j.posted:
                 rec["posted"] = j.posted
             rec["flags"] = sorted(set(rec.get("flags", [])) | set(j.flags))
+            rec["group"], rec["company_key"] = group, canon
+            if j.source.startswith("회사/"):
+                rec["url"] = j.url  # 회사 공식 페이지 링크를 우선
         else:
             store[j.dedupe_key] = {
                 "id": j.dedupe_key, "title": j.title, "company": j.company,
                 "location": j.location, "metro": j.metro, "url": j.url,
                 "posted": j.posted, "sources": [j.source], "flags": sorted(set(j.flags)),
                 "remote": j.remote, "first_seen": today, "last_seen": today,
+                "group": group, "company_key": canon,
             }
 
 
@@ -524,7 +614,8 @@ def main():
     first_run = not state["seen"]
 
     raw = []
-    for fn in (fetch_jsearch, fetch_adzuna, fetch_usajobs, fetch_greenhouse, fetch_lever):
+    index = build_company_index(load_companies())
+    for fn in (fetch_jsearch, fetch_adzuna, fetch_usajobs, fetch_adzuna_companies, fetch_companies):
         try:
             raw += fn(cfg, state)
         except Exception as e:  # 한 소스가 실패해도 나머지는 계속
@@ -543,7 +634,12 @@ def main():
         for k in keys:
             state["seen"][k] = today
 
-    update_job_store(state, filtered, today)
+    # 같은 회사 이름을 정식 이름으로 맞춤 (중복 제거가 잘 되도록)
+    for j in filtered:
+        canon, _ = classify_company(j.company, index)
+        if canon and not j.source.startswith("회사/"):
+            j.company = canon
+    update_job_store(state, filtered, today, index)
     log(f"수집 {len(raw)} → 조건 일치 {len(filtered)} → 새 공고 {len(new)}")
 
     write_markdown(new)
@@ -561,6 +657,7 @@ def main():
         log("첫 실행(백필) 완료: 다음부터는 새 공고만 확인합니다")
     save_state(state)
     write_dashboard_json(state)
+    write_company_status(state)
 
     if os.getenv("DRY_PRINT"):
         for j in new:

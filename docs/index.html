@@ -283,7 +283,9 @@ function renderCoverage(){
     <td>${c.status==="ok" ? '<span class="okm">연결됨</span>' : '<span class="bad">실패</span>'}</td>
     <td>${esc(c.via||"")}</td>
     <td class="num">${c.listed ?? 0}</td>
-    <td class="err">${c.status==="ok" ? `RF 관련 ${c.count}건 (전 지역)` : esc(c.error||"")+" · Adzuna 회사명 검색으로 보완 중"}</td>
+    <td class="err">${c.status==="ok"
+      ? `RF 관련 ${c.count}건 중 대상 지역 ${c.in_metro ?? "?"}건` + ((c.other_locations||[]).length ? ` · 그 외 위치 예: ${esc(c.other_locations.join(", "))}` : "")
+      : esc(c.error||"")+" · Adzuna/JSearch 회사명 검색으로 보완 중"}</td>
   </tr>`).join("");
 }
 

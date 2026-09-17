@@ -50,6 +50,9 @@ clearance_patterns:
 # true면 위 표시가 붙은 공고를 아예 숨김 (시민권/클리어런스가 없다면 true 추천)
 hide_clearance_jobs: false
 
+# 회사 사이트가 robots.txt로 자동 수집을 막아두면 그 사이트는 읽지 않음
+respect_robots_txt: true
+
 # 평소 실행: 최근 며칠 이내 새 공고만 확인
 max_days_old: 3
 # 첫 실행(백필): 현재 올라와 있는 공고를 최근 며칠치까지 여러 페이지 가져옴
@@ -88,7 +91,7 @@ metros:
              Lexington, Woburn, Wilmington, Tewksbury, Andover, North Andover, Billerica,
              Chelmsford, Lowell, Westford, Littleton, Acton, Maynard, Concord, Medford,
              Malden, Quincy, Braintree, Canton, Norwood, Westwood, Beverly, Danvers,
-             Peabody, Salem, Lynnfield, Marlboro, Boxborough, Nashua, Salem NH, Hampton,
+             Peabody, Salem, Lynnfield, Marlboro, Boxborough, Nashua, Salem NH, Hampton, Hanscom, Hanscom Air Force Base, Hanscom AFB,
              Tyngsborough, Dracut, Methuen, Lawrence, Haverhill, Stoneham, Reading,
              North Reading, Wakefield, Lynn, Saugus, Dedham, Sudbury, Wayland, Southborough,
              Northborough, Westborough, Devens, Ayer, Stow, Carlisle, Sharon, Foxborough,
@@ -108,7 +111,13 @@ metros:
              Baltimore, Towson, Annapolis, Odenton, Millersville, Glen Burnie, Severn,
              Hunt Valley, Owings Mills, Aberdeen, Patuxent River, Lexington Park,
              Dahlgren, King George, Stafford, Quantico, Fredericksburg, Gainesville,
-             Haymarket, Centreville, Clifton, Warrenton]
+             Haymarket, Centreville, Clifton, Warrenton, Fort Belvoir, Belvoir, Joint Base Andrews,
+             Andrews, Anacostia, Bolling, Pentagon, Fort Detrick, Indian Head, Carderock,
+             White Oak, Savage, Jessup, Arnold, Crofton, Gambrills, Ellicott City,
+             Catonsville, Halethorpe, California, St. Inigoes, Great Mills, Solomons,
+             Dunn Loring, Merrifield, Oakton, Annandale, Lanham, Landover, Hyattsville,
+             Beltsville, Kensington, Chevy Chase, North Bethesda, Potomac, Clarksburg,
+             Boyds, Hagerstown]
 
 # ------------------------------------------------------------
 # 데이터 소스

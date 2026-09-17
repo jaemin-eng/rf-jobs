@@ -31,7 +31,7 @@ def _clean_loc(loc):
     parts, seen = [], set()
     for p in re.split(r"\s*/\s*", loc or ""):
         p = re.sub(r"\s*~.*$", "", p.strip())                       # Workday 사업장 주소 제거
-        p = re.sub(r"^(US|USA)-([A-Z]{2})-([A-Za-z][A-Za-z .']+?)(-[A-Z0-9]{2,4})?$",
+        p = re.sub(r"^(US|USA)-([A-Z]{2})-([A-Za-z][A-Za-z .']+?)(-[A-Z0-9]{2,6})?$",
                    lambda m: f"{m.group(3).title()}, {m.group(2)}", p)       # US-MA-TEWKSBURY-TB1
         p = re.sub(r"^USA\s+([A-Z]{2})\s+(.+)$", lambda m: f"{m.group(2)}, {m.group(1)}", p)
         p = re.sub(r"^United States-([A-Za-z ]+)-(.+)$", lambda m: f"{m.group(2)}, {m.group(1)}", p)
@@ -56,7 +56,51 @@ def _txt(s):
     return re.sub(r"\s+", " ", htmllib.unescape(s)).strip()
 
 
+# 공식 공개 API (robots.txt 대상 아님)
+OFFICIAL_API_HOSTS = ("boards-api.greenhouse.io", "api.lever.co", "api.ashbyhq.com",
+                      "api.smartrecruiters.com")
+RESPECT_ROBOTS = True
+ROBOTS_UA = "rf-job-watcher"
+_robots_cache = {}
+
+
+class RobotsBlocked(RuntimeError):
+    pass
+
+
+def _robots_ok(url):
+    """사이트가 robots.txt로 자동 수집을 막았는지 확인"""
+    if not RESPECT_ROBOTS:
+        return True
+    u = urlparse(url)
+    if u.hostname in OFFICIAL_API_HOSTS:
+        return True
+    base = f"{u.scheme}://{u.netloc}"
+    rp = _robots_cache.get(base)
+    if rp is None:
+        from urllib.robotparser import RobotFileParser
+        rp = RobotFileParser()
+        try:
+            r = requests.get(base + "/robots.txt", headers={"User-Agent": BROWSER_UA}, timeout=15)
+            if r.status_code in (401, 403):
+                rp.disallow_all = True
+            elif r.status_code >= 400:
+                rp.allow_all = True
+            else:
+                rp.parse(r.text.splitlines())
+        except requests.RequestException:
+            rp.allow_all = True
+        _robots_cache[base] = rp
+    return rp.can_fetch(ROBOTS_UA, url)
+
+
+def _check_robots(url):
+    if not _robots_ok(url):
+        raise RobotsBlocked(f"{urlparse(url).hostname}: robots.txt에서 자동 수집을 막아둠")
+
+
 def _get(url, **kw):
+    _check_robots(url)
     kw.setdefault("timeout", TIMEOUT)
     h = dict(HEADERS)
     h.update(kw.pop("headers", {}) or {})
@@ -64,6 +108,7 @@ def _get(url, **kw):
 
 
 def _post(url, **kw):
+    _check_robots(url)
     kw.setdefault("timeout", TIMEOUT)
     h = dict(HEADERS)
     h.update(kw.pop("headers", {}) or {})
@@ -110,7 +155,7 @@ def fetch_workday(url, title_ok):
                     continue
                 path = p.get("externalPath", "")
                 loc = p.get("locationsText", "")
-                if re.search(r"\d+\s+Locations?", loc or ""):
+                if not loc or re.search(r"\d+\s+Locations?", loc):
                     loc = _workday_locations(base, tenant, site, path, hdr) or loc
                 found.append(Found(path or title, title, loc, f"{base}/en-US/{site}{path}",
                                    _workday_date(p.get("postedOn", ""))))
@@ -581,7 +626,7 @@ def discover(url):
     """careers 페이지에서 찾은 후보 source 목록 [{type: value}, ...]"""
     try:
         r = _get(url, allow_redirects=True)
-    except requests.RequestException:
+    except (requests.RequestException, RobotsBlocked):
         return []
     text, final = r.text, r.url
     host = urlparse(final).hostname or ""
@@ -644,7 +689,7 @@ def discover(url):
 def discover_once(url):
     try:
         r = _get(url, allow_redirects=True)
-    except requests.RequestException:
+    except (requests.RequestException, RobotsBlocked):
         return []
     text = r.text
     cands = []
@@ -669,6 +714,7 @@ def run_company(comp, title_ok, cache):
     if cache.get(name) and cache[name] not in candidates:
         candidates.append(cache[name])
     discovered = False
+    blocked = False
     idx = 0
     while True:
         if idx >= len(candidates):
@@ -694,10 +740,14 @@ def run_company(comp, title_ok, cache):
             return found, {"name": name, "group": comp.get("group", ""), "status": "ok",
                            "via": kind, "source": val if isinstance(val, str) else json.dumps(val),
                            "count": len(found)}
+        except RobotsBlocked as e:
+            errors.append(f"{kind}: {e}")
+            blocked = True
         except Exception as e:  # 다음 후보로
             errors.append(f"{kind}: {str(e)[:80]}")
             if cache.get(name) == src:
                 cache.pop(name, None)
-    return [], {"name": name, "group": comp.get("group", ""), "status": "fail",
+    return [], {"name": name, "group": comp.get("group", ""),
+                "status": "blocked" if blocked else "fail",
                 "via": "", "source": "", "count": 0,
                 "error": "; ".join(errors[-4:]) or "채용 시스템을 찾지 못함"}

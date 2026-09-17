@@ -44,8 +44,12 @@ clearance_patterns:
 # true면 위 표시가 붙은 공고를 아예 숨김 (시민권/클리어런스가 없다면 true 추천)
 hide_clearance_jobs: false
 
-# 최근 며칠 이내 공고만
+# 평소 실행: 최근 며칠 이내 새 공고만 확인
 max_days_old: 3
+# 첫 실행(백필): 현재 올라와 있는 공고를 최근 며칠치까지 여러 페이지 가져옴
+# 다시 받고 싶으면 data/state.json 을 삭제하세요
+backfill_days: 30
+backfill_pages: 4
 
 # 원격 근무 공고도 포함할지
 include_remote: false

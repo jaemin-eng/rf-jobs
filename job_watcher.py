@@ -128,6 +128,13 @@ def is_remote(text: str) -> bool:
 # ----------------------------------------------------------------------------
 # 소스들
 # ----------------------------------------------------------------------------
+def window(cfg, state):
+    """(검색할 일수, 페이지 수). 첫 실행이면 백필."""
+    if not state.get("backfilled"):
+        return cfg.get("backfill_days", 30), cfg.get("backfill_pages", 3)
+    return cfg["max_days_old"], 1
+
+
 def fetch_jsearch(cfg, state):
     src = cfg["sources"]["jsearch"]
     key = os.getenv("RAPIDAPI_KEY")
@@ -140,7 +147,7 @@ def fetch_jsearch(cfg, state):
         if elapsed < timedelta(days=src.get("run_every_days", 1), hours=-2):
             log(f"JSearch: 건너뜀 (마지막 실행 {elapsed.days}일 전, 호출량 절약)")
             return []
-    days = cfg["max_days_old"]
+    days, pages = window(cfg, state)
     date_posted = "today" if days <= 1 else "3days" if days <= 3 else "week" if days <= 7 else "month"
     headers = {"X-RapidAPI-Key": key, "X-RapidAPI-Host": "jsearch.p.rapidapi.com"}
     jobs = []
@@ -150,7 +157,7 @@ def fetch_jsearch(cfg, state):
                 "https://jsearch.p.rapidapi.com/search",
                 headers=headers,
                 params={"query": f"{q} in {m['search_location']}", "page": 1,
-                        "num_pages": 1, "date_posted": date_posted, "country": "us"},
+                        "num_pages": min(pages, 3), "date_posted": date_posted, "country": "us"},
             )
             for d in (data or {}).get("data", []) or []:
                 loc = ", ".join(x for x in [d.get("job_city"), d.get("job_state")] if x)
@@ -176,31 +183,48 @@ def fetch_adzuna(cfg, state):
     if not cfg["sources"]["adzuna"].get("enabled") or not (app_id and app_key):
         log("Adzuna: 건너뜀 (비활성 또는 키 없음)")
         return []
-    jobs = []
+    days, pages = window(cfg, state)
+    jobs, calls = [], 0
     for metro, m in cfg["metros"].items():
         for q in cfg["search_queries"]:
-            data = get_json(
-                "https://api.adzuna.com/v1/api/jobs/us/search/1",
-                params={"app_id": app_id, "app_key": app_key, "what_phrase": q,
-                        "where": m["adzuna_where"],
-                        "distance": int(m["radius_miles"] * 1.609),
-                        "max_days_old": cfg["max_days_old"],
-                        "results_per_page": 50, "content-type": "application/json"},
-            )
-            for d in (data or {}).get("results", []) or []:
-                jobs.append(Job(
-                    source="Adzuna",
-                    source_id=str(d.get("id")),
-                    title=re.sub(r"<[^>]+>", "", d.get("title") or ""),
-                    company=(d.get("company") or {}).get("display_name", ""),
-                    location=(d.get("location") or {}).get("display_name", ""),
-                    url=d.get("redirect_url") or "",
-                    posted=(d.get("created") or "")[:10],
-                    description=d.get("description") or "",
-                ))
-            time.sleep(1)
+            for page in range(1, pages + 1):
+                data = get_json(
+                    f"https://api.adzuna.com/v1/api/jobs/us/search/{page}",
+                    params={"app_id": app_id, "app_key": app_key, "what_phrase": q,
+                            "where": m["adzuna_where"],
+                            "distance": int(m["radius_miles"] * 1.609),
+                            "max_days_old": days,
+                            "results_per_page": 50, "content-type": "application/json"},
+                )
+                calls += 1
+                results = (data or {}).get("results", []) or []
+                for d in results:
+                    jobs.append(Job(
+                        source="Adzuna",
+                        source_id=str(d.get("id")),
+                        title=re.sub(r"<[^>]+>", "", d.get("title") or ""),
+                        company=(d.get("company") or {}).get("display_name", ""),
+                        location=_adzuna_location(d.get("location") or {}),
+                        url=d.get("redirect_url") or "",
+                        posted=(d.get("created") or "")[:10],
+                        description=d.get("description") or "",
+                    ))
+                time.sleep(2.6)  # 무료 한도: 분당 25회
+                if len(results) < 50:
+                    break
+    log(f"Adzuna: 최근 {days}일, 호출 {calls}회")
     log(f"Adzuna: {len(jobs)}건")
     return jobs
+
+
+def _adzuna_location(loc):
+    """Adzuna는 display_name에 주 이름이 없어서 area 목록(US, 주, 카운티, 도시)의 주를 덧붙임."""
+    area = [a for a in (loc.get("area") or []) if a]
+    name = loc.get("display_name", "")
+    state = area[1] if len(area) > 1 else ""
+    if state and state.lower() not in name.lower():
+        return f"{name}, {state}" if name else state
+    return name
 
 
 def fetch_usajobs(cfg, state):
@@ -218,7 +242,7 @@ def fetch_usajobs(cfg, state):
                 "https://data.usajobs.gov/api/search",
                 headers=headers,
                 params={"Keyword": q, "LocationName": m["search_location"],
-                        "Radius": m["radius_miles"], "DatePosted": cfg["max_days_old"],
+                        "Radius": m["radius_miles"], "DatePosted": window(cfg, state)[0],
                         "ResultsPerPage": 100},
             )
             items = (((data or {}).get("SearchResult") or {}).get("SearchResultItems")) or []
@@ -310,14 +334,12 @@ def filter_jobs(jobs, cfg):
     inc = [re.compile(p, re.I) for p in cfg["title_include_patterns"]]
     exc = [re.compile(p, re.I) for p in cfg.get("title_exclude_patterns", [])]
     clr = [re.compile(p, re.I) for p in cfg.get("clearance_patterns", [])]
-    out = []
+    out, stats, unmatched = [], {}, []
     for j in jobs:
         if not any(p.search(j.title) for p in inc):
+            stats["제목 불일치"] = stats.get("제목 불일치", 0) + 1
             continue
         if any(p.search(j.title) for p in exc):
-            continue
-        # 회사 페이지 소스는 전체 공고를 받아오므로 날짜 필터 적용
-        if j.source.startswith(("Greenhouse", "Lever")) and not _recent(j.posted, cfg["max_days_old"] + 4):
             continue
         # 여러 지역이 " / "로 묶인 경우 하나씩 확인
         metro = None
@@ -330,6 +352,9 @@ def filter_jobs(jobs, cfg):
             if j.remote and cfg.get("include_remote"):
                 metro = "Remote"
             else:
+                stats["지역 불일치"] = stats.get("지역 불일치", 0) + 1
+                if len(unmatched) < 8:
+                    unmatched.append(j.location)
                 continue
         j.metro = metro
         if any(p.search(j.description) or p.search(j.title) for p in clr):
@@ -337,6 +362,9 @@ def filter_jobs(jobs, cfg):
         if cfg.get("hide_clearance_jobs") and j.flags:
             continue
         out.append(j)
+    log(f"필터 결과: 통과 {len(out)}, 제외 {stats}")
+    if unmatched:
+        log(f"  지역 불일치 위치 예시: {unmatched}")
     return out
 
 
@@ -501,6 +529,9 @@ def main():
                 send_email(new)
             except Exception as e:
                 log(f"! 이메일 오류: {e}")
+    if not state.get("backfilled"):
+        state["backfilled"] = today
+        log("첫 실행(백필) 완료: 다음부터는 새 공고만 확인합니다")
     save_state(state)
     write_dashboard_json(state)
 

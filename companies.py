@@ -225,7 +225,8 @@ def fetch_icims(base, title_ok):
             if r.status_code != 200:
                 raise RuntimeError(f"iCIMS HTTP {r.status_code}")
             ok = True
-            links = re.findall(r'href="(https?://[^"]+/jobs/(\d+)/[^"]+/job[^"]*)"[^>]*>(.*?)</a>', r.text, re.S)
+            links = re.findall(r'href="((?:https?://[^"]+)?/jobs/(\d+)/[^"]+/job[^"]*)"[^>]*>(.*?)</a>', r.text, re.S)
+            links = [(h, i, t) for h, i, t in links]
             if not links:
                 break
             raw += len(links)
@@ -235,11 +236,18 @@ def fetch_icims(base, title_ok):
                     continue
                 pos = r.text.find(href)
                 chunk = r.text[pos:pos + 2500]
+                if not href.startswith("http"):
+                    href = base + href
                 m = re.search(r'Location[s]?\s*</span>\s*(?:<span[^>]*>)?\s*([^<]+)', chunk)
                 loc = _txt(m.group(1)) if m else ""
-                if not loc:
-                    m = re.search(r'\b(US-[A-Z]{2}-[A-Za-z .\'-]+)', chunk)
+                if not loc or loc.lower().startswith("job"):
+                    m = re.search(r'\b((?:US|USA)-[A-Z]{2}-[A-Za-z .\'-]+)', chunk)
                     loc = m.group(1) if m else ""
+                if not loc:
+                    m = re.search(r'\b([A-Z][A-Za-z .\'-]+,\s*(?:[A-Z]{2}|Virginia|Maryland|Massachusetts|California|District of Columbia)\b)', _txt(chunk))
+                    loc = m.group(1) if m else ""
+                if loc.startswith(title):
+                    loc = loc[len(title):].strip()
                 out.append(Found(jid, title, loc, href.split("?")[0]))
             if len(links) < 10:
                 break
@@ -518,11 +526,46 @@ def _find_key(obj, key):
     return None
 
 
+def fetch_jobsyn(origin, title_ok):
+    """DirectEmployers(.jobs) 사이트. 예: sandia.jobs"""
+    origin = origin.replace("https://", "").strip("/")
+    hdr = {"x-origin": origin, "Accept": "application/json", "Origin": f"https://{origin}",
+           "Referer": f"https://{origin}/"}
+    out, raw = [], 0
+    for term in SEARCH_TERMS:
+        for page in range(1, 11):
+            r = _get("https://prod-search-api.jobsyn.org/api/v1/solr/search",
+                     headers=hdr, params={"q": term, "page": page})
+            if r.status_code != 200:
+                raise RuntimeError(f"DirectEmployers HTTP {r.status_code}")
+            data = r.json()
+            jobs = data.get("jobs") or (data.get("data") or {}).get("jobs") or []
+            raw += len(jobs)
+            for d in jobs:
+                title = d.get("title_exact") or d.get("title") or ""
+                if not title_ok(title):
+                    continue
+                city = d.get("city_exact") or d.get("city") or ""
+                state = d.get("state_short") or d.get("state_exact") or d.get("state") or ""
+                loc = d.get("location_exact") or ", ".join(x for x in [city, state] if x)
+                guid = d.get("guid") or d.get("id") or d.get("reqid")
+                slug = lambda x: re.sub(r"[^a-z0-9]+", "-", (x or "").lower()).strip("-")
+                url = d.get("url") or f"https://{origin}/{slug(city)}-{slug(state)}/{slug(title)}/{guid}/job/"
+                out.append(Found(guid, title, loc, url, (d.get("date_new") or d.get("date_added") or "")[:10]))
+            pages = ((data.get("pagination") or {}).get("total_pages")) or 0
+            if not jobs or page >= pages:
+                break
+            time.sleep(0.3)
+    if raw == 0:
+        raise RuntimeError("DirectEmployers 결과 0건")
+    return _dedupe(out)
+
+
 FETCHERS = {
     "workday": fetch_workday, "greenhouse": fetch_greenhouse, "lever": fetch_lever,
     "ashby": fetch_ashby, "smartrecruiters": fetch_smartrecruiters, "icims": fetch_icims,
     "phenom": fetch_phenom, "radancy": fetch_radancy, "successfactors": fetch_successfactors,
-    "eightfold": fetch_eightfold, "apple": fetch_apple,
+    "eightfold": fetch_eightfold, "apple": fetch_apple, "jobsyn": fetch_jobsyn,
 }
 
 

@@ -421,6 +421,11 @@ def fetch_companies(cfg, state):
 
     with ThreadPoolExecutor(max_workers=6) as ex:
         for comp, found, st in ex.map(work, comps):
+            inside = [f for f in found if any(match_metro(x, cfg["metros"])
+                                               for x in re.split(r"\s*/\s*", f.location or ""))]
+            st["in_metro"] = len(inside)
+            others = [f.location or "(위치 없음)" for f in found if f not in inside]
+            st["other_locations"] = sorted(set(others), key=others.index)[:4]
             statuses.append(st)
             for f in found:
                 results.append(Job(
@@ -431,7 +436,8 @@ def fetch_companies(cfg, state):
     log(f"회사 직접 연결: {len(okc)}/{len(statuses)}곳 성공, RF 관련 공고 {len(results)}건(지역 필터 전)")
     for st in statuses:
         if st["status"] == "ok":
-            log(f"  ✓ {st['name']}: {st['via']} {st['count']}건 ({st['seconds']}초)")
+            log(f"  ✓ {st['name']}: {st['via']} RF {st['count']}건, 대상 지역 {st['in_metro']}건 "
+                f"({st['seconds']}초) 다른 위치 예: {st['other_locations']}")
     for st in statuses:
         if st["status"] != "ok":
             log(f"  ✗ {st['name']}: {st.get('error', '')}")

@@ -94,7 +94,8 @@ companies:
   - name: Mercury Systems
     group: 방산
     aliases: [Mercury Systems]
-    careers: [https://www.mrcy.com/company/careers]
+    # ADP 채용 시스템(myjobs.adp.com)이라 직접 연결 불가 → Adzuna/JSearch 회사명 검색으로 수집
+    careers: [https://www.mrcy.com/careers]
 
   # ---------------- 방산 IT·시스템 ----------------
   - name: Leidos
@@ -170,7 +171,7 @@ companies:
     group: 방산
     aliases: [HawkEye360]
     careers: [https://www.he360.com/careers/]
-    sources: [{greenhouse: hawkeye360}, {lever: hawkeye360}, {ashby: hawkeye360}]
+    sources: [{greenhouse: hawkeye360}]
 
   - name: Viasat
     group: 방산
@@ -262,7 +263,9 @@ companies:
   - name: Sandia National Laboratories
     group: 연구소
     aliases: [Sandia]
-    careers: [https://www.sandia.gov/careers/career-possibilities/, https://careers.sandia.gov]
+    sources:
+      - jobsyn: sandia.jobs
+    careers: [https://www.sandia.gov/careers/]
 
   - name: Draper
     group: 연구소
@@ -276,7 +279,11 @@ companies:
   - name: Johns Hopkins APL
     group: 연구소
     aliases: [Johns Hopkins University Applied Physics, JHU APL, Applied Physics Laboratory]
-    careers: [https://www.jhuapl.edu/careers, https://jobs.jhuapl.edu]
+    sources:
+      - icims: https://careers-jhuapl.icims.com
+      - icims: https://jobs-jhuapl.icims.com
+      - icims: https://jhuapl.icims.com
+    careers: [https://www.jhuapl.edu/careers, https://www.jhuapl.edu/careers/job-search]
 
   - name: The Aerospace Corporation
     group: 연구소

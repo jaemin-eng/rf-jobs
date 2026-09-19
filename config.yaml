@@ -69,6 +69,7 @@ include_remote: false
 metros:
   "SF Bay Area":
     search_location: "San Francisco Bay Area, CA"
+    usajobs_location: "San Francisco, California"
     jsearch_location: "San Francisco Bay Area, CA"
     adzuna_where: "San Francisco"
     radius_miles: 60
@@ -84,6 +85,7 @@ metros:
              Martinez, Vallejo, Benicia, San Rafael, Novato, Petaluma, Mill Valley, Sausalito, Bay Area]
   "Boston":
     search_location: "Boston, MA"
+    usajobs_location: "Boston, Massachusetts"
     jsearch_location: "Boston, MA"
     adzuna_where: "Boston"
     radius_miles: 45
@@ -100,6 +102,7 @@ metros:
              Mansfield, Arlington, Belmont, Winchester, Merrimack, Hudson NH, Manchester]
   "San Diego":
     search_location: "San Diego, CA"
+    usajobs_location: "San Diego, California"
     jsearch_location: "San Diego, CA"
     adzuna_where: "San Diego"
     radius_miles: 45
@@ -112,6 +115,7 @@ metros:
              Camp Pendleton, Fallbrook, Point Mugu, Coronado Island]
   "Washington DC":
     search_location: "Washington, DC"
+    usajobs_location: "Washington, District of Columbia"
     jsearch_location: "Washington, DC"
     adzuna_where: "Washington, DC"
     radius_miles: 45
@@ -143,7 +147,7 @@ sources:
   jsearch:
     enabled: true
     run_every_days: 1
-    # 하루에 지역마다 아래 검색어 중 1개씩 돌아가며 사용 (6일이면 한 바퀴)
+    # 하루에 지역마다 아래 검색어 중 2개씩 돌아가며 사용 (3일이면 한 바퀴)
     queries_per_day: 1
     rotating_queries:
       - "RF engineer"
@@ -158,10 +162,12 @@ sources:
   adzuna:
     enabled: true
     company_sweep: true
+    company_sweep_keywords: "RF antenna EMC EMI microwave radar electromagnetic RFIC MMIC"
 
   # USAJOBS: 연방정부 공고 (대부분 미국 시민권 필요) — DC 지역에서 유용
   usajobs:
     enabled: true
+    days_old: 30          # 연방 공고는 수가 적어 최근 30일까지 봄
     metros: ["Washington DC", "Boston", "SF Bay Area", "San Diego"]
 
   # 회사 채용 페이지 직접 연결은 companies.yaml 에서 관리합니다

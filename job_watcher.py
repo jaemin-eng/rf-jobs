@@ -287,8 +287,10 @@ def fetch_usajobs(cfg, state):
             data = get_json(
                 "https://data.usajobs.gov/api/search",
                 headers=headers,
-                params={"Keyword": q, "LocationName": m["search_location"],
-                        "Radius": m["radius_miles"], "DatePosted": window(cfg, state)[0],
+                params={"Keyword": q, "LocationName": m.get("usajobs_location", m["search_location"]),
+                        "Radius": m["radius_miles"],
+                        # 연방 공고는 수가 적고 오래 열려 있어 기간을 넓게 봄
+                        "DatePosted": min(60, max(window(cfg, state)[0], src.get("days_old", 30))),
                         "ResultsPerPage": 100},
             )
             items = (((data or {}).get("SearchResult") or {}).get("SearchResultItems")) or []
@@ -457,40 +459,83 @@ def fetch_companies(cfg, state):
     return results
 
 
+def _adzuna_company_variants(cname, base, kw):
+    """Adzuna가 회사 검색을 받아주는 방식이 계정/시점마다 달라 여러 형태를 준비"""
+    return [
+        ("company+keywords", dict(base, company=cname, what_or=kw)),
+        ("phrase+keywords",  dict(base, what_phrase=cname, what_or=kw)),
+        ("phrase",           dict(base, what_phrase=cname)),
+        ("company",          dict(base, company=cname)),
+    ]
+
+
 def fetch_adzuna_companies(cfg, state):
-    """모든 등록 회사를 Adzuna에서 회사 이름으로 한 번 더 검색 (직접 연결 실패 대비)"""
+    """직접 연결이 안 되는 회사를 Adzuna에서 회사 이름으로 한 번 더 검색"""
     app_id, app_key = os.getenv("ADZUNA_APP_ID"), os.getenv("ADZUNA_APP_KEY")
     if not (app_id and app_key) or not cfg["sources"]["adzuna"].get("company_sweep", True):
         return []
     days, _ = window(cfg, state)
-    # 직접 연결에 실패한 회사는 이름 표기를 여러 개로 시도
+    base = {"app_id": app_id, "app_key": app_key,
+            "max_days_old": max(days, 14), "results_per_page": 50,
+            "content-type": "application/json"}
+    sweep_kw = cfg["sources"]["adzuna"].get(
+        "company_sweep_keywords", " ".join(cfg["search_queries"])[:120])
     failed = {c["name"] for c in state.get("company_status", []) if c.get("status") != "ok"}
-    jobs, calls = [], 0
+    mode = state.get("adzuna_company_mode")      # 지난 실행에서 통했던 방식
+    jobs, calls, problems = [], 0, []
+
+    def ask(params):
+        nonlocal calls
+        calls += 1
+        r = requests.get("https://api.adzuna.com/v1/api/jobs/us/search/1",
+                         params=params, timeout=TIMEOUT,
+                         headers={"User-Agent": UA})
+        time.sleep(2.6)
+        if r.status_code != 200:
+            raise RuntimeError(f"HTTP {r.status_code}")
+        return r.json().get("results", []) or []
+
+    def collect(results):
+        for d in results:
+            jobs.append(Job(
+                source="Adzuna", source_id=str(d.get("id")),
+                title=re.sub(r"<[^>]+>", "", d.get("title") or ""),
+                company=(d.get("company") or {}).get("display_name", ""),
+                location=_adzuna_location(d.get("location") or {}),
+                url=d.get("redirect_url") or "", posted=(d.get("created") or "")[:10],
+                description=d.get("description") or ""))
+
+    tried_companies = 0
     for comp in load_companies().get("companies", []):
         if comp.get("adzuna") is False:
             continue
+        if mode is None and tried_companies >= 3:
+            log("Adzuna 회사명 검색: 3개 회사 모두 실패해 이번 실행은 건너뜁니다")
+            break
+        tried_companies += 1
         names = [re.split(r"\s*[(/]", comp["name"])[0].strip()]
         if comp["name"] in failed:
             for a in (comp.get("aliases") or [])[:2]:
                 if len(a) > 4 and a not in names:
                     names.append(a)
         for cname in names:
-            data = get_json("https://api.adzuna.com/v1/api/jobs/us/search/1", params={
-                "app_id": app_id, "app_key": app_key, "company": cname,
-                "what_or": "RF antenna EMC EMI microwave radar electromagnetic RFIC MMIC",
-                "max_days_old": max(days, 14), "results_per_page": 50,
-                "content-type": "application/json"})
-            calls += 1
-            time.sleep(2.6)
-            for d in (data or {}).get("results", []) or []:
-                jobs.append(Job(
-                    source="Adzuna", source_id=str(d.get("id")),
-                    title=re.sub(r"<[^>]+>", "", d.get("title") or ""),
-                    company=(d.get("company") or {}).get("display_name", ""),
-                    location=_adzuna_location(d.get("location") or {}),
-                    url=d.get("redirect_url") or "", posted=(d.get("created") or "")[:10],
-                    description=d.get("description") or ""))
-    log(f"Adzuna 회사명 검색: 호출 {calls}회, {len(jobs)}건")
+            variants = _adzuna_company_variants(cname, base, sweep_kw)
+            if mode:                       # 통하는 방식을 이미 알면 그것만 사용
+                variants = [v for v in variants if v[0] == mode] or variants
+            for label, params in variants:
+                try:
+                    collect(ask(params))
+                    mode = label
+                    break
+                except Exception as e:
+                    if len(problems) < 4:
+                        problems.append(f"{cname} [{label}]: {str(e)[:40]}")
+            else:
+                continue
+    state["adzuna_company_mode"] = mode
+    for pr in problems:
+        log(f"  Adzuna 회사명 검색 참고: {pr}")
+    log(f"Adzuna 회사명 검색: 방식 {mode or '없음'}, 호출 {calls}회, {len(jobs)}건")
     return jobs
 
 

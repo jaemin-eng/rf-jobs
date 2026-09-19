@@ -1,5 +1,5 @@
 {
-"updated": "2026-09-19T19:23:39+00:00",
+"updated": "2026-09-19T20:24:50+00:00",
 "jobs": [
 {
 "id": "seniortestdevelopmentengineerrfpowerhardwaresecret|solidustechn|boston",
@@ -573,6 +573,26 @@
 ],
 "flags": [
 "🔐 클리어런스"
+],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "",
+"company_key": null
+},
+{
+"id": "studenttraineeinterdisciplinary|defenseinfor|washingtondc",
+"title": "Student Trainee (Interdisciplinary)",
+"company": "Defense Information Systems Agency",
+"location": "Fort Meade, Maryland",
+"metro": "Washington DC",
+"url": "https://www.usajobs.gov:443/job/885020700",
+"posted": "2026-09-18",
+"sources": [
+"USAJOBS"
+],
+"flags": [
+"🇺🇸 연방정부"
 ],
 "remote": false,
 "first_seen": "2026-09-19",
@@ -1224,6 +1244,26 @@
 "JSearch/JobLeads"
 ],
 "flags": [],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "",
+"company_key": null
+},
+{
+"id": "engineer|navalseasyst|washingtondc",
+"title": "ENGINEER",
+"company": "Naval Sea Systems Command",
+"location": "Dahlgren, Virginia",
+"metro": "Washington DC",
+"url": "https://www.usajobs.gov:443/job/884242200",
+"posted": "2026-09-11",
+"sources": [
+"USAJOBS"
+],
+"flags": [
+"🇺🇸 연방정부"
+],
 "remote": false,
 "first_seen": "2026-09-19",
 "last_seen": "2026-09-19",
@@ -4668,17 +4708,18 @@
 "id": "principalrfcommunicationssystemsengineer|sesspacedefe|washingtondc",
 "title": "Principal RF Communications Systems Engineer",
 "company": "SES Space & Defense",
-"location": "Reston, VA",
+"location": "Reston, VA, US, 20191",
 "metro": "Washington DC",
-"url": "https://www.linkedin.com/jobs/view/principal-rf-communications-systems-engineer-at-ses-space-defense-4428895480",
+"url": "https://careers.sessd.com/job/Reston-Principal-RF-Communications-Systems-Engineer-VA-20191/1399731600/",
 "posted": "2026-09-02",
 "sources": [
-"JSearch/LinkedIn"
+"JSearch/LinkedIn",
+"회사/successfactors"
 ],
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-09-17",
+"last_seen": "2026-09-19",
 "company_key": "SES Space & Defense",
 "group": "방산"
 },

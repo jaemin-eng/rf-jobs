@@ -1125,7 +1125,13 @@
   "radiofrequencyengineer|recruyt|sfbayarea": "2026-09-19",
   "Adzuna:5890903935": "2026-09-19",
   "Adzuna:5873279540": "2026-09-19",
-  "principalseniorprincipalelectronicwarfareewsystemsengine|northropgrum|washingtondc": "2026-09-19"
+  "principalseniorprincipalelectronicwarfareewsystemsengine|northropgrum|washingtondc": "2026-09-19",
+  "USAJOBS:DE-13061106-26-JRT": "2026-09-19",
+  "engineer|navalseasyst|washingtondc": "2026-09-19",
+  "USAJOBS:CESIN-DISA-13063034-26AB": "2026-09-19",
+  "studenttraineeinterdisciplinary|defenseinfor|washingtondc": "2026-09-19",
+  "회사:SES Space & Defense:1399731600": "2026-09-19",
+  "principalrfcommunicationssystemsengineer|sesspacedefe|washingtondc": "2026-09-19"
  },
  "jobs": {
   "seniorrfengineer|freshconsult|sfbayarea": {
@@ -3131,17 +3137,18 @@
    "id": "principalrfcommunicationssystemsengineer|sesspacedefe|washingtondc",
    "title": "Principal RF Communications Systems Engineer",
    "company": "SES Space & Defense",
-   "location": "Reston, VA",
+   "location": "Reston, VA, US, 20191",
    "metro": "Washington DC",
-   "url": "https://www.linkedin.com/jobs/view/principal-rf-communications-systems-engineer-at-ses-space-defense-4428895480",
+   "url": "https://careers.sessd.com/job/Reston-Principal-RF-Communications-Systems-Engineer-VA-20191/1399731600/",
    "posted": "2026-09-02",
    "sources": [
-    "JSearch/LinkedIn"
+    "JSearch/LinkedIn",
+    "회사/successfactors"
    ],
    "flags": [],
    "remote": false,
    "first_seen": "2026-09-17",
-   "last_seen": "2026-09-17",
+   "last_seen": "2026-09-19",
    "company_key": "SES Space & Defense",
    "group": "방산"
   },
@@ -9580,6 +9587,46 @@
    "last_seen": "2026-09-19",
    "group": "방산",
    "company_key": "Northrop Grumman"
+  },
+  "engineer|navalseasyst|washingtondc": {
+   "id": "engineer|navalseasyst|washingtondc",
+   "title": "ENGINEER",
+   "company": "Naval Sea Systems Command",
+   "location": "Dahlgren, Virginia",
+   "metro": "Washington DC",
+   "url": "https://www.usajobs.gov:443/job/884242200",
+   "posted": "2026-09-11",
+   "sources": [
+    "USAJOBS"
+   ],
+   "flags": [
+    "🇺🇸 연방정부"
+   ],
+   "remote": false,
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
+   "group": "",
+   "company_key": null
+  },
+  "studenttraineeinterdisciplinary|defenseinfor|washingtondc": {
+   "id": "studenttraineeinterdisciplinary|defenseinfor|washingtondc",
+   "title": "Student Trainee (Interdisciplinary)",
+   "company": "Defense Information Systems Agency",
+   "location": "Fort Meade, Maryland",
+   "metro": "Washington DC",
+   "url": "https://www.usajobs.gov:443/job/885020700",
+   "posted": "2026-09-18",
+   "sources": [
+    "USAJOBS"
+   ],
+   "flags": [
+    "🇺🇸 연방정부"
+   ],
+   "remote": false,
+   "first_seen": "2026-09-19",
+   "last_seen": "2026-09-19",
+   "group": "",
+   "company_key": null
   }
  },
  "backfilled": "2026-09-17",
@@ -9748,6 +9795,12 @@
   },
   "The Aerospace Corporation": {
    "workday": "https://aero.wd5.myworkdayjobs.com/External"
+  },
+  "SES Space & Defense": {
+   "successfactors": "https://careers.sessd.com"
+  },
+  "Charles River Analytics": {
+   "greenhouse": "charlesriveranalytics90"
   }
  },
  "company_status": [
@@ -9761,10 +9814,10 @@
    "seconds": 232,
    "in_metro": 12,
    "other_locations": [
-    "Palmdale, CA",
+    "Littleton, CO",
     "Fort Worth, TX",
-    "Marietta, GA",
-    "Littleton, CO"
+    "Palmdale, CA",
+    "Marietta, GA"
    ]
   },
   {
@@ -9774,7 +9827,7 @@
    "via": "workday",
    "source": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway",
    "count": 180,
-   "seconds": 268,
+   "seconds": 267,
    "in_metro": 49,
    "other_locations": [
     "Mckinney, TX",
@@ -9790,7 +9843,7 @@
    "via": "workday",
    "source": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site",
    "count": 75,
-   "seconds": 187,
+   "seconds": 186,
    "in_metro": 41,
    "other_locations": [
     "Plymouth, Minnesota",
@@ -9839,8 +9892,8 @@
    "seconds": 359,
    "in_metro": 1,
    "other_locations": [
-    "Boulder, Colorado / Westminster, Colorado",
-    "Huntsville, Alabama"
+    "Huntsville, Alabama",
+    "Boulder, Colorado / Westminster, Colorado"
    ]
   },
   {
@@ -9850,7 +9903,7 @@
    "via": "radancy",
    "source": "https://careers.l3harris.com",
    "count": 22,
-   "seconds": 23,
+   "seconds": 24,
    "in_metro": 2,
    "other_locations": [
     "Palm Bay, Brevard, FL",
@@ -9866,7 +9919,7 @@
    "via": "workday",
    "source": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS",
    "count": 16,
-   "seconds": 78,
+   "seconds": 75,
    "in_metro": 0,
    "other_locations": [
     "USA - El Segundo, CA",
@@ -9898,7 +9951,7 @@
    "source": "",
    "count": 0,
    "error": "채용 시스템을 찾지 못함",
-   "seconds": 3,
+   "seconds": 8,
    "in_metro": 0,
    "other_locations": []
   },
@@ -9909,7 +9962,7 @@
    "via": "successfactors",
    "source": "https://careers.leonardodrs.com",
    "count": 3,
-   "seconds": 21,
+   "seconds": 19,
    "in_metro": 3,
    "other_locations": []
   },
@@ -9920,7 +9973,7 @@
    "via": "workday",
    "source": "https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site",
    "count": 2,
-   "seconds": 33,
+   "seconds": 36,
    "in_metro": 0,
    "other_locations": [
     "Lone Tree, CO",
@@ -9946,7 +9999,7 @@
    "via": "workday",
    "source": "https://leidos.wd5.myworkdayjobs.com/External",
    "count": 50,
-   "seconds": 153,
+   "seconds": 151,
    "in_metro": 7,
    "other_locations": [
     "Huntsville, AL",
@@ -9963,7 +10016,7 @@
    "source": "",
    "count": 0,
    "error": "ttcportals: TTC HTTP 403",
-   "seconds": 3,
+   "seconds": 6,
    "in_metro": 0,
    "other_locations": []
   },
@@ -9974,7 +10027,7 @@
    "via": "eightfold",
    "source": "{\"host\": \"caci.eightfold.ai\", \"domain\": \"caci.com\"}",
    "count": 27,
-   "seconds": 84,
+   "seconds": 79,
    "in_metro": 16,
    "other_locations": [
     "Panama City, FL",
@@ -9990,7 +10043,7 @@
    "via": "workday",
    "source": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs",
    "count": 27,
-   "seconds": 109,
+   "seconds": 106,
    "in_metro": 15,
    "other_locations": [
     "Australia",
@@ -10020,7 +10073,7 @@
    "via": "icims",
    "source": "https://careers-peraton.icims.com",
    "count": 20,
-   "seconds": 24,
+   "seconds": 26,
    "in_metro": 12,
    "other_locations": [
     "Macdill Afb, FL",
@@ -10064,8 +10117,8 @@
    "via": "",
    "source": "",
    "count": 0,
-   "error": "icims: iCIMS 결과 0건 (형식 확인 필요)",
-   "seconds": 18,
+   "error": "icims: iCIMS 결과 0건 (형식 확인 필요); icims: iCIMS 결과 0건 (형식 확인 필요)",
+   "seconds": 36,
    "in_metro": 0,
    "other_locations": []
   },
@@ -10075,10 +10128,14 @@
    "status": "ok",
    "via": "phenom",
    "source": "https://careers.kbr.com/us/en",
-   "count": 6,
+   "count": 11,
    "seconds": 362,
-   "in_metro": 6,
-   "other_locations": []
+   "in_metro": 0,
+   "other_locations": [
+    "Ann Arbor, Michigan",
+    "Beavercreek Township, Ohio",
+    "Huntsville, Alabama"
+   ]
   },
   {
    "name": "Jacobs",
@@ -10088,7 +10145,7 @@
    "source": "",
    "count": 0,
    "error": "채용 시스템을 찾지 못함",
-   "seconds": 0,
+   "seconds": 2,
    "in_metro": 0,
    "other_locations": []
   },
@@ -10099,7 +10156,7 @@
    "via": "workday",
    "source": "https://maxar.wd1.myworkdayjobs.com/Vantor",
    "count": 1,
-   "seconds": 16,
+   "seconds": 18,
    "in_metro": 1,
    "other_locations": []
   },
@@ -10123,7 +10180,7 @@
    "via": "greenhouse",
    "source": "hawkeye360",
    "count": 2,
-   "seconds": 3,
+   "seconds": 0,
    "in_metro": 2,
    "other_locations": []
   },
@@ -10135,7 +10192,7 @@
    "source": "",
    "count": 0,
    "error": "icims: iCIMS 결과 0건 (형식 확인 필요); icims: iCIMS 결과 0건 (형식 확인 필요); icims: iCIMS 결과 0건 (형식 확인 필요)",
-   "seconds": 56,
+   "seconds": 57,
    "in_metro": 0,
    "other_locations": []
   },
@@ -10154,13 +10211,12 @@
   {
    "name": "SES Space & Defense",
    "group": "방산",
-   "status": "fail",
-   "via": "",
-   "source": "",
-   "count": 0,
-   "error": "채용 시스템을 찾지 못함",
-   "seconds": 1,
-   "in_metro": 0,
+   "status": "ok",
+   "via": "successfactors",
+   "source": "https://careers.sessd.com",
+   "count": 1,
+   "seconds": 17,
+   "in_metro": 1,
    "other_locations": []
   },
   {
@@ -10170,7 +10226,7 @@
    "via": "greenhouse",
    "source": "andurilindustries",
    "count": 66,
-   "seconds": 24,
+   "seconds": 0,
    "in_metro": 0,
    "other_locations": [
     "Costa Mesa, California",
@@ -10186,7 +10242,7 @@
    "via": "lever",
    "source": "shieldai",
    "count": 0,
-   "seconds": 2,
+   "seconds": 1,
    "in_metro": 0,
    "other_locations": []
   },
@@ -10223,7 +10279,7 @@
    "via": "workday",
    "source": "https://avav.wd1.myworkdayjobs.com/AVAV",
    "count": 6,
-   "seconds": 25,
+   "seconds": 26,
    "in_metro": 2,
    "other_locations": [
     "Albuquerque, NM",
@@ -10365,11 +10421,11 @@
    "via": "phenom",
    "source": "https://careers.mitre.org/us/en",
    "count": 11,
-   "seconds": 361,
+   "seconds": 358,
    "in_metro": 9,
    "other_locations": [
-    "El Segundo, California",
-    "Boulder, Colorado"
+    "Boulder, Colorado",
+    "El Segundo, California"
    ]
   },
   {
@@ -10380,7 +10436,7 @@
    "source": "",
    "count": 0,
    "error": "icims: iCIMS 결과 0건 (형식 확인 필요); icims: iCIMS HTTP 404; icims: iCIMS 결과 0건 (형식 확인 필요); radancy: Radancy HTTP 404",
-   "seconds": 43,
+   "seconds": 45,
    "in_metro": 0,
    "other_locations": []
   },
@@ -10391,7 +10447,7 @@
    "via": "workday",
    "source": "https://aero.wd5.myworkdayjobs.com/External",
    "count": 24,
-   "seconds": 127,
+   "seconds": 129,
    "in_metro": 8,
    "other_locations": [
     "El Segundo, CA",
@@ -10422,7 +10478,7 @@
    "source": "",
    "count": 0,
    "error": "채용 시스템을 찾지 못함",
-   "seconds": 0,
+   "seconds": 3,
    "in_metro": 0,
    "other_locations": []
   },
@@ -10433,7 +10489,7 @@
    "via": "icims",
    "source": "https://careers-riversideresearch.icims.com",
    "count": 4,
-   "seconds": 15,
+   "seconds": 18,
    "in_metro": 1,
    "other_locations": [
     "Dayton, OH",
@@ -10456,12 +10512,11 @@
   {
    "name": "Charles River Analytics",
    "group": "연구소",
-   "status": "fail",
-   "via": "",
-   "source": "",
+   "status": "ok",
+   "via": "greenhouse",
+   "source": "charlesriveranalytics90",
    "count": 0,
-   "error": "greenhouse: Greenhouse HTTP 404; lever: Lever HTTP 404",
-   "seconds": 3,
+   "seconds": 0,
    "in_metro": 0,
    "other_locations": []
   },
@@ -10488,13 +10543,13 @@
    "via": "eightfold",
    "source": "{\"host\": \"careers.qualcomm.com\", \"domain\": \"qualcomm.com\"}",
    "count": 44,
-   "seconds": 123,
+   "seconds": 122,
    "in_metro": 24,
    "other_locations": [
-    "Hsinchu City, Taiwan",
     "Hyderabad, Telangāna, India",
-    "Tijuana, Baja California, Mexico",
-    "Singapore, Central Singapore, Singapore"
+    "Singapore, Central Singapore, Singapore",
+    "Farnborough, United Kingdom",
+    "Bangalore, India"
    ]
   },
   {

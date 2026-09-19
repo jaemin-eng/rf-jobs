@@ -1,5 +1,5 @@
 {
-"updated": "2026-09-19T14:30:15+00:00",
+"updated": "2026-09-19T19:23:39+00:00",
 "jobs": [
 {
 "id": "seniortestdevelopmentengineerrfpowerhardwaresecret|solidustechn|boston",
@@ -76,6 +76,42 @@
 "last_seen": "2026-09-19",
 "group": "방산",
 "company_key": "SAIC"
+},
+{
+"id": "seniorradiofrequencyengineer|evona|sfbayarea",
+"title": "Senior Radio Frequency Engineer",
+"company": "EVONA",
+"location": "Hayes Valley, San Francisco, California",
+"metro": "SF Bay Area",
+"url": "https://www.adzuna.com/land/ad/5890902705?se=Um9WOF208RGSI57gYuD12g&utm_medium=api&utm_source=d677d981&v=5F6045DED9DA3E1698DB2756CB3B0250B8B44BE2",
+"posted": "2026-09-19",
+"sources": [
+"Adzuna"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "",
+"company_key": null
+},
+{
+"id": "radiofrequencyengineer|recruyt|sfbayarea",
+"title": "Radio Frequency Engineer",
+"company": "recruyt",
+"location": "Campbell, Santa Clara County, California",
+"metro": "SF Bay Area",
+"url": "https://www.adzuna.com/land/ad/5890903935?se=qio3Ol208RGk6dCvHcHp9g&utm_medium=api&utm_source=d677d981&v=A140159C2949D894B40695EA9D5E139689699902",
+"posted": "2026-09-19",
+"sources": [
+"Adzuna"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "",
+"company_key": null
 },
 {
 "id": "rfengineer|appliedmater|sfbayarea",
@@ -1235,6 +1271,26 @@
 "company_key": "Northrop Grumman"
 },
 {
+"id": "principalseniorprincipalelectronicwarfareewsystemsengine|northropgrum|washingtondc",
+"title": "Principal / Sr. Principal Electronic Warfare (EW) Systems Engine with Security Clearance",
+"company": "Northrop Grumman",
+"location": "Baltimore, Baltimore County, Maryland",
+"metro": "Washington DC",
+"url": "https://www.adzuna.com/land/ad/5873279540?se=ZrZJcV208RGSI57gYuD12g&utm_medium=api&utm_source=d677d981&v=3A4F28FFE3D800A635A629594A9C4B12DF01F985",
+"posted": "2026-09-06",
+"sources": [
+"Adzuna"
+],
+"flags": [
+"🔐 클리어런스"
+],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
 "id": "seniorsatcomsystemsengineer|kbr|sandiego",
 "title": "Senior SATCOM Systems Engineer",
 "company": "KBR",
@@ -2343,7 +2399,9 @@
 "Adzuna",
 "회사/workday"
 ],
-"flags": [],
+"flags": [
+"🔐 클리어런스"
+],
 "remote": false,
 "first_seen": "2026-09-17",
 "last_seen": "2026-09-19",
@@ -3108,7 +3166,7 @@
 "company": "KBR",
 "location": "Chantilly, Virginia",
 "metro": "Washington DC",
-"url": "https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/Chantilly-Virginia/Radar-Research-Engineer_R2129784/apply",
+"url": "https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/Chantilly-Virginia/Radar-Research-Engineer_R2122559/apply",
 "posted": "2026-09-13",
 "sources": [
 "Adzuna",
@@ -7085,9 +7143,12 @@
 "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Patuxent-River-MD/Radar-Engineer_R0243390",
 "posted": "2026-08-18",
 "sources": [
+"Adzuna",
 "회사/workday"
 ],
-"flags": [],
+"flags": [
+"🔐 클리어런스"
+],
 "remote": false,
 "first_seen": "2026-09-17",
 "last_seen": "2026-09-19",
@@ -7319,9 +7380,12 @@
 "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/California-MD/Wireless-Engineer_R0247108",
 "posted": "2026-08-18",
 "sources": [
+"Adzuna",
 "회사/workday"
 ],
-"flags": [],
+"flags": [
+"🔐 클리어런스"
+],
 "remote": false,
 "first_seen": "2026-09-17",
 "last_seen": "2026-09-19",

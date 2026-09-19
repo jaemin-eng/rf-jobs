@@ -1,5 +1,5 @@
 {
-"updated": "2026-09-19T20:24:50+00:00",
+"updated": "2026-09-19T20:49:40+00:00",
 "jobs": [
 {
 "id": "seniortestdevelopmentengineerrfpowerhardwaresecret|solidustechn|boston",
@@ -990,6 +990,26 @@
 "company_key": null
 },
 {
+"id": "electronicsengineer|officeofnava|washingtondc",
+"title": "ELECTRONICS ENGINEER",
+"company": "Office of Naval Research",
+"location": "Naval Research Laboratory, District of Columbia",
+"metro": "Washington DC",
+"url": "https://www.usajobs.gov:443/job/884883300",
+"posted": "2026-09-17",
+"sources": [
+"USAJOBS"
+],
+"flags": [
+"🇺🇸 연방정부"
+],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "",
+"company_key": null
+},
+{
 "id": "rfengineer|voyagertechn|sandiego",
 "title": "RF Engineer",
 "company": "Voyager Technologies",
@@ -1076,6 +1096,26 @@
 "JSearch/JobMESH"
 ],
 "flags": [],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "",
+"company_key": null
+},
+{
+"id": "electronicsengineercomputerscientist|officeofnava|washingtondc",
+"title": "ELECTRONICS ENGINEER/COMPUTER SCIENTIST",
+"company": "Office of Naval Research",
+"location": "Naval Research Laboratory, District of Columbia",
+"metro": "Washington DC",
+"url": "https://www.usajobs.gov:443/job/884708700",
+"posted": "2026-09-16",
+"sources": [
+"USAJOBS"
+],
+"flags": [
+"🇺🇸 연방정부"
+],
 "remote": false,
 "first_seen": "2026-09-19",
 "last_seen": "2026-09-19",
@@ -1215,6 +1255,24 @@
 "company_key": null
 },
 {
+"id": "seniorrfengineertransceivermodule|viasat|sandiego",
+"title": "Senior RF Engineer - Transceiver Module",
+"company": "Viasat",
+"location": "Carlsbad, California",
+"metro": "San Diego",
+"url": "https://careers-viasat.icims.com/jobs/6859/login",
+"posted": "2026-09-14",
+"sources": [
+"회사/jibe"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "방산",
+"company_key": "Viasat"
+},
+{
 "id": "rftestengineermidlabfieldtesting|boozallenham|sandiego",
 "title": "RF Test Engineer (Mid) – Lab & Field Testing",
 "company": "Booz Allen Hamilton",
@@ -1258,6 +1316,26 @@
 "metro": "Washington DC",
 "url": "https://www.usajobs.gov:443/job/884242200",
 "posted": "2026-09-11",
+"sources": [
+"USAJOBS"
+],
+"flags": [
+"🇺🇸 연방정부"
+],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "",
+"company_key": null
+},
+{
+"id": "hardwareanalysisdesignengineerentrytomidlevelmaryland|nationalsecu|washingtondc",
+"title": "Hardware Analysis & Design Engineer - Entry to Mid Level (Maryland)",
+"company": "National Security Agency/Central Security Service",
+"location": "Fort Meade, Maryland",
+"metro": "Washington DC",
+"url": "https://www.usajobs.gov:443/job/883858600",
+"posted": "2026-09-08",
 "sources": [
 "USAJOBS"
 ],
@@ -1349,6 +1427,46 @@
 "company_key": "KBR"
 },
 {
+"id": "juniorlevelengineerscientistexpeditionaryradarexrgatorsecretclearance|v2x|washingtondc",
+"title": "Junior Level Engineer/Scientist - Expeditionary RADAR (ExR) G/ATOR - Secret Clearance",
+"company": "V2X",
+"location": "Dahlgren, Virginia",
+"metro": "Washington DC",
+"url": "https://careers-gov2x.icims.com/jobs/62760/login",
+"posted": "2026-09-01",
+"sources": [
+"회사/jibe"
+],
+"flags": [
+"🔐 클리어런스"
+],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "방산",
+"company_key": "V2X"
+},
+{
+"id": "seniorengineerscientistexpeditionaryradarexrgatorsecretclearance|v2x|washingtondc",
+"title": "Senior Engineer/Scientist - Expeditionary RADAR (ExR) G/ATOR - Secret Clearance",
+"company": "V2X",
+"location": "Dahlgren, Virginia",
+"metro": "Washington DC",
+"url": "https://careers-gov2x.icims.com/jobs/62756/login",
+"posted": "2026-09-01",
+"sources": [
+"회사/jibe"
+],
+"flags": [
+"🔐 클리어런스"
+],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "방산",
+"company_key": "V2X"
+},
+{
 "id": "satcomsystemsengineer|kbr|sandiego",
 "title": "SATCOM Systems Engineer",
 "company": "KBR",
@@ -1385,6 +1503,86 @@
 "company_key": "KBR"
 },
 {
+"id": "chiefengineeringadvisor|federalcommu|washingtondc",
+"title": "Chief Engineering Advisor",
+"company": "Federal Communications Commission",
+"location": "Washington, District of Columbia",
+"metro": "Washington DC",
+"url": "https://www.usajobs.gov:443/job/882600100",
+"posted": "2026-08-28",
+"sources": [
+"USAJOBS"
+],
+"flags": [
+"🇺🇸 연방정부"
+],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "",
+"company_key": null
+},
+{
+"id": "multidisciplinarycomputerscientist|usmarinecorp|washingtondc",
+"title": "MULTIDISCIPLINARY COMPUTER SCIENTIST",
+"company": "U.S. Marine Corps",
+"location": "Stafford, Virginia",
+"metro": "Washington DC",
+"url": "https://www.usajobs.gov:443/job/882699900",
+"posted": "2026-08-28",
+"sources": [
+"USAJOBS"
+],
+"flags": [
+"🇺🇸 연방정부"
+],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "",
+"company_key": null
+},
+{
+"id": "generalengineer|usmarinecorp|washingtondc",
+"title": "GENERAL ENGINEER",
+"company": "U.S. Marine Corps",
+"location": "Quantico, Virginia",
+"metro": "Washington DC",
+"url": "https://www.usajobs.gov:443/job/882591600",
+"posted": "2026-08-28",
+"sources": [
+"USAJOBS"
+],
+"flags": [
+"🇺🇸 연방정부"
+],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "",
+"company_key": null
+},
+{
+"id": "spy6radarengineerscientistsecretclearance|v2x|washingtondc",
+"title": "SPY-6 Radar Engineer/Scientist - Secret Clearance",
+"company": "V2X",
+"location": "Dahlgren, Virginia",
+"metro": "Washington DC",
+"url": "https://careers-gov2x.icims.com/jobs/62712/login",
+"posted": "2026-08-28",
+"sources": [
+"회사/jibe"
+],
+"flags": [
+"🔐 클리어런스"
+],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "방산",
+"company_key": "V2X"
+},
+{
 "id": "electromagneticwarfareemwtrainingspecialist29992|hiimissionte|sandiego",
 "title": "Electromagnetic Warfare (EMW) Training Specialist - 29992",
 "company": "HII Mission Technologies",
@@ -1401,6 +1599,26 @@
 "last_seen": "2026-09-19",
 "group": "방산",
 "company_key": "HII Mission Technologies"
+},
+{
+"id": "healthphysicist|officeofnava|washingtondc",
+"title": "HEALTH PHYSICIST",
+"company": "Office of Naval Research",
+"location": "Naval Research Laboratory, District of Columbia",
+"metro": "Washington DC",
+"url": "https://www.usajobs.gov:443/job/881593100",
+"posted": "2026-08-24",
+"sources": [
+"USAJOBS"
+],
+"flags": [
+"🇺🇸 연방정부"
+],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "",
+"company_key": null
 },
 {
 "id": "2026associaterfengineerrfengineerdullesva|northropgrum|washingtondc",
@@ -1421,6 +1639,24 @@
 "company_key": "Northrop Grumman"
 },
 {
+"id": "rfengineertransceiverdesign|viasat|sandiego",
+"title": "RF Engineer, Transceiver Design",
+"company": "Viasat",
+"location": "Carlsbad, California",
+"metro": "San Diego",
+"url": "https://careers-viasat.icims.com/jobs/6438/login",
+"posted": "2026-07-24",
+"sources": [
+"회사/jibe"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "방산",
+"company_key": "Viasat"
+},
+{
 "id": "staffrfsystemsengineer|northropgrum|washingtondc",
 "title": "Staff RF Systems Engineer",
 "company": "Northrop Grumman",
@@ -1437,6 +1673,24 @@
 "last_seen": "2026-09-19",
 "group": "방산",
 "company_key": "Northrop Grumman"
+},
+{
+"id": "satcomspecialist|viasat|sandiego",
+"title": "SATCOM Specialist",
+"company": "Viasat",
+"location": "Carlsbad, California",
+"metro": "San Diego",
+"url": "https://careers-viasat.icims.com/jobs/6410/login",
+"posted": "2026-06-23",
+"sources": [
+"회사/jibe"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "방산",
+"company_key": "Viasat"
 },
 {
 "id": "radiofrequencyengineeringmgrl5secondshift|lockheedmart|boston",

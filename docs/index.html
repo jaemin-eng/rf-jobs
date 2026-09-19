@@ -38,7 +38,7 @@ h1{font-family:var(--cond);font-weight:700;font-size:30px;letter-spacing:-.01em;
 .theme{background:none;border:1px solid var(--line);color:var(--ink-2);border-radius:6px;padding:3px 9px;cursor:pointer;font:inherit;font-size:13px;margin-left:8px}
 
 /* 지역 채널: 14일간 새 공고 추이 */
-.channels{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin:22px 0 18px;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--panel)}
+.channels{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin:22px 0 18px;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--panel)}
 .ch{appearance:none;border:0;background:none;color:inherit;font:inherit;text-align:left;padding:14px 16px 10px;cursor:pointer;border-right:1px solid var(--line);position:relative}
 .ch:last-child{border-right:0}
 .ch[aria-pressed="false"]{opacity:.42}
@@ -74,6 +74,7 @@ select{padding:8px 10px;border:1px solid var(--line);border-radius:8px;backgroun
 .tag{font-size:11.5px;padding:1px 7px;border-radius:4px;border:1px solid var(--line);color:var(--ink-2)}
 .tag.metro{border-color:var(--trace);color:var(--trace)}
 .tag.warn{border-color:var(--warn);color:var(--warn)}
+.tag.clr{border-color:var(--applied);color:var(--applied)}
 .tag.gone{border-style:dashed}
 .acts{display:flex;gap:4px}
 .act{appearance:none;border:1px solid var(--line);background:var(--panel);color:var(--ink-2);font:inherit;font-size:12.5px;padding:4px 9px;border-radius:6px;cursor:pointer;white-space:nowrap}
@@ -105,6 +106,10 @@ details.coverage summary .sub{font-weight:400;font-family:var(--sans);font-size:
 footer{margin-top:26px;font-size:12.5px;color:var(--ink-2)}
 footer button{font:inherit;background:none;border:0;color:var(--trace);cursor:pointer;padding:0;text-decoration:underline}
 
+@media (max-width:1050px){
+  .channels{grid-template-columns:repeat(2,1fr)}
+  .ch{border-bottom:1px solid var(--line)}
+}
 @media (max-width:720px){
   .channels{grid-template-columns:1fr}
   .ch{border-right:0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:1fr auto;align-items:center}
@@ -135,7 +140,11 @@ footer button{font:inherit;background:none;border:0;color:var(--trace);cursor:po
       <option value="posted">게시일순</option>
       <option value="company">회사 이름순</option>
     </select>
-    <label class="check"><input type="checkbox" id="noClr"> 클리어런스·시민권 요구 공고 숨기기</label>
+    <select id="clr" aria-label="클리어런스 공고 보기">
+      <option value="off">클리어런스: 전체</option>
+      <option value="only">클리어런스 공고만</option>
+      <option value="hide">클리어런스 공고 숨기기</option>
+    </select>
   </div>
   <div class="row2">
     <div class="tabs" id="tabs" role="group" aria-label="보기"></div>
@@ -162,7 +171,7 @@ footer button{font:inherit;background:none;border:0;color:var(--trace);cursor:po
 </div>
 
 <script>
-const METROS = ["SF Bay Area","Boston","Washington DC"];
+const METROS = ["SF Bay Area","San Diego","Boston","Washington DC"];
 const CATS = [
   ["RF",       /\bRF\b|radio frequency|wireless/i],
   ["안테나",    /antenna/i],
@@ -184,7 +193,7 @@ const ui = {
   cats: new Set(saved.cats || []),
   groups: new Set(saved.groups || []),
   view: saved.view || "all",
-  q: "", sort: saved.sort || "found", noClr: !!saved.noClr,
+  q: "", sort: saved.sort || "found", clr: saved.clr || "off",
 };
 let jobs = [], updated = null;
 
@@ -202,7 +211,7 @@ const isGone = j => updated && (j.sources||[]).length > 0
 const hasClr = j => (j.flags||[]).some(f => /클리어런스|연방/.test(f));
 
 function savePrefs(){
-  store.set(PREF, {metros:[...ui.metros], cats:[...ui.cats], groups:[...ui.groups], view:ui.view, sort:ui.sort, noClr:ui.noClr});
+  store.set(PREF, {metros:[...ui.metros], cats:[...ui.cats], groups:[...ui.groups], view:ui.view, sort:ui.sort, clr:ui.clr});
 }
 
 function sparkline(metro){
@@ -237,7 +246,8 @@ function baseFiltered(){
   const q = ui.q.trim().toLowerCase();
   return jobs.filter(j => {
     if (!ui.metros.has(j.metro) && j.metro !== "Remote") return false;
-    if (ui.noClr && hasClr(j)) return false;
+    if (ui.clr === "hide" && hasClr(j)) return false;
+    if (ui.clr === "only" && !hasClr(j)) return false;
     if (ui.cats.size && !catsOf(j).some(c => ui.cats.has(c))) return false;
     if (ui.groups.size && !ui.groups.has(j.group)) return false;
     if (q && !`${j.title} ${j.company} ${j.location}`.toLowerCase().includes(q)) return false;
@@ -320,7 +330,7 @@ function renderList(base){
       `<span class="tag metro">${esc(j.metro)}</span>`,
       j.group ? `<span class="tag grp">${esc(j.group)}</span>` : "",
       ...catsOf(j).map(c => `<span class="tag">${esc(c)}</span>`),
-      ...(j.flags||[]).map(f => `<span class="tag warn">${esc(f)}</span>`),
+      ...(j.flags||[]).map(f => `<span class="tag ${/클리어런스|연방/.test(f) ? "clr" : "warn"}">${esc(f)}</span>`),
       isGone(j) ? `<span class="tag gone" title="회사 채용 페이지에서 사라짐. 마감되었을 수 있습니다">목록에서 사라짐</span>` : "",
     ].join("");
     const src = [...new Set((j.sources||[]).map(x => x.replace(/^JSearch\//,"").replace(/^회사\/.*/,"회사 공식 채용")))].join(", ");
@@ -362,7 +372,7 @@ $("#covBody").addEventListener("click", e => {
 });
 $("#q").addEventListener("input", e => { ui.q = e.target.value; render(); });
 $("#sort").addEventListener("change", e => { ui.sort = e.target.value; savePrefs(); render(); });
-$("#noClr").addEventListener("change", e => { ui.noClr = e.target.checked; savePrefs(); render(); });
+$("#clr").addEventListener("change", e => { ui.clr = e.target.value; savePrefs(); render(); });
 $("#list").addEventListener("click", e => {
   const b = e.target.closest(".act"); if (!b) return;
   const {id, s} = b.dataset;
@@ -391,7 +401,7 @@ $("#theme").addEventListener("click", () => {
 });
 { const t = store.get("rfjw-theme", null); if (t) document.documentElement.dataset.theme = t; }
 $("#sort").value = ui.sort;
-$("#noClr").checked = ui.noClr;
+$("#clr").value = ui.clr;
 
 // 데이터 불러오기
 fetch("companies.json?t=" + Date.now()).then(r => r.ok ? r.json() : {companies: []})

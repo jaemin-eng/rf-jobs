@@ -155,9 +155,8 @@ companies:
     aliases: [Vectrus, Vertex Aerospace]
     careers: [https://gov2x.com/careers/]
     sources:
+      - jibe: https://careers.gov2x.com
       - icims: https://careers-gov2x.icims.com
-      - icims: https://nonus-gov2x.icims.com
-
   - name: KBR
     group: 방산
     aliases: [KBR Government Solutions]
@@ -190,13 +189,15 @@ companies:
     group: 방산
     careers: [https://careers.viasat.com, https://www.viasat.com/careers/]
     sources:
+      - jibe: https://careers.viasat.com
       - icims: https://careers-viasat.icims.com
-
   - name: Hughes Network Systems
     manual_url: https://jobs.echostar.com/jobs?tags4=Hughes
     group: 방산
     aliases: [Hughes, EchoStar]
     careers: [https://www.hughes.com/who-we-are/careers]
+    sources:
+      - jibe: https://jobs.echostar.com
 
   - name: SES Space & Defense
     manual_url: https://www.ses.com/careers

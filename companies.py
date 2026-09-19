@@ -670,11 +670,47 @@ def fetch_ttcportals(base, title_ok):
     return _dedupe(out)
 
 
+def fetch_jibe(base, title_ok):
+    """Jibe/Radancy 계열 채용 사이트의 공개 JSON (careers.<회사>.com/api/jobs).
+    iCIMS 뒤에 있지만 목록은 이 주소가 가장 잘 나온다."""
+    base = base.rstrip("/")
+    out, seen, page = [], set(), 1
+    while page <= 12:
+        r = _get(f"{base}/api/jobs", params={"page": page, "limit": 100})
+        if r.status_code != 200:
+            raise RuntimeError(f"Jibe HTTP {r.status_code}")
+        try:
+            rows = (r.json() or {}).get("jobs") or []
+        except ValueError:
+            raise RuntimeError("Jibe 응답이 JSON이 아님")
+        if not rows:
+            break
+        for row in rows:
+            d = row.get("data") or row
+            jid = str(d.get("req_id") or d.get("slug") or d.get("apply_url") or "")
+            if jid in seen:
+                continue
+            seen.add(jid)
+            if not title_ok(d.get("title", "")):
+                continue
+            loc = d.get("location") or ", ".join(
+                x for x in (d.get("city"), d.get("state")) if x)
+            out.append(Found(jid, d.get("title"), _clean_loc(loc),
+                             d.get("apply_url") or d.get("meta_data", {}).get("canonical_url", ""),
+                             (d.get("posted_date") or "")[:10]))
+        if len(rows) < 100:
+            break
+        page += 1
+    if not seen:
+        raise RuntimeError("Jibe 결과 0건 (주소 확인 필요)")
+    return out
+
+
 FETCHERS = {
     "workday": fetch_workday, "greenhouse": fetch_greenhouse, "lever": fetch_lever,
     "ashby": fetch_ashby, "smartrecruiters": fetch_smartrecruiters, "icims": fetch_icims,
     "phenom": fetch_phenom, "radancy": fetch_radancy, "successfactors": fetch_successfactors,
-    "eightfold": fetch_eightfold, "apple": fetch_apple, "jobsyn": fetch_jobsyn, "ttcportals": fetch_ttcportals,
+    "eightfold": fetch_eightfold, "apple": fetch_apple, "jobsyn": fetch_jobsyn, "ttcportals": fetch_ttcportals, "jibe": fetch_jibe,
 }
 
 

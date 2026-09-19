@@ -296,19 +296,22 @@ def fetch_usajobs(cfg, state):
         log("USAJOBS: 건너뜀 (비활성 또는 키 없음)")
         return []
     headers = {"Host": "data.usajobs.gov", "User-Agent": email, "Authorization-Key": key}
-    jobs = []
+    days = min(60, max(window(cfg, state)[0], src.get("days_old", 30)))
+    # 연방 공고는 "RF engineer" 같은 두 단어 검색에 거의 안 걸린다.
+    # (1) 넓은 단일 키워드와 (2) 직렬 코드(0855 전자공학 등)로 훑는다.
+    queries = src.get("queries") or cfg["search_queries"]
+    series = src.get("job_category_codes") or []
+    jobs, calls = [], 0
     for metro in src.get("metros", []):
         m = cfg["metros"][metro]
-        for q in cfg["search_queries"]:
-            data = get_json(
-                "https://data.usajobs.gov/api/search",
-                headers=headers,
-                params={"Keyword": q, "LocationName": m.get("usajobs_location", m["search_location"]),
-                        "Radius": m["radius_miles"],
-                        # 연방 공고는 수가 적고 오래 열려 있어 기간을 넓게 봄
-                        "DatePosted": min(60, max(window(cfg, state)[0], src.get("days_old", 30))),
-                        "ResultsPerPage": 100},
-            )
+        base = {"LocationName": m.get("usajobs_location", m["search_location"]),
+                "Radius": m["radius_miles"], "DatePosted": days, "ResultsPerPage": 100}
+        probes = [dict(base, Keyword=q) for q in queries]
+        if series:
+            probes.append(dict(base, JobCategoryCode=",".join(str(s) for s in series)))
+        for params in probes:
+            calls += 1
+            data = get_json("https://data.usajobs.gov/api/search", headers=headers, params=params)
             items = (((data or {}).get("SearchResult") or {}).get("SearchResultItems")) or []
             for it in items:
                 d = it.get("MatchedObjectDescriptor", {})
@@ -324,7 +327,7 @@ def fetch_usajobs(cfg, state):
                     flags=["🇺🇸 연방정부"],
                 ))
             time.sleep(0.5)
-    log(f"USAJOBS: {len(jobs)}건")
+    log(f"USAJOBS: 호출 {calls}회, {len(jobs)}건(중복 포함)")
     return jobs
 
 

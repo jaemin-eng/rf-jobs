@@ -40,6 +40,8 @@ title_exclude_patterns:
   - '\bintern\b'
 
 # 본문에 이런 문구가 있으면 "⚠️ 시민권/클리어런스" 표시
+  - \bstudent trainee\b
+  - \bpathways\b
 clearance_patterns:
   - 'security clearance'
   - 'secret clearance'
@@ -142,5 +144,19 @@ sources:
     enabled: true
     days_old: 30          # 연방 공고는 수가 적어 최근 30일까지 봄
     metros: ["Washington DC", "Boston", "SF Bay Area", "San Diego"]
+    # 연방 공고 전용 검색어 (두 단어 조합은 거의 안 걸려서 넓게 잡음)
+    queries:
+      - radio frequency
+      - antenna
+      - electromagnetic
+      - radar
+      - microwave
+      - electronic warfare
+    # 연방 직렬 코드로도 훑는다 (키워드에 안 걸리는 공고를 잡기 위함)
+    job_category_codes:
+      - '0855'
+      - '0854'
+      - '0850'
+      - '1310'
 
   # 회사 채용 페이지 직접 연결은 companies.yaml 에서 관리합니다

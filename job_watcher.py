@@ -303,7 +303,7 @@ def fetch_usajobs(cfg, state):
                     url=d.get("PositionURI") or "",
                     posted=(d.get("PublicationStartDate") or "")[:10],
                     description=json.dumps(d.get("UserArea", {}))[:3000],
-                    flags=["🇺🇸 연방정부(대개 시민권 필요)"],
+                    flags=["🇺🇸 연방정부"],
                 ))
             time.sleep(0.5)
     log(f"USAJOBS: {len(jobs)}건")
@@ -351,7 +351,7 @@ def filter_jobs(jobs, cfg):
                 continue
         j.metro = metro
         if any(p.search(j.description) or p.search(j.title) for p in clr):
-            j.flags.append("⚠️ 클리어런스/시민권")
+            j.flags.append("🔐 클리어런스")
         if cfg.get("hide_clearance_jobs") and j.flags:
             continue
         out.append(j)

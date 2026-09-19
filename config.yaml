@@ -98,6 +98,18 @@ metros:
              North Reading, Wakefield, Lynn, Saugus, Dedham, Sudbury, Wayland, Southborough,
              Northborough, Westborough, Devens, Ayer, Stow, Carlisle, Sharon, Foxborough,
              Mansfield, Arlington, Belmont, Winchester, Merrimack, Hudson NH, Manchester]
+  "San Diego":
+    search_location: "San Diego, CA"
+    jsearch_location: "San Diego, CA"
+    adzuna_where: "San Diego"
+    radius_miles: 45
+    states: ["CA"]
+    cities: [San Diego, La Jolla, Sorrento Valley, Torrey Pines, Del Mar, Solana Beach,
+             Carmel Valley, Rancho Bernardo, Scripps Ranch, Mira Mesa, Miramar, Kearny Mesa,
+             Point Loma, Coronado, Chula Vista, National City, Imperial Beach, El Cajon,
+             La Mesa, Santee, Poway, Escondido, San Marcos, Vista, Carlsbad, Oceanside,
+             Encinitas, Cardiff, Ramona, Spring Valley, Lemon Grove, Bonita, Rancho Santa Fe,
+             Camp Pendleton, Fallbrook, Point Mugu, Coronado Island]
   "Washington DC":
     search_location: "Washington, DC"
     jsearch_location: "Washington, DC"
@@ -149,6 +161,6 @@ sources:
   # USAJOBS: 연방정부 공고 (대부분 미국 시민권 필요) — DC 지역에서 유용
   usajobs:
     enabled: true
-    metros: ["Washington DC", "Boston", "SF Bay Area"]
+    metros: ["Washington DC", "Boston", "SF Bay Area", "San Diego"]
 
   # 회사 채용 페이지 직접 연결은 companies.yaml 에서 관리합니다

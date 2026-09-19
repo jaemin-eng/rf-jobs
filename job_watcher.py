@@ -273,6 +273,22 @@ def fetch_adzuna(cfg, state):
     return jobs
 
 
+def _usajobs_text(d):
+    """연방 공고의 실제 설명 문구를 모아 준다 (제목이 직렬 이름이라 본문으로 걸러야 함)."""
+    parts = [d.get("PositionTitle") or "", d.get("QualificationSummary") or ""]
+    details = (d.get("UserArea") or {}).get("Details") or {}
+    for k in ("JobSummary", "MajorDuties", "Requirements", "Evaluations"):
+        v = details.get(k)
+        if isinstance(v, list):
+            parts.append(" ".join(str(x) for x in v))
+        elif v:
+            parts.append(str(v))
+    for cat in d.get("JobCategory") or []:
+        parts.append(f"{cat.get('Name','')} {cat.get('Code','')}")
+    text = re.sub(r"<[^>]+>", " ", " ".join(parts))
+    return re.sub(r"\s+", " ", text)[:6000]
+
+
 def fetch_usajobs(cfg, state):
     src = cfg["sources"]["usajobs"]
     key, email = os.getenv("USAJOBS_API_KEY"), os.getenv("USAJOBS_EMAIL")
@@ -304,7 +320,7 @@ def fetch_usajobs(cfg, state):
                     location=d.get("PositionLocationDisplay") or "",
                     url=d.get("PositionURI") or "",
                     posted=(d.get("PublicationStartDate") or "")[:10],
-                    description=json.dumps(d.get("UserArea", {}))[:3000],
+                    description=_usajobs_text(d),
                     flags=["🇺🇸 연방정부"],
                 ))
             time.sleep(0.5)
@@ -329,9 +345,14 @@ def filter_jobs(jobs, cfg):
     inc = [re.compile(p, re.I) for p in cfg["title_include_patterns"]]
     exc = [re.compile(p, re.I) for p in cfg.get("title_exclude_patterns", [])]
     clr = [re.compile(p, re.I) for p in cfg.get("clearance_patterns", [])]
+    fed = [re.compile(p, re.I) for p in cfg.get("federal_title_patterns", [])]
     out, stats, unmatched = [], {}, []
     for j in jobs:
-        if not any(p.search(j.title) for p in inc):
+        # 연방(USAJOBS) 공고는 제목이 "Electronics Engineer"처럼 직렬 이름이라
+        # 제목만 보면 다 걸러진다. 직군만 맞으면 본문까지 보고 판단한다.
+        federal = j.source == "USAJOBS" and fed and any(p.search(j.title) for p in fed)
+        haystack = f"{j.title}\n{j.description}" if federal else j.title
+        if not any(p.search(haystack) for p in inc):
             stats["제목 불일치"] = stats.get("제목 불일치", 0) + 1
             continue
         if any(p.search(j.title) for p in exc):

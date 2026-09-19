@@ -76,7 +76,7 @@ companies:
     careers: [https://careers.hii.com, https://jobs.hii-tsd.com]
 
   - name: Textron Systems
-    manual_url: https://careers.textron.com/search/?q=RF
+    manual_url: https://careers.textron.com/business-unit/textron-systems/jobs/
     group: 방산
     aliases: [Textron]
     careers: [https://www.textronsystems.com/careers, https://www.textron.com/careers]
@@ -94,7 +94,7 @@ companies:
     careers: [https://www.sncorp.com/careers/]
 
   - name: Mercury Systems
-    manual_url: https://myjobs.adp.com/mercurysystemscareers/cx/job-listing
+    manual_url: https://myjobs.adp.com/mercurysystemscareers/cx
     group: 방산
     aliases: [Mercury Systems]
     # ADP 채용 시스템(myjobs.adp.com)이라 직접 연결 불가 → Adzuna/JSearch 회사명 검색으로 수집
@@ -139,7 +139,7 @@ companies:
     careers: [https://careers.peraton.com]
 
   - name: ManTech
-    manual_url: https://www.mantech.com/careers/
+    manual_url: https://careers.mantech.com/en_US/careers/SearchJobs
     group: 방산
     careers: [https://www.mantech.com/careers, https://mantech.wd1.myworkdayjobs.com/External]
 
@@ -154,6 +154,9 @@ companies:
     group: 방산
     aliases: [Vectrus, Vertex Aerospace]
     careers: [https://gov2x.com/careers/]
+    sources:
+      - icims: https://careers-gov2x.icims.com
+      - icims: https://nonus-gov2x.icims.com
 
   - name: KBR
     group: 방산
@@ -161,7 +164,7 @@ companies:
     careers: [https://careers.kbr.com/us/en, https://www.kbr.com/en/careers]
 
   - name: Jacobs
-    manual_url: https://careers.jacobs.com/en_US/careers/SearchJobs/RF
+    manual_url: https://careers.jacobs.com/en_US/careers/SearchJobs
     group: 방산
     aliases: [Jacobs Engineering]
     careers: [https://careers.jacobs.com/en_US/careers]
@@ -174,21 +177,23 @@ companies:
   - name: BlackSky
     group: 방산
     careers: [https://www.blacksky.com/careers/]
-    sources: [{greenhouse: blacksky}, {lever: blacksky}]
+    sources: [greenhouse: blacksky, lever: blacksky]
 
   - name: HawkEye 360
     group: 방산
     aliases: [HawkEye360]
     careers: [https://www.he360.com/careers/]
-    sources: [{greenhouse: hawkeye360}]
+    sources: [greenhouse: hawkeye360]
 
   - name: Viasat
     manual_url: https://careers.viasat.com/careers?query=RF
     group: 방산
     careers: [https://careers.viasat.com, https://www.viasat.com/careers/]
+    sources:
+      - icims: https://careers-viasat.icims.com
 
   - name: Hughes Network Systems
-    manual_url: https://www.hughes.com/who-we-are/careers
+    manual_url: https://jobs.echostar.com/jobs?tags4=Hughes
     group: 방산
     aliases: [Hughes, EchoStar]
     careers: [https://www.hughes.com/who-we-are/careers]
@@ -198,25 +203,27 @@ companies:
     group: 방산
     aliases: [SES Government Solutions, SES Space]
     careers: [https://www.ses.com/careers]
+    sources:
+      - successfactors: https://careers.sessd.com
 
   # ---------------- 신흥 방산 ----------------
   - name: Anduril
     group: 방산
     aliases: [Anduril Industries]
-    sources: [{greenhouse: andurilindustries}]
+    sources: [greenhouse: andurilindustries]
 
   - name: Shield AI
     group: 방산
-    sources: [{lever: shieldai}]
+    sources: [lever: shieldai]
 
   - name: Epirus
     group: 방산
-    sources: [{greenhouse: epirus}, {ashby: epirus}, {lever: epirus}]
+    sources: [greenhouse: epirus, ashby: epirus, lever: epirus]
     careers: [https://www.epirusinc.com/careers]
 
   - name: Saronic
     group: 방산
-    sources: [{ashby: saronic}, {greenhouse: saronic}, {lever: saronic}]
+    sources: [ashby: saronic, greenhouse: saronic, lever: saronic]
     careers: [https://www.saronic.com/careers]
 
   - name: AeroVironment / BlueHalo
@@ -226,38 +233,38 @@ companies:
 
   - name: Palantir
     group: 방산
-    sources: [{lever: palantir}]
+    sources: [lever: palantir]
 
   - name: Skydio
     group: 방산
-    sources: [{ashby: skydio}, {greenhouse: skydio}, {lever: skydio}]
+    sources: [ashby: skydio, greenhouse: skydio, lever: skydio]
     careers: [https://www.skydio.com/careers]
 
   - name: Saildrone
     group: 방산
-    sources: [{greenhouse: saildroneinc}]
+    sources: [greenhouse: saildroneinc]
     careers: [https://job-boards.greenhouse.io/saildroneinc]
 
   - name: Applied Intuition
     group: 방산
-    sources: [{greenhouse: appliedintuition}, {ashby: appliedintuition}, {lever: appliedintuition}]
+    sources: [greenhouse: appliedintuition, ashby: appliedintuition, lever: appliedintuition]
     careers: [https://www.appliedintuition.com/careers]
 
   - name: Aalyria
-    manual_url: https://www.aalyria.com/careers
+    manual_url: https://ats.rippling.com/aalyria-careers/jobs
     group: 방산
-    sources: [{greenhouse: aalyria}, {ashby: aalyria}, {lever: aalyria}]
+    sources: [greenhouse: aalyria, ashby: aalyria, lever: aalyria]
     careers: [https://www.aalyria.com/careers]
 
   - name: Vannevar Labs
     group: 방산
-    sources: [{greenhouse: vannevarlabs}, {ashby: vannevarlabs}, {lever: vannevarlabs}]
+    sources: [greenhouse: vannevarlabs, ashby: vannevarlabs, lever: vannevarlabs]
     careers: [https://www.vannevarlabs.com/careers]
 
   - name: STR
     group: 방산
     aliases: [Systems & Technology Research]
-    sources: [{greenhouse: systemstechnologyresearch}]
+    sources: [greenhouse: systemstechnologyresearch]
     careers: [https://job-boards.greenhouse.io/systemstechnologyresearch]
 
   # ---------------- 연구소 / FFRDC ----------------
@@ -312,7 +319,7 @@ companies:
     careers: [https://www.sri.com/careers/, https://careers.sri.com]
 
   - name: IDA
-    manual_url: https://www.ida.org/careers/careers-at-ida
+    manual_url: https://phh.tbe.taleo.net/phh01/ats/careers/v2/jobSearch?org=INSTITUTEDA&cws=39
     group: 연구소
     aliases: [Institute for Defense Analyses]
     careers: [https://www.ida.org/careers]
@@ -322,7 +329,7 @@ companies:
     careers: [https://www.riversideresearch.org/careers]
 
   - name: Physical Sciences Inc.
-    manual_url: https://www.psicorp.com/careers/
+    manual_url: https://www.psicorp.com/careers/open-positions/
     group: 연구소
     aliases: [Physical Sciences Inc, PSI]
     careers: [https://www.psicorp.com/careers/]
@@ -331,7 +338,8 @@ companies:
     manual_url: https://cra.com/careers/
     group: 연구소
     careers: [https://cra.com/careers/]
-    sources: [{greenhouse: charlesriveranalytics}, {lever: cra}]
+    sources:
+      - greenhouse: charlesriveranalytics90
 
   # ---------------- RF 반도체·통신 (직접 연결) ----------------
   - name: Apple
@@ -349,16 +357,13 @@ companies:
   - name: SpaceX
     group: RF·통신
     aliases: [Starlink]
-    sources: [{greenhouse: spacex}]
+    sources: [greenhouse: spacex]
 
   - name: Astranis
     group: RF·통신
-    sources: [{greenhouse: astranis}, {ashby: astranis}, {lever: astranis}]
+    sources: [greenhouse: astranis, ashby: astranis, lever: astranis]
 
 # ---- 아래 회사들은 직접 연결 없이, Adzuna/JSearch에서 잡힌 공고에 그룹 표시만 붙임 ----
 tag_only:
-  RF·통신: [Google, Meta, Broadcom, Skyworks, Qorvo, MACOM, Analog Devices, Keysight,
-           "Rohde & Schwarz", Ericsson, Nokia, Samsung, Planet Labs,
-           Iridium, Intelsat, Amazon, Kuiper, Marvell, NXP, Infineon, Texas Instruments, Microchip,
-           Nvidia, Intel, AMD, Cisco, Verizon, "AT&T", T-Mobile, Pivotal Commware, Zoox, Tesla]
+  RF·통신: [Google, Meta, Broadcom, Skyworks, Qorvo, MACOM, Analog Devices, Keysight, "Rohde & Schwarz", Ericsson, Nokia, Samsung, Planet Labs, Iridium, Intelsat, Amazon, Kuiper, Marvell, NXP, Infineon, Texas Instruments, Microchip, Nvidia, Intel, AMD, Cisco, Verizon, "AT&T", T-Mobile, Pivotal Commware, Zoox, Tesla]
   연구소: [NIST, Naval Research Laboratory, NASA, Air Force Research Laboratory, MIT]

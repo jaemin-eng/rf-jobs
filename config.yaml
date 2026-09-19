@@ -74,15 +74,7 @@ metros:
     adzuna_where: "San Francisco"
     radius_miles: 60
     states: ["CA"]
-    cities: [San Francisco, South San Francisco, San Jose, Oakland, Berkeley, Emeryville,
-             Palo Alto, Mountain View, Sunnyvale, Santa Clara, Cupertino, Menlo Park,
-             Redwood City, San Mateo, Foster City, Burlingame, San Carlos, Belmont,
-             San Bruno, Fremont, Newark, Union City, Hayward, Milpitas, Pleasanton,
-             Livermore, Dublin, San Ramon, Walnut Creek, Concord, Alameda, Richmond,
-             Los Gatos, Campbell, Saratoga, Morgan Hill, Los Altos, Scotts Valley, Gilroy,
-             Moffett Field, Millbrae, Daly City, Brisbane, Atherton, Woodside, Portola Valley,
-             San Leandro, Castro Valley, El Cerrito, Albany, Danville, Pleasant Hill,
-             Martinez, Vallejo, Benicia, San Rafael, Novato, Petaluma, Mill Valley, Sausalito, Bay Area]
+    cities: [San Francisco, South San Francisco, San Jose, Oakland, Berkeley, Emeryville, Palo Alto, Mountain View, Sunnyvale, Santa Clara, Cupertino, Menlo Park, Redwood City, San Mateo, Foster City, Burlingame, San Carlos, Belmont, San Bruno, Fremont, Newark, Union City, Hayward, Milpitas, Pleasanton, Livermore, Dublin, San Ramon, Walnut Creek, Concord, Alameda, Richmond, Los Gatos, Campbell, Saratoga, Morgan Hill, Los Altos, Scotts Valley, Gilroy, Moffett Field, Millbrae, Daly City, Brisbane, Atherton, Woodside, Portola Valley, San Leandro, Castro Valley, El Cerrito, Albany, Danville, Pleasant Hill, Martinez, Vallejo, Benicia, San Rafael, Novato, Petaluma, Mill Valley, Sausalito, Bay Area, Travis AFB, Travis Air Force Base, Fairfield, Suisun City, Vacaville]
   "Boston":
     search_location: "Boston, MA"
     usajobs_location: "Boston, Massachusetts"
@@ -90,16 +82,7 @@ metros:
     adzuna_where: "Boston"
     radius_miles: 45
     states: ["MA", "NH"]
-    cities: [Boston, Cambridge, Somerville, Watertown, Waltham, Newton, Needham, Wellesley,
-             Natick, Framingham, Marlborough, Hudson, Hopkinton, Burlington, Bedford,
-             Lexington, Woburn, Wilmington, Tewksbury, Andover, North Andover, Billerica,
-             Chelmsford, Lowell, Westford, Littleton, Acton, Maynard, Concord, Medford,
-             Malden, Quincy, Braintree, Canton, Norwood, Westwood, Beverly, Danvers,
-             Peabody, Salem, Lynnfield, Marlboro, Boxborough, Nashua, Salem NH, Hampton, Hanscom, Hanscom Air Force Base, Hanscom AFB,
-             Tyngsborough, Dracut, Methuen, Lawrence, Haverhill, Stoneham, Reading,
-             North Reading, Wakefield, Lynn, Saugus, Dedham, Sudbury, Wayland, Southborough,
-             Northborough, Westborough, Devens, Ayer, Stow, Carlisle, Sharon, Foxborough,
-             Mansfield, Arlington, Belmont, Winchester, Merrimack, Hudson NH, Manchester]
+    cities: [Boston, Cambridge, Somerville, Watertown, Waltham, Newton, Needham, Wellesley, Natick, Framingham, Marlborough, Hudson, Hopkinton, Burlington, Bedford, Lexington, Woburn, Wilmington, Tewksbury, Andover, North Andover, Billerica, Chelmsford, Lowell, Westford, Littleton, Acton, Maynard, Concord, Medford, Malden, Quincy, Braintree, Canton, Norwood, Westwood, Beverly, Danvers, Peabody, Salem, Lynnfield, Marlboro, Boxborough, Nashua, Salem NH, Hampton, Hanscom, Hanscom Air Force Base, Hanscom AFB, Tyngsborough, Dracut, Methuen, Lawrence, Haverhill, Stoneham, Reading, North Reading, Wakefield, Lynn, Saugus, Dedham, Sudbury, Wayland, Southborough, Northborough, Westborough, Devens, Ayer, Stow, Carlisle, Sharon, Foxborough, Mansfield, Arlington, Belmont, Winchester, Merrimack, Hudson NH, Manchester]
   "San Diego":
     search_location: "San Diego, CA"
     usajobs_location: "San Diego, California"
@@ -107,12 +90,7 @@ metros:
     adzuna_where: "San Diego"
     radius_miles: 45
     states: ["CA"]
-    cities: [San Diego, La Jolla, Sorrento Valley, Torrey Pines, Del Mar, Solana Beach,
-             Carmel Valley, Rancho Bernardo, Scripps Ranch, Mira Mesa, Miramar, Kearny Mesa,
-             Point Loma, Coronado, Chula Vista, National City, Imperial Beach, El Cajon,
-             La Mesa, Santee, Poway, Escondido, San Marcos, Vista, Carlsbad, Oceanside,
-             Encinitas, Cardiff, Ramona, Spring Valley, Lemon Grove, Bonita, Rancho Santa Fe,
-             Camp Pendleton, Fallbrook, Point Mugu, Coronado Island]
+    cities: [San Diego, La Jolla, Sorrento Valley, Torrey Pines, Del Mar, Solana Beach, Carmel Valley, Rancho Bernardo, Scripps Ranch, Mira Mesa, Miramar, Kearny Mesa, Point Loma, Coronado, Chula Vista, National City, Imperial Beach, El Cajon, La Mesa, Santee, Poway, Escondido, San Marcos, Vista, Carlsbad, Oceanside, Encinitas, Cardiff, Ramona, Spring Valley, Lemon Grove, Bonita, Rancho Santa Fe, Camp Pendleton, Fallbrook, Coronado Island]
   "Washington DC":
     search_location: "Washington, DC"
     usajobs_location: "Washington, District of Columbia"
@@ -120,26 +98,21 @@ metros:
     adzuna_where: "Washington, DC"
     radius_miles: 45
     states: ["DC", "VA", "MD"]
-    cities: [Washington, Arlington, Alexandria, Crystal City, Falls Church, McLean, Tysons,
-             Vienna, Fairfax, Reston, Herndon, Chantilly, Dulles, Sterling, Ashburn,
-             Leesburg, Manassas, Springfield, Lorton, Woodbridge, Bethesda, Rockville,
-             Gaithersburg, Germantown, Silver Spring, College Park, Greenbelt, Lanham,
-             Laurel, Columbia, Annapolis Junction, Fort Meade, Hanover, Linthicum,
-             Elkridge, Frederick, Beltsville, Adelphi, Suitland, Largo, Bowie,
-             Baltimore, Towson, Annapolis, Odenton, Millersville, Glen Burnie, Severn,
-             Hunt Valley, Owings Mills, Aberdeen, Patuxent River, Lexington Park,
-             Dahlgren, King George, Stafford, Quantico, Fredericksburg, Gainesville,
-             Haymarket, Centreville, Clifton, Warrenton, Fort Belvoir, Belvoir, Joint Base Andrews,
-             Andrews, Anacostia, Bolling, Pentagon, Fort Detrick, Indian Head, Carderock,
-             White Oak, Savage, Jessup, Arnold, Crofton, Gambrills, Ellicott City,
-             Catonsville, Halethorpe, California, St. Inigoes, Great Mills, Solomons,
-             Dunn Loring, Merrifield, Oakton, Annandale, Lanham, Landover, Hyattsville,
-             Beltsville, Kensington, Chevy Chase, North Bethesda, Potomac, Clarksburg,
-             Boyds, Hagerstown]
+    cities: [Washington, Arlington, Alexandria, Crystal City, Falls Church, McLean, Tysons, Vienna, Fairfax, Reston, Herndon, Chantilly, Dulles, Sterling, Ashburn, Leesburg, Manassas, Springfield, Lorton, Woodbridge, Bethesda, Rockville, Gaithersburg, Germantown, Silver Spring, College Park, Greenbelt, Lanham, Laurel, Columbia, Annapolis Junction, Fort Meade, Hanover, Linthicum, Elkridge, Frederick, Beltsville, Adelphi, Suitland, Largo, Bowie, Baltimore, Towson, Annapolis, Odenton, Millersville, Glen Burnie, Severn, Hunt Valley, Owings Mills, Aberdeen, Patuxent River, Lexington Park, Dahlgren, King George, Stafford, Quantico, Fredericksburg, Gainesville, Haymarket, Centreville, Clifton, Warrenton, Fort Belvoir, Belvoir, Joint Base Andrews, Andrews, Anacostia, Bolling, Pentagon, Fort Detrick, Indian Head, Carderock, White Oak, Savage, Jessup, Arnold, Crofton, Gambrills, Ellicott City, Catonsville, Halethorpe, California, St. Inigoes, Great Mills, Solomons, Dunn Loring, Merrifield, Oakton, Annandale, Lanham, Landover, Hyattsville, Beltsville, Kensington, Chevy Chase, North Bethesda, Potomac, Clarksburg, Boyds, Hagerstown]
 
 # ------------------------------------------------------------
 # 데이터 소스
 # ------------------------------------------------------------
+# 연방(USAJOBS) 공고 전용: 이 직군 제목이면 공고 본문까지 보고 판단한다
+federal_title_patterns:
+  - "\\bengineer(ing)?\\b"
+  - "\\bscientist\\b"
+  - "\\bphysicist\\b"
+  - "\\belectronics\\b"
+  - "\\belectrical\\b"
+  - "\\binterdisciplinary\\b"
+  - "\\btechnologist\\b"
+
 sources:
   # JSearch: LinkedIn / Indeed / Glassdoor / ZipRecruiter 등 (Google for Jobs 기반)
   # 무료 요금제 월 200회를 bio 사이트와 나눠 씀:

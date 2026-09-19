@@ -1,5 +1,5 @@
 {
-"updated": "2026-09-19T05:40:35+00:00",
+"updated": "2026-09-19T06:20:30+00:00",
 "jobs": [
 {
 "id": "rfengineer|appliedmater|sfbayarea",
@@ -756,6 +756,42 @@
 "last_seen": "2026-09-19",
 "group": "방산",
 "company_key": "HII Mission Technologies"
+},
+{
+"id": "2026associaterfengineerrfengineerdullesva|northropgrum|washingtondc",
+"title": "2026 Associate RF Engineer/RF Engineer - Dulles VA",
+"company": "Northrop Grumman",
+"location": "Dulles, Virginia",
+"metro": "Washington DC",
+"url": "https://jobs.northropgrumman.com/careers/job/1340073844240",
+"posted": "2026-08-21",
+"sources": [
+"회사/eightfold"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
+"id": "staffrfsystemsengineer|northropgrum|washingtondc",
+"title": "Staff RF Systems Engineer",
+"company": "Northrop Grumman",
+"location": "Baltimore, Maryland",
+"metro": "Washington DC",
+"url": "https://jobs.northropgrumman.com/careers/job/1340072484704",
+"posted": "2026-06-25",
+"sources": [
+"회사/eightfold"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "방산",
+"company_key": "Northrop Grumman"
 },
 {
 "id": "radiofrequencyengineeringmgrl5secondshift|lockheedmart|boston",
@@ -1814,10 +1850,11 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Engineer-Principal-Engineer-RF-Microwave-Design--SkillBridge-_R10231212",
+"url": "https://jobs.northropgrumman.com/careers/job/1340071547271",
 "posted": "2026-09-16",
 "sources": [
 "Adzuna",
+"회사/eightfold",
 "회사/workday"
 ],
 "flags": [
@@ -2459,10 +2496,11 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Antenna-Test-Engineer_R10232101-1",
+"url": "https://jobs.northropgrumman.com/careers/job/1340071634032",
 "posted": "2026-09-13",
 "sources": [
 "Adzuna",
+"회사/eightfold",
 "회사/workday"
 ],
 "flags": [
@@ -3064,10 +3102,11 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Principal-Engineer-Sr-Principal-Engineer-Digital-RF-Subsystems-I-T-Lead_R10249546",
+"url": "https://jobs.northropgrumman.com/careers/job/1340074172531",
 "posted": "2026-09-08",
 "sources": [
 "Adzuna",
+"회사/eightfold",
 "회사/workday"
 ],
 "flags": [],
@@ -3363,10 +3402,11 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Engineer-Principal-Engineer-RF-Microwave-Subsystem-I-T_R10249540",
+"url": "https://jobs.northropgrumman.com/careers/job/1340074172421",
 "posted": "2026-09-06",
 "sources": [
 "Adzuna",
+"회사/eightfold",
 "회사/workday"
 ],
 "flags": [
@@ -3612,9 +3652,10 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Principal---Sr-Principal-Electronic-Warfare--EW--Systems-Engineer_R10249511",
+"url": "https://jobs.northropgrumman.com/careers/job/1340074172022",
 "posted": "2026-09-04",
 "sources": [
+"회사/eightfold",
 "회사/workday"
 ],
 "flags": [],
@@ -3703,10 +3744,11 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Engineer-Principal-Engineer-RF-Microwave-Design---Subsystems-I-T_R10248480",
+"url": "https://jobs.northropgrumman.com/careers/job/1340074088918",
 "posted": "2026-09-03",
 "sources": [
 "Adzuna",
+"회사/eightfold",
 "회사/workday"
 ],
 "flags": [],
@@ -3722,10 +3764,11 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Principal-Sr-Principal-Engineer-RF-Microwave-Design---Subsystems-I-T_R10248610",
+"url": "https://jobs.northropgrumman.com/careers/job/1340074088997",
 "posted": "2026-09-03",
 "sources": [
 "Adzuna",
+"회사/eightfold",
 "회사/workday"
 ],
 "flags": [],
@@ -3741,10 +3784,11 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Principal-Sr-Principal-RF-Microwave-Design-Engineer---Subsystems-I-T_R10248616",
+"url": "https://jobs.northropgrumman.com/careers/job/1340074089064",
 "posted": "2026-09-03",
 "sources": [
 "Adzuna",
+"회사/eightfold",
 "회사/workday"
 ],
 "flags": [],
@@ -3760,10 +3804,11 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Principal-Sr-Sr-Principal-RF-Microwave-Design-Engineer---Subsystems-I-T_R10248620",
+"url": "https://jobs.northropgrumman.com/careers/job/1340074089315",
 "posted": "2026-09-03",
 "sources": [
 "Adzuna",
+"회사/eightfold",
 "회사/workday"
 ],
 "flags": [],
@@ -3779,10 +3824,11 @@
 "company": "Northrop Grumman",
 "location": "Stafford, Virginia",
 "metro": "Washington DC",
-"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Virginia-Stafford/RF-Systems-Engineer-systems---TS-SCI--_R10248782",
+"url": "https://jobs.northropgrumman.com/careers/job/1340074123580",
 "posted": "2026-09-03",
 "sources": [
 "Adzuna",
+"회사/eightfold",
 "회사/workday"
 ],
 "flags": [
@@ -3852,7 +3898,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-09-17",
+"last_seen": "2026-09-19",
 "group": "방산",
 "company_key": "KBR"
 },
@@ -3862,9 +3908,10 @@
 "company": "Northrop Grumman",
 "location": "Linthicum, Maryland / Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Linthicum/Space-RADAR-Payload-I-T-SME---Staff-Engineer-Systems_R10242686",
+"url": "https://jobs.northropgrumman.com/careers/job/1340073371622",
 "posted": "2026-09-03",
 "sources": [
+"회사/eightfold",
 "회사/workday"
 ],
 "flags": [],
@@ -3880,9 +3927,10 @@
 "company": "Northrop Grumman",
 "location": "Linthicum, Maryland / Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Linthicum/Space-RADAR-Payload-I-T-SME---Sr-Staff-Engineer-Systems_R10242677",
+"url": "https://jobs.northropgrumman.com/careers/job/1340073371555",
 "posted": "2026-09-03",
 "sources": [
+"회사/eightfold",
 "회사/workday"
 ],
 "flags": [],
@@ -4888,9 +4936,10 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Principal-Sr-Principal-RF-Microwave-Mixed-Signal-Design-Engineer_R10241653",
+"url": "https://jobs.northropgrumman.com/careers/job/1340073110892",
 "posted": "2026-08-27",
 "sources": [
+"회사/eightfold",
 "회사/workday"
 ],
 "flags": [],
@@ -4922,9 +4971,10 @@
 "company": "Northrop Grumman",
 "location": "Dulles, Virginia",
 "metro": "Washington DC",
-"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Virginia-Dulles/Mechanical-Antenna-Engineer---Level-3---Dulles_R10238232",
+"url": "https://jobs.northropgrumman.com/careers/job/1340072618378",
 "posted": "2026-08-26",
 "sources": [
+"회사/eightfold",
 "회사/workday"
 ],
 "flags": [],
@@ -4940,9 +4990,10 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/RF-Microwave-Design-Engineer-Level-4---Baltimore_R10243411",
+"url": "https://jobs.northropgrumman.com/careers/job/1340073443850",
 "posted": "2026-08-26",
 "sources": [
+"회사/eightfold",
 "회사/workday"
 ],
 "flags": [],
@@ -4958,9 +5009,10 @@
 "company": "Northrop Grumman",
 "location": "Linthicum, Maryland",
 "metro": "Washington DC",
-"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Linthicum/Radar-Modeling-Simulation-Analysis-Associate-Systems-Engineer_R10247334",
+"url": "https://jobs.northropgrumman.com/careers/job/1340073899467",
 "posted": "2026-08-26",
 "sources": [
+"회사/eightfold",
 "회사/workday"
 ],
 "flags": [],
@@ -4976,9 +5028,10 @@
 "company": "Northrop Grumman",
 "location": "Linthicum, Maryland",
 "metro": "Washington DC",
-"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Linthicum/Space-RADAR-Data-Processing---Principal-Sr-Principal-Engineer-Systems_R10239207-1",
+"url": "https://jobs.northropgrumman.com/careers/job/1340072786310",
 "posted": "2026-08-26",
 "sources": [
+"회사/eightfold",
 "회사/workday"
 ],
 "flags": [],
@@ -5176,9 +5229,10 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Staff-I-T-Systems-Engineer---RF---HW---2nd-Shift_R10247593",
+"url": "https://jobs.northropgrumman.com/careers/job/1340073928096",
 "posted": "2026-08-25",
 "sources": [
+"회사/eightfold",
 "회사/workday"
 ],
 "flags": [],
@@ -5215,9 +5269,10 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Engineer-RF-Microwave-Subsystem-I-T_R10242919-1",
+"url": "https://jobs.northropgrumman.com/careers/job/1340073392724",
 "posted": "2026-08-24",
 "sources": [
+"회사/eightfold",
 "회사/workday"
 ],
 "flags": [],
@@ -5408,9 +5463,10 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Staff-Radar-Modeling-Simulation-Analysis-Systems-Engineer_R10247029",
+"url": "https://jobs.northropgrumman.com/careers/job/1340073848338",
 "posted": "2026-08-21",
 "sources": [
+"회사/eightfold",
 "회사/workday"
 ],
 "flags": [],
@@ -5426,9 +5482,10 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Principal---Senior-Principal-Radar-Modeling-Simulation-Analysis-Systems-Engineer_R10247025",
+"url": "https://jobs.northropgrumman.com/careers/job/1340073848042",
 "posted": "2026-08-21",
 "sources": [
+"회사/eightfold",
 "회사/workday"
 ],
 "flags": [],
@@ -5536,9 +5593,10 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/RF-Test-Engineer--Principal-RF-Test-Engineer--2nd-Shift_R10246825",
+"url": "https://jobs.northropgrumman.com/careers/job/1340073769545",
 "posted": "2026-08-20",
 "sources": [
+"회사/eightfold",
 "회사/workday"
 ],
 "flags": [],
@@ -6047,9 +6105,10 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/RF-Test-and-Development-Engineer---2nd-Shift_R10246307",
+"url": "https://jobs.northropgrumman.com/careers/job/1340073701124",
 "posted": "2026-08-18",
 "sources": [
+"회사/eightfold",
 "회사/workday"
 ],
 "flags": [],
@@ -6065,9 +6124,10 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Principal-Sr-Principal-RF-Hardware-Subsystem-Integration-and-Test-Engineers_R10245628",
+"url": "https://jobs.northropgrumman.com/careers/job/1340073609251",
 "posted": "2026-08-18",
 "sources": [
+"회사/eightfold",
 "회사/workday"
 ],
 "flags": [],
@@ -6083,9 +6143,10 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Principal-RF-Systems-Engineer---Senior-Principal-RF-Systems-Engineer_R10237686",
+"url": "https://jobs.northropgrumman.com/careers/job/1340072483158",
 "posted": "2026-08-18",
 "sources": [
+"회사/eightfold",
 "회사/workday"
 ],
 "flags": [],
@@ -6101,9 +6162,10 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Sr-Staff-I-T-Systems-Engineer---RF---HW_R10243881",
+"url": "https://jobs.northropgrumman.com/careers/job/1340073467737",
 "posted": "2026-08-18",
 "sources": [
+"회사/eightfold",
 "회사/workday"
 ],
 "flags": [],
@@ -6119,9 +6181,10 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Staff-I-T-Systems-Engineer---RF---HW_R10243876-1",
+"url": "https://jobs.northropgrumman.com/careers/job/1340073467733",
 "posted": "2026-08-18",
 "sources": [
+"회사/eightfold",
 "회사/workday"
 ],
 "flags": [],
@@ -6137,9 +6200,10 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Principal-Engineer-Sr-Principal-Engineer-RF-Microwave-Design_R10241638",
+"url": "https://jobs.northropgrumman.com/careers/job/1340073109549",
 "posted": "2026-08-18",
 "sources": [
+"회사/eightfold",
 "회사/workday"
 ],
 "flags": [],
@@ -6155,9 +6219,10 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Principal-Antenna-Test-Engineer_R10241057",
+"url": "https://jobs.northropgrumman.com/careers/job/1340073063487",
 "posted": "2026-08-18",
 "sources": [
+"회사/eightfold",
 "회사/workday"
 ],
 "flags": [],
@@ -6173,9 +6238,10 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Principal---Sr-Principal-RF-Microwave-Design-Engineer_R10241737",
+"url": "https://jobs.northropgrumman.com/careers/job/1340073114576",
 "posted": "2026-08-18",
 "sources": [
+"회사/eightfold",
 "회사/workday"
 ],
 "flags": [],
@@ -6191,9 +6257,10 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Principal-Sr-Principal-Digital-RF-Hardware-Subsystem-I-T-Engineer_R10240349",
+"url": "https://jobs.northropgrumman.com/careers/job/1340072937432",
 "posted": "2026-08-18",
 "sources": [
+"회사/eightfold",
 "회사/workday"
 ],
 "flags": [],
@@ -6209,9 +6276,10 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Antenna-Test-Engineer-4th-Shift-Weekends_R10240511",
+"url": "https://jobs.northropgrumman.com/careers/job/1340072956461",
 "posted": "2026-08-18",
 "sources": [
+"회사/eightfold",
 "회사/workday"
 ],
 "flags": [],
@@ -6227,9 +6295,10 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland / Sykesville, Maryland",
 "metro": "Washington DC",
-"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Principal-Sr-Principal-RF-Hardware-Subsystem-I-T-Engineers_R10237903",
+"url": "https://jobs.northropgrumman.com/careers/job/1340072576390",
 "posted": "2026-08-18",
 "sources": [
+"회사/eightfold",
 "회사/workday"
 ],
 "flags": [],
@@ -6245,9 +6314,10 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Engineer-Electronics-RF-Antenna-Test-1st-Shift_R10235400",
+"url": "https://jobs.northropgrumman.com/careers/job/1340072060971",
 "posted": "2026-08-18",
 "sources": [
+"회사/eightfold",
 "회사/workday"
 ],
 "flags": [],
@@ -6263,9 +6333,10 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Skillbridge-Principal---Senior-Principal-Radar-Modeling-Simulation-Analysis-Systems-Engineer_R10241259",
+"url": "https://jobs.northropgrumman.com/careers/job/1340073073167",
 "posted": "2026-08-18",
 "sources": [
+"회사/eightfold",
 "회사/workday"
 ],
 "flags": [],
@@ -6281,9 +6352,10 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/RF-Systems-Engineer_R10237677-1",
+"url": "https://jobs.northropgrumman.com/careers/job/1340072482063",
 "posted": "2026-08-18",
 "sources": [
+"회사/eightfold",
 "회사/workday"
 ],
 "flags": [],
@@ -6853,7 +6925,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-09-17",
+"last_seen": "2026-09-19",
 "group": "방산",
 "company_key": "KBR"
 },
@@ -6889,7 +6961,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-09-17",
+"last_seen": "2026-09-19",
 "group": "방산",
 "company_key": "KBR"
 },
@@ -7015,7 +7087,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-09-17",
+"last_seen": "2026-09-19",
 "group": "방산",
 "company_key": "KBR"
 },

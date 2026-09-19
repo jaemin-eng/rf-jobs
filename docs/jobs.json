@@ -1,6 +1,82 @@
 {
-"updated": "2026-09-19T06:20:30+00:00",
+"updated": "2026-09-19T14:30:15+00:00",
 "jobs": [
+{
+"id": "seniortestdevelopmentengineerrfpowerhardwaresecret|solidustechn|boston",
+"title": "Senior Test Development Engineer — RF/Power Hardware (Secret)",
+"company": "Solidus Technical Solutions, LLC",
+"location": "Tewksbury, MA",
+"metro": "Boston",
+"url": "https://www.jobleads.com/us/job/senior-test-development-engineer-rf-power-hardware-secret--tewksbury--e7d4aa574a142e48739999c3aa0e58f32",
+"posted": "2026-09-19",
+"sources": [
+"JSearch/JobLeads"
+],
+"flags": [
+"🔐 클리어런스"
+],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "",
+"company_key": null
+},
+{
+"id": "seniorprincipalantennamicrowaveengineernowhiring|rtxraytheon|boston",
+"title": "Sr Principal Antenna Microwave Engineer - Now Hiring",
+"company": "RTX / Raytheon",
+"location": "Woburn, MA",
+"metro": "Boston",
+"url": "https://www.snagajob.com/jobs/1291815389",
+"posted": "2026-09-19",
+"sources": [
+"JSearch/Snagajob"
+],
+"flags": [
+"🔐 클리어런스"
+],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "방산",
+"company_key": "RTX / Raytheon"
+},
+{
+"id": "systemsengineerrfandwireless|meta|sfbayarea",
+"title": "Systems Engineer, RF and Wireless",
+"company": "Meta",
+"location": "Menlo Park, San Mateo County, California",
+"metro": "SF Bay Area",
+"url": "https://www.adzuna.com/land/ad/5890491780?se=MItTJDS08RGSI57gYuD12g&utm_medium=api&utm_source=d677d981&v=4722FE6D7471BE20D1D9466EE834E46A0504CECF",
+"posted": "2026-09-19",
+"sources": [
+"Adzuna"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "RF·통신",
+"company_key": "Meta"
+},
+{
+"id": "geointgroundradarsystemsengineer|saic|washingtondc",
+"title": "GEOINT Ground RADAR Systems Engineer",
+"company": "SAIC",
+"location": "Chantilly, Fairfax County, Virginia",
+"metro": "Washington DC",
+"url": "https://www.adzuna.com/land/ad/5890325616?se=mrF4fTS08RGk6dCvHcHp9g&utm_medium=api&utm_source=d677d981&v=1D468923EEECA7E653F4718F262BAF67A757B751",
+"posted": "2026-09-19",
+"sources": [
+"Adzuna"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "방산",
+"company_key": "SAIC"
+},
 {
 "id": "rfengineer|appliedmater|sfbayarea",
 "title": "RF Engineer",
@@ -373,6 +449,102 @@
 "company_key": "Qualcomm"
 },
 {
+"id": "networktestengineerwirelesslabengineer|pdssoft|sfbayarea",
+"title": "Network Test Engineer/ Wireless Lab Engineer",
+"company": "PDSSOFT INC.",
+"location": "Mountain View, CA",
+"metro": "SF Bay Area",
+"url": "https://www.linkedin.com/jobs/view/network-test-engineer-wireless-lab-engineer-at-pdssoft-inc-4466915897",
+"posted": "2026-09-18",
+"sources": [
+"JSearch/LinkedIn"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "",
+"company_key": null
+},
+{
+"id": "rfsystemsengineer|murata|boston",
+"title": "RF Systems Engineer",
+"company": "Murata",
+"location": "Waltham, MA",
+"metro": "Boston",
+"url": "https://www.linkedin.com/jobs/view/rf-systems-engineer-at-murata-4466666433",
+"posted": "2026-09-18",
+"sources": [
+"JSearch/LinkedIn"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "",
+"company_key": null
+},
+{
+"id": "radiofrequencytestengineermidjobs|boozallenham|sandiego",
+"title": "Radio Frequency Test Engineer, Mid Jobs",
+"company": "Booz Allen Hamilton",
+"location": "San Diego, CA",
+"metro": "San Diego",
+"url": "https://www.clearancejobs.com/jobs/9174457/radio-frequency-test-engineer-mid",
+"posted": "2026-09-18",
+"sources": [
+"JSearch/Clearance Jobs"
+],
+"flags": [
+"🔐 클리어런스"
+],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "방산",
+"company_key": "Booz Allen Hamilton"
+},
+{
+"id": "seniorrfelectricalengineers|rtxraytheon|sandiego",
+"title": "Senior RF Electrical Engineers",
+"company": "RTX / Raytheon",
+"location": "San Diego, CA",
+"metro": "San Diego",
+"url": "https://us.trabajo.org/job-3922-622bcb1346da9449779eda2cfe5cf3ec",
+"posted": "2026-09-18",
+"sources": [
+"JSearch/Trabajo.org"
+],
+"flags": [
+"🔐 클리어런스"
+],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "방산",
+"company_key": "RTX / Raytheon"
+},
+{
+"id": "radiofrequencyrfengineer|envisioneeri|washingtondc",
+"title": "Radio Frequency (RF) Engineer",
+"company": "Envisioneering, Inc",
+"location": "Washington, DC",
+"metro": "Washington DC",
+"url": "https://www.ziprecruiter.com/c/Envisioneering/Job/Radio-Frequency-(RF)-Engineer-with-Security-Clearance/-in-Washington,DC?jid=9fda8269f2756609",
+"posted": "2026-09-18",
+"sources": [
+"JSearch/ZipRecruiter"
+],
+"flags": [
+"🔐 클리어런스"
+],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "",
+"company_key": null
+},
+{
 "id": "seniorradaroptimizationengineer|leidos|washingtondc",
 "title": "Sr Radar Optimization Engineer with Security Clearance",
 "company": "Leidos",
@@ -628,6 +800,140 @@
 "company_key": "Qualcomm"
 },
 {
+"id": "seniorelectricalengineerrfpayloadsterawave|blueorigin|sfbayarea",
+"title": "Sr. Electrical Engineer, RF Payloads - TeraWave",
+"company": "Blue Origin",
+"location": "Cupertino, CA",
+"metro": "SF Bay Area",
+"url": "https://www.linkedin.com/jobs/view/sr-electrical-engineer-rf-payloads-terawave-at-blue-origin-4466627302",
+"posted": "2026-09-17",
+"sources": [
+"JSearch/LinkedIn"
+],
+"flags": [
+"🔐 클리어런스"
+],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "",
+"company_key": null
+},
+{
+"id": "principalrficdesignengineerterawave|blueorigin|sfbayarea",
+"title": "Principal RFIC Design Engineer - TeraWave",
+"company": "Blue Origin",
+"location": "Cupertino, CA",
+"metro": "SF Bay Area",
+"url": "https://www.linkedin.com/jobs/view/principal-rfic-design-engineer-terawave-at-blue-origin-4466625313",
+"posted": "2026-09-17",
+"sources": [
+"JSearch/LinkedIn"
+],
+"flags": [
+"🔐 클리어런스"
+],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "",
+"company_key": null
+},
+{
+"id": "rfengineermodule|tive|boston",
+"title": "RF Engineer, Module",
+"company": "Tive",
+"location": "Boston, MA",
+"metro": "Boston",
+"url": "https://simplify.jobs/p/9c3b6802-cd8e-4107-b806-571626f2562d/RF-Engineer",
+"posted": "2026-09-17",
+"sources": [
+"JSearch/Simplify"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "",
+"company_key": null
+},
+{
+"id": "chiefrfengineerspaceradar|skillcloudhc|boston",
+"title": "Chief RF Engineer, Space Radar",
+"company": "Skillcloud HCM",
+"location": "Boston, MA",
+"metro": "Boston",
+"url": "https://www.ziprecruiter.com/c/Skillcloud-HCM/Job/Chief-RF-Engineer,-Space-Radar/-in-Boston,MA?jid=4b9a3e2656866251",
+"posted": "2026-09-17",
+"sources": [
+"JSearch/ZipRecruiter"
+],
+"flags": [
+"🔐 클리어런스"
+],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "",
+"company_key": null
+},
+{
+"id": "seniorrfapplicationsengineermmwavephasedarrayssatcom|everforthcyb|sandiego",
+"title": "Senior RF Applications Engineer - mmWave Phased Arrays & SATCOM",
+"company": "Everforth, Cybercoders",
+"location": "San Diego, CA",
+"metro": "San Diego",
+"url": "https://www.indeed.com/viewjob?jk=a7af7b12e9c7a72d",
+"posted": "2026-09-17",
+"sources": [
+"JSearch/Indeed"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "",
+"company_key": null
+},
+{
+"id": "principalrficdesignengineerterawave|blueorigin|sandiego",
+"title": "Principal RFIC Design Engineer - TeraWave",
+"company": "Blue Origin",
+"location": "San Diego, CA",
+"metro": "San Diego",
+"url": "https://www.linkedin.com/jobs/view/principal-rfic-design-engineer-terawave-at-blue-origin-4466640053",
+"posted": "2026-09-17",
+"sources": [
+"JSearch/LinkedIn"
+],
+"flags": [
+"🔐 클리어런스"
+],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "",
+"company_key": null
+},
+{
+"id": "rfengineersatellitecommunications|unitedstates|washingtondc",
+"title": "RF Engineer – Satellite Communications",
+"company": "United States Digital Space LLC",
+"location": "Washington, DC",
+"metro": "Washington DC",
+"url": "https://www.learn4good.com/jobs/washington/district-of-columbia/engineering/5477773556/e/",
+"posted": "2026-09-17",
+"sources": [
+"JSearch/Learn4Good"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "",
+"company_key": null
+},
+{
 "id": "rfengineer|voyagertechn|sandiego",
 "title": "RF Engineer",
 "company": "Voyager Technologies",
@@ -636,7 +942,250 @@
 "url": "https://www.adzuna.com/details/5885899381?utm_medium=api&utm_source=d677d981",
 "posted": "2026-09-16",
 "sources": [
-"Adzuna"
+"Adzuna",
+"JSearch/Women For Hire- Job Board"
+],
+"flags": [
+"🔐 클리어런스"
+],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "",
+"company_key": null
+},
+{
+"id": "rficdesignengineer|denkensoluti|sfbayarea",
+"title": "RFIC Design Engineer",
+"company": "Denken Solutions, Inc.",
+"location": "San Jose, CA",
+"metro": "SF Bay Area",
+"url": "https://www.linkedin.com/jobs/view/rfic-design-engineer-at-denken-solutions-inc-4466870731",
+"posted": "2026-09-16",
+"sources": [
+"JSearch/LinkedIn"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "",
+"company_key": null
+},
+{
+"id": "seniorantennadesignsystemsengineer|globalstar|sandiego",
+"title": "Senior Antenna Design Systems Engineer",
+"company": "Globalstar",
+"location": "San Diego, CA",
+"metro": "San Diego",
+"url": "https://www.linkedin.com/jobs/view/senior-antenna-design-systems-engineer-at-globalstar-4465955456",
+"posted": "2026-09-16",
+"sources": [
+"JSearch/LinkedIn"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "",
+"company_key": null
+},
+{
+"id": "docsisrfengineerlivenetworkvalidationexpert|gcsrecruitme|washingtondc",
+"title": "DOCSIS RF Engineer — Live Network Validation Expert",
+"company": "GCS Recruitment",
+"location": "Washington, DC",
+"metro": "Washington DC",
+"url": "https://jobmesh.io/job/3a8c801a-7516-47de-82ec-f490b3de7e6b",
+"posted": "2026-09-16",
+"sources": [
+"JSearch/JobMESH"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "",
+"company_key": null
+},
+{
+"id": "antennaengineer5ggpssatcomrfinnovation|maxtena|washingtondc",
+"title": "Antenna Engineer: 5G, GPS & SATCOM RF Innovation",
+"company": "Maxtena, Inc.",
+"location": "Washington, DC",
+"metro": "Washington DC",
+"url": "https://jobmesh.io/job/21b107bb-aaf1-49a3-94a1-08e75c8ca7fd",
+"posted": "2026-09-16",
+"sources": [
+"JSearch/JobMESH"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "",
+"company_key": null
+},
+{
+"id": "softwareengineerterawaverfandopticalsystems|blueorigin|sfbayarea",
+"title": "SOFTWARE ENGINEER – TeraWave – RF and Optical Systems",
+"company": "Blue Origin",
+"location": "San Francisco, CA",
+"metro": "SF Bay Area",
+"url": "https://www.jobleads.com/us/job/software-engineer-terawave-rf-and-optical-systems--san-francisco--e3898d9b9ea534abaec352d04b6b0412e",
+"posted": "2026-09-15",
+"sources": [
+"JSearch/JobLeads"
+],
+"flags": [
+"🔐 클리어런스"
+],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "",
+"company_key": null
+},
+{
+"id": "radiofrequencyengineer|employnet|sandiego",
+"title": "Radio Frequency Engineer",
+"company": "Employnet, Inc.",
+"location": "San Diego, CA",
+"metro": "San Diego",
+"url": "https://www.linkedin.com/jobs/view/radio-frequency-engineer-at-employnet-inc-4465931130",
+"posted": "2026-09-15",
+"sources": [
+"JSearch/LinkedIn"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "",
+"company_key": null
+},
+{
+"id": "rficlayoutengineerfulltime|apple|sandiego",
+"title": "RFIC Layout Engineer - Full-time",
+"company": "Apple",
+"location": "San Diego, CA",
+"metro": "San Diego",
+"url": "https://www.snagajob.com/jobs/1183614869",
+"posted": "2026-09-15",
+"sources": [
+"JSearch/Snagajob"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "RF·통신",
+"company_key": "Apple"
+},
+{
+"id": "rfspectrumengineercuasnasfocushybrid|leidos|washingtondc",
+"title": "RF & Spectrum Engineer – C-UAS/NAS Focus (Hybrid)",
+"company": "Leidos",
+"location": "Washington, DC",
+"metro": "Washington DC",
+"url": "https://www.jobleads.com/us/job/rf-spectrum-engineer-c-uas-nas-focus-hybrid--washington--e18758fd1041d1fcec00cae2cecddad89",
+"posted": "2026-09-15",
+"sources": [
+"JSearch/JobLeads"
+],
+"flags": [
+"🔐 클리어런스"
+],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "방산",
+"company_key": "Leidos"
+},
+{
+"id": "wirelesssignalprocessingengineerprincipal|mitre|washingtondc",
+"title": "Wireless Signal Processing Engineer, Principal",
+"company": "MITRE",
+"location": "McLean, VA",
+"metro": "Washington DC",
+"url": "https://www.linkedin.com/jobs/view/wireless-signal-processing-engineer-principal-at-mitre-4466559525",
+"posted": "2026-09-15",
+"sources": [
+"JSearch/LinkedIn"
+],
+"flags": [
+"🔐 클리어런스"
+],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "연구소",
+"company_key": "MITRE"
+},
+{
+"id": "principalrficdesignengineeriv2623127|ustechsoluti|sfbayarea",
+"title": "Principal RFIC Design Engineer IV # 26-23127",
+"company": "US Tech Solutions",
+"location": "San Jose, CA",
+"metro": "SF Bay Area",
+"url": "https://www.linkedin.com/jobs/view/principal-rfic-design-engineer-iv-%23-26-23127-at-us-tech-solutions-4466132236",
+"posted": "2026-09-14",
+"sources": [
+"JSearch/LinkedIn"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "",
+"company_key": null
+},
+{
+"id": "seniorhardwareengineerrfhighspeedpcbsprototyping|maxtena|washingtondc",
+"title": "Senior Hardware Engineer — RF, High‑Speed PCBs & Prototyping",
+"company": "Maxtena, Inc.",
+"location": "Washington, DC",
+"metro": "Washington DC",
+"url": "https://us.jobrapido.com/jobpreview/515032753499013120",
+"posted": "2026-09-14",
+"sources": [
+"JSearch/Jobrapido"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "",
+"company_key": null
+},
+{
+"id": "rftestengineermidlabfieldtesting|boozallenham|sandiego",
+"title": "RF Test Engineer (Mid) – Lab & Field Testing",
+"company": "Booz Allen Hamilton",
+"location": "San Diego, CA",
+"metro": "San Diego",
+"url": "https://www.jobleads.com/us/job/rf-test-engineer-mid-lab-field-testing--san-diego--northern--e90849b96a5d73eb8ad1efaf2a17ba64c",
+"posted": "2026-09-13",
+"sources": [
+"JSearch/JobLeads"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-09-19",
+"last_seen": "2026-09-19",
+"group": "방산",
+"company_key": "Booz Allen Hamilton"
+},
+{
+"id": "seniorrficengineermmwavetransceivershybridequity|cybercoders|sandiego",
+"title": "Senior RFIC Engineer - mmWave Transceivers (Hybrid + Equity)",
+"company": "CyberCoders",
+"location": "San Diego, CA",
+"metro": "San Diego",
+"url": "https://www.jobleads.com/us/job/senior-rfic-engineer-mmwave-transceivers-hybrid-equity--san-diego--e7b216906962477d29197d776b5e1eb93",
+"posted": "2026-09-13",
+"sources": [
+"JSearch/JobLeads"
 ],
 "flags": [],
 "remote": false,
@@ -803,6 +1352,7 @@
 "posted": "2026-09-18",
 "sources": [
 "Adzuna",
+"JSearch/LinkedIn",
 "회사/eightfold"
 ],
 "flags": [
@@ -1015,9 +1565,12 @@
 "posted": "2026-09-18",
 "sources": [
 "Adzuna",
+"JSearch/ZipRecruiter",
 "회사/successfactors"
 ],
-"flags": [],
+"flags": [
+"🔐 클리어런스"
+],
 "remote": false,
 "first_seen": "2026-09-17",
 "last_seen": "2026-09-19",
@@ -1083,6 +1636,27 @@
 "company_key": "BAE Systems"
 },
 {
+"id": "rfengineerassociatestaff|mitlincolnla|boston",
+"title": "RF Engineer-Associate Staff",
+"company": "MIT Lincoln Laboratory",
+"location": "Lexington, MA",
+"metro": "Boston",
+"url": "https://careers.ll.mit.edu/job/Lexington-RF-Engineer-Associate-Staff-MA-02420/1367940700/",
+"posted": "2026-09-17",
+"sources": [
+"JSearch/ZipRecruiter",
+"회사/successfactors"
+],
+"flags": [
+"🔐 클리어런스"
+],
+"remote": false,
+"first_seen": "2026-09-17",
+"last_seen": "2026-09-19",
+"group": "연구소",
+"company_key": "MIT Lincoln Laboratory"
+},
+{
 "id": "leadrfpcblayoutengineer|arraylabs|sfbayarea",
 "title": "Lead RF PCB Layout Engineer",
 "company": "Array Labs",
@@ -1145,6 +1719,7 @@
 "url": "https://careers.qualcomm.com/careers/job/446721085767",
 "posted": "2026-09-17",
 "sources": [
+"JSearch/LinkedIn",
 "회사/eightfold"
 ],
 "flags": [],
@@ -1318,6 +1893,7 @@
 "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Laurel-MD/RF-Analysis-Engineer_R0249754",
 "posted": "2026-09-17",
 "sources": [
+"Adzuna",
 "회사/workday"
 ],
 "flags": [],
@@ -1357,9 +1933,12 @@
 "url": "https://jobs.smartrecruiters.com/LLNL/3743990015346816",
 "posted": "2026-09-17",
 "sources": [
+"JSearch/LinkedIn",
 "회사/smartrecruiters"
 ],
-"flags": [],
+"flags": [
+"🔐 클리어런스"
+],
 "remote": false,
 "first_seen": "2026-09-17",
 "last_seen": "2026-09-19",
@@ -1682,7 +2261,9 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-09-17"
+"last_seen": "2026-09-19",
+"group": "",
+"company_key": null
 },
 {
 "id": "principalrfmoduledesigndevelopmentengineer|rtxraytheon|boston",
@@ -1741,7 +2322,8 @@
 "회사/workday"
 ],
 "flags": [
-"⚠️ 클리어런스/시민권"
+"⚠️ 클리어런스/시민권",
+"🔐 클리어런스"
 ],
 "remote": false,
 "first_seen": "2026-09-17",
@@ -1835,9 +2417,12 @@
 "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-TEWKSBURY-TB1--50-Apple-Hill-Dr--ASSABET-BLDG/Electrical-Engineer-II---Digital-Radar-Design_01854130",
 "posted": "2026-09-16",
 "sources": [
+"Adzuna",
 "회사/workday"
 ],
-"flags": [],
+"flags": [
+"🔐 클리어런스"
+],
 "remote": false,
 "first_seen": "2026-09-17",
 "last_seen": "2026-09-19",
@@ -1850,7 +2435,7 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://jobs.northropgrumman.com/careers/job/1340071547271",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Engineer-Principal-Engineer-RF-Microwave-Design--SkillBridge-_R10231212",
 "posted": "2026-09-16",
 "sources": [
 "Adzuna",
@@ -1934,7 +2519,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-09-17",
+"last_seen": "2026-09-19",
 "group": "",
 "company_key": null
 },
@@ -2098,11 +2683,14 @@
 "JSearch/LinkedIn"
 ],
 "flags": [
-"⚠️ 클리어런스/시민권"
+"⚠️ 클리어런스/시민권",
+"🔐 클리어런스"
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-09-17"
+"last_seen": "2026-09-19",
+"group": "",
+"company_key": null
 },
 {
 "id": "electromagneticcompatibilityemcengineeriii|blueorigin|washingtondc",
@@ -2218,6 +2806,7 @@
 "posted": "2026-09-15",
 "sources": [
 "Adzuna",
+"JSearch/BeBee",
 "회사/workday"
 ],
 "flags": [
@@ -2496,7 +3085,7 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://jobs.northropgrumman.com/careers/job/1340071634032",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Antenna-Test-Engineer_R10232101-1",
 "posted": "2026-09-13",
 "sources": [
 "Adzuna",
@@ -2864,6 +3453,7 @@
 "url": "https://gdit.wd5.myworkdayjobs.com/en-US/External_Career_Site/job/USA-VA-McLean/Satellite-Communication--SATCOM--Engineer---TS-SCI-w-Poly_RQ228199-1",
 "posted": "2026-09-10",
 "sources": [
+"Adzuna",
 "회사/workday"
 ],
 "flags": [
@@ -3102,7 +3692,7 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://jobs.northropgrumman.com/careers/job/1340074172531",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Principal-Engineer-Sr-Principal-Engineer-Digital-RF-Subsystems-I-T-Lead_R10249546",
 "posted": "2026-09-08",
 "sources": [
 "Adzuna",
@@ -3143,9 +3733,12 @@
 "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-WOBURN-WB1--235-Presidential-Way--SPENCER-BLDG/Senior-Mechanical-Engineer-Transportable-Radar-Systems_01872682",
 "posted": "2026-09-08",
 "sources": [
+"Adzuna",
 "회사/workday"
 ],
-"flags": [],
+"flags": [
+"🔐 클리어런스"
+],
 "remote": false,
 "first_seen": "2026-09-17",
 "last_seen": "2026-09-19",
@@ -3371,7 +3964,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-09-17",
+"last_seen": "2026-09-19",
 "company_key": "Apple",
 "group": "RF·통신"
 },
@@ -3402,7 +3995,7 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://jobs.northropgrumman.com/careers/job/1340074172421",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Engineer-Principal-Engineer-RF-Microwave-Subsystem-I-T_R10249540",
 "posted": "2026-09-06",
 "sources": [
 "Adzuna",
@@ -3541,9 +4134,12 @@
 "url": "https://gdit.wd5.myworkdayjobs.com/en-US/External_Career_Site/job/USA-VA-Falls-Church/Network-Engineer-RF_RQ227725",
 "posted": "2026-09-05",
 "sources": [
+"Adzuna",
 "회사/workday"
 ],
-"flags": [],
+"flags": [
+"🔐 클리어런스"
+],
 "remote": false,
 "first_seen": "2026-09-17",
 "last_seen": "2026-09-19",
@@ -3652,7 +4248,7 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://jobs.northropgrumman.com/careers/job/1340074172022",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Principal---Sr-Principal-Electronic-Warfare--EW--Systems-Engineer_R10249511",
 "posted": "2026-09-04",
 "sources": [
 "회사/eightfold",
@@ -3734,7 +4330,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-09-17",
+"last_seen": "2026-09-19",
 "company_key": "Leidos",
 "group": "방산"
 },
@@ -3744,7 +4340,7 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://jobs.northropgrumman.com/careers/job/1340074088918",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Engineer-Principal-Engineer-RF-Microwave-Design---Subsystems-I-T_R10248480",
 "posted": "2026-09-03",
 "sources": [
 "Adzuna",
@@ -3764,7 +4360,7 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://jobs.northropgrumman.com/careers/job/1340074088997",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Principal-Sr-Principal-Engineer-RF-Microwave-Design---Subsystems-I-T_R10248610",
 "posted": "2026-09-03",
 "sources": [
 "Adzuna",
@@ -3784,7 +4380,7 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://jobs.northropgrumman.com/careers/job/1340074089064",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Principal-Sr-Principal-RF-Microwave-Design-Engineer---Subsystems-I-T_R10248616",
 "posted": "2026-09-03",
 "sources": [
 "Adzuna",
@@ -3804,7 +4400,7 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://jobs.northropgrumman.com/careers/job/1340074089315",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Principal-Sr-Sr-Principal-RF-Microwave-Design-Engineer---Subsystems-I-T_R10248620",
 "posted": "2026-09-03",
 "sources": [
 "Adzuna",
@@ -3824,7 +4420,7 @@
 "company": "Northrop Grumman",
 "location": "Stafford, Virginia",
 "metro": "Washington DC",
-"url": "https://jobs.northropgrumman.com/careers/job/1340074123580",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Virginia-Stafford/RF-Systems-Engineer-systems---TS-SCI--_R10248782",
 "posted": "2026-09-03",
 "sources": [
 "Adzuna",
@@ -3908,7 +4504,7 @@
 "company": "Northrop Grumman",
 "location": "Linthicum, Maryland / Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://jobs.northropgrumman.com/careers/job/1340073371622",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Linthicum/Space-RADAR-Payload-I-T-SME---Staff-Engineer-Systems_R10242686",
 "posted": "2026-09-03",
 "sources": [
 "회사/eightfold",
@@ -3927,7 +4523,7 @@
 "company": "Northrop Grumman",
 "location": "Linthicum, Maryland / Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://jobs.northropgrumman.com/careers/job/1340073371555",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Linthicum/Space-RADAR-Payload-I-T-SME---Sr-Staff-Engineer-Systems_R10242677",
 "posted": "2026-09-03",
 "sources": [
 "회사/eightfold",
@@ -4364,6 +4960,7 @@
 "url": "https://boards.greenhouse.io/spacex/jobs/8637814002?gh_jid=8637814002",
 "posted": "2026-09-01",
 "sources": [
+"Adzuna",
 "Greenhouse/spacex",
 "회사/greenhouse"
 ],
@@ -4936,7 +5533,7 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://jobs.northropgrumman.com/careers/job/1340073110892",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Principal-Sr-Principal-RF-Microwave-Mixed-Signal-Design-Engineer_R10241653",
 "posted": "2026-08-27",
 "sources": [
 "회사/eightfold",
@@ -4971,7 +5568,7 @@
 "company": "Northrop Grumman",
 "location": "Dulles, Virginia",
 "metro": "Washington DC",
-"url": "https://jobs.northropgrumman.com/careers/job/1340072618378",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Virginia-Dulles/Mechanical-Antenna-Engineer---Level-3---Dulles_R10238232",
 "posted": "2026-08-26",
 "sources": [
 "회사/eightfold",
@@ -4990,7 +5587,7 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://jobs.northropgrumman.com/careers/job/1340073443850",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/RF-Microwave-Design-Engineer-Level-4---Baltimore_R10243411",
 "posted": "2026-08-26",
 "sources": [
 "회사/eightfold",
@@ -5009,7 +5606,7 @@
 "company": "Northrop Grumman",
 "location": "Linthicum, Maryland",
 "metro": "Washington DC",
-"url": "https://jobs.northropgrumman.com/careers/job/1340073899467",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Linthicum/Radar-Modeling-Simulation-Analysis-Associate-Systems-Engineer_R10247334",
 "posted": "2026-08-26",
 "sources": [
 "회사/eightfold",
@@ -5028,7 +5625,7 @@
 "company": "Northrop Grumman",
 "location": "Linthicum, Maryland",
 "metro": "Washington DC",
-"url": "https://jobs.northropgrumman.com/careers/job/1340072786310",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Linthicum/Space-RADAR-Data-Processing---Principal-Sr-Principal-Engineer-Systems_R10239207-1",
 "posted": "2026-08-26",
 "sources": [
 "회사/eightfold",
@@ -5229,7 +5826,7 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://jobs.northropgrumman.com/careers/job/1340073928096",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Staff-I-T-Systems-Engineer---RF---HW---2nd-Shift_R10247593",
 "posted": "2026-08-25",
 "sources": [
 "회사/eightfold",
@@ -5269,7 +5866,7 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://jobs.northropgrumman.com/careers/job/1340073392724",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Engineer-RF-Microwave-Subsystem-I-T_R10242919-1",
 "posted": "2026-08-24",
 "sources": [
 "회사/eightfold",
@@ -5463,7 +6060,7 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://jobs.northropgrumman.com/careers/job/1340073848338",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Staff-Radar-Modeling-Simulation-Analysis-Systems-Engineer_R10247029",
 "posted": "2026-08-21",
 "sources": [
 "회사/eightfold",
@@ -5482,7 +6079,7 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://jobs.northropgrumman.com/careers/job/1340073848042",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Principal---Senior-Principal-Radar-Modeling-Simulation-Analysis-Systems-Engineer_R10247025",
 "posted": "2026-08-21",
 "sources": [
 "회사/eightfold",
@@ -5593,7 +6190,7 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://jobs.northropgrumman.com/careers/job/1340073769545",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/RF-Test-Engineer--Principal-RF-Test-Engineer--2nd-Shift_R10246825",
 "posted": "2026-08-20",
 "sources": [
 "회사/eightfold",
@@ -6105,7 +6702,7 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://jobs.northropgrumman.com/careers/job/1340073701124",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/RF-Test-and-Development-Engineer---2nd-Shift_R10246307",
 "posted": "2026-08-18",
 "sources": [
 "회사/eightfold",
@@ -6124,7 +6721,7 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://jobs.northropgrumman.com/careers/job/1340073609251",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Principal-Sr-Principal-RF-Hardware-Subsystem-Integration-and-Test-Engineers_R10245628",
 "posted": "2026-08-18",
 "sources": [
 "회사/eightfold",
@@ -6143,7 +6740,7 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://jobs.northropgrumman.com/careers/job/1340072483158",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Principal-RF-Systems-Engineer---Senior-Principal-RF-Systems-Engineer_R10237686",
 "posted": "2026-08-18",
 "sources": [
 "회사/eightfold",
@@ -6162,7 +6759,7 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://jobs.northropgrumman.com/careers/job/1340073467737",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Sr-Staff-I-T-Systems-Engineer---RF---HW_R10243881",
 "posted": "2026-08-18",
 "sources": [
 "회사/eightfold",
@@ -6181,7 +6778,7 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://jobs.northropgrumman.com/careers/job/1340073467733",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Staff-I-T-Systems-Engineer---RF---HW_R10243876-1",
 "posted": "2026-08-18",
 "sources": [
 "회사/eightfold",
@@ -6200,7 +6797,7 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://jobs.northropgrumman.com/careers/job/1340073109549",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Principal-Engineer-Sr-Principal-Engineer-RF-Microwave-Design_R10241638",
 "posted": "2026-08-18",
 "sources": [
 "회사/eightfold",
@@ -6219,7 +6816,7 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://jobs.northropgrumman.com/careers/job/1340073063487",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Principal-Antenna-Test-Engineer_R10241057",
 "posted": "2026-08-18",
 "sources": [
 "회사/eightfold",
@@ -6238,7 +6835,7 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://jobs.northropgrumman.com/careers/job/1340073114576",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Principal---Sr-Principal-RF-Microwave-Design-Engineer_R10241737",
 "posted": "2026-08-18",
 "sources": [
 "회사/eightfold",
@@ -6257,7 +6854,7 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://jobs.northropgrumman.com/careers/job/1340072937432",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Principal-Sr-Principal-Digital-RF-Hardware-Subsystem-I-T-Engineer_R10240349",
 "posted": "2026-08-18",
 "sources": [
 "회사/eightfold",
@@ -6276,7 +6873,7 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://jobs.northropgrumman.com/careers/job/1340072956461",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Antenna-Test-Engineer-4th-Shift-Weekends_R10240511",
 "posted": "2026-08-18",
 "sources": [
 "회사/eightfold",
@@ -6295,7 +6892,7 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland / Sykesville, Maryland",
 "metro": "Washington DC",
-"url": "https://jobs.northropgrumman.com/careers/job/1340072576390",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Principal-Sr-Principal-RF-Hardware-Subsystem-I-T-Engineers_R10237903",
 "posted": "2026-08-18",
 "sources": [
 "회사/eightfold",
@@ -6314,7 +6911,7 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://jobs.northropgrumman.com/careers/job/1340072060971",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Engineer-Electronics-RF-Antenna-Test-1st-Shift_R10235400",
 "posted": "2026-08-18",
 "sources": [
 "회사/eightfold",
@@ -6333,7 +6930,7 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://jobs.northropgrumman.com/careers/job/1340073073167",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Skillbridge-Principal---Senior-Principal-Radar-Modeling-Simulation-Analysis-Systems-Engineer_R10241259",
 "posted": "2026-08-18",
 "sources": [
 "회사/eightfold",
@@ -6352,7 +6949,7 @@
 "company": "Northrop Grumman",
 "location": "Baltimore, Maryland",
 "metro": "Washington DC",
-"url": "https://jobs.northropgrumman.com/careers/job/1340072482063",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/RF-Systems-Engineer_R10237677-1",
 "posted": "2026-08-18",
 "sources": [
 "회사/eightfold",
@@ -7350,24 +7947,6 @@
 "location": "Lexington, MA",
 "metro": "Boston",
 "url": "https://careers.ll.mit.edu/job/Lexington-RFAnalog-Design-Engineer-Associate-Staff-MA-02420/1360988700/",
-"posted": "",
-"sources": [
-"회사/successfactors"
-],
-"flags": [],
-"remote": false,
-"first_seen": "2026-09-17",
-"last_seen": "2026-09-19",
-"group": "연구소",
-"company_key": "MIT Lincoln Laboratory"
-},
-{
-"id": "rfengineerassociatestaff|mitlincolnla|boston",
-"title": "RF Engineer-Associate Staff",
-"company": "MIT Lincoln Laboratory",
-"location": "Lexington, MA",
-"metro": "Boston",
-"url": "https://careers.ll.mit.edu/job/Lexington-RF-Engineer-Associate-Staff-MA-02420/1367940700/",
 "posted": "",
 "sources": [
 "회사/successfactors"

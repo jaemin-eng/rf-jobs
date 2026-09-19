@@ -180,7 +180,7 @@ const CATS = [
 ];
 const GROUPS = ["방산","연구소","RF·통신"];
 const VIEWS = [["all","전체"],["new","새 공고"],["saved","관심"],["applied","지원함"],["hidden","숨김"]];
-const KEY = "rfjw-status-v1", PREF = "rfjw-prefs-v1";
+const KEY = "rfjw-status-v1", PREF = "rfjw-prefs-v1", THEME = "rfjw-theme";
 
 const store = {
   get(k, d){ try{ return JSON.parse(localStorage.getItem(k)) ?? d }catch{ return d } },
@@ -189,12 +189,15 @@ const store = {
 let status = store.get(KEY, {});
 const saved = store.get(PREF, {});
 const ui = {
-  metros: new Set(saved.metros || METROS),
-  cats: new Set(saved.cats || []),
-  groups: new Set(saved.groups || []),
+  // 저장된 설정에 지금 화면에 없는 값이 섞여 있으면 버림 (다른 사이트의 값이 넘어오는 것 방지)
+  metros: new Set((saved.metros || METROS).filter(m => METROS.includes(m))),
+  cats: new Set((saved.cats || []).filter(c => CATS.some(([n]) => n === c))),
+  groups: new Set((saved.groups || []).filter(g => GROUPS.includes(g))),
   view: saved.view || "all",
   q: "", sort: saved.sort || "found", clr: saved.clr || "off",
 };
+if (!ui.metros.size) ui.metros = new Set(METROS);
+
 let jobs = [], updated = null;
 
 const $ = s => document.querySelector(s);
@@ -397,9 +400,9 @@ $("#theme").addEventListener("click", () => {
   const root = document.documentElement;
   const dark = root.dataset.theme ? root.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
   root.dataset.theme = dark ? "light" : "dark";
-  store.set("rfjw-theme", root.dataset.theme);
+  store.set(THEME, root.dataset.theme);
 });
-{ const t = store.get("rfjw-theme", null); if (t) document.documentElement.dataset.theme = t; }
+{ const t = store.get(THEME, null); if (t) document.documentElement.dataset.theme = t; }
 $("#sort").value = ui.sort;
 $("#clr").value = ui.clr;
 

@@ -138,12 +138,13 @@ metros:
 # ------------------------------------------------------------
 sources:
   # JSearch: LinkedIn / Indeed / Glassdoor / ZipRecruiter 등 (Google for Jobs 기반)
-  # 무료 요금제 월 200회: 하루 1회 x 검색어 2개 x 지역 3곳 = 하루 6회 (월 최대 186회)
+  # 무료 요금제 월 200회를 bio 사이트와 나눠 씀:
+  # 검색어 1개 x 지역 4곳 = 하루 4회 (월 약 124회)
   jsearch:
     enabled: true
     run_every_days: 1
-    # 하루에 지역마다 아래 검색어 중 2개씩 돌아가며 사용 (3일이면 한 바퀴)
-    queries_per_day: 2
+    # 하루에 지역마다 아래 검색어 중 1개씩 돌아가며 사용 (6일이면 한 바퀴)
+    queries_per_day: 1
     rotating_queries:
       - "RF engineer"
       - "antenna engineer"

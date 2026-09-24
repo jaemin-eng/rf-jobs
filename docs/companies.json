@@ -1,5 +1,5 @@
 {
-"updated": "2026-09-23T15:36:56+00:00",
+"updated": "2026-09-24T16:01:12+00:00",
 "companies": [
 {
 "name": "Lockheed Martin",
@@ -8,13 +8,13 @@
 "via": "eightfold",
 "source": "{\"host\": \"lockheedmartin.eightfold.ai\", \"domain\": \"lockheedmartin.com\"}",
 "count": 63,
-"seconds": 244,
+"seconds": 246,
 "in_metro": 12,
 "other_locations": [
 "Fort Worth, TX",
-"Palmdale, CA",
 "Littleton, CO",
-"Owego, NY"
+"Marietta, GA",
+"Palmdale, CA"
 ],
 "listed": 14,
 "link": "https://lockheedmartin.eightfold.ai/careers"
@@ -25,16 +25,16 @@
 "status": "ok",
 "via": "workday",
 "source": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway",
-"count": 178,
-"seconds": 265,
+"count": 175,
+"seconds": 268,
 "in_metro": 47,
 "other_locations": [
+"Mckinney, TX",
 "Remote, VA",
 "El Segundo, CA",
-"Plano, TX",
-"Tucson, AZ"
+"Plano, TX"
 ],
-"listed": 53,
+"listed": 54,
 "link": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway"
 },
 {
@@ -43,16 +43,16 @@
 "status": "ok",
 "via": "workday",
 "source": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site",
-"count": 79,
-"seconds": 196,
-"in_metro": 44,
+"count": 78,
+"seconds": 193,
+"in_metro": 43,
 "other_locations": [
+"Rolling Meadows, Illinois",
+"Gilbert, Arizona",
 "Colorado Springs, Colorado",
-"Woodland Hills, California",
-"Melbourne, Florida",
-"Plymouth, Minnesota"
+"Woodland Hills, California"
 ],
-"listed": 49,
+"listed": 50,
 "link": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site"
 },
 {
@@ -61,7 +61,7 @@
 "status": "ok",
 "via": "icims",
 "source": "https://careers-gdms.icims.com",
-"count": 6,
+"count": 5,
 "seconds": 39,
 "in_metro": 0,
 "other_locations": [
@@ -78,10 +78,11 @@
 "status": "ok",
 "via": "workday",
 "source": "https://gdit.wd5.myworkdayjobs.com/External_Career_Site",
-"count": 8,
+"count": 7,
 "seconds": 28,
-"in_metro": 5,
+"in_metro": 3,
 "other_locations": [
+"Any Location / Remote",
 "Egg Harbor Township, NJ",
 "Hickam AFB, HI",
 "Eielson AFB, AK"
@@ -95,15 +96,16 @@
 "status": "ok",
 "via": "phenom",
 "source": "https://jobs.baesystems.com/global/en",
-"count": 7,
-"seconds": 360,
-"in_metro": 4,
+"count": 8,
+"seconds": 358,
+"in_metro": 2,
 "other_locations": [
-"Huntsville, Alabama",
 "Boulder, Colorado / Westminster, Colorado",
-"Wayne, New Jersey"
+"Huntsville, Alabama",
+"Wayne, New Jersey",
+"Westminster, Colorado"
 ],
-"listed": 20,
+"listed": 21,
 "link": "https://jobs.baesystems.com/global/en"
 },
 {
@@ -112,8 +114,8 @@
 "status": "ok",
 "via": "radancy",
 "source": "https://careers.l3harris.com",
-"count": 22,
-"seconds": 23,
+"count": 21,
+"seconds": 24,
 "in_metro": 2,
 "other_locations": [
 "Palm Bay, Brevard, FL",
@@ -130,8 +132,8 @@
 "status": "ok",
 "via": "workday",
 "source": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS",
-"count": 12,
-"seconds": 55,
+"count": 13,
+"seconds": 45,
 "in_metro": 0,
 "other_locations": [
 "USA - Berkeley, MO",
@@ -149,7 +151,7 @@
 "via": "successfactors",
 "source": "https://jobs.hii-tsd.com",
 "count": 16,
-"seconds": 24,
+"seconds": 23,
 "in_metro": 5,
 "other_locations": [
 "Syracuse, NY, New York",
@@ -166,7 +168,7 @@
 "source": "",
 "count": 0,
 "error": "채용 시스템을 찾지 못함",
-"seconds": 3,
+"seconds": 6,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0,
@@ -178,11 +180,11 @@
 "status": "ok",
 "via": "successfactors",
 "source": "https://careers.leonardodrs.com",
-"count": 3,
+"count": 4,
 "seconds": 21,
-"in_metro": 3,
+"in_metro": 4,
 "other_locations": [],
-"listed": 4,
+"listed": 5,
 "link": "https://careers.leonardodrs.com"
 },
 {
@@ -209,7 +211,7 @@
 "source": "",
 "count": 0,
 "error": "채용 시스템을 찾지 못함",
-"seconds": 1,
+"seconds": 0,
 "in_metro": 0,
 "other_locations": [],
 "listed": 1,
@@ -221,9 +223,9 @@
 "status": "ok",
 "via": "workday",
 "source": "https://leidos.wd5.myworkdayjobs.com/External",
-"count": 48,
-"seconds": 141,
-"in_metro": 7,
+"count": 45,
+"seconds": 124,
+"in_metro": 6,
 "other_locations": [
 "Huntsville, AL",
 "St. Petersburg, FL",
@@ -241,7 +243,7 @@
 "source": "",
 "count": 0,
 "error": "ttcportals: TTC HTTP 403",
-"seconds": 3,
+"seconds": 6,
 "in_metro": 0,
 "other_locations": [],
 "listed": 6,
@@ -254,13 +256,13 @@
 "via": "eightfold",
 "source": "{\"host\": \"caci.eightfold.ai\", \"domain\": \"caci.com\"}",
 "count": 28,
-"seconds": 82,
+"seconds": 79,
 "in_metro": 16,
 "other_locations": [
 "Panama City, FL",
 "Albuquerque, NM",
 "Portsmouth, VA",
-"International - Australia"
+"Rochester, NY"
 ],
 "listed": 16,
 "link": "https://caci.eightfold.ai/careers"
@@ -272,8 +274,8 @@
 "via": "workday",
 "source": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs",
 "count": 25,
-"seconds": 106,
-"in_metro": 14,
+"seconds": 109,
+"in_metro": 13,
 "other_locations": [
 "Australia",
 "Beavercreek, OH",
@@ -289,8 +291,8 @@
 "status": "ok",
 "via": "workday",
 "source": "https://parsons.wd5.myworkdayjobs.com/Search",
-"count": 16,
-"seconds": 251,
+"count": 17,
+"seconds": 255,
 "in_metro": 9,
 "other_locations": [
 "US - AL, Huntsville",
@@ -305,9 +307,9 @@
 "status": "ok",
 "via": "icims",
 "source": "https://careers-peraton.icims.com",
-"count": 19,
-"seconds": 36,
-"in_metro": 11,
+"count": 18,
+"seconds": 26,
+"in_metro": 10,
 "other_locations": [
 "Macdill Afb, FL",
 "Red Bank, NJ",
@@ -325,7 +327,7 @@
 "source": "",
 "count": 0,
 "error": "workday: Workday 결과 0건 (사이트 이름 확인 필요)",
-"seconds": 22,
+"seconds": 21,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0,
@@ -338,7 +340,7 @@
 "via": "workday",
 "source": "https://pae.wd1.myworkdayjobs.com/Amentum_Careers",
 "count": 23,
-"seconds": 60,
+"seconds": 63,
 "in_metro": 6,
 "other_locations": [
 "Norfolk, VA",
@@ -356,7 +358,7 @@
 "via": "jibe",
 "source": "https://careers.gov2x.com",
 "count": 6,
-"seconds": 21,
+"seconds": 27,
 "in_metro": 3,
 "other_locations": [
 "Wahiawa, Hawaii",
@@ -373,7 +375,7 @@
 "via": "phenom",
 "source": "https://careers.kbr.com/us/en",
 "count": 9,
-"seconds": 360,
+"seconds": 362,
 "in_metro": 9,
 "other_locations": [],
 "listed": 16,
@@ -400,7 +402,7 @@
 "via": "workday",
 "source": "https://maxar.wd1.myworkdayjobs.com/Vantor",
 "count": 1,
-"seconds": 16,
+"seconds": 18,
 "in_metro": 1,
 "other_locations": [],
 "listed": 1,
@@ -440,14 +442,14 @@
 "status": "ok",
 "via": "jibe",
 "source": "https://careers.viasat.com",
-"count": 13,
+"count": 12,
 "seconds": 8,
 "in_metro": 3,
 "other_locations": [
 "Remote (excluding ND, VT, or RI)",
 "London",
 "Tempe, Arizona",
-"Lausanne"
+"Duluth, Georgia"
 ],
 "listed": 3,
 "link": "https://careers.viasat.com/careers?query=RF"
@@ -459,7 +461,7 @@
 "via": "jibe",
 "source": "https://jobs.echostar.com",
 "count": 0,
-"seconds": 14,
+"seconds": 21,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0,
@@ -472,7 +474,7 @@
 "via": "successfactors",
 "source": "https://careers.sessd.com",
 "count": 1,
-"seconds": 18,
+"seconds": 15,
 "in_metro": 1,
 "other_locations": [],
 "listed": 1,
@@ -484,7 +486,7 @@
 "status": "ok",
 "via": "greenhouse",
 "source": "andurilindustries",
-"count": 66,
+"count": 62,
 "seconds": 0,
 "in_metro": 0,
 "other_locations": [
@@ -503,7 +505,7 @@
 "via": "lever",
 "source": "shieldai",
 "count": 1,
-"seconds": 19,
+"seconds": 2,
 "in_metro": 0,
 "other_locations": [
 "Seattle, Washington"
@@ -547,8 +549,8 @@
 "status": "ok",
 "via": "workday",
 "source": "https://avav.wd1.myworkdayjobs.com/AVAV",
-"count": 7,
-"seconds": 27,
+"count": 6,
+"seconds": 25,
 "in_metro": 2,
 "other_locations": [
 "Albuquerque, NM",
@@ -618,7 +620,7 @@
 "source": "",
 "count": 0,
 "error": "greenhouse: Greenhouse HTTP 404; ashby: Ashby HTTP 404; lever: Lever HTTP 404",
-"seconds": 7,
+"seconds": 6,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0,
@@ -660,11 +662,11 @@
 "status": "ok",
 "via": "successfactors",
 "source": "https://careers.ll.mit.edu",
-"count": 17,
-"seconds": 35,
-"in_metro": 17,
+"count": 18,
+"seconds": 32,
+"in_metro": 18,
 "other_locations": [],
-"listed": 20,
+"listed": 21,
 "link": "https://careers.ll.mit.edu"
 },
 {
@@ -687,7 +689,7 @@
 "via": "jobsyn",
 "source": "sandia.jobs",
 "count": 6,
-"seconds": 18,
+"seconds": 19,
 "in_metro": 0,
 "other_locations": [
 "Albuquerque, NM"
@@ -714,12 +716,10 @@
 "status": "ok",
 "via": "phenom",
 "source": "https://careers.mitre.org/us/en",
-"count": 6,
-"seconds": 360,
-"in_metro": 5,
-"other_locations": [
-"El Segundo, California"
-],
+"count": 7,
+"seconds": 361,
+"in_metro": 7,
+"other_locations": [],
 "listed": 15,
 "link": "https://careers.mitre.org/us/en"
 },
@@ -731,7 +731,7 @@
 "source": "",
 "count": 0,
 "error": "icims: iCIMS 결과 0건 (형식 확인 필요); icims: iCIMS HTTP 404; icims: iCIMS 결과 0건 (형식 확인 필요); radancy: Radancy HTTP 404",
-"seconds": 54,
+"seconds": 44,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0,
@@ -743,8 +743,8 @@
 "status": "ok",
 "via": "workday",
 "source": "https://aero.wd5.myworkdayjobs.com/External",
-"count": 25,
-"seconds": 118,
+"count": 24,
+"seconds": 136,
 "in_metro": 8,
 "other_locations": [
 "El Segundo, CA",
@@ -779,7 +779,7 @@
 "source": "",
 "count": 0,
 "error": "채용 시스템을 찾지 못함",
-"seconds": 0,
+"seconds": 1,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0,
@@ -792,7 +792,7 @@
 "via": "icims",
 "source": "https://careers-riversideresearch.icims.com",
 "count": 2,
-"seconds": 15,
+"seconds": 17,
 "in_metro": 1,
 "other_locations": [
 "(위치 없음)"
@@ -808,7 +808,7 @@
 "source": "",
 "count": 0,
 "error": "채용 시스템을 찾지 못함",
-"seconds": 0,
+"seconds": 2,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0,
@@ -834,7 +834,7 @@
 "via": "apple",
 "source": "true",
 "count": 81,
-"seconds": 75,
+"seconds": 77,
 "in_metro": 6,
 "other_locations": [
 "Sunnyvale",
@@ -842,7 +842,7 @@
 "Cupertino",
 "Irvine"
 ],
-"listed": 20,
+"listed": 21,
 "link": "https://jobs.apple.com/en-us/search?search=RF"
 },
 {
@@ -851,12 +851,12 @@
 "status": "ok",
 "via": "eightfold",
 "source": "{\"host\": \"careers.qualcomm.com\", \"domain\": \"qualcomm.com\"}",
-"count": 50,
-"seconds": 205,
+"count": 47,
+"seconds": 148,
 "in_metro": 28,
 "other_locations": [
 "Hsinchu City, Taiwan",
-"Bangalore, India",
+"Singapore, Central Singapore, Singapore",
 "Tijuana, Baja California, Mexico",
 "Hyderabad, Telangāna, India"
 ],
@@ -870,7 +870,7 @@
 "via": "greenhouse",
 "source": "spacex",
 "count": 85,
-"seconds": 0,
+"seconds": 21,
 "in_metro": 13,
 "other_locations": [
 "Irvine, CA",

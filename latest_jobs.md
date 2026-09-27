@@ -1,37 +1,31 @@
-# 새 RF/Antenna/EMC 공고 — 2026-09-26 15:10
+# 새 RF/Antenna/EMC 공고 — 2026-09-27 15:49
 
-총 **14건**
+총 **8건**
 
-## Boston (1)
-
-| 게시일 | 직무 | 회사 | 위치 | 출처 | 비고 |
-|---|---|---|---|---|---|
-| 2026-09-25 | [Senior RF Engineer](https://www.adzuna.com/details/5898815345?utm_medium=api&utm_source=d677d981) | Molex | Concord, Merrimack County, New Hampshire | Adzuna |  |
-
-## SF Bay Area (5)
+## Boston (2)
 
 | 게시일 | 직무 | 회사 | 위치 | 출처 | 비고 |
 |---|---|---|---|---|---|
-| 2026-09-26 | [Wireless/RF Engineer I](https://www.adzuna.com/details/5899492461?utm_medium=api&utm_source=d677d981) | Honeywell Aerospace | San Jose, Santa Clara County, California | Adzuna |  |
-| 2026-09-25 | [RF Engineer - Satellite Systems (San Jose California)](https://www.linkedin.com/jobs/view/rf-engineer-satellite-systems-san-jose-california-at-astro-digital-4470335184) | Astro Digital | San Jose, CA | JSearch/LinkedIn |  |
-| 2026-09-25 | [Senior RF Test Engineer](https://www.adzuna.com/details/5898711101?utm_medium=api&utm_source=d677d981) | Tarana Wireless, Inc. | Milpitas, Santa Clara County, California | Adzuna |  |
-| 2026-09-24 | [Antenna Design Engineer](https://www.linkedin.com/jobs/view/antenna-design-engineer-at-array-labs-4326757056) | Array Labs | San Francisco, CA | JSearch/LinkedIn | 🔐 클리어런스 |
-| 2026-09-24 | [RF Front-End Engineer Summer/Fall Co-Op (June-Dec '27)](https://www.linkedin.com/jobs/view/rf-front-end-engineer-summer-fall-co-op-june-dec-27-at-skyworks-solutions-inc-4471650356) | Skyworks | San Jose, CA | JSearch/LinkedIn |  |
+| 2026-09-26 | [RF Engineer II](https://www.adzuna.com/land/ad/5899817213?se=qlNrxIi68RGCw6kuTDrJlg&utm_medium=api&utm_source=d677d981&v=9E5D7E4C65AE8E839CC56108DCE15B039D2FD0BD) | BAE Systems | Merrimack, Hillsborough County, New Hampshire | Adzuna |  |
+| 2026-09-26 | [Principal Engineer - RF](https://www.adzuna.com/land/ad/5899817204?se=JpJKy4i68RGGQ9u1mQKVdw&utm_medium=api&utm_source=d677d981&v=7EA400B999AB91E782D4283A85595B53FF15E2B6) | BAE Systems | Nashua, Hillsborough County, New Hampshire | Adzuna |  |
 
-## San Diego (3)
+## SF Bay Area (2)
 
 | 게시일 | 직무 | 회사 | 위치 | 출처 | 비고 |
 |---|---|---|---|---|---|
-| 2026-09-24 | [Satellite Antenna Engineer: Phased Arrays & RF Design](https://www.learn4good.com/jobs/san-diego/california/engineering/5492506892/e/) | Associates Systems LLC | San Diego, CA | JSearch/Learn4Good |  |
-| 2026-09-24 | [Satellite Antenna Engineer: Phased-Array & RF Design](https://www.learn4good.com/jobs/chula-vista/california/engineering/5492393511/e/) | Associates Systems LLC | Chula Vista, CA | JSearch/Learn4Good |  |
-| 2026-09-22 | [Senior Radio Frequency RF Design Engineer](https://www.jobilize.com/job/us-ca-san-diego-senior-radio-frequency-rf-design-engineer-3m-healthcare) | 3M HEALTHCARE | San Diego, CA | JSearch/Jobilize |  |
+| 2026-09-27 | [Wireless Regulatory Engineer - SAR](https://www.adzuna.com/details/5900593750?utm_medium=api&utm_source=d677d981) | OpenAI | Mountain View, Santa Clara County, California | Adzuna |  |
+|  | [EMC Engineer](https://jobs.nvidia.com/careers/job/893396958926) | Nvidia | Santa Clara, CA | JSearch/Nvidia Career |  |
 
-## Washington DC (5)
+## San Diego (1)
 
 | 게시일 | 직무 | 회사 | 위치 | 출처 | 비고 |
 |---|---|---|---|---|---|
-| 2026-09-26 | [Principal Radar Signals Engineer](https://www.adzuna.com/land/ad/5899358312?se=goS_T7q58RG3jpCv9xpWmA&utm_medium=api&utm_source=d677d981&v=617B088F66A4AAE3366103B51B5C44DF632C98C3) | SAIC | Chantilly, Fairfax County, Virginia | Adzuna | 🔐 클리어런스 |
-| 2026-09-26 | [Senior Principal Radar Signals Engineer](https://www.adzuna.com/land/ad/5899358240?se=bp1Se7q58RGCw6kuTDrJlg&utm_medium=api&utm_source=d677d981&v=7488257CB7D9BA1ACD16BD5E19388CE956FBEF0B) | SAIC | Chantilly, Fairfax County, Virginia | Adzuna | 🔐 클리어런스 |
-| 2026-09-25 | [Systems Engineer- Radar Warning Receivers](https://caci.eightfold.ai/careers/job/1443153676570) | CACI | Aberdeen Proving Ground, MD | 회사/eightfold |  |
-| 2026-09-24 | [Space RADAR Data Processing - Principal/Sr Principal Engineer Sy with Security Clearance](https://www.adzuna.com/land/ad/5897302493?se=8DR-Y7q58RGbfvu5Y4WSAw&utm_medium=api&utm_source=d677d981&v=1732B40D2D96CE7300AD786776C169D3E8C0EA58) | Northrop Grumman | Linthicum Heights, Anne Arundel County, Maryland | Adzuna | 🔐 클리어런스 |
-| 2026-09-23 | [Manager, RF Engineering](https://www.adzuna.com/land/ad/5895085823?se=VjjGSLq58RG-SeqBIkSuSw&utm_medium=api&utm_source=d677d981&v=C8288267CEDF97595D88BD5BC08E90F014AEDBC7) | Leonardo DRS | College Estates, Frederick County, Maryland | Adzuna |  |
+| 2026-09-20 | [Link-16 EMC SME & Spectrum Certification Leader](https://www.jobleads.com/us/job/link-16-emc-sme-spectrum-certification-leader--san-diego--ea6be676220d58a9c899a8999e5e8ccf4) | Northrop Grumman | San Diego, CA | JSearch/JobLeads |  |
+
+## Washington DC (3)
+
+| 게시일 | 직무 | 회사 | 위치 | 출처 | 비고 |
+|---|---|---|---|---|---|
+| 2026-09-27 | [Radio Frequency (RF) Engineer Lead](https://www.adzuna.com/details/5900460826?utm_medium=api&utm_source=d677d981) | Battelle Memorial Institute | Chantilly, Fairfax County, Virginia | Adzuna |  |
+| 2026-09-26 | [RF Engineer (Clearance Req: TS)](https://www.adzuna.com/details/5900038087?utm_medium=api&utm_source=d677d981) | Woodsong Technologies, LLC | Savage, Anne Arundel County, Maryland | Adzuna |  |
+|  | [EMI/EMC Design Engineer — TEMPEST Training Provided](https://www.tealhq.com/job/emi-emc-design-engineer_7ea1ab363dd1d599d394a62b771ca8baed9e2) | advance programs | Columbia, MD | JSearch/Teal | 🔐 클리어런스 |

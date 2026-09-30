@@ -1,34 +1,31 @@
-# 새 RF/Antenna/EMC 공고 — 2026-09-29 17:06
+# 새 RF/Antenna/EMC 공고 — 2026-09-30 16:58
 
-총 **16건**
+총 **13건**
 
-## Boston (9)
-
-| 게시일 | 직무 | 회사 | 위치 | 출처 | 비고 |
-|---|---|---|---|---|---|
-| 2026-09-28 | [Senior RF Hardware Engineer with Security Clearance](https://www.adzuna.com/land/ad/5902461630?se=0rQdvSW88RGcn96iDKHEww&utm_medium=api&utm_source=d677d981&v=72ABC7C0D87DA28143F4A0B0A9567683B47E33E2) | STR | Woburn, Middlesex County, Massachusetts | Adzuna | 🔐 클리어런스 |
-| 2026-09-28 | [Principal Systems Engineer, Product Owner - Radar Analysis and Verification - AN/TPY-2](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-WOBURN-WB2--225-Presidential-Way--GODDARD-BLDG/Principal-Systems-Engineer--Product-Owner---Radar-Analysis-and-Verification---AN-TPY-2_01878368) | RTX / Raytheon | Woburn, MA | 회사/workday |  |
-| 2026-09-28 | [Senior Systems Engineer, Product Owner - Radar Analysis and Verification - AN/TPY-2](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-WOBURN-WB2--225-Presidential-Way--GODDARD-BLDG/Senior-Systems-Engineer--Product-Owner---Radar-Analysis-and-Verification---AN-TPY-2_01878366-1) | RTX / Raytheon | Woburn, MA | 회사/workday |  |
-| 2026-09-28 | [Senior Systems Engineer, Scrum Master - Radar Analysis and Verification - AN/TPY-2](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-WOBURN-WB2--225-Presidential-Way--GODDARD-BLDG/Senior-Systems-Engineer--Scrum-Master---Radar-Analysis-and-Verification---AN-TPY-2_01878370) | RTX / Raytheon | Woburn, MA | 회사/workday |  |
-| 2026-09-28 | [Systems Engineer II, Scrum Master - Radar Analysis and Verification - AN/TPY-2](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-WOBURN-WB2--225-Presidential-Way--GODDARD-BLDG/Systems-Engineer-II--Scrum-Master---Radar-Analysis-and-Verification---AN-TPY-2_01878372) | RTX / Raytheon | Woburn, MA | 회사/workday |  |
-| 2026-09-28 | [Senior Principal Engineer: Army Navy/Transportable Radar Surveillance (AN/TPY-2) Electronic Equipment Unit (EEU) Sub-Integrated Product Team](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-WOBURN-WB1--235-Presidential-Way--SPENCER-BLDG/Senior-Principal-Engineer--Army-Navy-Transportable-Radar-Surveillance--AN-TPY-2--Electronic-Equipment-Unit--EEU--Sub-Integrated-Product-Team_01876571) | RTX / Raytheon | Woburn, MA | 회사/workday |  |
-| 2026-09-25 | [Principal Microwave Systems Engineer – Space Payloads](https://us.jobrapido.com/jobpreview/3025612043349655552) | tomorrow.be | Boston, MA | JSearch/Jobrapido |  |
-| 2026-09-24 | [Manufacturing Engineer: Microwave Hybrids & Automation](https://www.jobleads.com/us/job/manufacturing-engineer-microwave-hybrids-automation--chelmsford--e124f2dbfa65a7917c6bd26e69a58a8ee) | Lockheed Martin | Chelmsford, MA | JSearch/JobLeads |  |
-| 2026-09-16 | [Electronic Warfare Stimulator Operations and Simulations Scenari with Security Clearance](https://www.adzuna.com/land/ad/5885741064?se=0Pfc6SW88RGnaMK3Ib81hg&utm_medium=api&utm_source=d677d981&v=D6F9D540A16B84F84951F057C9D2BCF2F2BA2565) | BAE Systems | Nashua, Hillsborough County, New Hampshire | Adzuna | 🔐 클리어런스 |
-
-## San Diego (1)
+## Boston (6)
 
 | 게시일 | 직무 | 회사 | 위치 | 출처 | 비고 |
 |---|---|---|---|---|---|
-| 2026-09-28 | [Principal Systems Engineer, Radar Analyst](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-CA-SAN-DIEGO-SD1--8650-Balboa-Ave--SAN-ANTONIO-BLDG/Principal-Systems-Engineer--Radar-Analyst_01878641) | RTX / Raytheon | San Diego, CA | 회사/workday |  |
+| 2026-09-30 | [Antenna and Microwave Engineer III](https://www.adzuna.com/land/ad/5903654268?se=Vv5b2e288RGGRMm4C9apug&utm_medium=api&utm_source=d677d981&v=81C9D98C87ABA2A65EFB98DCAC6CB47D3823200C) | RTX / Raytheon | Tewksbury, Middlesex County, Massachusetts | Adzuna | 🔐 클리어런스 |
+| 2026-09-30 | [Systems Engineer II, Scrum Master - Radar Analysis and Verification - AN/TPY-2](https://www.adzuna.com/land/ad/5903481661?se=Yoyq_-288RG5W_OotpWUug&utm_medium=api&utm_source=d677d981&v=C65F461A67C5B2CBD0244E97C95A6C33D0CF5B59) | RTX / Raytheon | Woburn, Middlesex County, Massachusetts | Adzuna | 🔐 클리어런스 |
+| 2026-09-30 | [Senior Systems Engineer, Scrum Master - Radar Analysis and Verification - AN/TPY-2](https://www.adzuna.com/land/ad/5903645697?se=Yoyq_-288RG5W_OotpWUug&utm_medium=api&utm_source=d677d981&v=FA32CEE8E9A74FB9464AB7845D342DF69D56BC55) | RTX / Raytheon | Woburn, Middlesex County, Massachusetts | Adzuna | 🔐 클리어런스 |
+| 2026-09-30 | [Principal Systems Engineer, Product Owner - Radar Analysis and Verification - AN/TPY-2](https://www.adzuna.com/land/ad/5903878959?se=Yoyq_-288RG5W_OotpWUug&utm_medium=api&utm_source=d677d981&v=1319B7377B5036BD1EFC0613DE9CFD93B74D5865) | RTX / Raytheon | Woburn, Middlesex County, Massachusetts | Adzuna | 🔐 클리어런스 |
+| 2026-09-29 | [RF Circuit Design Winter/Spring Co-Op (Jan-June '27)](https://www.adzuna.com/details/5903418084?utm_medium=api&utm_source=d677d981) | Skyworks | Andover, Essex County, Massachusetts | Adzuna |  |
+| 2026-09-29 | [Senior Systems Engineer, Radar SIL Systems Onsite](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-WOBURN-WB1--235-Presidential-Way--SPENCER-BLDG/Senior-Systems-Engineer--Radar-SIL-Systems-Onsite_01874101) | RTX / Raytheon | Woburn, MA | 회사/workday |  |
+
+## SF Bay Area (1)
+
+| 게시일 | 직무 | 회사 | 위치 | 출처 | 비고 |
+|---|---|---|---|---|---|
+| 2026-09-28 | [EMC Compliance Engineer (Onsite)](https://www.linkedin.com/jobs/view/emc-compliance-engineer-onsite-at-redolent-inc-4469340576) | Redolent, Inc | Santa Clara, CA | JSearch/LinkedIn |  |
 
 ## Washington DC (6)
 
 | 게시일 | 직무 | 회사 | 위치 | 출처 | 비고 |
 |---|---|---|---|---|---|
-| 2026-09-29 | [Research SME - Antenna Systems with Security Clearance](https://www.adzuna.com/land/ad/5902587728?se=VrZ2yiW88RGcn96iDKHEww&utm_medium=api&utm_source=d677d981&v=8C118FD491F056D838FA09B21CA730546D1F47CE) | Bluemont Technology & Research, Inc. | West Bethesda, Montgomery County, Maryland | Adzuna | 🔐 클리어런스 |
-| 2026-09-28 | [Jr./Entry Level RF Compatibility Test Engineer - Space Programs with Security Clearance](https://www.adzuna.com/land/ad/5902474329?se=VrZ2yiW88RGcn96iDKHEww&utm_medium=api&utm_source=d677d981&v=2EC904083C62903B90DE347EC4D1B47E50EDF6A9) | Peraton | Greenbelt, Prince George's County, Maryland | Adzuna | 🔐 클리어런스 |
-| 2026-09-28 | [Mid-Sr.Level RF Compatibility Test Engineer - Space Programs with Security Clearance](https://www.adzuna.com/land/ad/5902469222?se=VrZ2yiW88RGcn96iDKHEww&utm_medium=api&utm_source=d677d981&v=1EFBF2C775646A8389C252A325FCD575D65CCA34) | Peraton | Greenbelt, Prince George's County, Maryland | Adzuna | 🔐 클리어런스 |
-| 2026-09-28 | [RF Engineer - 30429](https://jobs.hii-tsd.com/job/Fort-Meade%2C-MD-RF-Engineer-30429-Mary/1434419200/) | HII Mission Technologies | Fort Meade, MD, Maryland | 회사/successfactors |  |
-| 2026-09-23 | [Senior High Power Microwave Engineer - Sign-On Bonus](https://us.jobrapido.com/jobpreview/7197259008531496960) | Arenatechnologies | Washington, DC | JSearch/Jobrapido | 🔐 클리어런스 |
-|  | [External Job Posting Title RF Engineer](https://careers-peraton.icims.com/jobs/171446/rf-engineer/job) | Peraton | Aberdeen Proving Ground, MD | 회사/icims |  |
+| 2026-09-30 | [RF Engineer](https://www.adzuna.com/details/5903564972?utm_medium=api&utm_source=d677d981) | Strategic Sight Consulting | Aberdeen, Harford County, Maryland | Adzuna |  |
+| 2026-09-30 | [Atomic Physicist Engineering and Physical Sciences Researcher Experienced to Expert Level](https://www.usajobs.gov:443/job/886887600) | National Security Agency/Central Security Service | Fort Meade, Maryland | USAJOBS | 🇺🇸 연방정부 |
+| 2026-09-30 | [Principal Radar Modeling Simulation & Analysis Systems Engineer](https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Principal-Radar-Modeling-Simulation---Analysis-Systems-Engineer_R10253745) | Northrop Grumman | Baltimore, Maryland | 회사/workday |  |
+| 2026-09-30 | [Radar Modeling Simulation & Analysis Systems Engineer](https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Radar-Modeling-Simulation---Analysis-Systems-Engineer_R10253738) | Northrop Grumman | Baltimore, Maryland | 회사/workday |  |
+| 2026-09-29 | [Director, Business Development, Electromagnetic Warfare (Army)](https://boards.greenhouse.io/andurilindustries/jobs/5147963007?gh_jid=5147963007) | Anduril | Washington, District of Columbia | 회사/greenhouse |  |
+| 2026-09-29 | [2027 RF / Antenna Engineer](https://aero.wd5.myworkdayjobs.com/en-US/External/job/Chantilly-VA/XMLNAME-2027-RF---Antenna-Engineer_R016770) | The Aerospace Corporation | Chantilly, VA | 회사/workday |  |

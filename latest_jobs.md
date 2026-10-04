@@ -1,40 +1,42 @@
-# 새 RF/Antenna/EMC 공고 — 2026-10-03 15:21
+# 새 RF/Antenna/EMC 공고 — 2026-10-04 15:58
 
-총 **17건**
+총 **19건**
 
-## Boston (2)
-
-| 게시일 | 직무 | 회사 | 위치 | 출처 | 비고 |
-|---|---|---|---|---|---|
-| 2026-10-03 | [Senior Radio Frequency Engineer](https://www.adzuna.com/land/ad/5909573803?se=_CCHvTu_8RGdRLcUnFY4TA&utm_medium=api&utm_source=d677d981&v=988E67A041EA9FC73B8CE56EA8EBD253945310D4) | Whoop | South Boston, Suffolk County, Massachusetts | Adzuna |  |
-| 2026-10-03 | [Senior Regulatory Compliance Engineer](https://www.adzuna.com/details/5909634065?utm_medium=api&utm_source=d677d981) | Tive | Boston, Suffolk County, Massachusetts | Adzuna |  |
-
-## SF Bay Area (4)
+## Boston (7)
 
 | 게시일 | 직무 | 회사 | 위치 | 출처 | 비고 |
 |---|---|---|---|---|---|
-| 2026-10-03 | [Wireless RF Engineer](https://www.adzuna.com/land/ad/5909843025?se=wqNOsju_8RGdRLcUnFY4TA&utm_medium=api&utm_source=d677d981&v=A8F38B7DC4DE72FB24C584B15303AA26495C88B9) | Insight Global | Newark, Alameda County, California | Adzuna |  |
-| 2026-10-02 | [Principal Electrical Power Engineer, RF Payloads - TeraWave](https://www.adzuna.com/land/ad/5907367104?se=wqNOsju_8RGdRLcUnFY4TA&utm_medium=api&utm_source=d677d981&v=B109E6ED6BC94668B05F39E42F396BFC1759A05C) | BLUE ORIGIN | Cupertino, Santa Clara County, California | Adzuna |  |
-| 2026-10-02 | [Pulsed Power Engineer - Electromagnetic Diagnostics](https://www.adzuna.com/land/ad/5908968881?se=fmDYuTu_8RGTyvTH5qRQ7A&utm_medium=api&utm_source=d677d981&v=707B4B8DB0E2FAB3D3A2154107315C052CA39D04) | Lawrence Livermore National Laboratory | Altamont, Alameda County, California | Adzuna |  |
-| 2026-10-01 | [EMC Test Engineer](https://www.linkedin.com/jobs/view/emc-test-engineer-at-teksystems-4474306171) | TEKsystems | San Francisco, CA | JSearch/LinkedIn |  |
+| 2026-10-01 | [Systems Engineer II, Scrum Master - Radar Analysis and Verificat with Security Clearance](https://www.adzuna.com/land/ad/5905231477?se=Vh-gRQrA8RGh_LeUgGdixw&utm_medium=api&utm_source=d677d981&v=C7D532A0DE0594D08116A730BFEEFB03D7E5F665) | RTX / Raytheon | Woburn, Middlesex County, Massachusetts | Adzuna | 🔐 클리어런스 |
+| 2026-10-01 | [Principal Systems Engineer, Product Owner - Radar Analysis and V with Security Clearance](https://www.adzuna.com/land/ad/5905227073?se=Vh-gRQrA8RGh_LeUgGdixw&utm_medium=api&utm_source=d677d981&v=B66C68905178B1AB4C768BDC0E6D83DD05B8A4A0) | RTX / Raytheon | Woburn, Middlesex County, Massachusetts | Adzuna | 🔐 클리어런스 |
+| 2026-10-01 | [Senior Systems Engineer, Scrum Master - Radar Analysis and Verif with Security Clearance](https://www.adzuna.com/land/ad/5905231483?se=Vh-gRQrA8RGh_LeUgGdixw&utm_medium=api&utm_source=d677d981&v=3BF6FD8F31FC8159C969E4268D64FC09967CE592) | RTX / Raytheon | Woburn, Middlesex County, Massachusetts | Adzuna | 🔐 클리어런스 |
+| 2026-09-30 | [Principal RF Design Engineer with Security Clearance](https://www.jobted.com/job/2eb067e15d7a6275cbf1bf55cccc7f1a) | RTX / Raytheon | Marlborough, MA | JSearch/Jobted | 🔐 클리어런스 |
+| 2026-09-29 | [RF Systems Mechanical Engineer - Thermal & Hardware Design](https://www.learn4good.com/jobs/somerville/massachusetts/engineering/5504294131/e/) | NextGenEnergyJobs | Somerville, MA | JSearch/Learn4Good |  |
+| 2026-09-29 | [Senior RF Systems Engineer - High-Frequency Hardware](https://bebee.com/us/jobs/senior-rf-systems-engineer-high-frequency-hardware-axcelis-technologies-beverly--lensa-7428_c6c9ba9d361b0605fc18d77b0b830414eaf62ce7889f44531551cb329efa6824) | Axcelis Technologies | Beverly, MA | JSearch/BeBee |  |
+| 2026-09-27 | [Staff MMIC Design Engineer SOI & RF (Onsite Boston)](https://bebee.com/us/jobs/staff-mmic-design-engineer-soi-rf-onsite-boston-marki-microwave-boston-ma-united-states--appcast-7428_72f29a9b166251b9bc71bec98dc99f24f196f21f6493f8b671bf7b30233e9710) | Marki Microwave | Boston, MA | JSearch/BeBee | 🔐 클리어런스 |
 
-## San Diego (1)
-
-| 게시일 | 직무 | 회사 | 위치 | 출처 | 비고 |
-|---|---|---|---|---|---|
-| 2026-10-02 | [Advanced Antennas Senior Systems Engineer (IO) with Security Clearance](https://www.adzuna.com/land/ad/5907754576?se=RHWSyju_8RGTsslqo-m1eQ&utm_medium=api&utm_source=d677d981&v=9086735A22F2B2098CF29400D9FAD1E1DEF8E4CC) | SAIC | San Diego, San Diego County, California | Adzuna | 🔐 클리어런스 |
-
-## Washington DC (10)
+## SF Bay Area (3)
 
 | 게시일 | 직무 | 회사 | 위치 | 출처 | 비고 |
 |---|---|---|---|---|---|
-| 2026-10-03 | [Senior Cloud & Storage Engineer - SAN & EMC Expert](https://it.jobserve.com/job-in-Washington-District-of-Columbia-USA/SENIOR-CLOUD-STORAGE-ENGINEER-SAN-EMC-EXPERT-33878597d9e2fa92c6/) | CGS Federal (Contact Government Services) | Washington, DC | JSearch/IT JobServe |  |
-| 2026-10-03 | [RF Engineer](https://www.adzuna.com/details/5909987791?utm_medium=api&utm_source=d677d981) | Boost | Patuxent River, Prince George's County, Maryland | Adzuna |  |
-| 2026-10-03 | [Principal Subject Matter Expert for Aviation Electronic Warfare with Security Clearance](https://www.adzuna.com/land/ad/5909556902?se=3jNbFzy_8RGTyvTH5qRQ7A&utm_medium=api&utm_source=d677d981&v=8334631917ADE16C9804C9DEEDDA6AC7C429297C) | Amentum | Lexington Park, St. Mary's County, Maryland | Adzuna | 🔐 클리어런스 |
-| 2026-10-02 | [Technical Program Manager / RF Systems](https://www.adzuna.com/land/ad/5907272491?se=nAAe1Du_8RGTsslqo-m1eQ&utm_medium=api&utm_source=d677d981&v=5E930CF375AC13DF1EF0DF5CB550B7EAE2B59EB2) | Quartermaster | Arlington, Arlington County, Virginia | Adzuna |  |
-| 2026-10-02 | [Radar Systems Engineer with Security Clearance](https://www.adzuna.com/land/ad/5907754563?se=FtcpCTy_8RGTyvTH5qRQ7A&utm_medium=api&utm_source=d677d981&v=D4857A18710A790B52B5E9F8DCA4B7C9DC0F72CF) | SAIC | Chantilly, Fairfax County, Virginia | Adzuna | 🔐 클리어런스 |
-| 2026-10-02 | [SATCOM Network Engineer with Security Clearance](https://www.adzuna.com/land/ad/5907754526?se=FtcpCTy_8RGTyvTH5qRQ7A&utm_medium=api&utm_source=d677d981&v=06717A8E7ACE9137D189B83FA79EFB9E96C5A39A) | SAIC | Chantilly, Fairfax County, Virginia | Adzuna | 🔐 클리어런스 |
-| 2026-10-02 | [RF Systems Engineer with Security Clearance](https://www.adzuna.com/land/ad/5907754649?se=FtcpCTy_8RGTyvTH5qRQ7A&utm_medium=api&utm_source=d677d981&v=22976DBDE71022200FB38CA35D908D89272DD3E7) | SAIC | Chantilly, Fairfax County, Virginia | Adzuna | 🔐 클리어런스 |
-| 2026-10-02 | [Electronic Warfare Analyst, Senior](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/King-George-VA/Operations-Systems-Analyst_R0247374-1) | Booz Allen Hamilton | King George, VA / Dahlgren, VA | 회사/workday |  |
-| 2026-10-02 | [Principal Subject Matter Expert for Aviation Electronic Warfare Systems](https://pae.wd1.myworkdayjobs.com/en-US/Amentum_Careers/job/US-MD-Patuxent-River/Principal-Subject-Matter-Expert-for-Aviation-Electronic-Warfare-Systems_R0172244) | Amentum | Patuxent River, MD | 회사/workday |  |
-| 2026-10-01 | [Radar Systems Engineer](https://www.adzuna.com/land/ad/5906978365?se=nAAe1Du_8RGTsslqo-m1eQ&utm_medium=api&utm_source=d677d981&v=435BF71419580D06F8E08FBF8F616BC0B66AD3CC) | Johns Hopkins APL | North Laurel, Prince George's County, Maryland | Adzuna |  |
+| 2026-10-04 | [RF Electrical Engineer, Antenna Systems](https://www.adzuna.com/details/5911595507?utm_medium=api&utm_source=d677d981) | ALTEN Technology | Mountain View, Santa Clara County, California | Adzuna |  |
+| 2026-10-01 | [RFIC Silicon Lead](https://www.linkedin.com/jobs/view/rfic-silicon-lead-at-tacit-4432075471) | Tacit | San Francisco, CA | JSearch/LinkedIn |  |
+| 2026-09-30 | [Senior PLL IC Design Lead for High-Speed RF/mmWave](https://www.jobleads.com/us/job/senior-pll-ic-design-lead-for-high-speed-rf-mmwave--cupertino--e11b20b880d37f4b537a7c687ab138730) | Blue Origin | Cupertino, CA | JSearch/JobLeads |  |
+
+## San Diego (7)
+
+| 게시일 | 직무 | 회사 | 위치 | 출처 | 비고 |
+|---|---|---|---|---|---|
+| 2026-10-03 | [Principal Wireless/RF Engineer](https://www.adzuna.com/land/ad/5910952705?se=IBErIgrA8RGh_LeUgGdixw&utm_medium=api&utm_source=d677d981&v=79F1CD0EBD87785D1062AC9261F610BC1250C585) | Honeywell Aerospace | San Diego, San Diego County, California | Adzuna |  |
+| 2026-10-02 | [Principal FPGA Digital Engineer — RF/SDR](https://www.jobserve.com/us/en/extjob/PRINCIPAL-FPGA-DIGITAL-ENGINEER-RF-SDR-in-San-Diego-California-USA-82B468731BA7B7608B/) | Northrop Grumman | San Diego, CA | JSearch/JobServe | 🔐 클리어런스 |
+| 2026-10-02 | [Senior Space Systems Engineer / Lead RF & SDR Programs](https://www.jobleads.com/us/job/senior-space-systems-engineer-lead-rf-sdr-programs--san-diego--ea5d95bc7801a8f37a65f968f1cd97a08) | L3Harris | San Diego, CA | JSearch/JobLeads |  |
+| 2026-10-01 | [Lead RFIC](https://us.trabajo.org/job-28643-aae75fa68472133c331468ed15a7edf2) | Blue Origin | San Diego, CA | JSearch/Trabajo.org |  |
+| 2026-09-30 | [Senior RF Engineer – AESA & Beamforming Lead](https://www.jobleads.com/us/job/senior-rf-engineer-aesa-beamforming-lead--san-diego--e0874c586ee1990db5b827f00bb0529c6) | Cubic Transportation Systems | San Diego, CA | JSearch/JobLeads |  |
+| 2026-09-30 | [RF DVT Engineer: mmWave SoC Testing](https://us.trabajo.org/job-28652-d5783e038cb16ed346cf0c0dd6aad286) | Amazon | San Diego, CA | JSearch/Trabajo.org |  |
+| 2026-09-30 | [Product RF Design Engineer / Wireless Systems Engineer at Apple Inc. San Diego, CA](https://mandik.com.ua/joblib/job/product-rf-design-engineer-wireless-systems-engineer-at-apple-inc-san-diego-ca-UnlDbWpEb3YrV2VkUmdvZ2N5dVJSdUtLcFE9PQ==) | Apple | San Diego, CA | JSearch/Mandik |  |
+
+## Washington DC (2)
+
+| 게시일 | 직무 | 회사 | 위치 | 출처 | 비고 |
+|---|---|---|---|---|---|
+| 2026-10-02 | [RF Engineer](https://www.linkedin.com/jobs/view/rf-engineer-at-intellian-technologies-4473361060) | Intellian Technologies | Rockville, MD | JSearch/LinkedIn |  |
+| 2026-09-28 | [RF Network Engineer, Government 8](https://www.jobilize.com/job/us-dc-all-cities-rf-network-engineer-government-8-viasat-hiring-now) | Viasat | Washington, DC | JSearch/Jobilize | 🔐 클리어런스 |

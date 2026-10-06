@@ -1,6 +1,437 @@
 {
-"updated": "2026-10-04T15:58:07+00:00",
+"updated": "2026-10-06T17:21:14+00:00",
 "jobs": [
+{
+"id": "rfelectricalengineerantennasystems|altenusa|sfbayarea",
+"title": "RF Electrical Engineer, Antenna Systems",
+"company": "Alten USA",
+"location": "Mountain View, Santa Clara County, California",
+"metro": "SF Bay Area",
+"url": "https://www.adzuna.com/land/ad/5913684042?se=mnER76fB8RGUu_Rhx7jCqA&utm_medium=api&utm_source=d677d981&v=BBD75EF149A5068D35BD2BB7CB4EEB29991311F9",
+"posted": "2026-10-06",
+"sources": [
+"Adzuna"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-10-06",
+"last_seen": "2026-10-06",
+"group": "",
+"company_key": null
+},
+{
+"id": "rfengineer|hyperlight|boston",
+"title": "RF Engineer",
+"company": "HyperLight",
+"location": "Cambridge, Middlesex County, Massachusetts",
+"metro": "Boston",
+"url": "https://www.adzuna.com/details/5913475815?utm_medium=api&utm_source=d677d981",
+"posted": "2026-10-06",
+"sources": [
+"Adzuna"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-10-06",
+"last_seen": "2026-10-06",
+"group": "",
+"company_key": null
+},
+{
+"id": "rfdesignengineer|axirosemicon|sandiego",
+"title": "RF Design Engineer",
+"company": "Axiro Semiconductor",
+"location": "San Diego, San Diego County, California",
+"metro": "San Diego",
+"url": "https://www.adzuna.com/land/ad/5914046130?se=Otg3EqjB8RGYZOj7aV2MrQ&utm_medium=api&utm_source=d677d981&v=7F0D86648D6D978F757954D93D2D6782CA0439EF",
+"posted": "2026-10-06",
+"sources": [
+"Adzuna"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-10-06",
+"last_seen": "2026-10-06",
+"group": "",
+"company_key": null
+},
+{
+"id": "emcrfengineer|amentum|washingtondc",
+"title": "EMC RF Engineer with Security Clearance",
+"company": "Amentum",
+"location": "Dahlgren, VA",
+"metro": "Washington DC",
+"url": "https://pae.wd1.myworkdayjobs.com/en-US/Amentum_Careers/job/US-VA-Dahlgren/EMC-RF-Engineer_R0172266",
+"posted": "2026-10-06",
+"sources": [
+"Adzuna",
+"회사/workday"
+],
+"flags": [
+"🔐 클리어런스"
+],
+"remote": false,
+"first_seen": "2026-10-06",
+"last_seen": "2026-10-06",
+"group": "방산",
+"company_key": "Amentum"
+},
+{
+"id": "syntheticapertureradarengineer|insightgloba|washingtondc",
+"title": "Synthetic Aperture Radar Engineer",
+"company": "Insight Global",
+"location": "Linthicum Heights, Anne Arundel County, Maryland",
+"metro": "Washington DC",
+"url": "https://www.adzuna.com/land/ad/5914062755?se=xoyfFKjB8RGUu_Rhx7jCqA&utm_medium=api&utm_source=d677d981&v=5E865E26267BE5B13E1F925C0B06F0480A23D9BA",
+"posted": "2026-10-06",
+"sources": [
+"Adzuna"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-10-06",
+"last_seen": "2026-10-06",
+"group": "",
+"company_key": null
+},
+{
+"id": "seniorantennaengineer|intelliantec|washingtondc",
+"title": "Senior Antenna Engineer",
+"company": "Intellian Technologies",
+"location": "Rockville, Montgomery County, Maryland",
+"metro": "Washington DC",
+"url": "https://www.adzuna.com/land/ad/5914059666?se=ooU7F6jB8RGYZOj7aV2MrQ&utm_medium=api&utm_source=d677d981&v=6EC0FEE4C2EC95E58F3FB63B107331367B3FBECA",
+"posted": "2026-10-06",
+"sources": [
+"Adzuna"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-10-06",
+"last_seen": "2026-10-06",
+"group": "",
+"company_key": null
+},
+{
+"id": "antennatestengineer|actalent|washingtondc",
+"title": "Antenna Test Engineer",
+"company": "Actalent",
+"location": "Linthicum Heights, Anne Arundel County, Maryland",
+"metro": "Washington DC",
+"url": "https://www.adzuna.com/land/ad/5913665450?se=7m46H6jB8RGnB947euzs_w&utm_medium=api&utm_source=d677d981&v=82080D19F9AADDD43AA979177429B8E54A99E01E",
+"posted": "2026-10-06",
+"sources": [
+"Adzuna"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-10-06",
+"last_seen": "2026-10-06",
+"group": "",
+"company_key": null
+},
+{
+"id": "computerengineer|smithsoniani|boston",
+"title": "Computer Engineer",
+"company": "Smithsonian Institution ",
+"location": "Cambridge, Massachusetts",
+"metro": "Boston",
+"url": "https://www.usajobs.gov:443/job/887652600",
+"posted": "2026-10-06",
+"sources": [
+"USAJOBS"
+],
+"flags": [
+"🇺🇸 연방정부"
+],
+"remote": false,
+"first_seen": "2026-10-06",
+"last_seen": "2026-10-06",
+"group": "",
+"company_key": null
+},
+{
+"id": "radiofrequencylabengineer|boozallenham|washingtondc",
+"title": "Radio Frequency Lab Engineer with Security Clearance",
+"company": "Booz Allen Hamilton",
+"location": "Laurel, MD",
+"metro": "Washington DC",
+"url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Laurel-MD/Radio-Frequency-Lab-Engineer_R0250771",
+"posted": "2026-10-06",
+"sources": [
+"Adzuna",
+"회사/workday"
+],
+"flags": [
+"🔐 클리어런스"
+],
+"remote": false,
+"first_seen": "2026-10-06",
+"last_seen": "2026-10-06",
+"group": "방산",
+"company_key": "Booz Allen Hamilton"
+},
+{
+"id": "5gwirelesssystemengineer|boozallenham|washingtondc",
+"title": "5G Wireless System Engineer with Security Clearance",
+"company": "Booz Allen Hamilton",
+"location": "Annapolis Junction, MD",
+"metro": "Washington DC",
+"url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Annapolis-Junction-MD/XMLNAME-5G-Wireless-System-Engineer_R0250939",
+"posted": "2026-10-06",
+"sources": [
+"Adzuna",
+"회사/workday"
+],
+"flags": [
+"🔐 클리어런스"
+],
+"remote": false,
+"first_seen": "2026-10-06",
+"last_seen": "2026-10-06",
+"group": "방산",
+"company_key": "Booz Allen Hamilton"
+},
+{
+"id": "staffengineerelectronicsantennatest|northropgrum|washingtondc",
+"title": "Staff Engineer Electronics- Antenna Test",
+"company": "Northrop Grumman",
+"location": "Baltimore, Maryland",
+"metro": "Washington DC",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Staff-Engineer-Electronics--Antenna-Test_R10254347",
+"posted": "2026-10-06",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-10-06",
+"last_seen": "2026-10-06",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
+"id": "modelingsimulationengineerterrestrialelectronicwarfare|caci|washingtondc",
+"title": "Modeling & Simulation Engineer — Terrestrial Electronic Warfare",
+"company": "CACI",
+"location": "Aberdeen Proving Ground, MD",
+"metro": "Washington DC",
+"url": "https://caci.eightfold.ai/careers/job/1443153833252",
+"posted": "2026-10-06",
+"sources": [
+"회사/eightfold"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-10-06",
+"last_seen": "2026-10-06",
+"group": "방산",
+"company_key": "CACI"
+},
+{
+"id": "rfcollectionspecialist|aerovironmen|sandiego",
+"title": "RF Collection Specialist",
+"company": "AeroVironment / BlueHalo",
+"location": "San Diego, CA",
+"metro": "San Diego",
+"url": "https://avav.wd1.myworkdayjobs.com/en-US/AVAV/job/San-Diego-CA/RF-Collection-Specialist_9056",
+"posted": "2026-10-06",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-10-06",
+"last_seen": "2026-10-06",
+"group": "방산",
+"company_key": "AeroVironment / BlueHalo"
+},
+{
+"id": "postdoctoralappointeeforwardinverseelectromagneticmodeling|sandianation|sfbayarea",
+"title": "Postdoctoral Appointee - Forward/Inverse Electromagnetic Modeling, Onsite/Hybrid",
+"company": "Sandia National Laboratories",
+"location": "Livermore, CA",
+"metro": "SF Bay Area",
+"url": "https://sandia.jobs/livermore-ca/postdoctoral-appointee-forward-inverse-electromagnetic-modeling-onsite-hybrid/D231CD3D18354A8AAD521A1C23F05F13/job/",
+"posted": "2026-10-06",
+"sources": [
+"회사/jobsyn"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-10-06",
+"last_seen": "2026-10-06",
+"group": "연구소",
+"company_key": "Sandia National Laboratories"
+},
+{
+"id": "engineerrfmicrowavedesign1|apexsystems|washingtondc",
+"title": "Engineer RF Microwave Design 1",
+"company": "Apex Systems",
+"location": "East Case, Baltimore, Maryland",
+"metro": "Washington DC",
+"url": "https://www.adzuna.com/land/ad/5912960377?se=xoyfFKjB8RGUu_Rhx7jCqA&utm_medium=api&utm_source=d677d981&v=BD0C6D964B10EA81AA560956F33ACC3371CC603E",
+"posted": "2026-10-05",
+"sources": [
+"Adzuna"
+],
+"flags": [
+"🔐 클리어런스"
+],
+"remote": false,
+"first_seen": "2026-10-06",
+"last_seen": "2026-10-06",
+"group": "",
+"company_key": null
+},
+{
+"id": "rfcybersoftwareengineere2|lockheedmart|washingtondc",
+"title": "RF Cyber Software Engineer - E2",
+"company": "Lockheed Martin",
+"location": "Hanover, MD",
+"metro": "Washington DC",
+"url": "https://lockheedmartin.eightfold.ai/careers/job/996477184490",
+"posted": "2026-10-05",
+"sources": [
+"회사/eightfold"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-10-06",
+"last_seen": "2026-10-06",
+"group": "방산",
+"company_key": "Lockheed Martin"
+},
+{
+"id": "rfcybersoftwareengineerseniorstaffe5|lockheedmart|washingtondc",
+"title": "RF Cyber Software Engineer Senior Staff - E5",
+"company": "Lockheed Martin",
+"location": "Hanover, MD",
+"metro": "Washington DC",
+"url": "https://lockheedmartin.eightfold.ai/careers/job/996477185410",
+"posted": "2026-10-05",
+"sources": [
+"회사/eightfold"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-10-06",
+"last_seen": "2026-10-06",
+"group": "방산",
+"company_key": "Lockheed Martin"
+},
+{
+"id": "rfcybersoftwareengineerseniore3|lockheedmart|washingtondc",
+"title": "RF Cyber Software Engineer Senior - E3",
+"company": "Lockheed Martin",
+"location": "Hanover, MD",
+"metro": "Washington DC",
+"url": "https://lockheedmartin.eightfold.ai/careers/job/996477179916",
+"posted": "2026-10-05",
+"sources": [
+"회사/eightfold"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-10-06",
+"last_seen": "2026-10-06",
+"group": "방산",
+"company_key": "Lockheed Martin"
+},
+{
+"id": "spaceradardataprocessingstaffengineersystems|northropgrum|washingtondc",
+"title": "Space RADAR Data Processing - Staff Engineer Systems",
+"company": "Northrop Grumman",
+"location": "Linthicum, Maryland",
+"metro": "Washington DC",
+"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Linthicum/Space-RADAR-Data-Processing---Staff-Engineer-Systems_R10254460-1",
+"posted": "2026-10-05",
+"sources": [
+"회사/workday"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-10-06",
+"last_seen": "2026-10-06",
+"group": "방산",
+"company_key": "Northrop Grumman"
+},
+{
+"id": "seniorwirelessswengineer|qualcomm|sandiego",
+"title": "Senior Wireless S/W Engineer",
+"company": "Qualcomm",
+"location": "San Diego, California",
+"metro": "San Diego",
+"url": "https://careers.qualcomm.com/careers/job/446721408499",
+"posted": "2026-10-05",
+"sources": [
+"회사/eightfold"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-10-06",
+"last_seen": "2026-10-06",
+"group": "RF·통신",
+"company_key": "Qualcomm"
+},
+{
+"id": "antennaandmicrowaveengineeriiinowhiring|rtxraytheon|boston",
+"title": "Antenna and Microwave Engineer III - Now Hiring",
+"company": "RTX / Raytheon",
+"location": "Woburn, MA",
+"metro": "Boston",
+"url": "https://www.snagajob.com/jobs/1291844855",
+"posted": "2026-10-04",
+"sources": [
+"JSearch/Snagajob"
+],
+"flags": [
+"🔐 클리어런스"
+],
+"remote": false,
+"first_seen": "2026-10-06",
+"last_seen": "2026-10-06",
+"group": "방산",
+"company_key": "RTX / Raytheon"
+},
+{
+"id": "aerospacerftestengineeratemmic|honeywellaer|boston",
+"title": "Aerospace RF Test Engineer (ATE & MMIC)",
+"company": "Honeywell Aerospace US LLC",
+"location": "Woburn, MA",
+"metro": "Boston",
+"url": "https://www.jobleads.com/us/job/aerospace-rf-test-engineer-ate-mmic--woburn--e19a6180e04af783c69370ba4b3fddcb5",
+"posted": "2026-10-02",
+"sources": [
+"JSearch/JobLeads"
+],
+"flags": [],
+"remote": false,
+"first_seen": "2026-10-06",
+"last_seen": "2026-10-06",
+"group": "",
+"company_key": null
+},
+{
+"id": "seniorhpmengineernavalmicrowavesystemstssci|systemsplann|washingtondc",
+"title": "Senior HPM Engineer — Naval Microwave Systems (TS/SCI)",
+"company": "Systems Planning & Analysis",
+"location": "Washington, DC",
+"metro": "Washington DC",
+"url": "https://www.jobleads.com/us/job/senior-hpm-engineer-naval-microwave-systems-ts-sci--washington--ef27bbd7f780b1e44b5cec6bbc3bfbd44",
+"posted": "2026-09-29",
+"sources": [
+"JSearch/JobLeads"
+],
+"flags": [
+"🔐 클리어런스"
+],
+"remote": false,
+"first_seen": "2026-10-06",
+"last_seen": "2026-10-06",
+"group": "",
+"company_key": null
+},
 {
 "id": "rfelectricalengineerantennasystems|altentechnol|sfbayarea",
 "title": "RF Electrical Engineer, Antenna Systems",
@@ -15,7 +446,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-10-04",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "",
 "company_key": null
 },
@@ -33,7 +464,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-10-04",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "",
 "company_key": null
 },
@@ -84,12 +515,13 @@
 "url": "https://www.linkedin.com/jobs/view/rf-engineer-at-intellian-technologies-4473361060",
 "posted": "2026-10-02",
 "sources": [
+"Adzuna",
 "JSearch/LinkedIn"
 ],
 "flags": [],
 "remote": false,
 "first_seen": "2026-10-04",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "",
 "company_key": null
 },
@@ -369,7 +801,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-10-03",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "",
 "company_key": null
 },
@@ -387,7 +819,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-10-03",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "",
 "company_key": null
 },
@@ -405,7 +837,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-10-03",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "",
 "company_key": null
 },
@@ -423,7 +855,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-10-03",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "",
 "company_key": null
 },
@@ -443,7 +875,7 @@
 ],
 "remote": false,
 "first_seen": "2026-10-03",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Amentum"
 },
@@ -481,7 +913,7 @@
 ],
 "remote": false,
 "first_seen": "2026-10-03",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "SAIC"
 },
@@ -519,7 +951,7 @@
 ],
 "remote": false,
 "first_seen": "2026-10-03",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "SAIC"
 },
@@ -539,7 +971,7 @@
 ],
 "remote": false,
 "first_seen": "2026-10-03",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "SAIC"
 },
@@ -559,7 +991,7 @@
 ],
 "remote": false,
 "first_seen": "2026-10-03",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "SAIC"
 },
@@ -578,7 +1010,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-10-03",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Booz Allen Hamilton"
 },
@@ -596,7 +1028,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-10-03",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Amentum"
 },
@@ -760,7 +1192,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-10-02",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "연구소",
 "company_key": "Johns Hopkins APL"
 },
@@ -854,7 +1286,7 @@
 ],
 "remote": false,
 "first_seen": "2026-10-02",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Peraton"
 },
@@ -873,7 +1305,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-10-02",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "연구소",
 "company_key": "Lawrence Livermore National Laboratory"
 },
@@ -891,7 +1323,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-10-02",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "Qualcomm"
 },
@@ -909,7 +1341,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-10-02",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "Qualcomm"
 },
@@ -983,7 +1415,7 @@
 ],
 "remote": false,
 "first_seen": "2026-10-02",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Lockheed Martin"
 },
@@ -1043,7 +1475,7 @@
 ],
 "remote": false,
 "first_seen": "2026-10-01",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Anduril"
 },
@@ -1101,7 +1533,7 @@
 ],
 "remote": false,
 "first_seen": "2026-10-01",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "",
 "company_key": null
 },
@@ -1119,7 +1551,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-10-01",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Leidos"
 },
@@ -1139,7 +1571,7 @@
 ],
 "remote": false,
 "first_seen": "2026-10-01",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Peraton"
 },
@@ -1159,7 +1591,7 @@
 ],
 "remote": false,
 "first_seen": "2026-10-01",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Peraton"
 },
@@ -1179,7 +1611,7 @@
 ],
 "remote": false,
 "first_seen": "2026-10-01",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Peraton"
 },
@@ -1197,7 +1629,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-10-01",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "BAE Systems"
 },
@@ -1215,7 +1647,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-10-01",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "BAE Systems"
 },
@@ -1233,7 +1665,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-10-01",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Anduril"
 },
@@ -1254,7 +1686,7 @@
 ],
 "remote": false,
 "first_seen": "2026-10-01",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "연구소",
 "company_key": "MIT Lincoln Laboratory"
 },
@@ -1275,7 +1707,7 @@
 ],
 "remote": false,
 "first_seen": "2026-10-01",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "연구소",
 "company_key": "The Aerospace Corporation"
 },
@@ -1385,7 +1817,7 @@
 ],
 "remote": false,
 "first_seen": "2026-10-01",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Peraton"
 },
@@ -1426,7 +1858,7 @@
 ],
 "remote": false,
 "first_seen": "2026-10-01",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "KBR"
 },
@@ -1447,7 +1879,7 @@
 ],
 "remote": false,
 "first_seen": "2026-10-01",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Northrop Grumman"
 },
@@ -1465,7 +1897,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-10-01",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "CACI"
 },
@@ -1759,7 +2191,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-10-01",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Peraton"
 },
@@ -1777,7 +2209,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-10-01",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "연구소",
 "company_key": "MIT Lincoln Laboratory"
 },
@@ -1815,7 +2247,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-30",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "",
 "company_key": null
 },
@@ -1834,7 +2266,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-30",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Northrop Grumman"
 },
@@ -1850,10 +2282,12 @@
 "Adzuna",
 "회사/workday"
 ],
-"flags": [],
+"flags": [
+"🔐 클리어런스"
+],
 "remote": false,
 "first_seen": "2026-09-30",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Northrop Grumman"
 },
@@ -1892,7 +2326,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-30",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "RTX / Raytheon"
 },
@@ -1929,7 +2363,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-30",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "연구소",
 "company_key": "The Aerospace Corporation"
 },
@@ -1977,7 +2411,7 @@
 "company": "STR",
 "location": "Woburn, MA",
 "metro": "Boston",
-"url": "https://job-boards.greenhouse.io/systemstechnologyresearch/jobs/4717295006",
+"url": "https://job-boards.greenhouse.io/systemstechnologyresearch/jobs/4719092006",
 "posted": "2026-09-28",
 "sources": [
 "Adzuna",
@@ -1988,7 +2422,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-29",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "STR"
 },
@@ -2008,7 +2442,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-29",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Peraton"
 },
@@ -2028,7 +2462,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-29",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Peraton"
 },
@@ -2049,7 +2483,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-29",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "RTX / Raytheon"
 },
@@ -2070,7 +2504,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-29",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "RTX / Raytheon"
 },
@@ -2091,7 +2525,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-29",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "RTX / Raytheon"
 },
@@ -2112,7 +2546,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-29",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "RTX / Raytheon"
 },
@@ -2133,7 +2567,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-29",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "RTX / Raytheon"
 },
@@ -2151,7 +2585,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-29",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "RTX / Raytheon"
 },
@@ -2169,7 +2603,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-29",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "HII Mission Technologies"
 },
@@ -2263,7 +2697,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-29",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Peraton"
 },
@@ -2302,7 +2736,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-28",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Northrop Grumman"
 },
@@ -2323,7 +2757,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-28",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Northrop Grumman"
 },
@@ -2715,7 +3149,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-28",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Peraton"
 },
@@ -2771,7 +3205,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-27",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "BAE Systems"
 },
@@ -2791,7 +3225,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-27",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "BAE Systems"
 },
@@ -2903,7 +3337,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-26",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "SAIC"
 },
@@ -2923,7 +3357,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-26",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "SAIC"
 },
@@ -2995,7 +3429,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-26",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "CACI"
 },
@@ -3089,7 +3523,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-26",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "연구소",
 "company_key": "MITRE"
 },
@@ -3107,27 +3541,9 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-26",
-"last_seen": "2026-10-02",
+"last_seen": "2026-10-06",
 "group": "",
 "company_key": null
-},
-{
-"id": "rfsystemsengineer|baesystems|boston",
-"title": "RF Systems Engineer",
-"company": "BAE Systems",
-"location": "Hudson, New Hampshire",
-"metro": "Boston",
-"url": "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25771&siteid=5403&jobid=300266",
-"posted": "2026-09-17",
-"sources": [
-"회사/phenom"
-],
-"flags": [],
-"remote": false,
-"first_seen": "2026-09-26",
-"last_seen": "2026-09-27",
-"group": "방산",
-"company_key": "BAE Systems"
 },
 {
 "id": "seniorantennaelectromagneticsengineer|mitre|boston",
@@ -3162,7 +3578,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-25",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "L3Harris"
 },
@@ -3299,7 +3715,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-25",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "",
 "company_key": null
 },
@@ -3337,7 +3753,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-25",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "Apple"
 },
@@ -3355,7 +3771,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-25",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "CACI"
 },
@@ -3470,7 +3886,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-25",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "",
 "company_key": null
 },
@@ -3491,7 +3907,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-25",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Booz Allen Hamilton"
 },
@@ -3510,7 +3926,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-25",
-"last_seen": "2026-10-02",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Leidos"
 },
@@ -3528,7 +3944,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-25",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "Astranis"
 },
@@ -3972,7 +4388,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-24",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "Apple"
 },
@@ -4067,7 +4483,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-24",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "BAE Systems"
 },
@@ -4107,7 +4523,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-24",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Leonardo DRS"
 },
@@ -4125,7 +4541,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-24",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "연구소",
 "company_key": "MIT Lincoln Laboratory"
 },
@@ -4182,7 +4598,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-23",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Booz Allen Hamilton"
 },
@@ -4321,7 +4737,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-23",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Northrop Grumman"
 },
@@ -4340,7 +4756,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-23",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Northrop Grumman"
 },
@@ -4358,7 +4774,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-23",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "Qualcomm"
 },
@@ -4377,7 +4793,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-23",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "Qualcomm"
 },
@@ -4487,7 +4903,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-23",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "Apple"
 },
@@ -4622,7 +5038,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-22",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "RTX / Raytheon"
 },
@@ -4643,7 +5059,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-22",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "RTX / Raytheon"
 },
@@ -4664,7 +5080,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-22",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Northrop Grumman"
 },
@@ -4685,7 +5101,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-22",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Amentum"
 },
@@ -4703,7 +5119,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-22",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "STR"
 },
@@ -4721,7 +5137,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-22",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "STR"
 },
@@ -4795,7 +5211,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-22",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Northrop Grumman"
 },
@@ -5061,7 +5477,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-21",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "연구소",
 "company_key": "MIT Lincoln Laboratory"
 },
@@ -5083,7 +5499,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-21",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Lockheed Martin"
 },
@@ -5104,7 +5520,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-21",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "RTX / Raytheon"
 },
@@ -5123,7 +5539,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-21",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Northrop Grumman"
 },
@@ -5144,7 +5560,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-21",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "HII Mission Technologies"
 },
@@ -5576,7 +5992,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-19",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "SAIC"
 },
@@ -5706,7 +6122,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-19",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "L3Harris"
 },
@@ -5843,7 +6259,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-19",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Booz Allen Hamilton"
 },
@@ -5915,7 +6331,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-19",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "Qualcomm"
 },
@@ -5933,7 +6349,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-19",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "Qualcomm"
 },
@@ -5951,7 +6367,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-19",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "Qualcomm"
 },
@@ -5969,7 +6385,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-19",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "Qualcomm"
 },
@@ -5987,7 +6403,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-19",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "Qualcomm"
 },
@@ -6142,7 +6558,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-19",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Leidos"
 },
@@ -6160,7 +6576,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-19",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "Qualcomm"
 },
@@ -6179,7 +6595,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-19",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "Qualcomm"
 },
@@ -6197,7 +6613,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-19",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "Qualcomm"
 },
@@ -6215,7 +6631,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-19",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "Qualcomm"
 },
@@ -6233,7 +6649,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-19",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "Qualcomm"
 },
@@ -6251,7 +6667,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-19",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "Qualcomm"
 },
@@ -6269,7 +6685,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-19",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "Qualcomm"
 },
@@ -6287,7 +6703,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-19",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "Qualcomm"
 },
@@ -6305,7 +6721,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-19",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "Qualcomm"
 },
@@ -6323,7 +6739,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-19",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "Qualcomm"
 },
@@ -6341,7 +6757,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-19",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "Qualcomm"
 },
@@ -6495,7 +6911,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-19",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "",
 "company_key": null
 },
@@ -6760,7 +7176,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-19",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Viasat"
 },
@@ -6816,7 +7232,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-19",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "",
 "company_key": null
 },
@@ -6857,7 +7273,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-19",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Northrop Grumman"
 },
@@ -6916,7 +7332,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-19",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "KBR"
 },
@@ -6936,7 +7352,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-19",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "V2X"
 },
@@ -6956,7 +7372,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-19",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "V2X"
 },
@@ -7036,7 +7452,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-19",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "V2X"
 },
@@ -7074,7 +7490,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-19",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Viasat"
 },
@@ -7092,7 +7508,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-19",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Viasat"
 },
@@ -7115,7 +7531,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-18",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Lockheed Martin"
 },
@@ -7305,7 +7721,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "연구소",
 "company_key": "MIT Lincoln Laboratory"
 },
@@ -7327,7 +7743,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "연구소",
 "company_key": "MIT Lincoln Laboratory"
 },
@@ -7349,7 +7765,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "company_key": "HII Mission Technologies",
 "group": "방산"
 },
@@ -7388,7 +7804,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "연구소",
 "company_key": "MIT Lincoln Laboratory"
 },
@@ -7424,7 +7840,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "Qualcomm"
 },
@@ -7442,7 +7858,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "Qualcomm"
 },
@@ -7461,7 +7877,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "Qualcomm"
 },
@@ -7471,7 +7887,7 @@
 "company": "Qualcomm",
 "location": "Santa Clara, California",
 "metro": "SF Bay Area",
-"url": "https://careers.qualcomm.com/careers/job/446721328586",
+"url": "https://careers.qualcomm.com/careers/job/446720729799",
 "posted": "2026-09-17",
 "sources": [
 "회사/eightfold"
@@ -7479,7 +7895,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "Qualcomm"
 },
@@ -7497,7 +7913,7 @@
 "flags": [],
 "remote": true,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "Qualcomm"
 },
@@ -7537,7 +7953,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "HawkEye 360"
 },
@@ -7581,7 +7997,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "연구소",
 "company_key": "Draper"
 },
@@ -7636,7 +8052,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Booz Allen Hamilton"
 },
@@ -7657,7 +8073,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Booz Allen Hamilton"
 },
@@ -7678,7 +8094,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "연구소",
 "company_key": "Lawrence Livermore National Laboratory"
 },
@@ -7734,7 +8150,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "SpaceX"
 },
@@ -7867,7 +8283,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "company_key": "RTX / Raytheon",
 "group": "방산"
 },
@@ -8020,7 +8436,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "RTX / Raytheon"
 },
@@ -8042,7 +8458,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "RTX / Raytheon"
 },
@@ -8064,7 +8480,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "RTX / Raytheon"
 },
@@ -8186,7 +8602,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Northrop Grumman"
 },
@@ -8204,7 +8620,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "Apple"
 },
@@ -8222,7 +8638,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Leonardo DRS"
 },
@@ -8240,7 +8656,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "CACI"
 },
@@ -8280,7 +8696,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "company_key": "The Aerospace Corporation",
 "group": "연구소"
 },
@@ -8302,7 +8718,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Amentum"
 },
@@ -8324,7 +8740,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Amentum"
 },
@@ -8364,7 +8780,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Amentum"
 },
@@ -8406,7 +8822,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Amentum"
 },
@@ -8467,7 +8883,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "RTX / Raytheon"
 },
@@ -8511,7 +8927,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "RTX / Raytheon"
 },
@@ -8533,7 +8949,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "RTX / Raytheon"
 },
@@ -8598,7 +9014,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "RTX / Raytheon"
 },
@@ -8616,7 +9032,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "CACI"
 },
@@ -8634,7 +9050,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "STR"
 },
@@ -8652,7 +9068,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "STR"
 },
@@ -8673,7 +9089,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "STR"
 },
@@ -8807,7 +9223,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Northrop Grumman"
 },
@@ -8867,7 +9283,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "연구소",
 "company_key": "The Aerospace Corporation"
 },
@@ -8972,11 +9388,12 @@
 "Adzuna"
 ],
 "flags": [
-"⚠️ 클리어런스/시민권"
+"⚠️ 클리어런스/시민권",
+"🔐 클리어런스"
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-09-17",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Peraton"
 },
@@ -9152,7 +9569,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "GDIT"
 },
@@ -9208,7 +9625,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "company_key": "RTX / Raytheon",
 "group": "방산"
 },
@@ -9310,7 +9727,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "CACI"
 },
@@ -9351,7 +9768,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "RTX / Raytheon"
 },
@@ -9374,7 +9791,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "RTX / Raytheon"
 },
@@ -9394,7 +9811,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Northrop Grumman"
 },
@@ -9433,7 +9850,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Skydio"
 },
@@ -9451,7 +9868,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "연구소",
 "company_key": "Draper"
 },
@@ -9469,7 +9886,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "CACI"
 },
@@ -9491,7 +9908,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "company_key": "STR",
 "group": "방산"
 },
@@ -9589,7 +10006,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-09-21",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "BAE Systems"
 },
@@ -9724,7 +10141,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Leonardo DRS"
 },
@@ -9744,7 +10161,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "company_key": "Lockheed Martin",
 "group": "방산"
 },
@@ -9814,7 +10231,7 @@
 "company": "RTX / Raytheon",
 "location": "Tewksbury, MA",
 "metro": "Boston",
-"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-TEWKSBURY-TB1--50-Apple-Hill-Dr--ASSABET-BLDG/Antenna-and-Microwave-Engineer-1_01857992",
+"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-TEWKSBURY-TB1--50-Apple-Hill-Dr--ASSABET-BLDG/Antenna-and-Microwave-Engineer-I---Onsite_01873343",
 "posted": "2026-09-04",
 "sources": [
 "Adzuna",
@@ -9826,7 +10243,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "company_key": "RTX / Raytheon",
 "group": "방산"
 },
@@ -9867,7 +10284,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Leidos"
 },
@@ -9922,7 +10339,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Northrop Grumman"
 },
@@ -9961,7 +10378,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Booz Allen Hamilton"
 },
@@ -10017,7 +10434,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Northrop Grumman"
 },
@@ -10099,7 +10516,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Northrop Grumman"
 },
@@ -10120,7 +10537,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "SAIC"
 },
@@ -10141,7 +10558,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "SAIC"
 },
@@ -10182,7 +10599,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Northrop Grumman"
 },
@@ -10202,7 +10619,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Northrop Grumman"
 },
@@ -10279,7 +10696,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "company_key": "SES Space & Defense",
 "group": "방산"
 },
@@ -10297,7 +10714,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "연구소",
 "company_key": "Draper"
 },
@@ -10315,7 +10732,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "연구소",
 "company_key": "Draper"
 },
@@ -10436,7 +10853,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "company_key": "RTX / Raytheon",
 "group": "방산"
 },
@@ -10456,7 +10873,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "SpaceX"
 },
@@ -10476,7 +10893,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "SpaceX"
 },
@@ -10496,7 +10913,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "SpaceX"
 },
@@ -10516,7 +10933,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "SpaceX"
 },
@@ -10535,7 +10952,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "SpaceX"
 },
@@ -10555,7 +10972,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "SpaceX"
 },
@@ -10574,7 +10991,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "SpaceX"
 },
@@ -10594,7 +11011,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "SpaceX"
 },
@@ -10613,7 +11030,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "SpaceX"
 },
@@ -10647,7 +11064,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "AeroVironment / BlueHalo"
 },
@@ -10665,7 +11082,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "SpaceX"
 },
@@ -10683,7 +11100,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "SpaceX"
 },
@@ -10701,7 +11118,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "SpaceX"
 },
@@ -10806,7 +11223,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "company_key": "AeroVironment / BlueHalo",
 "group": "방산"
 },
@@ -10827,7 +11244,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "company_key": "Booz Allen Hamilton",
 "group": "방산"
 },
@@ -10845,7 +11262,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "RTX / Raytheon"
 },
@@ -10863,7 +11280,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "RTX / Raytheon"
 },
@@ -10881,7 +11298,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "RTX / Raytheon"
 },
@@ -10900,7 +11317,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Leidos"
 },
@@ -10918,7 +11335,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "연구소",
 "company_key": "MITRE"
 },
@@ -10936,7 +11353,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "연구소",
 "company_key": "MITRE"
 },
@@ -10954,7 +11371,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "연구소",
 "company_key": "MITRE"
 },
@@ -10972,7 +11389,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "연구소",
 "company_key": "MITRE"
 },
@@ -10990,7 +11407,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "연구소",
 "company_key": "MITRE"
 },
@@ -11027,7 +11444,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "연구소",
 "company_key": "MITRE"
 },
@@ -11084,24 +11501,6 @@
 "last_seen": "2026-09-17"
 },
 {
-"id": "principalsoftwareengineerradarmodelingonsite|rtxraytheon|washingtondc",
-"title": "Principal Software Engineer - Radar Modeling (Onsite)",
-"company": "RTX / Raytheon",
-"location": "Sterling, VA",
-"metro": "Washington DC",
-"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-VA-STERLING-291--22640-Davis-Dr--DAVIS/Principal-Software-Engineer---Radar-Modeling--Onsite-_01865873",
-"posted": "2026-08-27",
-"sources": [
-"회사/workday"
-],
-"flags": [],
-"remote": false,
-"first_seen": "2026-09-17",
-"last_seen": "2026-09-27",
-"group": "방산",
-"company_key": "RTX / Raytheon"
-},
-{
 "id": "principalseniorprincipalrfmicrowavemixedsignaldesignengineer|northropgrum|washingtondc",
 "title": "Principal/Sr. Principal RF Microwave/Mixed Signal Design Engineer",
 "company": "Northrop Grumman",
@@ -11116,7 +11515,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Northrop Grumman"
 },
@@ -11137,25 +11536,6 @@
 "last_seen": "2026-09-17"
 },
 {
-"id": "mechanicalantennaengineerlevel3dulles|northropgrum|washingtondc",
-"title": "Mechanical Antenna Engineer - Level 3 - Dulles",
-"company": "Northrop Grumman",
-"location": "Dulles, Virginia",
-"metro": "Washington DC",
-"url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Virginia-Dulles/Mechanical-Antenna-Engineer---Level-3---Dulles_R10238232",
-"posted": "2026-08-26",
-"sources": [
-"회사/eightfold",
-"회사/workday"
-],
-"flags": [],
-"remote": false,
-"first_seen": "2026-09-17",
-"last_seen": "2026-09-27",
-"group": "방산",
-"company_key": "Northrop Grumman"
-},
-{
 "id": "rfmicrowavedesignengineerlevel4baltimore|northropgrum|washingtondc",
 "title": "RF Microwave Design Engineer Level 4 - Baltimore",
 "company": "Northrop Grumman",
@@ -11171,7 +11551,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Northrop Grumman"
 },
@@ -11190,7 +11570,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Northrop Grumman"
 },
@@ -11211,7 +11591,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "GDIT"
 },
@@ -11229,7 +11609,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "GDIT"
 },
@@ -11321,7 +11701,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "RTX / Raytheon"
 },
@@ -11342,7 +11722,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "RTX / Raytheon"
 },
@@ -11382,7 +11762,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "company_key": "Lockheed Martin",
 "group": "방산"
 },
@@ -11395,12 +11775,15 @@
 "url": "https://jobs.hii-tsd.com/job/Washington%2C-DC-Spectrum-RF-Engineer-28443-Dist/1386938800/",
 "posted": "2026-08-24",
 "sources": [
+"Adzuna",
 "회사/successfactors"
 ],
-"flags": [],
+"flags": [
+"🔐 클리어런스"
+],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "HII Mission Technologies"
 },
@@ -11410,7 +11793,7 @@
 "company": "Lockheed Martin",
 "location": "Fort Meade, MD",
 "metro": "Washington DC",
-"url": "https://lockheedmartin.eightfold.ai/careers/job/996476480602",
+"url": "https://lockheedmartin.eightfold.ai/careers/job/996476481248",
 "posted": "2026-08-24",
 "sources": [
 "회사/eightfold"
@@ -11418,7 +11801,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Lockheed Martin"
 },
@@ -11439,7 +11822,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "company_key": "MIT Lincoln Laboratory",
 "group": "연구소"
 },
@@ -11558,7 +11941,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Northrop Grumman"
 },
@@ -11577,7 +11960,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Northrop Grumman"
 },
@@ -11598,7 +11981,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Booz Allen Hamilton"
 },
@@ -11690,7 +12073,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Northrop Grumman"
 },
@@ -11708,7 +12091,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Leonardo DRS"
 },
@@ -11784,7 +12167,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "company_key": "RTX / Raytheon",
 "group": "방산"
 },
@@ -11806,7 +12189,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "company_key": "RTX / Raytheon",
 "group": "방산"
 },
@@ -11827,24 +12210,6 @@
 "last_seen": "2026-09-17"
 },
 {
-"id": "principalsemiconductorfabinprocessrftestengineer|rtxraytheon|boston",
-"title": "Principal Semiconductor Fab In-Process RF Test Engineer",
-"company": "RTX / Raytheon",
-"location": "Andover, MA",
-"metro": "Boston",
-"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-ANDOVER-AR1--358-Lowell-St--AR1-DUKES-BLDG/Principal-Semiconductor-Fab-In-Process-RF-Test-Engineer_01868075-1",
-"posted": "2026-08-19",
-"sources": [
-"회사/workday"
-],
-"flags": [],
-"remote": false,
-"first_seen": "2026-09-17",
-"last_seen": "2026-09-28",
-"group": "방산",
-"company_key": "RTX / Raytheon"
-},
-{
 "id": "seniorsystemsengineergroundbasedradarsystems|rtxraytheon|boston",
 "title": "Senior Systems Engineer - Ground Based Radar Systems",
 "company": "RTX / Raytheon",
@@ -11858,7 +12223,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "RTX / Raytheon"
 },
@@ -11876,7 +12241,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "RTX / Raytheon"
 },
@@ -11932,7 +12297,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "company_key": "RTX / Raytheon",
 "group": "방산"
 },
@@ -11953,7 +12318,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "RTX / Raytheon"
 },
@@ -11976,7 +12341,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "RTX / Raytheon"
 },
@@ -11994,7 +12359,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "RTX / Raytheon"
 },
@@ -12015,7 +12380,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "RTX / Raytheon"
 },
@@ -12033,7 +12398,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "RTX / Raytheon"
 },
@@ -12054,7 +12419,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "RTX / Raytheon"
 },
@@ -12093,61 +12458,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
-"group": "방산",
-"company_key": "RTX / Raytheon"
-},
-{
-"id": "seniorprincipalsystemsengineersurveillanceradaronsite|rtxraytheon|boston",
-"title": "Senior Principal Systems Engineer - Surveillance Radar (Onsite)",
-"company": "RTX / Raytheon",
-"location": "Marlborough, MA",
-"metro": "Boston",
-"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-MARLBOROUGH-MA3--1001-Boston-Post-Rd--BLDG-3/Senior-Principal-Systems-Engineer---Surveillance-Radar--Onsite-_01840505",
-"posted": "2026-08-18",
-"sources": [
-"회사/workday"
-],
-"flags": [],
-"remote": false,
-"first_seen": "2026-09-17",
-"last_seen": "2026-09-28",
-"group": "방산",
-"company_key": "RTX / Raytheon"
-},
-{
-"id": "ghosteyeradarleadsystemsengineer|rtxraytheon|boston",
-"title": "GhostEye Radar Lead Systems Engineer",
-"company": "RTX / Raytheon",
-"location": "Tewksbury, MA",
-"metro": "Boston",
-"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-TEWKSBURY-TB3--50-Apple-Hill-Dr--CONCORD-BLDG-Tewksbury-Tb3-300-Concord/GhostEye-Radar-Lead-Systems-Engineer_01862185",
-"posted": "2026-08-18",
-"sources": [
-"회사/workday"
-],
-"flags": [],
-"remote": false,
-"first_seen": "2026-09-17",
-"last_seen": "2026-09-28",
-"group": "방산",
-"company_key": "RTX / Raytheon"
-},
-{
-"id": "ghosteyeradarsystemengineeringcrossproductlead|rtxraytheon|boston",
-"title": "GhostEye Radar System Engineering Cross Product Lead",
-"company": "RTX / Raytheon",
-"location": "Tewksbury, MA",
-"metro": "Boston",
-"url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-TEWKSBURY-TB3--50-Apple-Hill-Dr--CONCORD-BLDG-Tewksbury-Tb3-300-Concord/GhostEye-Radar-System-Engineering-Cross-Product-Lead_01861438",
-"posted": "2026-08-18",
-"sources": [
-"회사/workday"
-],
-"flags": [],
-"remote": false,
-"first_seen": "2026-09-17",
-"last_seen": "2026-09-28",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "RTX / Raytheon"
 },
@@ -12166,7 +12477,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Northrop Grumman"
 },
@@ -12185,7 +12496,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Northrop Grumman"
 },
@@ -12204,7 +12515,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-09-29",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Northrop Grumman"
 },
@@ -12261,7 +12572,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Northrop Grumman"
 },
@@ -12280,7 +12591,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Northrop Grumman"
 },
@@ -12299,7 +12610,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Northrop Grumman"
 },
@@ -12318,7 +12629,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Northrop Grumman"
 },
@@ -12337,7 +12648,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Northrop Grumman"
 },
@@ -12356,7 +12667,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Northrop Grumman"
 },
@@ -12375,7 +12686,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Northrop Grumman"
 },
@@ -12394,7 +12705,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Northrop Grumman"
 },
@@ -12412,7 +12723,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Leidos"
 },
@@ -12430,7 +12741,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Leidos"
 },
@@ -12472,7 +12783,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Booz Allen Hamilton"
 },
@@ -12493,7 +12804,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Booz Allen Hamilton"
 },
@@ -12529,7 +12840,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Booz Allen Hamilton"
 },
@@ -12565,7 +12876,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Amentum"
 },
@@ -12583,7 +12894,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "연구소",
 "company_key": "The Aerospace Corporation"
 },
@@ -12601,7 +12912,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "연구소",
 "company_key": "The Aerospace Corporation"
 },
@@ -12619,7 +12930,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "연구소",
 "company_key": "The Aerospace Corporation"
 },
@@ -12637,7 +12948,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "연구소",
 "company_key": "The Aerospace Corporation"
 },
@@ -12673,7 +12984,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "연구소",
 "company_key": "The Aerospace Corporation"
 },
@@ -12694,7 +13005,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Booz Allen Hamilton"
 },
@@ -12712,7 +13023,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Lockheed Martin"
 },
@@ -12730,7 +13041,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Lockheed Martin"
 },
@@ -12748,7 +13059,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Lockheed Martin"
 },
@@ -12769,7 +13080,7 @@
 ],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Lockheed Martin"
 },
@@ -12787,7 +13098,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Lockheed Martin"
 },
@@ -12805,7 +13116,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "Apple"
 },
@@ -12823,7 +13134,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "CACI"
 },
@@ -12860,7 +13171,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "HawkEye 360"
 },
@@ -12897,7 +13208,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "Qualcomm"
 },
@@ -12933,7 +13244,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "CACI"
 },
@@ -12951,7 +13262,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Skydio"
 },
@@ -12987,7 +13298,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "연구소",
 "company_key": "Lawrence Livermore National Laboratory"
 },
@@ -13005,7 +13316,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "연구소",
 "company_key": "Lawrence Livermore National Laboratory"
 },
@@ -13041,7 +13352,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Skydio"
 },
@@ -13059,7 +13370,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "Apple"
 },
@@ -13077,7 +13388,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "RF·통신",
 "company_key": "Apple"
 },
@@ -13095,7 +13406,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Peraton"
 },
@@ -13113,7 +13424,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Peraton"
 },
@@ -13131,7 +13442,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Peraton"
 },
@@ -13149,7 +13460,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Peraton"
 },
@@ -13167,7 +13478,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Peraton"
 },
@@ -13185,7 +13496,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Peraton"
 },
@@ -13203,7 +13514,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Peraton"
 },
@@ -13221,7 +13532,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "연구소",
 "company_key": "MIT Lincoln Laboratory"
 },
@@ -13257,7 +13568,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "연구소",
 "company_key": "MIT Lincoln Laboratory"
 },
@@ -13275,7 +13586,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "연구소",
 "company_key": "MIT Lincoln Laboratory"
 },
@@ -13293,7 +13604,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "연구소",
 "company_key": "MIT Lincoln Laboratory"
 },
@@ -13311,7 +13622,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "연구소",
 "company_key": "MIT Lincoln Laboratory"
 },
@@ -13329,7 +13640,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "연구소",
 "company_key": "MIT Lincoln Laboratory"
 },
@@ -13347,7 +13658,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "연구소",
 "company_key": "MIT Lincoln Laboratory"
 },
@@ -13365,7 +13676,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "연구소",
 "company_key": "MIT Lincoln Laboratory"
 },
@@ -13401,7 +13712,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "연구소",
 "company_key": "Riverside Research"
 },
@@ -13419,7 +13730,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Parsons"
 },
@@ -13437,7 +13748,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Parsons"
 },
@@ -13455,7 +13766,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Parsons"
 },
@@ -13473,7 +13784,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Parsons"
 },
@@ -13491,7 +13802,7 @@
 "flags": [],
 "remote": true,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Parsons"
 },
@@ -13527,7 +13838,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Parsons"
 },
@@ -13545,7 +13856,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Parsons"
 },
@@ -13563,7 +13874,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Parsons"
 },
@@ -13581,7 +13892,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Peraton"
 },
@@ -13599,7 +13910,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "방산",
 "company_key": "Peraton"
 },
@@ -13635,7 +13946,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "연구소",
 "company_key": "MIT Lincoln Laboratory"
 },
@@ -13653,7 +13964,7 @@
 "flags": [],
 "remote": false,
 "first_seen": "2026-09-17",
-"last_seen": "2026-10-04",
+"last_seen": "2026-10-06",
 "group": "연구소",
 "company_key": "MIT Lincoln Laboratory"
 }

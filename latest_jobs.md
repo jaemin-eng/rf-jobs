@@ -1,48 +1,66 @@
-# 새 RF/Antenna/EMC 공고 — 2026-10-06 17:21
+# 새 RF/Antenna/EMC 공고 — 2026-10-07 17:58
 
-총 **25건**
+총 **43건**
 
-## Boston (5)
-
-| 게시일 | 직무 | 회사 | 위치 | 출처 | 비고 |
-|---|---|---|---|---|---|
-| 2026-10-06 | [RF Engineer](https://www.adzuna.com/details/5913475815?utm_medium=api&utm_source=d677d981) | HyperLight | Cambridge, Middlesex County, Massachusetts | Adzuna |  |
-| 2026-10-06 | [Computer Engineer](https://www.usajobs.gov:443/job/887652600) | Smithsonian Institution  | Cambridge, Massachusetts | USAJOBS | 🇺🇸 연방정부 |
-| 2026-10-04 | [Antenna and Microwave Engineer III - Now Hiring](https://www.snagajob.com/jobs/1291844855) | RTX / Raytheon | Woburn, MA | JSearch/Snagajob | 🔐 클리어런스 |
-| 2026-10-04 | [RF Engineer, Sr Staff - Andover, MA](https://www.adzuna.com/details/5911755009?utm_medium=api&utm_source=d677d981) | Lockheed Martin | Andover, Essex County, Massachusetts | Adzuna |  |
-| 2026-10-02 | [Aerospace RF Test Engineer (ATE & MMIC)](https://www.jobleads.com/us/job/aerospace-rf-test-engineer-ate-mmic--woburn--e19a6180e04af783c69370ba4b3fddcb5) | Honeywell Aerospace US LLC | Woburn, MA | JSearch/JobLeads |  |
-
-## SF Bay Area (2)
+## Boston (11)
 
 | 게시일 | 직무 | 회사 | 위치 | 출처 | 비고 |
 |---|---|---|---|---|---|
-| 2026-10-06 | [RF Electrical Engineer, Antenna Systems](https://www.adzuna.com/land/ad/5913684042?se=mnER76fB8RGUu_Rhx7jCqA&utm_medium=api&utm_source=d677d981&v=BBD75EF149A5068D35BD2BB7CB4EEB29991311F9) | Alten USA | Mountain View, Santa Clara County, California | Adzuna |  |
-| 2026-10-06 | [Postdoctoral Appointee - Forward/Inverse Electromagnetic Modeling, Onsite/Hybrid](https://sandia.jobs/livermore-ca/postdoctoral-appointee-forward-inverse-electromagnetic-modeling-onsite-hybrid/D231CD3D18354A8AAD521A1C23F05F13/job/) | Sandia National Laboratories | Livermore, CA | 회사/jobsyn |  |
+| 2026-10-07 | [Mechanical Engineer, RF Systems](https://www.adzuna.com/land/ad/5915756447?se=onOCXnbC8RGRZ6QSUIDhmA&utm_medium=api&utm_source=d677d981&v=5F8EADD7E9233A6CD33AC0D382FBEB5714F1E361) | Commonwealth Fusion Systems | Devens, Middlesex County, Massachusetts | Adzuna |  |
+| 2026-10-07 | [RF Systems Engineer](https://www.adzuna.com/land/ad/5915981261?se=onOCXnbC8RGRZ6QSUIDhmA&utm_medium=api&utm_source=d677d981&v=962BA0AB32C962C78E2AB726367B5D59A21D67FB) | Murata Electronics North America | Waltham, Middlesex County, Massachusetts | Adzuna |  |
+| 2026-10-07 | [RF Hardware Engineer](https://www.adzuna.com/land/ad/5915426823?se=onOCXnbC8RGRZ6QSUIDhmA&utm_medium=api&utm_source=d677d981&v=59B9ADAB57521998634116A74A144193E9F3CAAC) | Specter Aerospace | Boston, Suffolk County, Massachusetts | Adzuna |  |
+| 2026-10-07 | [Senior RF Development Engineer](https://www.adzuna.com/land/ad/5915405643?se=onOCXnbC8RGRZ6QSUIDhmA&utm_medium=api&utm_source=d677d981&v=99FE85A6577D463156354805E53D420C3FFE7DB0) | Amphenol TCS | Hampton, Rockingham County, New Hampshire | Adzuna |  |
+| 2026-10-07 | [Associate Director, Electronic Warfare Research Scientist](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-CAMBRIDGE-BBN01--10--50-Moulton-St--MOULTON-B2/Associate-Director--Electronic-Warfare-Research-Scientist_01880754) | RTX / Raytheon | Cambridge, MA / Arlington, VA / Columbia, MD | 회사/workday |  |
+| 2026-10-07 | [Senior Electrical Engineer - Radar Processing System Design](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-TEWKSBURY-TB1--50-Apple-Hill-Dr--ASSABET-BLDG/Senior-Electrical-Engineer---Radar-Processing-System-Design_01879515) | RTX / Raytheon | Tewksbury, MA / Marlborough, MA | 회사/workday |  |
+| 2026-10-06 | [Test Services Lead, EMI​/EMC – Onsite](https://www.learn4good.com/jobs/woburn/massachusetts/engineering/5528171185/e/) | Parker Hannifin Corporation | Woburn, MA | JSearch/Learn4Good |  |
+| 2026-10-06 | [Senior EMC Compliance Engineer](https://www.adzuna.com/land/ad/5914363831?se=BL1LYnbC8RGRZ6QSUIDhmA&utm_medium=api&utm_source=d677d981&v=65FCA9A7648CD1BADCFEBE19442C5EB48E4431F1) | Jooble | North Reading, Middlesex County, Massachusetts | Adzuna |  |
+| 2026-10-06 | [Principal RF Design Engineer](https://www.adzuna.com/land/ad/5914173203?se=oPW3Z3bC8RG_dfJx5Ytquw&utm_medium=api&utm_source=d677d981&v=64A0B65D7D4F4E8ADAB92CDAE58CB1D4498E4889) | RTX / Raytheon | Marlborough, Middlesex County, Massachusetts | Adzuna | 🔐 클리어런스 |
+| 2026-10-06 | [Radar Analog and Power Design Principal Electrical Engineer](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-MARLBOROUGH-MA3--1001-Boston-Post-Rd--BLDG-3/Radar-Analog-and-Power-Design-Principal-Electrical-Engineer_01878294) | RTX / Raytheon | Marlborough, MA | 회사/workday |  |
+| 2026-10-01 | [EMC Design and Test Engineer](https://www.adzuna.com/details/5909907985) | Insight Global | North Reading, MA | JSearch/Adzuna |  |
+
+## SF Bay Area (11)
+
+| 게시일 | 직무 | 회사 | 위치 | 출처 | 비고 |
+|---|---|---|---|---|---|
+| 2026-10-07 | [Radio Frequency and Electromagnetic Engineering Expert](https://www.adzuna.com/land/ad/5915573864?se=yM8BU3bC8RGRZ6QSUIDhmA&utm_medium=api&utm_source=d677d981&v=D0D54E37721B577DCF5DCCCEA71A4615045F646B) | Mercor | Hayes Valley, San Francisco, California | Adzuna |  |
+| 2026-10-07 | [Staff RF Microwave Engineer](https://www.adzuna.com/land/ad/5915999626?se=yM8BU3bC8RGRZ6QSUIDhmA&utm_medium=api&utm_source=d677d981&v=A6127528C87312649F1745D5B7D632FBBC6FEBCA) | Reach | Redwood City, San Mateo County, California | Adzuna |  |
+| 2026-10-07 | [RF Test Engineer (Senior - Staff)](https://www.adzuna.com/land/ad/5915367619?se=yM8BU3bC8RGRZ6QSUIDhmA&utm_medium=api&utm_source=d677d981&v=1AF7E081FADF766B2B85D2D82C9785F75E27D7C9) | Zipline | South San Francisco, San Mateo County, California | Adzuna |  |
+| 2026-10-07 | [Electronics Mechanic](https://www.usajobs.gov:443/job/887561300) | Veterans Health Administration | San Francisco, California | USAJOBS | 🇺🇸 연방정부 🔐 클리어런스 |
+| 2026-10-06 | [EMC Engineer  - Hardware/Compliance](https://www.linkedin.com/jobs/view/emc-engineer-hardware-compliance-at-redolent-inc-4469364139) | Redolent, Inc | Santa Clara, CA | JSearch/LinkedIn |  |
+| 2026-10-06 | [Senior Radio Frequency Engineer - Antenna Design](https://www.adzuna.com/land/ad/5914940832?se=yM8BU3bC8RGRZ6QSUIDhmA&utm_medium=api&utm_source=d677d981&v=048E9A086DB46FFCD0AF6256529FB28ECA2F221F) | EPAM Systems | Cupertino, Santa Clara County, California | Adzuna |  |
+| 2026-10-06 | [Lead Antenna Engineer - Test, Validation & Integration](https://www.adzuna.com/land/ad/5914567907?se=lqtGVXbC8RG_dfJx5Ytquw&utm_medium=api&utm_source=d677d981&v=C8FF0D447A5222B75D32C2E41A863669BBE81881) | AdAstra | South San Francisco, San Mateo County, California | Adzuna |  |
+| 2026-10-06 | [Principal RF System & Test Engineer](https://www.adzuna.com/details/5915221257?utm_medium=api&utm_source=d677d981) | E-Space | Saratoga, Santa Clara County, California | Adzuna |  |
+| 2026-10-06 | [Staff RF Design Engineer](https://www.adzuna.com/land/ad/5915068003?se=GDWiXHbC8RG_PYTtY09nDQ&utm_medium=api&utm_source=d677d981&v=F07DCD3A3CC7B358D10EE26F4A42E2B0C950A187) | Array Labs | Portola Valley, San Mateo County, California | Adzuna |  |
+| 2026-10-06 | [Principal RF Design Engineer 6](https://www.adzuna.com/land/ad/5914721796?se=GDWiXHbC8RG_PYTtY09nDQ&utm_medium=api&utm_source=d677d981&v=1E7152AEA813232EE86A97E37B772955874555A0) | Kratos Defense | Campbell, Santa Clara County, California | Adzuna |  |
+| 2026-10-06 | [Connectivity RF Hardware and System Design Engineer](https://www.adzuna.com/land/ad/5915194581?se=CnskAXfC8RGU5ZlC2ojrCw&utm_medium=api&utm_source=d677d981&v=2946C89BA82CFB0F9C91EF45027824DE0F56F7F5) | Apple | Sunnyvale, Santa Clara County, California | Adzuna |  |
 
 ## San Diego (3)
 
 | 게시일 | 직무 | 회사 | 위치 | 출처 | 비고 |
 |---|---|---|---|---|---|
-| 2026-10-06 | [RF Design Engineer](https://www.adzuna.com/land/ad/5914046130?se=Otg3EqjB8RGYZOj7aV2MrQ&utm_medium=api&utm_source=d677d981&v=7F0D86648D6D978F757954D93D2D6782CA0439EF) | Axiro Semiconductor | San Diego, San Diego County, California | Adzuna |  |
-| 2026-10-06 | [RF Collection Specialist](https://avav.wd1.myworkdayjobs.com/en-US/AVAV/job/San-Diego-CA/RF-Collection-Specialist_9056) | AeroVironment / BlueHalo | San Diego, CA | 회사/workday |  |
-| 2026-10-05 | [Senior Wireless S/W Engineer](https://careers.qualcomm.com/careers/job/446721408499) | Qualcomm | San Diego, California | 회사/eightfold |  |
+| 2026-10-06 | [Senior RFIC Design Engineer - mmWave Transceivers](https://www.adzuna.com/land/ad/5915296538?se=ormBaXbC8RGRZ6QSUIDhmA&utm_medium=api&utm_source=d677d981&v=B18132E3D16BA44088B03EBA3E98552704A4101D) | CyberCoders | San Diego, San Diego County, California | Adzuna |  |
+| 2026-10-06 | [RF Design Engineer](https://www.adzuna.com/land/ad/5915248589?se=ormBaXbC8RGRZ6QSUIDhmA&utm_medium=api&utm_source=d677d981&v=A26C4921D835E0A7FEC1B4ED90451990D6177C34) | TrellisWare Technologies | San Diego, San Diego County, California | Adzuna |  |
+| 2026-10-06 | [Senior Staff RF Design Engineer - Unmanned Aircraft Systems](https://www.adzuna.com/land/ad/5914927875?se=YhSBcnbC8RGRZ6QSUIDhmA&utm_medium=api&utm_source=d677d981&v=978CA358197543F3A8BD8F485DEFFC071DA20E82) | TrellisWare Technologies | San Diego, San Diego County, California | Adzuna |  |
 
-## Washington DC (15)
+## Washington DC (18)
 
 | 게시일 | 직무 | 회사 | 위치 | 출처 | 비고 |
 |---|---|---|---|---|---|
-| 2026-10-06 | [RF Engineering SME with Security Clearance](https://www.adzuna.com/land/ad/5913356333?se=xoyfFKjB8RGUu_Rhx7jCqA&utm_medium=api&utm_source=d677d981&v=5E735B73BBDBF71ADBA612BFB594FA063AB34E02) | Peraton | Chantilly, Fairfax County, Virginia | Adzuna | 🔐 클리어런스 |
-| 2026-10-06 | [EMC RF Engineer with Security Clearance](https://www.adzuna.com/land/ad/5913497183?se=xoyfFKjB8RGUu_Rhx7jCqA&utm_medium=api&utm_source=d677d981&v=3250ACEBA495AD426632FB93465864BE2C123DFE) | Amentum | Dahlgren, King George County, Virginia | Adzuna | 🔐 클리어런스 |
-| 2026-10-06 | [Synthetic Aperture Radar Engineer](https://www.adzuna.com/land/ad/5914062755?se=xoyfFKjB8RGUu_Rhx7jCqA&utm_medium=api&utm_source=d677d981&v=5E865E26267BE5B13E1F925C0B06F0480A23D9BA) | Insight Global | Linthicum Heights, Anne Arundel County, Maryland | Adzuna |  |
-| 2026-10-06 | [Senior Antenna Engineer](https://www.adzuna.com/land/ad/5914059666?se=ooU7F6jB8RGYZOj7aV2MrQ&utm_medium=api&utm_source=d677d981&v=6EC0FEE4C2EC95E58F3FB63B107331367B3FBECA) | Intellian Technologies | Rockville, Montgomery County, Maryland | Adzuna |  |
-| 2026-10-06 | [Antenna Test Engineer](https://www.adzuna.com/land/ad/5913665450?se=7m46H6jB8RGnB947euzs_w&utm_medium=api&utm_source=d677d981&v=82080D19F9AADDD43AA979177429B8E54A99E01E) | Actalent | Linthicum Heights, Anne Arundel County, Maryland | Adzuna |  |
-| 2026-10-06 | [Radio Frequency Lab Engineer with Security Clearance](https://www.adzuna.com/land/ad/5913493817?se=4pl_VqjB8RGYZOj7aV2MrQ&utm_medium=api&utm_source=d677d981&v=CA587C6157F0BC5A0E9C7020AB76D4E099AF8562) | Booz Allen Hamilton | Laurel, Prince George's County, Maryland | Adzuna | 🔐 클리어런스 |
-| 2026-10-06 | [5G Wireless System Engineer with Security Clearance](https://www.adzuna.com/land/ad/5913493809?se=4pl_VqjB8RGYZOj7aV2MrQ&utm_medium=api&utm_source=d677d981&v=2B9EC11E1DF0618BAEAF398783163BB0D31DC372) | Booz Allen Hamilton | Savage, Anne Arundel County, Maryland | Adzuna | 🔐 클리어런스 |
-| 2026-10-06 | [Staff Engineer Electronics- Antenna Test](https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Staff-Engineer-Electronics--Antenna-Test_R10254347) | Northrop Grumman | Baltimore, Maryland | 회사/workday |  |
-| 2026-10-06 | [Modeling & Simulation Engineer — Terrestrial Electronic Warfare](https://caci.eightfold.ai/careers/job/1443153833252) | CACI | Aberdeen Proving Ground, MD | 회사/eightfold |  |
-| 2026-10-05 | [Engineer RF Microwave Design 1](https://www.adzuna.com/land/ad/5912960377?se=xoyfFKjB8RGUu_Rhx7jCqA&utm_medium=api&utm_source=d677d981&v=BD0C6D964B10EA81AA560956F33ACC3371CC603E) | Apex Systems | East Case, Baltimore, Maryland | Adzuna | 🔐 클리어런스 |
-| 2026-10-05 | [RF Cyber Software Engineer - E2](https://lockheedmartin.eightfold.ai/careers/job/996477183744) | Lockheed Martin | Hanover, MD | 회사/eightfold |  |
-| 2026-10-05 | [RF Cyber Software Engineer Senior Staff - E5](https://lockheedmartin.eightfold.ai/careers/job/996477185410) | Lockheed Martin | Hanover, MD | 회사/eightfold |  |
-| 2026-10-05 | [RF Cyber Software Engineer Senior - E3](https://lockheedmartin.eightfold.ai/careers/job/996477179916) | Lockheed Martin | Hanover, MD | 회사/eightfold |  |
-| 2026-10-05 | [Space RADAR Data Processing - Staff Engineer Systems](https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Linthicum/Space-RADAR-Data-Processing---Staff-Engineer-Systems_R10254460-1) | Northrop Grumman | Linthicum, Maryland | 회사/workday |  |
-| 2026-09-29 | [Senior HPM Engineer — Naval Microwave Systems (TS/SCI)](https://www.jobleads.com/us/job/senior-hpm-engineer-naval-microwave-systems-ts-sci--washington--ef27bbd7f780b1e44b5cec6bbc3bfbd44) | Systems Planning & Analysis | Washington, DC | JSearch/JobLeads | 🔐 클리어런스 |
+| 2026-10-07 | [Electrical and RF Engineer](https://www.adzuna.com/land/ad/5915660426?se=ODZadHbC8RGRZ6QSUIDhmA&utm_medium=api&utm_source=d677d981&v=EA6FA788ADACE1FCE4BFEE9C5DDAB79F5E60B252) | TrustPoint | Dulles Town Center, Loudoun County, Virginia | Adzuna |  |
+| 2026-10-07 | [RF Engineer  Radio Systems / RF Hardware](https://www.adzuna.com/land/ad/5915403712?se=ODZadHbC8RGRZ6QSUIDhmA&utm_medium=api&utm_source=d677d981&v=C9E448F60CA8BCCD015483B24C35E6FF1F27261B) | Parra Consulting Group, Inc. . | Aberdeen Proving Ground, Harford County, Maryland | Adzuna |  |
+| 2026-10-07 | [Senior RF Engineer with Security Clearance](https://www.adzuna.com/land/ad/5915912626?se=ODZadHbC8RGRZ6QSUIDhmA&utm_medium=api&utm_source=d677d981&v=754317404A90C26DFEA024F84766DC12FE3A2771) | Integration Innovation, Inc.  | Washington, D.C., US | Adzuna | 🔐 클리어런스 |
+| 2026-10-07 | [RF Systems Engineer](https://www.adzuna.com/land/ad/5916748467?se=ODZadHbC8RGRZ6QSUIDhmA&utm_medium=api&utm_source=d677d981&v=B9F704DD60BE7F6B30A3851A917D7B6D6E101170) | Booz Allen Hamilton | Pimmit, Fairfax County, Virginia | Adzuna |  |
+| 2026-10-07 | [Consulting Systems Engineer – Electronically Protected Radar](https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Consulting-Systems-Engineer---Electronically-Protected-Radar_R10254916) | Northrop Grumman | Baltimore, Maryland | 회사/workday |  |
+| 2026-10-07 | [Junior RF Engineer](https://pae.wd1.myworkdayjobs.com/en-US/Amentum_Careers/job/US-VA-Dahlgren/Junior-RF-Engineer_R0172475) | Amentum | Dahlgren, VA | 회사/workday |  |
+| 2026-10-06 | [Senior Staff RF Engineer (R5991)](https://www.adzuna.com/land/ad/5915303151?se=ODZadHbC8RGRZ6QSUIDhmA&utm_medium=api&utm_source=d677d981&v=E5E2BF62A00298FE17EFFF391FEAC0AC8EA9856C) | Shield AI | Washington, Washington, D.C. | Adzuna |  |
+| 2026-10-06 | [Radio Frequency (RF) Engineer](https://www.adzuna.com/land/ad/5914500937?se=ODZadHbC8RGRZ6QSUIDhmA&utm_medium=api&utm_source=d677d981&v=407EF5A167250EF5935903A14D3A9D3242792215) | CACI | Aberdeen, Harford County, Maryland | Adzuna | 🔐 클리어런스 |
+| 2026-10-06 | [Principal Radar Engineer](https://www.adzuna.com/land/ad/5914593017?se=ODZadHbC8RGRZ6QSUIDhmA&utm_medium=api&utm_source=d677d981&v=F0739928C0FD12D37002808D4AF4D6A8E2FDF0F0) | RSC2 | Aberdeen Proving Ground, Harford County, Maryland | Adzuna |  |
+| 2026-10-06 | [Radio Frequency (RF) Signal Processing Engineer](https://www.adzuna.com/land/ad/5915263374?se=ODZadHbC8RGRZ6QSUIDhmA&utm_medium=api&utm_source=d677d981&v=046D60D3CA1FBD347DA2105127D68D8E6C10D696) | Dalcom, LLC | Aberdeen Proving Ground, Harford County, Maryland | Adzuna |  |
+| 2026-10-06 | [Lead RF Systems Engineer](https://www.adzuna.com/land/ad/5915196394?se=ODZadHbC8RGRZ6QSUIDhmA&utm_medium=api&utm_source=d677d981&v=90C2D0CCAC505D8384A4B2A52CB0EF4D72A2F862) | Chartis Consulting Corporation | Leesburg, Loudoun County, Virginia | Adzuna |  |
+| 2026-10-06 | [Radio Frequency Engineer](https://www.adzuna.com/land/ad/5914067891?se=ODZadHbC8RGRZ6QSUIDhmA&utm_medium=api&utm_source=d677d981&v=5370B684425975B47F574FE4181D29F151768761) | DP Professionals  | Baltimore, Baltimore County, Maryland | Adzuna | 🔐 클리어런스 |
+| 2026-10-06 | [Wireless Engineer 102182](https://www.adzuna.com/details/5913832996?utm_medium=api&utm_source=d677d981) | Manpower/itec | Vienna, Fairfax County, Virginia | Adzuna |  |
+| 2026-10-06 | [Principal RF/Microwave Engineer](https://www.adzuna.com/land/ad/5914649276?se=ehv0e3bC8RG_dfJx5Ytquw&utm_medium=api&utm_source=d677d981&v=5D3CE75D6C27CD9C3E9602D43AAD820646D44851) | Kapta Space | Washington, Washington, D.C. | Adzuna |  |
+| 2026-10-06 | [Sr. RF Silicon Software Engineer (Starlink)](https://www.adzuna.com/land/ad/5914443904?se=6glIBXfC8RGRZ6QSUIDhmA&utm_medium=api&utm_source=d677d981&v=1696D69C43C01AA70E795528057445C109280B32) | SpaceX | Washington, Washington, D.C. | Adzuna |  |
+| 2026-10-06 | [Principal Antenna Test Software Engineer](https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Principal-Antenna-Test-Software-Engineer_R10254193) | Northrop Grumman | Baltimore, Maryland | 회사/workday |  |
+| 2026-10-06 | [RF EW Analyst](https://caci.eightfold.ai/careers/job/1443153838927) | CACI | Aberdeen Proving Ground, MD | 회사/eightfold |  |
+| 2026-10-03 | [Senior Software Engineer - Radar Software](https://careers.leonardodrs.com/job/Germantown-Senior-Software-Engineer-Radar-Software-MD-20876/1406845500/) | Leonardo DRS | Germantown, MD, US, 20876 | 회사/successfactors |  |

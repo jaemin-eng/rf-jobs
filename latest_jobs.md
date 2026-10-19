@@ -1,24 +1,27 @@
-# 새 RF/Antenna/EMC 공고 — 2026-10-18 14:36
+# 새 RF/Antenna/EMC 공고 — 2026-10-19 17:38
 
-총 **6건**
+총 **9건**
 
 ## Boston (4)
 
 | 게시일 | 직무 | 회사 | 위치 | 출처 | 비고 |
 |---|---|---|---|---|---|
-| 2026-10-17 | [Senior RF Engineer](https://www.adzuna.com/land/ad/5932341833?se=aL41Dv_K8RG3ervNZ2eCZw&utm_medium=api&utm_source=d677d981&v=D9B8470175DE4C46FC7147A05758D1FD930B14A7) | BAE Systems | Nashua, Hillsborough County, New Hampshire | Adzuna |  |
-| 2026-10-15 | [Principal Systems Engineer - Microwave](https://www.linkedin.com/jobs/view/principal-systems-engineer-microwave-at-mks-inc-4388402514) | MKS Inc. | Wilmington, MA | JSearch/LinkedIn |  |
-| 2026-10-13 | [Senior RF Hardware Engineer- R&D Microwave Compute Test Division](https://www.jobilize.com/job/us-ma-north-reading-senior-rf-hardware-engineer-r-d-microwave-compute) | Universal Robots | North Reading, MA | JSearch/Jobilize |  |
-| 2026-10-12 | [RF/Microwave Engineer I — Onsite Radar & MMIC](https://www.jobleads.com/us/job/rf-microwave-engineer-i-onsite-radar-mmic--tewksbury--e32b9df03d77599a970c579e74fcc77fd) | RTX / Raytheon | Tewksbury, MA | JSearch/JobLeads |  |
-
-## SF Bay Area (1)
-
-| 게시일 | 직무 | 회사 | 위치 | 출처 | 비고 |
-|---|---|---|---|---|---|
-| 2026-10-18 | [Wireless Module Test Engineer](https://www.adzuna.com/details/5933010979?utm_medium=api&utm_source=d677d981) | Apple | Sunnyvale, Santa Clara County, California | Adzuna |  |
+| 2026-10-19 | [Radio Frequency (RF) Engineer Asc - Level 1](https://lockheedmartin.eightfold.ai/careers/job/996477259879) | Lockheed Martin | Chelmsford, MA | 회사/eightfold |  |
+| 2026-10-18 | [FAST Labs Section Lead - RF & Digital Signal Processing](https://www.adzuna.com/land/ad/5933430164?se=Hqdcv-HL8RGS5dXBZxj2tQ&utm_medium=api&utm_source=d677d981&v=897BC75F5332457FCC685D8BA1950A0501C8687A) | BAE Systems | Merrimack, Hillsborough County, New Hampshire | Adzuna |  |
+| 2026-10-12 | [EMC/EMI Test Services Lead](https://www.linkedin.com/jobs/view/emc-emi-test-services-lead-at-insight-global-4477924598) | Insight Global | Woburn, MA | JSearch/LinkedIn |  |
+| 2026-10-01 | [Electronic Warfare Systems Engineer](https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25771&siteid=5403&jobid=301624) | BAE Systems | Nashua, New Hampshire | 회사/phenom |  |
 
 ## San Diego (1)
 
 | 게시일 | 직무 | 회사 | 위치 | 출처 | 비고 |
 |---|---|---|---|---|---|
-| 2026-10-17 | [RF Design Engineer](https://www.adzuna.com/details/5932304855?utm_medium=api&utm_source=d677d981) | MACOM | Rancho Santa Fe, San Diego County, California | Adzuna |  |
+| 2026-10-19 | [ENGINEER](https://www.usajobs.gov:443/job/889180100) | Commander, Naval Information Warfare Systems Command (NAVWARSYSCOM) | Point Loma Complex, San Diego, California | USAJOBS | 🇺🇸 연방정부 |
+
+## Washington DC (4)
+
+| 게시일 | 직무 | 회사 | 위치 | 출처 | 비고 |
+|---|---|---|---|---|---|
+| 2026-10-19 | [RF Cyber Software Engineer](https://lockheedmartin.eightfold.ai/careers/job/996477409896) | Lockheed Martin | Fort Meade, MD | 회사/eightfold |  |
+| 2026-10-19 | [Antenna Test Engineer / Principal Antenna Test Engineer](https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Antenna-Test-Engineer---Principal-Antenna-Test-Engineer_R10256178) | Northrop Grumman | Baltimore, Maryland | 회사/workday |  |
+| 2026-10-19 | [Spectrum RF Engineer - 30684](https://jobs.hii-tsd.com/job/Annapolis-Junction%2C-MD-Spectrum-RF-Engineer-30684-Virg/1441396000/) | HII Mission Technologies | Annapolis Junction, MD, Virginia | 회사/successfactors |  |
+| 2026-10-19 | [Satellite communication (SATCOM) Watch Officer](https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Odenton-MD/Satellite-communication--SATCOM--Watch-Officer_R-00194838) | Leidos | Odenton, MD | 회사/workday |  |

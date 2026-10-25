@@ -1,5 +1,5 @@
 {
-"updated": "2026-10-24T14:34:41+00:00",
+"updated": "2026-10-25T15:08:57+00:00",
 "companies": [
 {
 "name": "Lockheed Martin",
@@ -8,13 +8,13 @@
 "via": "eightfold",
 "source": "{\"host\": \"lockheedmartin.eightfold.ai\", \"domain\": \"lockheedmartin.com\"}",
 "count": 105,
-"seconds": 430,
+"seconds": 352,
 "in_metro": 20,
 "other_locations": [
 "Fort Worth, TX",
-"Marietta, GA",
+"Grand Prairie, TX",
 "Newcastle-Upon-Tyne, GBR",
-"Grand Prairie, TX"
+"Marietta, GA"
 ],
 "listed": 24,
 "link": "https://lockheedmartin.eightfold.ai/careers"
@@ -26,7 +26,7 @@
 "via": "workday",
 "source": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway",
 "count": 184,
-"seconds": 301,
+"seconds": 298,
 "in_metro": 54,
 "other_locations": [
 "Atlanta, GA",
@@ -93,15 +93,15 @@
 "status": "ok",
 "via": "phenom",
 "source": "https://jobs.baesystems.com/global/en",
-"count": 13,
-"seconds": 358,
+"count": 12,
+"seconds": 359,
 "in_metro": 8,
 "other_locations": [
 "Huntsville, Alabama",
 "Westminster, Colorado",
 "Totowa, New Jersey"
 ],
-"listed": 38,
+"listed": 37,
 "link": "https://jobs.baesystems.com/global/en"
 },
 {
@@ -166,7 +166,7 @@
 "source": "",
 "count": 0,
 "error": "채용 시스템을 찾지 못함",
-"seconds": 9,
+"seconds": 6,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0,
@@ -222,7 +222,7 @@
 "via": "workday",
 "source": "https://leidos.wd5.myworkdayjobs.com/External",
 "count": 49,
-"seconds": 108,
+"seconds": 110,
 "in_metro": 9,
 "other_locations": [
 "Huntsville, AL",
@@ -241,7 +241,7 @@
 "source": "",
 "count": 0,
 "error": "ttcportals: TTC HTTP 403",
-"seconds": 6,
+"seconds": 3,
 "in_metro": 0,
 "other_locations": [],
 "listed": 15,
@@ -254,13 +254,13 @@
 "via": "eightfold",
 "source": "{\"host\": \"caci.eightfold.ai\", \"domain\": \"caci.com\"}",
 "count": 20,
-"seconds": 70,
+"seconds": 69,
 "in_metro": 9,
 "other_locations": [
 "Albuquerque, NM",
 "Portsmouth, VA",
-"Melbourne, FL",
-"International - Australia"
+"International - Australia",
+"Aurora, CO"
 ],
 "listed": 15,
 "link": "https://caci.eightfold.ai/careers"
@@ -272,7 +272,7 @@
 "via": "workday",
 "source": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs",
 "count": 30,
-"seconds": 156,
+"seconds": 157,
 "in_metro": 18,
 "other_locations": [
 "Australia",
@@ -290,7 +290,7 @@
 "via": "workday",
 "source": "https://parsons.wd5.myworkdayjobs.com/Search",
 "count": 15,
-"seconds": 229,
+"seconds": 232,
 "in_metro": 8,
 "other_locations": [
 "US - AL, Huntsville",
@@ -338,7 +338,7 @@
 "via": "workday",
 "source": "https://pae.wd1.myworkdayjobs.com/Amentum_Careers",
 "count": 20,
-"seconds": 54,
+"seconds": 51,
 "in_metro": 9,
 "other_locations": [
 "Houston, TX",
@@ -399,7 +399,7 @@
 "via": "workday",
 "source": "https://maxar.wd1.myworkdayjobs.com/Vantor",
 "count": 0,
-"seconds": 18,
+"seconds": 16,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0,
@@ -468,7 +468,7 @@
 "via": "successfactors",
 "source": "https://careers.sessd.com",
 "count": 1,
-"seconds": 17,
+"seconds": 18,
 "in_metro": 1,
 "other_locations": [],
 "listed": 1,
@@ -481,7 +481,7 @@
 "via": "greenhouse",
 "source": "andurilindustries",
 "count": 85,
-"seconds": 23,
+"seconds": 0,
 "in_metro": 4,
 "other_locations": [
 "Costa Mesa, California",
@@ -615,7 +615,7 @@
 "source": "",
 "count": 0,
 "error": "greenhouse: Greenhouse HTTP 404; ashby: Ashby HTTP 404; lever: Lever HTTP 404",
-"seconds": 6,
+"seconds": 5,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0,
@@ -656,7 +656,7 @@
 "via": "successfactors",
 "source": "https://careers.ll.mit.edu",
 "count": 18,
-"seconds": 36,
+"seconds": 35,
 "in_metro": 18,
 "other_locations": [],
 "listed": 24,
@@ -697,7 +697,7 @@
 "via": "workday",
 "source": "https://draper.wd5.myworkdayjobs.com/Draper_Careers",
 "count": 4,
-"seconds": 16,
+"seconds": 19,
 "in_metro": 4,
 "other_locations": [],
 "listed": 7,
@@ -710,7 +710,7 @@
 "via": "phenom",
 "source": "https://careers.mitre.org/us/en",
 "count": 7,
-"seconds": 359,
+"seconds": 361,
 "in_metro": 5,
 "other_locations": [
 "Boulder, Colorado",
@@ -727,7 +727,7 @@
 "source": "",
 "count": 0,
 "error": "icims: iCIMS 결과 0건 (형식 확인 필요); icims: iCIMS HTTP 404; icims: iCIMS 결과 0건 (형식 확인 필요); radancy: Radancy HTTP 404",
-"seconds": 48,
+"seconds": 46,
 "in_metro": 0,
 "other_locations": [],
 "listed": 5,
@@ -774,7 +774,7 @@
 "source": "",
 "count": 0,
 "error": "채용 시스템을 찾지 못함",
-"seconds": 0,
+"seconds": 3,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0,
@@ -804,7 +804,7 @@
 "source": "",
 "count": 0,
 "error": "채용 시스템을 찾지 못함",
-"seconds": 3,
+"seconds": 4,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0,
@@ -829,16 +829,16 @@
 "status": "ok",
 "via": "apple",
 "source": "true",
-"count": 66,
-"seconds": 66,
-"in_metro": 4,
+"count": 67,
+"seconds": 65,
+"in_metro": 5,
 "other_locations": [
-"San Diego",
 "Cupertino",
+"Los Angeles Metro Area",
 "Austin",
 "Sunnyvale"
 ],
-"listed": 31,
+"listed": 32,
 "link": "https://jobs.apple.com/en-us/search?search=RF"
 },
 {
@@ -848,12 +848,12 @@
 "via": "eightfold",
 "source": "{\"host\": \"careers.qualcomm.com\", \"domain\": \"qualcomm.com\"}",
 "count": 52,
-"seconds": 296,
+"seconds": 250,
 "in_metro": 28,
 "other_locations": [
-"Farnborough, United Kingdom",
-"Bangalore, India",
+"Hyderabad, Telangāna, India",
 "Tijuana, Baja California, Mexico",
+"Bangalore, India",
 "Hsinchu City, Taiwan"
 ],
 "listed": 37,
@@ -869,8 +869,8 @@
 "seconds": 0,
 "in_metro": 17,
 "other_locations": [
-"Redmond, WA",
 "Irvine, CA",
+"Redmond, WA",
 "Bastrop, TX",
 "Hawthorne, CA"
 ],

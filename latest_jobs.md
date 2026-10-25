@@ -1,27 +1,32 @@
-# 새 RF/Antenna/EMC 공고 — 2026-10-24 14:34
+# 새 RF/Antenna/EMC 공고 — 2026-10-25 15:08
 
 총 **9건**
 
-## Boston (5)
+## Boston (4)
 
 | 게시일 | 직무 | 회사 | 위치 | 출처 | 비고 |
 |---|---|---|---|---|---|
-| 2026-10-24 | [Systems Engineer II – Radar Integration & Test Onsite](https://www.adzuna.com/land/ad/5940277894?se=zKQ-3LXP8RG17O__M5KguQ&utm_medium=api&utm_source=d677d981&v=25A3C7FD9A7381E42DCF74B9AC0F2D7EBB972671) | RTX / Raytheon | Woburn, Middlesex County, Massachusetts | Adzuna | 🔐 클리어런스 |
-| 2026-10-23 | [Senior Antenna and Microwave Engineer](https://www.adzuna.com/land/ad/5939550573?se=wp-ItbXP8RG0GownEE_3tg&utm_medium=api&utm_source=d677d981&v=6D3433C3759ACF6B9DFDB679B078D4D02A2D9C68) | RTX / Raytheon | Tewksbury, Middlesex County, Massachusetts | Adzuna | 🔐 클리어런스 |
-| 2026-10-23 | [Senior RF/Microwave Test Engineer](https://www.adzuna.com/land/ad/5939681686?se=wp-ItbXP8RG0GownEE_3tg&utm_medium=api&utm_source=d677d981&v=592DF4E305E5D41C2F3A72AB8C7727012570FA0C) | RTX / Raytheon | Andover, Essex County, Massachusetts | Adzuna | 🔐 클리어런스 |
-| 2026-10-20 | [Entry-Level RF/Microwave Engineer – Hands-On](https://www.jobleads.com/us/job/entry-level-rf-microwave-engineer-hands-on--chelmsford--e1b79980d16f6ae69e9b8ce69fc7dd279) | Lockheed Martin | Chelmsford, MA | JSearch/JobLeads |  |
-| 2026-10-18 | [Senior Microwave R&D Engineer Teradyne Innovation Lab, Test Division](https://www.jobilize.com/job/us-ma-north-reading-senior-microwave-r-d-engineer-teradyne-innovation) | Universal Robots | North Reading, MA | JSearch/Jobilize |  |
+| 2026-10-25 | [Senior RF/Microwave Test Engineer](https://www.adzuna.com/land/ad/5941406594?se=vN1UtYPQ8RG0GownEE_3tg&utm_medium=api&utm_source=d677d981&v=6CB94750AC4CD49D301A6DBCE40E3F25469F6794) | RTX / Raytheon | Andover, Essex County, Massachusetts | Adzuna | 🔐 클리어런스 |
+| 2026-10-24 | [Senior Radar Receiver / Exciter Integration & Test Engineer](https://www.adzuna.com/land/ad/5940780506?se=fv4eroPQ8RG0GownEE_3tg&utm_medium=api&utm_source=d677d981&v=DDB77ACE7744519123EBAE38F8AB285AFF6E2748) | RTX / Raytheon | Tewksbury, Middlesex County, Massachusetts | Adzuna | 🔐 클리어런스 |
+| 2026-10-24 | [Principal Radar Receiver / Exciter Integration & Test Engineer](https://www.adzuna.com/land/ad/5940789211?se=fv4eroPQ8RG0GownEE_3tg&utm_medium=api&utm_source=d677d981&v=6CCDAE03C9795482180933B54DD22D92237AC9F2) | RTX / Raytheon | Tewksbury, Middlesex County, Massachusetts | Adzuna | 🔐 클리어런스 |
+| 2026-10-24 | [Strategic Account Manager - mmWave RFIC & Beamformer ICs](https://www.adzuna.com/details/5940577372?utm_medium=api&utm_source=d677d981) | CyberCoders | South Boston, Suffolk County, Massachusetts | Adzuna |  |
 
 ## SF Bay Area (1)
 
 | 게시일 | 직무 | 회사 | 위치 | 출처 | 비고 |
 |---|---|---|---|---|---|
-| 2026-10-22 | [Radio Frequency Hardware Engineer - DoorDash Air](https://www.adzuna.com/land/ad/5938400452?se=8jA4pLXP8RG17O__M5KguQ&utm_medium=api&utm_source=d677d981&v=0B82AE8C1FA4BB1C4A86F5BB9C6065B7CB0C0AB7) | Doordash | Hayes Valley, San Francisco, California | Adzuna |  |
+| 2026-10-25 | [RF Engineer](https://www.adzuna.com/details/5941505842?utm_medium=api&utm_source=d677d981) | Xona Space Systems | Burlingame, San Mateo County, California | Adzuna |  |
+
+## San Diego (1)
+
+| 게시일 | 직무 | 회사 | 위치 | 출처 | 비고 |
+|---|---|---|---|---|---|
+| 2026-10-25 | [RFIC Characterization and Validation Lead](https://www.adzuna.com/details/5941283617?utm_medium=api&utm_source=d677d981) | Apple | Rancho Bernardo, San Diego County, California | Adzuna |  |
 
 ## Washington DC (3)
 
 | 게시일 | 직무 | 회사 | 위치 | 출처 | 비고 |
 |---|---|---|---|---|---|
-| 2026-10-24 | [Junior Radio Frequency (RF) Engineer/Spectrum Engineer](https://www.adzuna.com/land/ad/5940330252?se=FCNuw7XP8RG17O__M5KguQ&utm_medium=api&utm_source=d677d981&v=9F61847CBEF5B78150B4ECB03AEED8325766E255) | Leidos | Engleside, Fairfax County, Virginia | Adzuna |  |
-| 2026-10-24 | [RF Engineer](https://www.adzuna.com/details/5940499909?utm_medium=api&utm_source=d677d981) | BTS Software Solutions | Aberdeen, Harford County, Maryland | Adzuna |  |
-| 2026-10-23 | [RF Engineer](https://www.adzuna.com/land/ad/5939595933?se=FCNuw7XP8RG17O__M5KguQ&utm_medium=api&utm_source=d677d981&v=66AD1ED4B45B20C6BED963E4EFF9C5077EAC6537) | iQuasar LLC | Aberdeen Proving Ground, Harford County, Maryland | Adzuna |  |
+| 2026-10-24 | [RF Engineer](https://www.adzuna.com/details/5940584984?utm_medium=api&utm_source=d677d981) | Integration Innovation, Inc. | Washington, D.C., US | Adzuna |  |
+| 2026-10-24 | [Senior Radar Systems Engineer *SIGN-ON BONUS*](https://www.adzuna.com/details/5940584985?utm_medium=api&utm_source=d677d981) | Integration Innovation, Inc. | Washington, D.C., US | Adzuna |  |
+| 2026-10-23 | [Senior Radar Systems Engineer *SIGN-ON BONUS* with Security Clearance](https://www.adzuna.com/land/ad/5939591625?se=mqFXyoPQ8RG17O__M5KguQ&utm_medium=api&utm_source=d677d981&v=08E5D325B63D452BC8876A3F063C055EA63CC734) | i3 | Washington, D.C., US | Adzuna | 🔐 클리어런스 |

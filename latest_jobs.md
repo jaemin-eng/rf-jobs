@@ -1,38 +1,30 @@
-# 새 RF/Antenna/EMC 공고 — 2026-10-30 17:14
+# 새 RF/Antenna/EMC 공고 — 2026-10-31 16:16
 
-총 **15건**
+총 **12건**
 
-## Boston (6)
+## Boston (3)
 
 | 게시일 | 직무 | 회사 | 위치 | 출처 | 비고 |
 |---|---|---|---|---|---|
-| 2026-10-30 | [RF Engineer - 1st Shift / Direct Hire](https://www.adzuna.com/land/ad/5947048890?se=QPIe-oLU8RGRQOLR_vdAhg&utm_medium=api&utm_source=d677d981&v=58B833452E85E48475C1AD91A23F2B6F5E98D1BD) | Adecco US, Inc. | Bedford, Hillsborough County, New Hampshire | Adzuna |  |
-| 2026-10-30 | [RF Engineer Level 3 (23096-1)](https://www.adzuna.com/details/5946570779?utm_medium=api&utm_source=d677d981) | PSCI | Chelmsford, Middlesex County, Massachusetts | Adzuna | 🔐 클리어런스 |
-| 2026-10-29 | [MicroWave Assembler Senior](https://lockheedmartin.eightfold.ai/careers/job/996477547337) | Lockheed Martin | Chelmsford, MA | 회사/eightfold |  |
-| 2026-10-27 | [Test Engineer– RF & Microwave Technology](https://www.linkedin.com/jobs/view/test-engineer%E2%80%93-rf-microwave-technology-at-top-workforce-solutions-4484237332) | Top Workforce Solutions | Lowell, MA | JSearch/LinkedIn |  |
-| 2026-10-25 | [Entry-Level RF/Microwave Engineer - Relocation Support](https://www.jobleads.com/us/job/entry-level-rf-microwave-engineer-relocation-support--chelmsford--e3967beaca009f5aecdf87eeb551f9a3a) | Digitailor | Chelmsford, MA | JSearch/JobLeads |  |
-| 2026-10-23 | [Staff Design Engineer: MMIC](https://us.trabajo.org/job-2283-7772c111f22b2a5f2a519d0fb71daa15) | MARKI MICROWAVE LLC | Boston, MA | JSearch/Trabajo.org | 🔐 클리어런스 |
+| 2026-10-31 | [Senior Engineer - RF](https://www.adzuna.com/land/ad/5948144714?se=FvkT-EPV8RGzkfY_QG7FnA&utm_medium=api&utm_source=d677d981&v=EA635D05E6EFEC1F5641AB59F2728731514B9E21) | BAE Systems | Nashua, Hillsborough County, New Hampshire | Adzuna |  |
+| 2026-10-30 | [Sr. RF Electronics Engineer](https://www.adzuna.com/details/5947387603?utm_medium=api&utm_source=d677d981) | SI2 Technologies, Inc. | Nashua, Hillsborough County, New Hampshire | Adzuna |  |
+| 2026-10-29 | [Sr Principal Antenna Microwave Engineer](https://www.adzuna.com/details/5946383661?utm_medium=api&utm_source=d677d981) | RTX / Raytheon | Tewksbury, Middlesex County, Massachusetts | Adzuna | 🔐 클리어런스 |
 
 ## SF Bay Area (2)
 
 | 게시일 | 직무 | 회사 | 위치 | 출처 | 비고 |
 |---|---|---|---|---|---|
-| 2026-10-29 | [Senior RF / Electromagnetic (EM) Modeling Engineer](https://www.adzuna.com/land/ad/5946218430?se=jP3A9oLU8RGdEZV2ix-apQ&utm_medium=api&utm_source=d677d981&v=54BC88356BD0917D75544C3BBEB2522D3D5B2391) | ChaTeck Incorporated | Cupertino, Santa Clara County, California | Adzuna |  |
-| 2026-10-29 | [Senior RF / Electromagnetic (EM) Modeling Engineer](https://www.adzuna.com/details/5946271682?utm_medium=api&utm_source=d677d981) | The AES Group | Sunnyvale, Santa Clara County, California | Adzuna |  |
+| 2026-10-31 | [RF Electrical Engineer New College Grad- Master's (Santa Clara, CA)](https://www.adzuna.com/details/5947789950?utm_medium=api&utm_source=d677d981) | Applied Materials | Santa Clara, Santa Clara County, California | Adzuna |  |
+| 2026-10-30 | [EMC Test Engineer](https://www.adzuna.com/land/ad/5946856427?se=mKMs6kPV8RGRQOLR_vdAhg&utm_medium=api&utm_source=d677d981&v=D3D05EAA6BB4957F2BDA6CD62127256D4116B029) | Insight Global | Milpitas, Santa Clara County, California | Adzuna |  |
 
-## San Diego (4)
-
-| 게시일 | 직무 | 회사 | 위치 | 출처 | 비고 |
-|---|---|---|---|---|---|
-| 2026-10-30 | [Radar Signal Processing Engineer](https://www.adzuna.com/land/ad/5946715932?se=XmksPoPU8RGzkfY_QG7FnA&utm_medium=api&utm_source=d677d981&v=DDF4DC992E90B9C45F4AFCE7D2B6E79AC37760BC) | Leidos | Chula Vista, San Diego County, California | Adzuna |  |
-| 2026-10-30 | [Wireless MAC Design Verification Engineer](https://www.adzuna.com/details/5947015186?utm_medium=api&utm_source=d677d981) | Apple | Rancho Bernardo, San Diego County, California | Adzuna |  |
-| 2026-10-29 | [SATCOM Systems Engineer](https://careers-viasat.icims.com/jobs/7287/login) | Viasat | Carlsbad, California | 회사/jibe |  |
-| 2026-10-29 | [RF Systems Engineer](https://careers.qualcomm.com/careers/job/446721861049) | Qualcomm | San Diego, California | 회사/eightfold |  |
-
-## Washington DC (3)
+## Washington DC (7)
 
 | 게시일 | 직무 | 회사 | 위치 | 출처 | 비고 |
 |---|---|---|---|---|---|
-| 2026-10-29 | [RF Engineer](https://www.adzuna.com/land/ad/5946158073?se=rD1iDoPU8RGpbuUC05Kj4Q&utm_medium=api&utm_source=d677d981&v=9E0A2104BFCCD4D3A7CB3AB57C5086FB20A9AD22) | CACI | Aberdeen, Harford County, Maryland | Adzuna | 🔐 클리어런스 |
-| 2026-10-29 | [Senior RF Engineer, Space RF Systems](https://avav.wd1.myworkdayjobs.com/en-US/AVAV/job/Albuquerque-NM/Senior-RF-Engineer--Space-RF-Systems_9045) | AeroVironment / BlueHalo | Albuquerque, NM / Germantown, MD | 회사/workday |  |
-| 2026-10-29 | [Senior Systems Engineer, Space RF Systems](https://avav.wd1.myworkdayjobs.com/en-US/AVAV/job/Albuquerque-NM/Senior-RF-Engineer--Space-RF-Systems_8758) | AeroVironment / BlueHalo | Albuquerque, NM / Germantown, MD / 20521 Seneca Meadows Pkwy, Germantown, MD | 회사/workday |  |
+| 2026-10-31 | [Senior RF/EMC Engineer](https://www.adzuna.com/details/5948095488?utm_medium=api&utm_source=d677d981) | Alarm.com | Tysons, Fairfax County, Virginia | Adzuna |  |
+| 2026-10-31 | [Secret Electromagnetic Compatibility (EMC) Engineer](https://www.adzuna.com/details/5948005334?utm_medium=api&utm_source=d677d981) | Insight Global | Dahlgren, King George County, Virginia | Adzuna | 🔐 클리어런스 |
+| 2026-10-31 | [Sr RF Systems Engineer](https://www.adzuna.com/details/5947986643?utm_medium=api&utm_source=d677d981) | KBR | Chantilly, Fairfax County, Virginia | Adzuna |  |
+| 2026-10-30 | [Principal/Sr. Sr. Principal RF Microwave Design Engineer - Subsy with Security Clearance](https://www.adzuna.com/land/ad/5947275763?se=TGgGBkTV8RGRQOLR_vdAhg&utm_medium=api&utm_source=d677d981&v=666E07CC2B1D792DCF71E507EC847CEDE6992435) | Northrop Grumman | Baltimore, Baltimore County, Maryland | Adzuna | 🔐 클리어런스 |
+| 2026-10-30 | [EMC Engineer with Security Clearance](https://www.adzuna.com/land/ad/5947275005?se=tMvwCUTV8RGRQOLR_vdAhg&utm_medium=api&utm_source=d677d981&v=A1E27F0B1A21CB167F28B42BF941035725A969AD) | Decision Technologies Inc | Dahlgren, King George County, Virginia | Adzuna | 🔐 클리어런스 |
+| 2026-10-30 | [Electromagnetic Compatibility (EMC) Engineer with Security Clearance](https://www.adzuna.com/land/ad/5947309861?se=tMvwCUTV8RGRQOLR_vdAhg&utm_medium=api&utm_source=d677d981&v=8DD6B2B93FFF1C4E4D5258CB43259C448E39CD14) | SPA | Dahlgren, King George County, Virginia | Adzuna | 🔐 클리어런스 |
+| 2026-10-30 | [Enterprise Management Center / Global Enterprise Management (EMC/GEM) Operations Specialist - TS/SCI w/Poly](https://gdit.wd5.myworkdayjobs.com/en-US/External_Career_Site/job/USA-MD-Annapolis-Junction/Enterprise-Management-Center---Global-Enterprise-Management--EMC-GEM--Operations-Specialist---TS-SCI-w-Poly_RQ231543-1) | GDIT | Annapolis Junction, MD | 회사/workday | 🔐 클리어런스 |

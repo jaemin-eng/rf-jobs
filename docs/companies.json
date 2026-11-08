@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-07T17:02:57+00:00",
+"updated": "2026-11-08T17:13:16+00:00",
 "companies": [
 {
 "name": "Lockheed Martin",
@@ -12,8 +12,8 @@
 "in_metro": 21,
 "other_locations": [
 "Fort Worth, TX",
-"Newcastle-Upon-Tyne, GBR",
 "Liverpool, NY",
+"Newcastle-Upon-Tyne, GBR",
 "Troy, AL"
 ],
 "listed": 28,
@@ -26,7 +26,7 @@
 "via": "workday",
 "source": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway",
 "count": 157,
-"seconds": 319,
+"seconds": 310,
 "in_metro": 58,
 "other_locations": [
 "El Segundo, CA",
@@ -34,7 +34,7 @@
 "Tucson, AZ",
 "Plano, TX"
 ],
-"listed": 83,
+"listed": 84,
 "link": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway"
 },
 {
@@ -97,7 +97,7 @@
 "via": "phenom",
 "source": "https://jobs.baesystems.com/global/en",
 "count": 9,
-"seconds": 359,
+"seconds": 362,
 "in_metro": 7,
 "other_locations": [
 "Totowa, New Jersey",
@@ -131,7 +131,7 @@
 "via": "workday",
 "source": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS",
 "count": 18,
-"seconds": 57,
+"seconds": 54,
 "in_metro": 0,
 "other_locations": [
 "USA - Berkeley, MO",
@@ -211,7 +211,7 @@
 "source": "",
 "count": 0,
 "error": "채용 시스템을 찾지 못함",
-"seconds": 3,
+"seconds": 0,
 "in_metro": 0,
 "other_locations": [],
 "listed": 1,
@@ -256,7 +256,7 @@
 "via": "eightfold",
 "source": "{\"host\": \"caci.eightfold.ai\", \"domain\": \"caci.com\"}",
 "count": 35,
-"seconds": 81,
+"seconds": 82,
 "in_metro": 20,
 "other_locations": [
 "Colorado Springs, CO",
@@ -291,7 +291,7 @@
 "via": "workday",
 "source": "https://parsons.wd5.myworkdayjobs.com/Search",
 "count": 16,
-"seconds": 240,
+"seconds": 239,
 "in_metro": 8,
 "other_locations": [
 "US - AL, Huntsville",
@@ -307,7 +307,7 @@
 "via": "icims",
 "source": "https://careers-peraton.icims.com",
 "count": 17,
-"seconds": 30,
+"seconds": 27,
 "in_metro": 8,
 "other_locations": [
 "San Antonio, TX",
@@ -326,7 +326,7 @@
 "source": "",
 "count": 0,
 "error": "workday: Workday 결과 0건 (사이트 이름 확인 필요)",
-"seconds": 24,
+"seconds": 21,
 "in_metro": 0,
 "other_locations": [],
 "listed": 1,
@@ -385,7 +385,7 @@
 "source": "",
 "count": 0,
 "error": "채용 시스템을 찾지 못함",
-"seconds": 0,
+"seconds": 3,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0,
@@ -398,7 +398,7 @@
 "via": "workday",
 "source": "https://maxar.wd1.myworkdayjobs.com/Vantor",
 "count": 0,
-"seconds": 18,
+"seconds": 16,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0,
@@ -437,7 +437,7 @@
 "via": "jibe",
 "source": "https://careers.viasat.com",
 "count": 13,
-"seconds": 8,
+"seconds": 9,
 "in_metro": 2,
 "other_locations": [
 "Duluth, Georgia",
@@ -497,7 +497,7 @@
 "via": "lever",
 "source": "shieldai",
 "count": 3,
-"seconds": 4,
+"seconds": 6,
 "in_metro": 0,
 "other_locations": [
 "Seattle, Washington"
@@ -542,7 +542,7 @@
 "via": "workday",
 "source": "https://avav.wd1.myworkdayjobs.com/AVAV",
 "count": 14,
-"seconds": 61,
+"seconds": 62,
 "in_metro": 5,
 "other_locations": [
 "Albuquerque, NM",
@@ -560,7 +560,7 @@
 "via": "lever",
 "source": "palantir",
 "count": 0,
-"seconds": 1,
+"seconds": 19,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0,
@@ -599,7 +599,7 @@
 "via": "ashby",
 "source": "applied",
 "count": 0,
-"seconds": 1,
+"seconds": 21,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0,
@@ -613,7 +613,7 @@
 "source": "",
 "count": 0,
 "error": "greenhouse: Greenhouse HTTP 404; ashby: Ashby HTTP 404; lever: Lever HTTP 404",
-"seconds": 7,
+"seconds": 5,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0,
@@ -654,7 +654,7 @@
 "via": "successfactors",
 "source": "https://careers.ll.mit.edu",
 "count": 16,
-"seconds": 42,
+"seconds": 41,
 "in_metro": 16,
 "other_locations": [],
 "listed": 25,
@@ -679,8 +679,8 @@
 "status": "ok",
 "via": "jobsyn",
 "source": "sandia.jobs",
-"count": 5,
-"seconds": 19,
+"count": 6,
+"seconds": 17,
 "in_metro": 1,
 "other_locations": [
 "Albuquerque, NM"
@@ -695,10 +695,10 @@
 "via": "workday",
 "source": "https://draper.wd5.myworkdayjobs.com/Draper_Careers",
 "count": 3,
-"seconds": 17,
+"seconds": 18,
 "in_metro": 3,
 "other_locations": [],
-"listed": 7,
+"listed": 9,
 "link": "https://draper.wd5.myworkdayjobs.com/Draper_Careers"
 },
 {
@@ -707,16 +707,16 @@
 "status": "ok",
 "via": "phenom",
 "source": "https://careers.mitre.org/us/en",
-"count": 11,
-"seconds": 361,
-"in_metro": 7,
+"count": 13,
+"seconds": 363,
+"in_metro": 9,
 "other_locations": [
 "Boulder, Colorado",
+"Wright-Patterson AFB - Fairborn, Ohio",
 "El Segundo, California",
-"Colorado Springs, Colorado",
-"Wright-Patterson AFB - Fairborn, Ohio"
+"Colorado Springs, Colorado"
 ],
-"listed": 11,
+"listed": 13,
 "link": "https://careers.mitre.org/us/en"
 },
 {
@@ -727,7 +727,7 @@
 "source": "",
 "count": 0,
 "error": "icims: iCIMS 결과 0건 (형식 확인 필요); icims: iCIMS HTTP 404; icims: iCIMS 결과 0건 (형식 확인 필요); radancy: Radancy HTTP 404",
-"seconds": 42,
+"seconds": 45,
 "in_metro": 0,
 "other_locations": [],
 "listed": 5,
@@ -740,7 +740,7 @@
 "via": "workday",
 "source": "https://aero.wd5.myworkdayjobs.com/External",
 "count": 24,
-"seconds": 120,
+"seconds": 121,
 "in_metro": 8,
 "other_locations": [
 "El Segundo, CA",
@@ -788,7 +788,7 @@
 "via": "icims",
 "source": "https://careers-riversideresearch.icims.com",
 "count": 3,
-"seconds": 21,
+"seconds": 18,
 "in_metro": 2,
 "other_locations": [
 "(위치 없음)"
@@ -804,7 +804,7 @@
 "source": "",
 "count": 0,
 "error": "채용 시스템을 찾지 못함",
-"seconds": 4,
+"seconds": 3,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0,
@@ -829,8 +829,8 @@
 "status": "ok",
 "via": "apple",
 "source": "true",
-"count": 70,
-"seconds": 74,
+"count": 71,
+"seconds": 76,
 "in_metro": 4,
 "other_locations": [
 "Los Angeles Metro Area",
@@ -847,16 +847,16 @@
 "status": "ok",
 "via": "eightfold",
 "source": "{\"host\": \"careers.qualcomm.com\", \"domain\": \"qualcomm.com\"}",
-"count": 56,
-"seconds": 134,
-"in_metro": 27,
+"count": 55,
+"seconds": 266,
+"in_metro": 26,
 "other_locations": [
 "Boulder, Colorado",
-"Bangalore, India",
 "Hsinchu City, Taiwan",
+"Bangalore, India",
 "Hyderabad, Telangāna, India"
 ],
-"listed": 40,
+"listed": 42,
 "link": "https://careers.qualcomm.com/careers"
 },
 {

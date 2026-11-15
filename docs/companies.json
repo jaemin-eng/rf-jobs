@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-14T17:07:30+00:00",
+"updated": "2026-11-15T17:52:04+00:00",
 "companies": [
 {
 "name": "Lockheed Martin",
@@ -7,14 +7,14 @@
 "status": "ok",
 "via": "eightfold",
 "source": "{\"host\": \"lockheedmartin.eightfold.ai\", \"domain\": \"lockheedmartin.com\"}",
-"count": 115,
-"seconds": 449,
-"in_metro": 20,
+"count": 114,
+"seconds": 369,
+"in_metro": 19,
 "other_locations": [
 "Colorado Springs, CO",
 "Fort Worth, TX",
-"Littleton, CO",
-"Newcastle-Upon-Tyne, GBR"
+"Newcastle-Upon-Tyne, GBR",
+"Littleton, CO"
 ],
 "listed": 29,
 "link": "https://lockheedmartin.eightfold.ai/careers"
@@ -22,16 +22,20 @@
 {
 "name": "RTX / Raytheon",
 "group": "방산",
-"status": "fail",
-"via": "",
-"source": "",
-"count": 0,
-"error": "workday: Expecting value: line 1 column 1 (char 0)",
-"seconds": 3,
-"in_metro": 0,
-"other_locations": [],
-"listed": 89,
-"link": "https://careers.rtx.com/global/en"
+"status": "ok",
+"via": "workday",
+"source": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway",
+"count": 166,
+"seconds": 312,
+"in_metro": 65,
+"other_locations": [
+"Cedar Rapids, IA",
+"Tucson, AZ",
+"Goleta, CA",
+"Mckinney, TX"
+],
+"listed": 90,
+"link": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway"
 },
 {
 "name": "Northrop Grumman",
@@ -58,7 +62,7 @@
 "via": "icims",
 "source": "https://careers-gdms.icims.com",
 "count": 6,
-"seconds": 43,
+"seconds": 42,
 "in_metro": 1,
 "other_locations": [
 "Scottsdale, AZ",
@@ -93,11 +97,11 @@
 "via": "phenom",
 "source": "https://jobs.baesystems.com/global/en",
 "count": 14,
-"seconds": 360,
+"seconds": 358,
 "in_metro": 12,
 "other_locations": [
-"Fort Walton Beach, Florida",
-"Broomfield, Colorado"
+"Broomfield, Colorado",
+"Fort Walton Beach, Florida"
 ],
 "listed": 49,
 "link": "https://jobs.baesystems.com/global/en"
@@ -109,7 +113,7 @@
 "via": "radancy",
 "source": "https://careers.l3harris.com",
 "count": 25,
-"seconds": 22,
+"seconds": 24,
 "in_metro": 3,
 "other_locations": [
 "Cincinnati, OH",
@@ -123,16 +127,20 @@
 {
 "name": "Boeing",
 "group": "방산",
-"status": "fail",
-"via": "",
-"source": "",
-"count": 0,
-"error": "workday: Expecting value: line 1 column 1 (char 0)",
-"seconds": 3,
+"status": "ok",
+"via": "workday",
+"source": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS",
+"count": 16,
+"seconds": 48,
 "in_metro": 0,
-"other_locations": [],
+"other_locations": [
+"USA - El Segundo, CA",
+"USA - Berkeley, MO",
+"USA - Tukwila, WA",
+"USA - Huntsville, AL"
+],
 "listed": 0,
-"link": ""
+"link": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS"
 },
 {
 "name": "HII Mission Technologies",
@@ -141,13 +149,13 @@
 "via": "successfactors",
 "source": "https://jobs.hii-tsd.com",
 "count": 18,
-"seconds": 21,
+"seconds": 24,
 "in_metro": 5,
 "other_locations": [
 "Syracuse, NY, New York",
 "Dayton Wright-Patterson AFB, O, Ohio",
-"Barksdale AFB, LA, Louisiana",
-"Oklahoma City, OK, Oklahoma"
+"Oklahoma City, OK, Oklahoma",
+"Barksdale AFB, LA, Louisiana"
 ],
 "listed": 9,
 "link": "https://jobs.hii-tsd.com"
@@ -178,7 +186,7 @@
 "other_locations": [
 "Largo, FL, US, 33773"
 ],
-"listed": 9,
+"listed": 10,
 "link": "https://careers.leonardodrs.com"
 },
 {
@@ -204,7 +212,7 @@
 "source": "",
 "count": 0,
 "error": "채용 시스템을 찾지 못함",
-"seconds": 7,
+"seconds": 3,
 "in_metro": 0,
 "other_locations": [],
 "listed": 1,
@@ -249,7 +257,7 @@
 "via": "eightfold",
 "source": "{\"host\": \"caci.eightfold.ai\", \"domain\": \"caci.com\"}",
 "count": 34,
-"seconds": 79,
+"seconds": 78,
 "in_metro": 21,
 "other_locations": [
 "Colorado Springs, CO",
@@ -267,7 +275,7 @@
 "via": "workday",
 "source": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs",
 "count": 30,
-"seconds": 94,
+"seconds": 96,
 "in_metro": 18,
 "other_locations": [
 "Australia",
@@ -300,7 +308,7 @@
 "status": "ok",
 "via": "icims",
 "source": "https://careers-peraton.icims.com",
-"count": 15,
+"count": 14,
 "seconds": 29,
 "in_metro": 8,
 "other_locations": [
@@ -351,7 +359,7 @@
 "via": "jibe",
 "source": "https://careers.gov2x.com",
 "count": 4,
-"seconds": 21,
+"seconds": 24,
 "in_metro": 3,
 "other_locations": [
 "Kuwait City"
@@ -367,7 +375,7 @@
 "source": "",
 "count": 0,
 "error": "채용 시스템을 찾지 못함",
-"seconds": 3,
+"seconds": 6,
 "in_metro": 0,
 "other_locations": [],
 "listed": 17,
@@ -556,7 +564,7 @@
 "via": "lever",
 "source": "palantir",
 "count": 0,
-"seconds": 1,
+"seconds": 0,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0,
@@ -595,7 +603,7 @@
 "via": "ashby",
 "source": "applied",
 "count": 0,
-"seconds": 26,
+"seconds": 1,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0,
@@ -609,7 +617,7 @@
 "source": "",
 "count": 0,
 "error": "greenhouse: Greenhouse HTTP 404; ashby: Ashby HTTP 404; lever: Lever HTTP 404",
-"seconds": 6,
+"seconds": 4,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0,
@@ -663,7 +671,7 @@
 "via": "smartrecruiters",
 "source": "LLNL",
 "count": 3,
-"seconds": 1,
+"seconds": 0,
 "in_metro": 3,
 "other_locations": [],
 "listed": 5,
@@ -704,13 +712,13 @@
 "via": "phenom",
 "source": "https://careers.mitre.org/us/en",
 "count": 17,
-"seconds": 359,
+"seconds": 360,
 "in_metro": 13,
 "other_locations": [
-"Boulder, Colorado",
 "Wright-Patterson AFB - Fairborn, Ohio",
+"Colorado Springs, Colorado",
 "El Segundo, California",
-"Colorado Springs, Colorado"
+"Boulder, Colorado"
 ],
 "listed": 15,
 "link": "https://careers.mitre.org/us/en"
@@ -723,7 +731,7 @@
 "source": "",
 "count": 0,
 "error": "icims: iCIMS 결과 0건 (형식 확인 필요); icims: iCIMS HTTP 404; icims: iCIMS 결과 0건 (형식 확인 필요); radancy: Radancy HTTP 404",
-"seconds": 45,
+"seconds": 46,
 "in_metro": 0,
 "other_locations": [],
 "listed": 5,
@@ -771,7 +779,7 @@
 "source": "",
 "count": 0,
 "error": "채용 시스템을 찾지 못함",
-"seconds": 2,
+"seconds": 1,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0,
@@ -784,7 +792,7 @@
 "via": "icims",
 "source": "https://careers-riversideresearch.icims.com",
 "count": 4,
-"seconds": 18,
+"seconds": 17,
 "in_metro": 2,
 "other_locations": [
 "(위치 없음)",
@@ -801,7 +809,7 @@
 "source": "",
 "count": 0,
 "error": "채용 시스템을 찾지 못함",
-"seconds": 0,
+"seconds": 4,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0,
@@ -826,16 +834,16 @@
 "status": "ok",
 "via": "apple",
 "source": "true",
-"count": 70,
-"seconds": 100,
-"in_metro": 2,
+"count": 69,
+"seconds": 84,
+"in_metro": 3,
 "other_locations": [
+"Los Angeles Metro Area",
 "San Diego",
-"Sunnyvale",
 "Cupertino",
 "Waltham"
 ],
-"listed": 60,
+"listed": 61,
 "link": "https://jobs.apple.com/en-us/search?search=RF"
 },
 {
@@ -845,13 +853,13 @@
 "via": "eightfold",
 "source": "{\"host\": \"careers.qualcomm.com\", \"domain\": \"qualcomm.com\"}",
 "count": 55,
-"seconds": 178,
+"seconds": 141,
 "in_metro": 25,
 "other_locations": [
 "Boulder, Colorado",
 "Hsinchu City, Taiwan",
-"Bangalore, India",
-"Singapore, Central Singapore, Singapore"
+"Tijuana, Baja California, Mexico",
+"Hyderabad, Telangāna, India"
 ],
 "listed": 44,
 "link": "https://careers.qualcomm.com/careers"

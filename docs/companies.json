@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-19T19:36:32+00:00",
+"updated": "2026-11-20T19:15:27+00:00",
 "companies": [
 {
 "name": "Lockheed Martin",
@@ -7,9 +7,9 @@
 "status": "ok",
 "via": "eightfold",
 "source": "{\"host\": \"lockheedmartin.eightfold.ai\", \"domain\": \"lockheedmartin.com\"}",
-"count": 112,
-"seconds": 421,
-"in_metro": 18,
+"count": 114,
+"seconds": 388,
+"in_metro": 17,
 "other_locations": [
 "Colorado Springs, CO",
 "Fort Worth, TX",
@@ -30,7 +30,7 @@
 "seconds": 0,
 "in_metro": 0,
 "other_locations": [],
-"listed": 89,
+"listed": 90,
 "link": "https://careers.rtx.com/global/en"
 },
 {
@@ -39,9 +39,9 @@
 "status": "ok",
 "via": "eightfold",
 "source": "{\"host\": \"jobs.northropgrumman.com\", \"domain\": \"ngc.com\"}",
-"count": 78,
+"count": 81,
 "seconds": 265,
-"in_metro": 43,
+"in_metro": 46,
 "other_locations": [
 "Clearfield, Utah",
 "Plymouth, Minnesota",
@@ -58,7 +58,7 @@
 "via": "icims",
 "source": "https://careers-gdms.icims.com",
 "count": 6,
-"seconds": 48,
+"seconds": 45,
 "in_metro": 1,
 "other_locations": [
 "Scottsdale, AZ",
@@ -76,7 +76,7 @@
 "source": "",
 "count": 0,
 "error": "workday: Workday HTTP 429",
-"seconds": 3,
+"seconds": 6,
 "in_metro": 0,
 "other_locations": [],
 "listed": 5,
@@ -93,8 +93,8 @@
 "in_metro": 11,
 "other_locations": [
 "Austin, Texas",
-"Broomfield, Colorado",
-"Wayne, New Jersey"
+"Wayne, New Jersey",
+"Broomfield, Colorado"
 ],
 "listed": 50,
 "link": "https://jobs.baesystems.com/global/en"
@@ -106,7 +106,7 @@
 "via": "radancy",
 "source": "https://careers.l3harris.com",
 "count": 24,
-"seconds": 21,
+"seconds": 22,
 "in_metro": 2,
 "other_locations": [
 "Salt Lake City, UT",
@@ -186,7 +186,7 @@
 "source": "",
 "count": 0,
 "error": "workday: Workday HTTP 429",
-"seconds": 0,
+"seconds": 3,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0,
@@ -200,7 +200,7 @@
 "source": "",
 "count": 0,
 "error": "채용 시스템을 찾지 못함",
-"seconds": 0,
+"seconds": 5,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0,
@@ -214,7 +214,7 @@
 "source": "",
 "count": 0,
 "error": "workday: Workday HTTP 429",
-"seconds": 6,
+"seconds": 1,
 "in_metro": 0,
 "other_locations": [],
 "listed": 23,
@@ -228,7 +228,7 @@
 "source": "",
 "count": 0,
 "error": "ttcportals: TTC HTTP 403",
-"seconds": 3,
+"seconds": 6,
 "in_metro": 0,
 "other_locations": [],
 "listed": 15,
@@ -247,7 +247,7 @@
 "Colorado Springs, CO",
 "Albuquerque, NM",
 "Portsmouth, VA",
-"Redstone Arsenal, AL"
+"Aurora, CO"
 ],
 "listed": 20,
 "link": "https://caci.eightfold.ai/careers"
@@ -260,7 +260,7 @@
 "source": "",
 "count": 0,
 "error": "workday: Workday HTTP 429",
-"seconds": 0,
+"seconds": 3,
 "in_metro": 0,
 "other_locations": [],
 "listed": 27,
@@ -306,7 +306,7 @@
 "source": "",
 "count": 0,
 "error": "workday: Workday HTTP 429",
-"seconds": 24,
+"seconds": 51,
 "in_metro": 0,
 "other_locations": [],
 "listed": 1,
@@ -320,7 +320,7 @@
 "source": "",
 "count": 0,
 "error": "workday: Workday HTTP 429; workday: Workday HTTP 429",
-"seconds": 6,
+"seconds": 12,
 "in_metro": 0,
 "other_locations": [],
 "listed": 11,
@@ -333,7 +333,7 @@
 "via": "jibe",
 "source": "https://careers.gov2x.com",
 "count": 3,
-"seconds": 21,
+"seconds": 27,
 "in_metro": 2,
 "other_locations": [
 "Kuwait City"
@@ -349,10 +349,10 @@
 "source": "",
 "count": 0,
 "error": "채용 시스템을 찾지 못함",
-"seconds": 3,
+"seconds": 6,
 "in_metro": 0,
 "other_locations": [],
-"listed": 17,
+"listed": 18,
 "link": "https://careers.kbr.com/us/en"
 },
 {
@@ -377,10 +377,10 @@
 "source": "",
 "count": 0,
 "error": "workday: Workday HTTP 429",
-"seconds": 6,
+"seconds": 9,
 "in_metro": 0,
 "other_locations": [],
-"listed": 2,
+"listed": 1,
 "link": "https://www.maxar.com/careers"
 },
 {
@@ -416,7 +416,7 @@
 "via": "jibe",
 "source": "https://careers.viasat.com",
 "count": 16,
-"seconds": 6,
+"seconds": 9,
 "in_metro": 4,
 "other_locations": [
 "Atlanta, Georgia",
@@ -434,7 +434,7 @@
 "via": "jibe",
 "source": "https://jobs.echostar.com",
 "count": 0,
-"seconds": 21,
+"seconds": 19,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0,
@@ -447,7 +447,7 @@
 "via": "successfactors",
 "source": "https://careers.sessd.com",
 "count": 1,
-"seconds": 15,
+"seconds": 18,
 "in_metro": 1,
 "other_locations": [],
 "listed": 1,
@@ -459,7 +459,7 @@
 "status": "ok",
 "via": "greenhouse",
 "source": "andurilindustries",
-"count": 91,
+"count": 96,
 "seconds": 0,
 "in_metro": 4,
 "other_locations": [
@@ -523,7 +523,7 @@
 "source": "",
 "count": 0,
 "error": "workday: Workday HTTP 429",
-"seconds": 56,
+"seconds": 26,
 "in_metro": 0,
 "other_locations": [],
 "listed": 6,
@@ -589,7 +589,7 @@
 "source": "",
 "count": 0,
 "error": "greenhouse: Greenhouse HTTP 404; ashby: Ashby HTTP 404; lever: Lever HTTP 404",
-"seconds": 6,
+"seconds": 2,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0,
@@ -632,10 +632,10 @@
 "via": "successfactors",
 "source": "https://careers.ll.mit.edu",
 "count": 14,
-"seconds": 42,
+"seconds": 41,
 "in_metro": 14,
 "other_locations": [],
-"listed": 26,
+"listed": 25,
 "link": "https://careers.ll.mit.edu"
 },
 {
@@ -658,7 +658,7 @@
 "via": "jobsyn",
 "source": "sandia.jobs",
 "count": 4,
-"seconds": 20,
+"seconds": 18,
 "in_metro": 0,
 "other_locations": [
 "Albuquerque, NM"
@@ -674,7 +674,7 @@
 "source": "",
 "count": 0,
 "error": "workday: Workday HTTP 429",
-"seconds": 3,
+"seconds": 9,
 "in_metro": 0,
 "other_locations": [],
 "listed": 9,
@@ -686,13 +686,13 @@
 "status": "ok",
 "via": "phenom",
 "source": "https://careers.mitre.org/us/en",
-"count": 14,
-"seconds": 359,
-"in_metro": 11,
+"count": 15,
+"seconds": 362,
+"in_metro": 12,
 "other_locations": [
+"Colorado Springs, Colorado",
 "El Segundo, California",
-"Boulder, Colorado",
-"Colorado Springs, Colorado"
+"Boulder, Colorado"
 ],
 "listed": 19,
 "link": "https://careers.mitre.org/us/en"
@@ -705,7 +705,7 @@
 "source": "",
 "count": 0,
 "error": "icims: iCIMS 결과 0건 (형식 확인 필요); icims: iCIMS HTTP 404; icims: iCIMS 결과 0건 (형식 확인 필요); radancy: Radancy HTTP 404",
-"seconds": 49,
+"seconds": 51,
 "in_metro": 0,
 "other_locations": [],
 "listed": 5,
@@ -719,10 +719,10 @@
 "source": "",
 "count": 0,
 "error": "workday: Workday HTTP 429",
-"seconds": 0,
+"seconds": 159,
 "in_metro": 0,
 "other_locations": [],
-"listed": 13,
+"listed": 15,
 "link": "https://aerospace.org/careers"
 },
 {
@@ -732,7 +732,7 @@
 "via": "icims",
 "source": "https://careers-sri.icims.com",
 "count": 1,
-"seconds": 16,
+"seconds": 18,
 "in_metro": 0,
 "other_locations": [
 "Ann Arbor, MI"
@@ -760,7 +760,7 @@
 "status": "ok",
 "via": "icims",
 "source": "https://careers-riversideresearch.icims.com",
-"count": 3,
+"count": 4,
 "seconds": 18,
 "in_metro": 1,
 "other_locations": [
@@ -778,7 +778,7 @@
 "source": "",
 "count": 0,
 "error": "채용 시스템을 찾지 못함",
-"seconds": 1,
+"seconds": 3,
 "in_metro": 0,
 "other_locations": [],
 "listed": 0,
@@ -803,16 +803,16 @@
 "status": "ok",
 "via": "apple",
 "source": "true",
-"count": 75,
-"seconds": 258,
-"in_metro": 5,
+"count": 79,
+"seconds": 75,
+"in_metro": 6,
 "other_locations": [
 "Waltham",
 "Los Angeles Metro Area",
 "San Diego",
 "Cupertino"
 ],
-"listed": 63,
+"listed": 64,
 "link": "https://jobs.apple.com/en-us/search?search=RF"
 },
 {
@@ -822,34 +822,30 @@
 "via": "eightfold",
 "source": "{\"host\": \"careers.qualcomm.com\", \"domain\": \"qualcomm.com\"}",
 "count": 58,
-"seconds": 273,
+"seconds": 389,
 "in_metro": 26,
 "other_locations": [
 "Boulder, Colorado",
 "Hyderabad, Telangāna, India",
-"Hsinchu City, Taiwan",
-"Tijuana, Baja California, Mexico"
+"Bangalore, India",
+"Singapore, Central Singapore, Singapore"
 ],
-"listed": 46,
+"listed": 45,
 "link": "https://careers.qualcomm.com/careers"
 },
 {
 "name": "SpaceX",
 "group": "RF·통신",
-"status": "ok",
-"via": "greenhouse",
-"source": "spacex",
-"count": 78,
-"seconds": 0,
-"in_metro": 12,
-"other_locations": [
-"Irvine, CA",
-"Redmond, WA",
-"Bastrop, TX",
-"Woodinville, WA"
-],
+"status": "fail",
+"via": "",
+"source": "",
+"count": 0,
+"error": "greenhouse: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Read timed out. ",
+"seconds": 30,
+"in_metro": 0,
+"other_locations": [],
 "listed": 17,
-"link": "https://job-boards.greenhouse.io/spacex"
+"link": ""
 },
 {
 "name": "Astranis",
